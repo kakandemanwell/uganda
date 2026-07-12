@@ -1,0 +1,58 @@
+[
+  {
+    "id": "region:central",
+    "name": "Central",
+    "slug": "central",
+    "level": "region",
+    "type": "region",
+    "parent_id": null,
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [],
+    "notes": "Includes Kampala Capital City (KCCA)"
+  },
+  {
+    "id": "region:eastern",
+    "name": "Eastern",
+    "slug": "eastern",
+    "level": "region",
+    "type": "region",
+    "parent_id": null,
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [],
+    "notes": null
+  },
+  {
+    "id": "region:northern",
+    "name": "Northern",
+    "slug": "northern",
+    "level": "region",
+    "type": "region",
+    "parent_id": null,
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [],
+    "notes": "Includes Karamoja sub-region"
+  },
+  {
+    "id": "region:western",
+    "name": "Western",
+    "slug": "western",
+    "level": "region",
+    "type": "region",
+    "parent_id": null,
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [],
+    "notes": null
+  }
+]

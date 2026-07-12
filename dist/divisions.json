@@ -1,0 +1,2296 @@
+[
+  {
+    "id": "subcounty:hoima-hoima-east-division",
+    "name": "Hoima East Division",
+    "slug": "hoima-east-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:hoima",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Hoima East Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:hoima-hoima-west-division",
+    "name": "Hoima West Division",
+    "slug": "hoima-west-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:hoima",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Hoima West Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:masindi-karujubu-division",
+    "name": "Karujubu Division",
+    "slug": "karujubu-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:masindi-masindi-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Masindi Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:masindi-nyangahya-division",
+    "name": "Nyangahya Division",
+    "slug": "nyangahya-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:masindi-masindi-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Masindi Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:masindi-central-division",
+    "name": "Central Division",
+    "slug": "central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:masindi-masindi-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Masindi Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:masindi-kigulya-division",
+    "name": "Kigulya Division",
+    "slug": "kigulya-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:masindi-masindi-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "04",
+      "ec_constituencies": [
+        "Masindi Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:mubende-east-division",
+    "name": "East Division",
+    "slug": "east-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:mubende-mubende-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Mubende Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:mubende-south-division",
+    "name": "South Division",
+    "slug": "south-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:mubende-mubende-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Mubende Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:mubende-west-division",
+    "name": "West Division",
+    "slug": "west-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:mubende-mubende-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Mubende Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:mityana-busimbi-division",
+    "name": "Busimbi Division",
+    "slug": "busimbi-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:mityana-mityana-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Mityana Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:mityana-central-division",
+    "name": "Central Division",
+    "slug": "central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:mityana-mityana-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Mityana Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:mityana-ttamu-division",
+    "name": "Ttamu Division",
+    "slug": "ttamu-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:mityana-mityana-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Mityana Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:soroti-soroti-east-division",
+    "name": "Soroti East Division",
+    "slug": "soroti-east-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:soroti",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Soroti East Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:soroti-soroti-west-division",
+    "name": "Soroti West Division",
+    "slug": "soroti-west-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:soroti",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Soroti West Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kumi-north-division",
+    "name": "North Division",
+    "slug": "north-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kumi-kumi-municipality",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Kumi Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kumi-south-division",
+    "name": "South Division",
+    "slug": "south-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kumi-kumi-municipality",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Kumi Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kapchorwa-central-division",
+    "name": "Central Division",
+    "slug": "central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kapchorwa-kapchorwa-municipality",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Kapchorwa Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kapchorwa-east-division",
+    "name": "East Division",
+    "slug": "east-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kapchorwa-kapchorwa-municipality",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Kapchorwa Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kapchorwa-west-division",
+    "name": "West Division",
+    "slug": "west-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kapchorwa-kapchorwa-municipality",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Kapchorwa Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:mbale-industrial-division",
+    "name": "Industrial Division",
+    "slug": "industrial-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:mbale",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Industrial Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:mbale-northern-division",
+    "name": "Northern Division",
+    "slug": "northern-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:mbale",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Northern Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:busia-eastern-division",
+    "name": "Eastern Division",
+    "slug": "eastern-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:busia-busia-municipality",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Busia Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:busia-western-division",
+    "name": "Western Division",
+    "slug": "western-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:busia-busia-municipality",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Busia Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kampala-kawempe-division",
+    "name": "Kawempe Division",
+    "slug": "kawempe-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "district:kampala",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Kawempe Division North",
+        "Kawempe Division South"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kampala-makindye-division",
+    "name": "Makindye Division",
+    "slug": "makindye-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "district:kampala",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Makindye Division East",
+        "Makindye Division West"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kampala-rubaga-division",
+    "name": "Rubaga Division",
+    "slug": "rubaga-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "district:kampala",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Rubaga Division North",
+        "Rubaga Division South"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kampala-nakawa-division",
+    "name": "Nakawa Division",
+    "slug": "nakawa-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "district:kampala",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Nakawa Division East",
+        "Nakawa Division West"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:mukono-goma-division",
+    "name": "Goma Division",
+    "slug": "goma-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:mukono-mukono-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Mukono Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:mukono-mukono-central-division",
+    "name": "Mukono Central Division",
+    "slug": "mukono-central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:mukono-mukono-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Mukono Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:wakiso-gombe-division",
+    "name": "Gombe Division",
+    "slug": "gombe-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:wakiso-nansana-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Nansana Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:wakiso-busukuma-division",
+    "name": "Busukuma Division",
+    "slug": "busukuma-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:wakiso-nansana-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Nansana Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:wakiso-nabweru-division",
+    "name": "Nabweru Division",
+    "slug": "nabweru-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:wakiso-nansana-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Nansana Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:wakiso-nansana-division",
+    "name": "Nansana Division",
+    "slug": "nansana-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:wakiso-nansana-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "04",
+      "ec_constituencies": [
+        "Nansana Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:wakiso-masajja-division",
+    "name": "Masajja Division",
+    "slug": "masajja-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:wakiso-makindye-ssabagabo-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Makindye-Ssabagabo Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:wakiso-bunamwaya-division",
+    "name": "Bunamwaya Division",
+    "slug": "bunamwaya-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:wakiso-makindye-ssabagabo-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Makindye-Ssabagabo Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:wakiso-ndejje-division",
+    "name": "Ndejje Division",
+    "slug": "ndejje-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:wakiso-makindye-ssabagabo-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Makindye-Ssabagabo Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:wakiso-division-a",
+    "name": "Division A",
+    "slug": "division-a",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:wakiso-entebbe-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Entebbe Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:wakiso-division-b",
+    "name": "Division B",
+    "slug": "division-b",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:wakiso-entebbe-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Entebbe Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:wakiso-kira-division",
+    "name": "Kira Division",
+    "slug": "kira-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:wakiso-kira-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Kira Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:wakiso-bweyogerere-division",
+    "name": "Bweyogerere Division",
+    "slug": "bweyogerere-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:wakiso-kira-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Kira Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:wakiso-namugongo-division",
+    "name": "Namugongo Division",
+    "slug": "namugongo-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:wakiso-kira-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Kira Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:buikwe-njeru-division",
+    "name": "Njeru Division",
+    "slug": "njeru-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:buikwe-njeru-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Njeru Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:buikwe-nyenga-division",
+    "name": "Nyenga Division",
+    "slug": "nyenga-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:buikwe-njeru-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Njeru Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:buikwe-wakisi-division",
+    "name": "Wakisi Division",
+    "slug": "wakisi-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:buikwe-njeru-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Njeru Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:buikwe-kawolo-division",
+    "name": "Kawolo Division",
+    "slug": "kawolo-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:buikwe-lugazi-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Lugazi Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:buikwe-central-division",
+    "name": "Central Division",
+    "slug": "central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:buikwe-lugazi-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Lugazi Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:buikwe-najjembe-division",
+    "name": "Najjembe Division",
+    "slug": "najjembe-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:buikwe-lugazi-municipality",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Lugazi Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kotido-central-division",
+    "name": "Central Division",
+    "slug": "central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kotido-kotido-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Kotido Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kotido-north-division",
+    "name": "North Division",
+    "slug": "north-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kotido-kotido-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Kotido Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kotido-south-division",
+    "name": "South Division",
+    "slug": "south-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kotido-kotido-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Kotido Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kotido-west-division",
+    "name": "West Division",
+    "slug": "west-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kotido-kotido-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "04",
+      "ec_constituencies": [
+        "Kotido Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:moroto-north-division",
+    "name": "North Division",
+    "slug": "north-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:moroto-moroto-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Moroto Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:moroto-south-division",
+    "name": "South Division",
+    "slug": "south-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:moroto-moroto-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Moroto Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:iganga-central-division",
+    "name": "Central Division",
+    "slug": "central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:iganga-iganga-municipality",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Iganga Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:iganga-northern-division",
+    "name": "Northern Division",
+    "slug": "northern-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:iganga-iganga-municipality",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Iganga Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kamuli-northern-division",
+    "name": "Northern Division",
+    "slug": "northern-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kamuli-kamuli-municipality",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Kamuli Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kamuli-southern-division",
+    "name": "Southern Division",
+    "slug": "southern-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kamuli-kamuli-municipality",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Kamuli Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:jinja-jinja-south-division",
+    "name": "Jinja South Division",
+    "slug": "jinja-south-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:jinja",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Jinja South Division East",
+        "Jinja South Division West"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:jinja-jinja-north-division",
+    "name": "Jinja North Division",
+    "slug": "jinja-north-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:jinja",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Jinja North Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:bugiri-eastern-division",
+    "name": "Eastern Division",
+    "slug": "eastern-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:bugiri-bugiri-municipality",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Bugiri Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:bugiri-western-division",
+    "name": "Western Division",
+    "slug": "western-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:bugiri-bugiri-municipality",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Bugiri Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kasese-bulembia-division",
+    "name": "Bulembia Division",
+    "slug": "bulembia-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kasese-kasese-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Kasese Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kasese-central-division",
+    "name": "Central Division",
+    "slug": "central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kasese-kasese-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Kasese Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kasese-nyamwamba-division",
+    "name": "Nyamwamba Division",
+    "slug": "nyamwamba-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kasese-kasese-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Kasese Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:apac-atik-division",
+    "name": "Atik Division",
+    "slug": "atik-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:apac-apac-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Apac Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:apac-akere-division",
+    "name": "Akere Division",
+    "slug": "akere-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:apac-apac-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Apac Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:apac-agullu-division",
+    "name": "Agullu Division",
+    "slug": "agullu-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:apac-apac-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Apac Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:apac-arocha-division",
+    "name": "Arocha Division",
+    "slug": "arocha-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:apac-apac-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "04",
+      "ec_constituencies": [
+        "Apac Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:gulu-bardege-layibi-division",
+    "name": "Bardege-Layibi Division",
+    "slug": "bardege-layibi-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:gulu",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Bardege-Layibi Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:gulu-laroo-pece-division",
+    "name": "Laroo-Pece Division",
+    "slug": "laroo-pece-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:gulu",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Laroo-Pece Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:lira-lira-east-division",
+    "name": "Lira East Division",
+    "slug": "lira-east-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:lira",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Lira East Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:lira-lira-west-division",
+    "name": "Lira West Division",
+    "slug": "lira-west-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:lira",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Lira West Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kitgum-central-division",
+    "name": "Central Division",
+    "slug": "central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kitgum-kitgum-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Kitgum Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kitgum-pandwong-division",
+    "name": "Pandwong Division",
+    "slug": "pandwong-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kitgum-kitgum-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Kitgum Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kitgum-pager-division",
+    "name": "Pager Division",
+    "slug": "pager-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kitgum-kitgum-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Kitgum Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:bushenyi-central-division",
+    "name": "Central Division",
+    "slug": "central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:bushenyi-bushenyi-ishaka-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Bushenyi -Ishaka Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:bushenyi-ishaka-division",
+    "name": "Ishaka Division",
+    "slug": "ishaka-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:bushenyi-bushenyi-ishaka-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Bushenyi -Ishaka Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:bushenyi-nyakabirizi-division",
+    "name": "Nyakabirizi Division",
+    "slug": "nyakabirizi-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:bushenyi-bushenyi-ishaka-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Bushenyi -Ishaka Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:sheema-kabwohe-division",
+    "name": "Kabwohe Division",
+    "slug": "kabwohe-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:sheema-sheema-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Sheema Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:sheema-kagango-division",
+    "name": "Kagango Division",
+    "slug": "kagango-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:sheema-sheema-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Sheema Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:sheema-kashozi-division",
+    "name": "Kashozi Division",
+    "slug": "kashozi-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:sheema-sheema-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Sheema Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:sheema-sheema-central-division",
+    "name": "Sheema Central Division",
+    "slug": "sheema-central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:sheema-sheema-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "04",
+      "ec_constituencies": [
+        "Sheema Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:mbarara-mbarara-north-division",
+    "name": "Mbarara North Division",
+    "slug": "mbarara-north-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:mbarara",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Mbarara North Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:mbarara-mbarara-south-division",
+    "name": "Mbarara South Division",
+    "slug": "mbarara-south-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:mbarara",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Mbarara South Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kisoro-central-division",
+    "name": "Central Division",
+    "slug": "central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kisoro-kisoro-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Kisoro Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kisoro-north-division",
+    "name": "North Division",
+    "slug": "north-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kisoro-kisoro-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Kisoro Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:kisoro-south-division",
+    "name": "South Division",
+    "slug": "south-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:kisoro-kisoro-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Kisoro Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:ntungamo-eastern-division",
+    "name": "Eastern Division",
+    "slug": "eastern-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:ntungamo-ntungamo-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Ntungamo Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:ntungamo-central-division",
+    "name": "Central Division",
+    "slug": "central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:ntungamo-ntungamo-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Ntungamo Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:ntungamo-western-division",
+    "name": "Western Division",
+    "slug": "western-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:ntungamo-ntungamo-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Ntungamo Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:rukungiri-eastern-division",
+    "name": "Eastern Division",
+    "slug": "eastern-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:rukungiri-rukungiri-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Rukungiri Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:rukungiri-southern-division",
+    "name": "Southern Division",
+    "slug": "southern-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:rukungiri-rukungiri-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Rukungiri Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:rukungiri-western-division",
+    "name": "Western Division",
+    "slug": "western-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:rukungiri-rukungiri-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Rukungiri Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:ibanda-bisheshe-division",
+    "name": "Bisheshe Division",
+    "slug": "bisheshe-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:ibanda-ibanda-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Ibanda Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:ibanda-bufunda-division",
+    "name": "Bufunda Division",
+    "slug": "bufunda-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:ibanda-ibanda-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Ibanda Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:ibanda-kagongo-division",
+    "name": "Kagongo Division",
+    "slug": "kagongo-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:ibanda-ibanda-municipality",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Ibanda Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:arua-ayivu-division",
+    "name": "Ayivu Division",
+    "slug": "ayivu-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:arua",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Ayivu Division East",
+        "Ayivu Division West"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:arua-arua-central-division",
+    "name": "Arua Central Division",
+    "slug": "arua-central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "city:arua",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Arua Central Division"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:nebbi-abindu-division",
+    "name": "Abindu Division",
+    "slug": "abindu-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:nebbi-nebbi-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Nebbi Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:nebbi-central-division",
+    "name": "Central Division",
+    "slug": "central-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:nebbi-nebbi-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Nebbi Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:nebbi-thatha-division",
+    "name": "Thatha Division",
+    "slug": "thatha-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:nebbi-nebbi-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Nebbi Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:koboko-north-division",
+    "name": "North Division",
+    "slug": "north-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:koboko-koboko-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "01",
+      "ec_constituencies": [
+        "Koboko Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:koboko-south-division",
+    "name": "South Division",
+    "slug": "south-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:koboko-koboko-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "02",
+      "ec_constituencies": [
+        "Koboko Municipality"
+      ]
+    }
+  },
+  {
+    "id": "subcounty:koboko-western-division",
+    "name": "Western Division",
+    "slug": "western-division",
+    "level": "division",
+    "type": "division",
+    "parent_id": "county:koboko-koboko-municipality",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_subcounty_code": "03",
+      "ec_constituencies": [
+        "Koboko Municipality"
+      ]
+    }
+  }
+]

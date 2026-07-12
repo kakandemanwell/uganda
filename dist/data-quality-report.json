@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-07-12T09:08:25.230Z",
+  "totals": {
+    "regions": 4,
+    "districts": 136,
+    "cities": 10,
+    "counties": 322,
+    "subcounties": 2191,
+    "parishes": 10717,
+    "villages": 71230
+  },
+  "by_confidence": {
+    "verified": 84610
+  },
+  "coverage": {
+    "districts_total": 136,
+    "districts_with_county_data": 135,
+    "districts_missing_county_data": 1,
+    "district_equivalents_total": 146,
+    "district_equivalents_with_subcounty_data": 146,
+    "district_equivalents_missing_subcounty_data": 0,
+    "district_equivalents_with_parish_data": 146,
+    "district_equivalents_with_village_data": 146
+  },
+  "districts_missing_subcounties": [],
+  "districts_missing_counties": [
+    "Kampala"
+  ],
+  "subcounties_without_a_matched_county": [
+    "Katikamu"
+  ],
+  "ec_admin_units_2022": "Verified county -> subcounty/town_council/division -> parish/ward -> village/cell for all 146 district-equivalent units, sourced from the EC's July 2022 gazetteer (county layer reconstructed from EC constituency names, cross-validated against independent research — see docs/DATA_QUALITY.md). See data/sources.json -> src-ec-admin-units-2022. Dated 2022-07; does not reflect any changes since."
+}

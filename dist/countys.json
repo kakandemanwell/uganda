@@ -1,0 +1,5476 @@
+[
+  {
+    "id": "county:hoima-bugahya-county",
+    "name": "Bugahya County",
+    "slug": "bugahya-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:hoima",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:hoima-kigorobya-county",
+    "name": "Kigorobya County",
+    "slug": "kigorobya-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:hoima",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kagadi-buyaga-east-county",
+    "name": "Buyaga East County",
+    "slug": "buyaga-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kagadi",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kagadi-buyaga-west-county",
+    "name": "Buyaga West County",
+    "slug": "buyaga-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kagadi",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kakumiro-bugangaizi-west-county",
+    "name": "Bugangaizi West County",
+    "slug": "bugangaizi-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kakumiro",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kakumiro-bugangaizi-east-county",
+    "name": "Bugangaizi East County",
+    "slug": "bugangaizi-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kakumiro",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kakumiro-bugangaizi-south-county",
+    "name": "Bugangaizi South County",
+    "slug": "bugangaizi-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kakumiro",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kikuube-buhaguzi-county",
+    "name": "Buhaguzi County",
+    "slug": "buhaguzi-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kikuube",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kikuube-buhaguzi-east-county",
+    "name": "Buhaguzi East County",
+    "slug": "buhaguzi-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kikuube",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kibaale-buyanja-county",
+    "name": "Buyanja County",
+    "slug": "buyanja-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kibaale",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kibaale-buyanja-east-county",
+    "name": "Buyanja East County",
+    "slug": "buyanja-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kibaale",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:masindi-bujenje-county",
+    "name": "Bujenje County",
+    "slug": "bujenje-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:masindi",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:masindi-buruli-county",
+    "name": "Buruli County",
+    "slug": "buruli-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:masindi",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:masindi-masindi-municipality",
+    "name": "Masindi Municipality",
+    "slug": "masindi-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:masindi",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:buliisa-buliisa-county",
+    "name": "Buliisa County",
+    "slug": "buliisa-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:buliisa",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kiryandongo-kibanda-south-county",
+    "name": "Kibanda South County",
+    "slug": "kibanda-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kiryandongo",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kiryandongo-kibanda-north-county",
+    "name": "Kibanda North County",
+    "slug": "kibanda-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kiryandongo",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kiboga-kiboga-east-county",
+    "name": "Kiboga East County",
+    "slug": "kiboga-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kiboga",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kiboga-kiboga-west-county",
+    "name": "Kiboga West County",
+    "slug": "kiboga-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kiboga",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:luwero-katikamu-county-north",
+    "name": "Katikamu County North",
+    "slug": "katikamu-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:luwero",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:luwero-katikamu-county-south",
+    "name": "Katikamu County South",
+    "slug": "katikamu-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:luwero",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:luwero-bamunanika-county",
+    "name": "Bamunanika County",
+    "slug": "bamunanika-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:luwero",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:nakasongola-nakasongola-county",
+    "name": "Nakasongola County",
+    "slug": "nakasongola-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:nakasongola",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:nakasongola-budyebo-county",
+    "name": "Budyebo County",
+    "slug": "budyebo-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:nakasongola",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kayunga-bbale-county",
+    "name": "Bbale County",
+    "slug": "bbale-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kayunga",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kayunga-ntenjeru-county-north",
+    "name": "Ntenjeru County North",
+    "slug": "ntenjeru-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kayunga",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kayunga-ntenjeru-county-south",
+    "name": "Ntenjeru County South",
+    "slug": "ntenjeru-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kayunga",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:nakaseke-nakaseke-south-county",
+    "name": "Nakaseke South County",
+    "slug": "nakaseke-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:nakaseke",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:nakaseke-nakaseke-north-county",
+    "name": "Nakaseke North County",
+    "slug": "nakaseke-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:nakaseke",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:nakaseke-nakaseke-central-county",
+    "name": "Nakaseke Central County",
+    "slug": "nakaseke-central-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:nakaseke",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kyankwanzi-ntwetwe-county",
+    "name": "Ntwetwe County",
+    "slug": "ntwetwe-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kyankwanzi",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kyankwanzi-butemba-county",
+    "name": "Butemba County",
+    "slug": "butemba-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kyankwanzi",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kalungu-kalungu-east-county",
+    "name": "Kalungu East County",
+    "slug": "kalungu-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kalungu",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kalungu-kalungu-west-county",
+    "name": "Kalungu West County",
+    "slug": "kalungu-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kalungu",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:lwengo-bukoto-county-mid-west",
+    "name": "Bukoto County Mid-West",
+    "slug": "bukoto-county-mid-west",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:lwengo",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:lwengo-bukoto-county-west",
+    "name": "Bukoto County West",
+    "slug": "bukoto-county-west",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:lwengo",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:lwengo-bukoto-countysouth",
+    "name": "Bukoto Countysouth",
+    "slug": "bukoto-countysouth",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:lwengo",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kalangala-bujumba-county",
+    "name": "Bujumba County",
+    "slug": "bujumba-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kalangala",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kalangala-kyamuswa-county",
+    "name": "Kyamuswa County",
+    "slug": "kyamuswa-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kalangala",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kyotera-kakuuto-county",
+    "name": "Kakuuto County",
+    "slug": "kakuuto-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kyotera",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kyotera-kyotera-county",
+    "name": "Kyotera County",
+    "slug": "kyotera-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kyotera",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kassanda-kassanda-county-north",
+    "name": "Kassanda County North",
+    "slug": "kassanda-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kassanda",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kassanda-kassanda-county-south",
+    "name": "Kassanda County South",
+    "slug": "kassanda-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kassanda",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kassanda-bukuya-county",
+    "name": "Bukuya County",
+    "slug": "bukuya-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kassanda",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:masaka-bukoto-county-east",
+    "name": "Bukoto County East",
+    "slug": "bukoto-county-east",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:masaka",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:masaka-bukoto-county-central",
+    "name": "Bukoto County Central",
+    "slug": "bukoto-county-central",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:masaka",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mpigi-mawokota-county-north",
+    "name": "Mawokota County North",
+    "slug": "mawokota-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mpigi",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mpigi-mawokota-county-south",
+    "name": "Mawokota County South",
+    "slug": "mawokota-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mpigi",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mubende-buwekula-county",
+    "name": "Buwekula County",
+    "slug": "buwekula-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mubende",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mubende-kasambya-county",
+    "name": "Kasambya County",
+    "slug": "kasambya-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mubende",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mubende-mubende-municipality",
+    "name": "Mubende Municipality",
+    "slug": "mubende-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:mubende",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mubende-buwekula-south-county",
+    "name": "Buwekula South County",
+    "slug": "buwekula-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mubende",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:rakai-kooki-county",
+    "name": "Kooki County",
+    "slug": "kooki-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:rakai",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:rakai-buyamba-county",
+    "name": "Buyamba County",
+    "slug": "buyamba-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:rakai",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:sembabule-lwemiyaga-county",
+    "name": "Lwemiyaga County",
+    "slug": "lwemiyaga-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:sembabule",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:sembabule-mawogola-county",
+    "name": "Mawogola County",
+    "slug": "mawogola-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:sembabule",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:sembabule-mawogola-north-county",
+    "name": "Mawogola North County",
+    "slug": "mawogola-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:sembabule",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:sembabule-mawogola-west-county",
+    "name": "Mawogola West County",
+    "slug": "mawogola-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:sembabule",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mityana-busujju-county",
+    "name": "Busujju County",
+    "slug": "busujju-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mityana",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mityana-mityana-county-north",
+    "name": "Mityana County North",
+    "slug": "mityana-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mityana",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mityana-mityana-county-south",
+    "name": "Mityana County South",
+    "slug": "mityana-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mityana",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mityana-mityana-municipality",
+    "name": "Mityana Municipality",
+    "slug": "mityana-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:mityana",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:lyantonde-kabula-county",
+    "name": "Kabula County",
+    "slug": "kabula-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:lyantonde",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:gomba-gomba-east-county",
+    "name": "Gomba East County",
+    "slug": "gomba-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:gomba",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:gomba-gomba-west-county",
+    "name": "Gomba West County",
+    "slug": "gomba-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:gomba",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bukomansimbi-bukomansimbi-north-county",
+    "name": "Bukomansimbi North County",
+    "slug": "bukomansimbi-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bukomansimbi",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bukomansimbi-bukomansimbi-south-county",
+    "name": "Bukomansimbi South County",
+    "slug": "bukomansimbi-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bukomansimbi",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:butambala-butambala-county",
+    "name": "Butambala County",
+    "slug": "butambala-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:butambala",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:ngora-ngora-county",
+    "name": "Ngora County",
+    "slug": "ngora-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:ngora",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:ngora-kapir-county",
+    "name": "Kapir County",
+    "slug": "kapir-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:ngora",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kapelebyong-kapelebyong-county",
+    "name": "Kapelebyong County",
+    "slug": "kapelebyong-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kapelebyong",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kalaki-kalaki-county",
+    "name": "Kalaki County",
+    "slug": "kalaki-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kalaki",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kumi-kumi-county",
+    "name": "Kumi County",
+    "slug": "kumi-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kumi",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kumi-kanyum-county",
+    "name": "Kanyum County",
+    "slug": "kanyum-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kumi",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kumi-kumi-municipality",
+    "name": "Kumi Municipality",
+    "slug": "kumi-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:kumi",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:soroti-soroti-county",
+    "name": "Soroti County",
+    "slug": "soroti-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:soroti",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:soroti-dakabela-county",
+    "name": "Dakabela County",
+    "slug": "dakabela-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:soroti",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:soroti-gweri-county",
+    "name": "Gweri County",
+    "slug": "gweri-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:soroti",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:katakwi-usuk-county",
+    "name": "Usuk County",
+    "slug": "usuk-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:katakwi",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:katakwi-toroma-county",
+    "name": "Toroma County",
+    "slug": "toroma-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:katakwi",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:katakwi-ngariam-county",
+    "name": "Ngariam County",
+    "slug": "ngariam-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:katakwi",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kaberamaido-kaberamaido-county",
+    "name": "Kaberamaido County",
+    "slug": "kaberamaido-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kaberamaido",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kaberamaido-ochero-county",
+    "name": "Ochero County",
+    "slug": "ochero-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kaberamaido",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:amuria-amuria-county",
+    "name": "Amuria County",
+    "slug": "amuria-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:amuria",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:amuria-orungo-county",
+    "name": "Orungo County",
+    "slug": "orungo-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:amuria",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bukedea-bukedea-county",
+    "name": "Bukedea County",
+    "slug": "bukedea-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bukedea",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bukedea-kachumbala-county",
+    "name": "Kachumbala County",
+    "slug": "kachumbala-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bukedea",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:serere-kasilo-county",
+    "name": "Kasilo County",
+    "slug": "kasilo-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:serere",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:serere-serere-county",
+    "name": "Serere County",
+    "slug": "serere-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:serere",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:serere-pingire-county",
+    "name": "Pingire County",
+    "slug": "pingire-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:serere",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kibuku-kibuku-county",
+    "name": "Kibuku County",
+    "slug": "kibuku-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kibuku",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kibuku-kabweri-county",
+    "name": "Kabweri County",
+    "slug": "kabweri-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kibuku",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kween-kween-county",
+    "name": "Kween County",
+    "slug": "kween-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kween",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kween-soi-county",
+    "name": "Soi County",
+    "slug": "soi-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kween",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:butebo-butebo-county",
+    "name": "Butebo County",
+    "slug": "butebo-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:butebo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:namisindwa-namisindwa-county",
+    "name": "Namisindwa County",
+    "slug": "namisindwa-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:namisindwa",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:namisindwa-bubulo-east-county",
+    "name": "Bubulo East County",
+    "slug": "bubulo-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:namisindwa",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kapchorwa-tingey-county",
+    "name": "Tingey County",
+    "slug": "tingey-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kapchorwa",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kapchorwa-kapchorwa-municipality",
+    "name": "Kapchorwa Municipality",
+    "slug": "kapchorwa-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:kapchorwa",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mbale-bungokho-county-north",
+    "name": "Bungokho County North",
+    "slug": "bungokho-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mbale",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mbale-bungokho-county-south",
+    "name": "Bungokho County South",
+    "slug": "bungokho-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mbale",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mbale-bungokho-central-county",
+    "name": "Bungokho Central County",
+    "slug": "bungokho-central-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mbale",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:pallisa-pallisa-county",
+    "name": "Pallisa County",
+    "slug": "pallisa-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:pallisa",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:pallisa-agule-county",
+    "name": "Agule County",
+    "slug": "agule-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:pallisa",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:pallisa-kibale-county",
+    "name": "Kibale County",
+    "slug": "kibale-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:pallisa",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:pallisa-gogonyo-county",
+    "name": "Gogonyo County",
+    "slug": "gogonyo-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:pallisa",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:tororo-west-budama-county-north",
+    "name": "West Budama County North",
+    "slug": "west-budama-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:tororo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:tororo-west-budama-county-south",
+    "name": "West Budama County South",
+    "slug": "west-budama-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:tororo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:tororo-tororo-south-county",
+    "name": "Tororo South County",
+    "slug": "tororo-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:tororo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:tororo-tororo-municipality",
+    "name": "Tororo Municipality",
+    "slug": "tororo-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:tororo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:tororo-tororo-north-county",
+    "name": "Tororo North County",
+    "slug": "tororo-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:tororo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:tororo-west-budama-central-county",
+    "name": "West Budama Central County",
+    "slug": "west-budama-central-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:tororo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:tororo-west-budama-north-east-county",
+    "name": "West Budama North East County",
+    "slug": "west-budama-north-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:tororo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:busia-samia-bugwe-county-north",
+    "name": "Samia Bugwe County North",
+    "slug": "samia-bugwe-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:busia",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:busia-samia-bugwe-county-south",
+    "name": "Samia Bugwe County South",
+    "slug": "samia-bugwe-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:busia",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:busia-busia-municipality",
+    "name": "Busia Municipality",
+    "slug": "busia-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:busia",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:busia-samia-bugwe-central-county",
+    "name": "Samia Bugwe Central County",
+    "slug": "samia-bugwe-central-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:busia",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:sironko-budadiri-county-east",
+    "name": "Budadiri County East",
+    "slug": "budadiri-county-east",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:sironko",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:sironko-budadiri-county-west",
+    "name": "Budadiri County West",
+    "slug": "budadiri-county-west",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:sironko",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bukwo-kongasis-county",
+    "name": "Kongasis County",
+    "slug": "kongasis-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bukwo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bukwo-t-oo-county",
+    "name": "T'Oo County",
+    "slug": "t-oo-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bukwo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:butaleja-bunyole-east-county",
+    "name": "Bunyole East County",
+    "slug": "bunyole-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:butaleja",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:butaleja-bunyole-west-county",
+    "name": "Bunyole West County",
+    "slug": "bunyole-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:butaleja",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:manafwa-bubulo-county-west",
+    "name": "Bubulo County West",
+    "slug": "bubulo-county-west",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:manafwa",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:manafwa-butiru-county",
+    "name": "Butiru County",
+    "slug": "butiru-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:manafwa",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:budaka-budaka-county",
+    "name": "Budaka County",
+    "slug": "budaka-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:budaka",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:budaka-iki-iki-county",
+    "name": "Iki-Iki County",
+    "slug": "iki-iki-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:budaka",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bududa-manjiya-county",
+    "name": "Manjiya County",
+    "slug": "manjiya-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bududa",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bududa-lutseshe-county",
+    "name": "Lutseshe County",
+    "slug": "lutseshe-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bududa",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bududa-bushigai-county",
+    "name": "Bushigai County",
+    "slug": "bushigai-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bududa",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bulambuli-bulambuli-county",
+    "name": "Bulambuli County",
+    "slug": "bulambuli-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bulambuli",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bulambuli-elgon-county",
+    "name": "Elgon County",
+    "slug": "elgon-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bulambuli",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bulambuli-elgon-north-county",
+    "name": "Elgon North County",
+    "slug": "elgon-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bulambuli",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mukono-mukono-county-north",
+    "name": "Mukono County North",
+    "slug": "mukono-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mukono",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mukono-mukono-county-south",
+    "name": "Mukono County South",
+    "slug": "mukono-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mukono",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mukono-nakifuma-county",
+    "name": "Nakifuma County",
+    "slug": "nakifuma-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mukono",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mukono-mukono-municipality",
+    "name": "Mukono Municipality",
+    "slug": "mukono-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:mukono",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:wakiso-busiro-county-east",
+    "name": "Busiro County East",
+    "slug": "busiro-county-east",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:wakiso",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:wakiso-busiro-county-north",
+    "name": "Busiro County North",
+    "slug": "busiro-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:wakiso",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:wakiso-busiro-county-south",
+    "name": "Busiro County South",
+    "slug": "busiro-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:wakiso",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:wakiso-kyadondo-county-east",
+    "name": "Kyadondo County East",
+    "slug": "kyadondo-county-east",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:wakiso",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:wakiso-nansana-municipality",
+    "name": "Nansana Municipality",
+    "slug": "nansana-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:wakiso",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:wakiso-makindye-ssabagabo-municipality",
+    "name": "Makindye-Ssabagabo Municipality",
+    "slug": "makindye-ssabagabo-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:wakiso",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:wakiso-entebbe-municipality",
+    "name": "Entebbe Municipality",
+    "slug": "entebbe-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:wakiso",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:wakiso-kira-municipality",
+    "name": "Kira Municipality",
+    "slug": "kira-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:wakiso",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:buikwe-njeru-municipality",
+    "name": "Njeru Municipality",
+    "slug": "njeru-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:buikwe",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:buikwe-lugazi-municipality",
+    "name": "Lugazi Municipality",
+    "slug": "lugazi-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:buikwe",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:buikwe-buikwe-county-south",
+    "name": "Buikwe County South",
+    "slug": "buikwe-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:buikwe",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:buvuma-buvuma-islands-county",
+    "name": "Buvuma Islands County",
+    "slug": "buvuma-islands-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:buvuma",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:napak-bokora-county",
+    "name": "Bokora County",
+    "slug": "bokora-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:napak",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:napak-bokora-east-county",
+    "name": "Bokora East County",
+    "slug": "bokora-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:napak",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:nabilatuk-pian-county",
+    "name": "Pian County",
+    "slug": "pian-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:nabilatuk",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:karenga-dodoth-west-county",
+    "name": "Dodoth West County",
+    "slug": "dodoth-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:karenga",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:karenga-napore-west-county",
+    "name": "Napore West County",
+    "slug": "napore-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:karenga",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kotido-jie-county",
+    "name": "Jie County",
+    "slug": "jie-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kotido",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kotido-kotido-municipality",
+    "name": "Kotido Municipality",
+    "slug": "kotido-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:kotido",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:moroto-matheniko-county",
+    "name": "Matheniko County",
+    "slug": "matheniko-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:moroto",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:moroto-moroto-municipality",
+    "name": "Moroto Municipality",
+    "slug": "moroto-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:moroto",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:moroto-tepeth-county",
+    "name": "Tepeth County",
+    "slug": "tepeth-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:moroto",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:nakapiripirit-chekwii-county-kadam",
+    "name": "Chekwii County (Kadam)",
+    "slug": "chekwii-county-kadam",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:nakapiripirit",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:nakapiripirit-chekwii-east-county",
+    "name": "Chekwii East County",
+    "slug": "chekwii-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:nakapiripirit",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kaabong-dodoth-east-county",
+    "name": "Dodoth East County",
+    "slug": "dodoth-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kaabong",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kaabong-ik-county",
+    "name": "Ik County",
+    "slug": "ik-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kaabong",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kaabong-dodoth-north-county",
+    "name": "Dodoth North County",
+    "slug": "dodoth-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kaabong",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:abim-labwor-county",
+    "name": "Labwor County",
+    "slug": "labwor-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:abim",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:amudat-upe-county",
+    "name": "Upe County",
+    "slug": "upe-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:amudat",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:iganga-kigulu-county-north",
+    "name": "Kigulu County North",
+    "slug": "kigulu-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:iganga",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:iganga-kigulu-county-south",
+    "name": "Kigulu County South",
+    "slug": "kigulu-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:iganga",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:iganga-iganga-municipality",
+    "name": "Iganga Municipality",
+    "slug": "iganga-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:iganga",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:jinja-butembe-county",
+    "name": "Butembe County",
+    "slug": "butembe-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:jinja",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:jinja-kagoma-county",
+    "name": "Kagoma County",
+    "slug": "kagoma-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:jinja",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:jinja-kagoma-north-county",
+    "name": "Kagoma North County",
+    "slug": "kagoma-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:jinja",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bugweri-bugweri-county",
+    "name": "Bugweri County",
+    "slug": "bugweri-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bugweri",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kamuli-bugabula-county-north",
+    "name": "Bugabula County North",
+    "slug": "bugabula-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kamuli",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kamuli-bugabula-county-south",
+    "name": "Bugabula County South",
+    "slug": "bugabula-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kamuli",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kamuli-buzaaya-county",
+    "name": "Buzaaya County",
+    "slug": "buzaaya-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kamuli",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kamuli-kamuli-municipality",
+    "name": "Kamuli Municipality",
+    "slug": "kamuli-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:kamuli",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bugiri-bukooli-county-central",
+    "name": "Bukooli County Central",
+    "slug": "bukooli-county-central",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bugiri",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bugiri-bukooli-county-north",
+    "name": "Bukooli County North",
+    "slug": "bukooli-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bugiri",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bugiri-bugiri-municipality",
+    "name": "Bugiri Municipality",
+    "slug": "bugiri-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:bugiri",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mayuge-bunya-county-east",
+    "name": "Bunya County East",
+    "slug": "bunya-county-east",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mayuge",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mayuge-bunya-county-south",
+    "name": "Bunya County South",
+    "slug": "bunya-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mayuge",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mayuge-bunya-county-west",
+    "name": "Bunya County West",
+    "slug": "bunya-county-west",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mayuge",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kaliro-bulamogi-county",
+    "name": "Bulamogi County",
+    "slug": "bulamogi-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kaliro",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kaliro-bulamogi-north-west-county",
+    "name": "Bulamogi North West County",
+    "slug": "bulamogi-north-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kaliro",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:namutumba-busiki-county",
+    "name": "Busiki County",
+    "slug": "busiki-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:namutumba",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:namutumba-bukono-county",
+    "name": "Bukono County",
+    "slug": "bukono-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:namutumba",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:namutumba-busiki-north-county",
+    "name": "Busiki North County",
+    "slug": "busiki-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:namutumba",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:buyende-budiope-west-county",
+    "name": "Budiope West County",
+    "slug": "budiope-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:buyende",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:buyende-budiope-east-county",
+    "name": "Budiope East County",
+    "slug": "budiope-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:buyende",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:luuka-luuka-north-county",
+    "name": "Luuka North County",
+    "slug": "luuka-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:luuka",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:luuka-luuka-south-county",
+    "name": "Luuka South County",
+    "slug": "luuka-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:luuka",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:namayingo-bukooli-south-county",
+    "name": "Bukooli South County",
+    "slug": "bukooli-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:namayingo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:namayingo-bukooli-island-county",
+    "name": "Bukooli Island County",
+    "slug": "bukooli-island-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:namayingo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:namayingo-namayingo-south-county",
+    "name": "Namayingo South County",
+    "slug": "namayingo-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:namayingo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bundibugyo-bwamba-county",
+    "name": "Bwamba County",
+    "slug": "bwamba-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bundibugyo",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bundibugyo-bughendera-county",
+    "name": "Bughendera County",
+    "slug": "bughendera-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bundibugyo",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kabarole-burahya-county",
+    "name": "Burahya County",
+    "slug": "burahya-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kabarole",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bunyangabu-bunyangabu-county",
+    "name": "Bunyangabu County",
+    "slug": "bunyangabu-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bunyangabu",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kitagwenda-kitagwenda-county",
+    "name": "Kitagwenda County",
+    "slug": "kitagwenda-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kitagwenda",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kasese-bukonzo-county-east",
+    "name": "Bukonzo County East",
+    "slug": "bukonzo-county-east",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kasese",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kasese-bukonjo-county-west",
+    "name": "Bukonjo County West",
+    "slug": "bukonjo-county-west",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kasese",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kasese-busongora-county-north",
+    "name": "Busongora County North",
+    "slug": "busongora-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kasese",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kasese-busongora-county-south",
+    "name": "Busongora County South",
+    "slug": "busongora-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kasese",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kasese-kasese-municipality",
+    "name": "Kasese Municipality",
+    "slug": "kasese-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:kasese",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kamwenge-kibale-county",
+    "name": "Kibale County",
+    "slug": "kibale-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kamwenge",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kamwenge-kibale-east-county",
+    "name": "Kibale East County",
+    "slug": "kibale-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kamwenge",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kyenjojo-mwenge-county-north",
+    "name": "Mwenge County North",
+    "slug": "mwenge-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kyenjojo",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kyenjojo-mwenge-county-south",
+    "name": "Mwenge County South",
+    "slug": "mwenge-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kyenjojo",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kyenjojo-mwenge-central-county",
+    "name": "Mwenge Central County",
+    "slug": "mwenge-central-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kyenjojo",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kyegegwa-kyaka-north-county",
+    "name": "Kyaka North County",
+    "slug": "kyaka-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kyegegwa",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kyegegwa-kyaka-south-county",
+    "name": "Kyaka South County",
+    "slug": "kyaka-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kyegegwa",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kyegegwa-kyaka-central-county",
+    "name": "Kyaka Central County",
+    "slug": "kyaka-central-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kyegegwa",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:ntoroko-ntoroko-county",
+    "name": "Ntoroko County",
+    "slug": "ntoroko-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:ntoroko",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:apac-maruzi-county",
+    "name": "Maruzi County",
+    "slug": "maruzi-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:apac",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:apac-apac-municipality",
+    "name": "Apac Municipality",
+    "slug": "apac-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:apac",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:apac-maruzi-north-county",
+    "name": "Maruzi North County",
+    "slug": "maruzi-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:apac",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:gulu-aswa-county",
+    "name": "Aswa County",
+    "slug": "aswa-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:gulu",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kole-kole-south-county",
+    "name": "Kole South County",
+    "slug": "kole-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kole",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kole-kole-north-county",
+    "name": "Kole North County",
+    "slug": "kole-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kole",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:nwoya-nwoya-county",
+    "name": "Nwoya County",
+    "slug": "nwoya-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:nwoya",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:nwoya-nwoya-east-county",
+    "name": "Nwoya East County",
+    "slug": "nwoya-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:nwoya",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:agago-agago-county",
+    "name": "Agago County",
+    "slug": "agago-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:agago",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:agago-agago-north-county",
+    "name": "Agago North County",
+    "slug": "agago-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:agago",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:agago-agago-west-county",
+    "name": "Agago West County",
+    "slug": "agago-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:agago",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:omoro-omoro-county",
+    "name": "Omoro County",
+    "slug": "omoro-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:omoro",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:omoro-tochi-county",
+    "name": "Tochi County",
+    "slug": "tochi-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:omoro",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kwania-kwania-county",
+    "name": "Kwania County",
+    "slug": "kwania-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kwania",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kwania-kwania-north-county",
+    "name": "Kwania North County",
+    "slug": "kwania-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kwania",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kitgum-chua-west-county",
+    "name": "Chua West County",
+    "slug": "chua-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kitgum",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kitgum-chua-east-county",
+    "name": "Chua East County",
+    "slug": "chua-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kitgum",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kitgum-kitgum-municipality",
+    "name": "Kitgum Municipality",
+    "slug": "kitgum-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:kitgum",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:lira-erute-county-north",
+    "name": "Erute County North",
+    "slug": "erute-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:lira",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:lira-erute-county-south",
+    "name": "Erute County South",
+    "slug": "erute-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:lira",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:pader-aruu-county",
+    "name": "Aruu County",
+    "slug": "aruu-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:pader",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:pader-aruu-north-county",
+    "name": "Aruu North County",
+    "slug": "aruu-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:pader",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:amolatar-kioga-county",
+    "name": "Kioga County",
+    "slug": "kioga-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:amolatar",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:amolatar-kioga-north-county",
+    "name": "Kioga North County",
+    "slug": "kioga-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:amolatar",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:amuru-kilak-south-county",
+    "name": "Kilak South County",
+    "slug": "kilak-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:amuru",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:amuru-kilak-north-county",
+    "name": "Kilak North County",
+    "slug": "kilak-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:amuru",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:dokolo-dokolo-north-county",
+    "name": "Dokolo North County",
+    "slug": "dokolo-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:dokolo",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:dokolo-dokolo-south-county",
+    "name": "Dokolo South County",
+    "slug": "dokolo-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:dokolo",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:oyam-oyam-county-north",
+    "name": "Oyam County North",
+    "slug": "oyam-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:oyam",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:oyam-oyam-county-south",
+    "name": "Oyam County South",
+    "slug": "oyam-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:oyam",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:lamwo-lamwo-county",
+    "name": "Lamwo County",
+    "slug": "lamwo-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:lamwo",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:lamwo-palabek-county",
+    "name": "Palabek County",
+    "slug": "palabek-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:lamwo",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:otuke-otuke-county",
+    "name": "Otuke County",
+    "slug": "otuke-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:otuke",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:otuke-otuke-east-county",
+    "name": "Otuke East County",
+    "slug": "otuke-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:otuke",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:alebtong-moroto-county",
+    "name": "Moroto County",
+    "slug": "moroto-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:alebtong",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:alebtong-ajuri-county",
+    "name": "Ajuri County",
+    "slug": "ajuri-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:alebtong",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bushenyi-igara-county-east",
+    "name": "Igara County East",
+    "slug": "igara-county-east",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bushenyi",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bushenyi-igara-county-west",
+    "name": "Igara County West",
+    "slug": "igara-county-west",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:bushenyi",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:bushenyi-bushenyi-ishaka-municipality",
+    "name": "Bushenyi -Ishaka Municipality",
+    "slug": "bushenyi-ishaka-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:bushenyi",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kabale-ndorwa-county-east",
+    "name": "Ndorwa County East",
+    "slug": "ndorwa-county-east",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kabale",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kabale-ndorwa-county-west",
+    "name": "Ndorwa County West",
+    "slug": "ndorwa-county-west",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kabale",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kabale-kabale-municipality",
+    "name": "Kabale Municipality",
+    "slug": "kabale-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:kabale",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:sheema-sheema-county-north",
+    "name": "Sheema County North",
+    "slug": "sheema-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:sheema",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:sheema-sheema-county-south",
+    "name": "Sheema County South",
+    "slug": "sheema-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:sheema",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:sheema-sheema-municipality",
+    "name": "Sheema Municipality",
+    "slug": "sheema-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:sheema",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mitooma-ruhinda-county",
+    "name": "Ruhinda County",
+    "slug": "ruhinda-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mitooma",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mitooma-ruhinda-north-county",
+    "name": "Ruhinda North County",
+    "slug": "ruhinda-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mitooma",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mitooma-ruhinda-south-county",
+    "name": "Ruhinda South County",
+    "slug": "ruhinda-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mitooma",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:buhweju-buhweju-county",
+    "name": "Buhweju County",
+    "slug": "buhweju-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:buhweju",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:buhweju-buhweju-west-county",
+    "name": "Buhweju West County",
+    "slug": "buhweju-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:buhweju",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:rubirizi-bunyaruguru-county",
+    "name": "Bunyaruguru County",
+    "slug": "bunyaruguru-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:rubirizi",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:rubirizi-katerera-county",
+    "name": "Katerera County",
+    "slug": "katerera-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:rubirizi",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:rubanda-rubanda-county-east",
+    "name": "Rubanda County East",
+    "slug": "rubanda-county-east",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:rubanda",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:rubanda-rubanda-county-west",
+    "name": "Rubanda County West",
+    "slug": "rubanda-county-west",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:rubanda",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:rukiga-rukiga-county",
+    "name": "Rukiga County",
+    "slug": "rukiga-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:rukiga",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kazo-kazo-county",
+    "name": "Kazo County",
+    "slug": "kazo-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kazo",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:rwampara-rwampara-county",
+    "name": "Rwampara County",
+    "slug": "rwampara-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:rwampara",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:rwampara-rwampara-east-county",
+    "name": "Rwampara East County",
+    "slug": "rwampara-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:rwampara",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kisoro-bufumbira-county-east",
+    "name": "Bufumbira County East",
+    "slug": "bufumbira-county-east",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kisoro",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kisoro-bufumbira-county-north",
+    "name": "Bufumbira County North",
+    "slug": "bufumbira-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kisoro",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kisoro-bufumbira-county-south",
+    "name": "Bufumbira County South",
+    "slug": "bufumbira-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kisoro",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kisoro-kisoro-municipality",
+    "name": "Kisoro Municipality",
+    "slug": "kisoro-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:kisoro",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kisoro-bukimbiri-county",
+    "name": "Bukimbiri County",
+    "slug": "bukimbiri-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kisoro",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mbarara-kashari-north-county",
+    "name": "Kashari North County",
+    "slug": "kashari-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mbarara",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:mbarara-kashari-south-county",
+    "name": "Kashari South County",
+    "slug": "kashari-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:mbarara",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:ntungamo-kajara-county",
+    "name": "Kajara County",
+    "slug": "kajara-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:ntungamo",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:ntungamo-ruhaama-county",
+    "name": "Ruhaama County",
+    "slug": "ruhaama-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:ntungamo",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:ntungamo-rushenyi-county",
+    "name": "Rushenyi County",
+    "slug": "rushenyi-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:ntungamo",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:ntungamo-ntungamo-municipality",
+    "name": "Ntungamo Municipality",
+    "slug": "ntungamo-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:ntungamo",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:ntungamo-ruhaama-east-county",
+    "name": "Ruhaama East County",
+    "slug": "ruhaama-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:ntungamo",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:rukungiri-rubabo-county",
+    "name": "Rubabo County",
+    "slug": "rubabo-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:rukungiri",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:rukungiri-rujumbura-county",
+    "name": "Rujumbura County",
+    "slug": "rujumbura-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:rukungiri",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:rukungiri-rukungiri-municipality",
+    "name": "Rukungiri Municipality",
+    "slug": "rukungiri-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:rukungiri",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kanungu-kinkizi-county-east",
+    "name": "Kinkizi County East",
+    "slug": "kinkizi-county-east",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kanungu",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kanungu-kinkizi-county-west",
+    "name": "Kinkizi County West",
+    "slug": "kinkizi-county-west",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kanungu",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:ibanda-ibanda-county-north",
+    "name": "Ibanda County North",
+    "slug": "ibanda-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:ibanda",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:ibanda-ibanda-county-south",
+    "name": "Ibanda County South",
+    "slug": "ibanda-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:ibanda",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:ibanda-ibanda-municipality",
+    "name": "Ibanda Municipality",
+    "slug": "ibanda-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:ibanda",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:isingiro-bukanga-county",
+    "name": "Bukanga County",
+    "slug": "bukanga-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:isingiro",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:isingiro-isingiro-county-north",
+    "name": "Isingiro County North",
+    "slug": "isingiro-county-north",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:isingiro",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:isingiro-isingiro-county-south",
+    "name": "Isingiro County South",
+    "slug": "isingiro-county-south",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:isingiro",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:isingiro-bukanga-north-county",
+    "name": "Bukanga North County",
+    "slug": "bukanga-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:isingiro",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:isingiro-isingiro-west-county",
+    "name": "Isingiro West County",
+    "slug": "isingiro-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:isingiro",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kiruhura-nyabushozi-county",
+    "name": "Nyabushozi County",
+    "slug": "nyabushozi-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kiruhura",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:kiruhura-kashongi-county",
+    "name": "Kashongi County",
+    "slug": "kashongi-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:kiruhura",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:arua-vurra-county",
+    "name": "Vurra County",
+    "slug": "vurra-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:arua",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:pakwach-jonam-county",
+    "name": "Jonam County",
+    "slug": "jonam-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:pakwach",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:madi-okollo-upper-madi-county",
+    "name": "Upper Madi County",
+    "slug": "upper-madi-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:madi-okollo",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:madi-okollo-lower-madi-county",
+    "name": "Lower Madi County",
+    "slug": "lower-madi-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:madi-okollo",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:obongi-obongi-county",
+    "name": "Obongi County",
+    "slug": "obongi-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:obongi",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:terego-terego-west-county",
+    "name": "Terego West County",
+    "slug": "terego-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:terego",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:terego-terego-east-county",
+    "name": "Terego East County",
+    "slug": "terego-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:terego",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:moyo-west-moyo-county",
+    "name": "West Moyo County",
+    "slug": "west-moyo-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:moyo",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:nebbi-padyere-county",
+    "name": "Padyere County",
+    "slug": "padyere-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:nebbi",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:nebbi-nebbi-municipality",
+    "name": "Nebbi Municipality",
+    "slug": "nebbi-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:nebbi",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:adjumani-adjumani-west-county",
+    "name": "Adjumani West County",
+    "slug": "adjumani-west-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:adjumani",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:adjumani-adjumani-east-county",
+    "name": "Adjumani East County",
+    "slug": "adjumani-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:adjumani",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:yumbe-aringa-county",
+    "name": "Aringa County",
+    "slug": "aringa-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:yumbe",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:yumbe-aringa-north-county",
+    "name": "Aringa North County",
+    "slug": "aringa-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:yumbe",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:yumbe-aringa-south-county",
+    "name": "Aringa South County",
+    "slug": "aringa-south-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:yumbe",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:yumbe-aringa-east-county",
+    "name": "Aringa East County",
+    "slug": "aringa-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:yumbe",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:koboko-koboko-county",
+    "name": "Koboko County",
+    "slug": "koboko-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:koboko",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:koboko-koboko-north-county",
+    "name": "Koboko North County",
+    "slug": "koboko-north-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:koboko",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:koboko-koboko-municipality",
+    "name": "Koboko Municipality",
+    "slug": "koboko-municipality",
+    "level": "county",
+    "type": "municipality",
+    "parent_id": "district:koboko",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:maracha-maracha-county",
+    "name": "Maracha County",
+    "slug": "maracha-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:maracha",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:maracha-maracha-east-county",
+    "name": "Maracha East County",
+    "slug": "maracha-east-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:maracha",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:zombo-okoro-county",
+    "name": "Okoro County",
+    "slug": "okoro-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:zombo",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  },
+  {
+    "id": "county:zombo-ora-county",
+    "name": "Ora County",
+    "slug": "ora-county",
+    "level": "county",
+    "type": "county",
+    "parent_id": "district:zombo",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {}
+  }
+]

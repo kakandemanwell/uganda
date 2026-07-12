@@ -1,0 +1,4866 @@
+[
+  {
+    "id": "village:kakumiro-nkooko-town-council-kamusenene-ward-kibanga-cell",
+    "name": "Kibanga Cell",
+    "slug": "kibanga-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kakumiro-nkooko-town-council-kamusenene-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:kakumiro-nkooko-town-council-kamusenene-ward-mugabi-cell",
+    "name": "Mugabi Cell",
+    "slug": "mugabi-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kakumiro-nkooko-town-council-kamusenene-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "09"
+    }
+  },
+  {
+    "id": "village:hoima-hoima-east-division-central-ward-bank-cell",
+    "name": "Bank Cell",
+    "slug": "bank-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:hoima-hoima-east-division-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:hoima-hoima-east-division-central-ward-market-cell",
+    "name": "Market Cell",
+    "slug": "market-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:hoima-hoima-east-division-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "15"
+    }
+  },
+  {
+    "id": "village:hoima-hoima-east-division-central-ward-mosque-cell",
+    "name": "Mosque Cell",
+    "slug": "mosque-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:hoima-hoima-east-division-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "16"
+    }
+  },
+  {
+    "id": "village:hoima-hoima-east-division-central-ward-park-cell",
+    "name": "Park Cell",
+    "slug": "park-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:hoima-hoima-east-division-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "17"
+    }
+  },
+  {
+    "id": "village:hoima-hoima-east-division-central-ward-police-cell",
+    "name": "Police Cell",
+    "slug": "police-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:hoima-hoima-east-division-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "18"
+    }
+  },
+  {
+    "id": "village:hoima-hoima-east-division-central-ward-public-cell",
+    "name": "Public Cell",
+    "slug": "public-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:hoima-hoima-east-division-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "19"
+    }
+  },
+  {
+    "id": "village:kayunga-nazigo-town-council-kimanya-ward-gangama-cell-ii",
+    "name": "Gangama Cell II",
+    "slug": "gangama-cell-ii",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kayunga-nazigo-town-council-kimanya-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-central-ward-agip-cell",
+    "name": "Agip Cell",
+    "slug": "agip-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-central-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-central-ward-central-cell",
+    "name": "Central Cell",
+    "slug": "central-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-central-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-central-ward-juma-cell",
+    "name": "Juma Cell",
+    "slug": "juma-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-central-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-central-ward-kalungi-cell",
+    "name": "Kalungi Cell",
+    "slug": "kalungi-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-central-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-central-ward-lubumba-cell",
+    "name": "Lubumba Cell",
+    "slug": "lubumba-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-central-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-central-ward-lutente-cell",
+    "name": "Lutente Cell",
+    "slug": "lutente-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-central-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-kaliro-ward-kakooza-cell",
+    "name": "Kakooza Cell",
+    "slug": "kakooza-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-kaliro-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-kaliro-ward-kaliro-cell",
+    "name": "Kaliro Cell",
+    "slug": "kaliro-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-kaliro-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-kaliro-ward-kapere-cell",
+    "name": "Kapere Cell",
+    "slug": "kapere-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-kaliro-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-kaliro-ward-kirinya-cell",
+    "name": "Kirinya Cell",
+    "slug": "kirinya-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-kaliro-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-kaliro-ward-mwota-cell",
+    "name": "Mwota Cell",
+    "slug": "mwota-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-kaliro-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-magezi-kizungu-ward-kamuwunga-cell",
+    "name": "Kamuwunga Cell",
+    "slug": "kamuwunga-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-magezi-kizungu-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-magezi-kizungu-ward-kulubya-cell",
+    "name": "Kulubya Cell",
+    "slug": "kulubya-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-magezi-kizungu-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-magezi-kizungu-ward-magezi-cell",
+    "name": "Magezi Cell",
+    "slug": "magezi-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-magezi-kizungu-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-magezi-kizungu-ward-master-cell",
+    "name": "Master Cell",
+    "slug": "master-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-magezi-kizungu-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-bajja-ward-bajja-a-cell",
+    "name": "Bajja A Cell",
+    "slug": "bajja-a-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-bajja-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-bajja-ward-bajja-b-cell",
+    "name": "Bajja B Cell",
+    "slug": "bajja-b-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-bajja-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-bajja-ward-kayunga-cell",
+    "name": "Kayunga Cell",
+    "slug": "kayunga-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-bajja-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:kalungu-lukaya-town-council-bajja-ward-nabisoga-cell",
+    "name": "Nabisoga Cell",
+    "slug": "nabisoga-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kalungu-lukaya-town-council-bajja-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:kyotera-kasensero-town-council-central-a-ward-cell-i",
+    "name": "Cell I",
+    "slug": "cell-i",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kasensero-town-council-central-a-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kyotera-kasensero-town-council-central-a-ward-cell-ii",
+    "name": "Cell II",
+    "slug": "cell-ii",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kasensero-town-council-central-a-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kyotera-kasensero-town-council-central-b-ward-cell-iii",
+    "name": "Cell III",
+    "slug": "cell-iii",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kasensero-town-council-central-b-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kyotera-kasensero-town-council-central-b-ward-cell-iv",
+    "name": "Cell Iv",
+    "slug": "cell-iv",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kasensero-town-council-central-b-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kyotera-kasensero-town-council-kagera-a-ward-cell-x",
+    "name": "Cell X",
+    "slug": "cell-x",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kasensero-town-council-kagera-a-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kyotera-kasensero-town-council-kagera-a-ward-cell-viii",
+    "name": "Cell Viii",
+    "slug": "cell-viii",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kasensero-town-council-kagera-a-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kyotera-kasensero-town-council-kagera-a-ward-cell-ix",
+    "name": "Cell Ix",
+    "slug": "cell-ix",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kasensero-town-council-kagera-a-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:kyotera-kasensero-town-council-kagera-b-ward-cell-xi",
+    "name": "Cell Xi",
+    "slug": "cell-xi",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kasensero-town-council-kagera-b-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kyotera-kasensero-town-council-kagera-b-ward-cell-xii",
+    "name": "Cell Xii",
+    "slug": "cell-xii",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kasensero-town-council-kagera-b-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kyotera-kasensero-town-council-kimwanyi-ward-cell-v",
+    "name": "Cell V",
+    "slug": "cell-v",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kasensero-town-council-kimwanyi-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kyotera-kasensero-town-council-kimwanyi-ward-cell-vi",
+    "name": "Cell Vi",
+    "slug": "cell-vi",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kasensero-town-council-kimwanyi-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kyotera-kyotera-town-council-central-ward-cell-10",
+    "name": "Cell 10",
+    "slug": "cell-10",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kyotera-town-council-central-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kyotera-kyotera-town-council-central-ward-cell-12",
+    "name": "Cell 12",
+    "slug": "cell-12",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kyotera-town-council-central-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kyotera-kyotera-town-council-central-ward-cell-8",
+    "name": "Cell 8",
+    "slug": "cell-8",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kyotera-town-council-central-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:kyotera-kyotera-town-council-central-ward-cell-9",
+    "name": "Cell 9",
+    "slug": "cell-9",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kyotera-town-council-central-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:kyotera-kyotera-town-council-mitukula-ward-cell",
+    "name": "Cell",
+    "slug": "cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kyotera-town-council-mitukula-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kyotera-kyotera-town-council-industrial-area-cell-13",
+    "name": "Cell 13",
+    "slug": "cell-13",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kyotera-town-council-industrial-area",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kyotera-kyotera-town-council-industrial-area-t-d-o-cell",
+    "name": "T.D.O Cell",
+    "slug": "t-d-o-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kyotera-town-council-industrial-area",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kyotera-kyotera-town-council-industrial-area-teefe-cell",
+    "name": "Teefe Cell",
+    "slug": "teefe-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kyotera-kyotera-town-council-industrial-area",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:masaka-nyendo-mukungwe-katwe-ward-bata-cell",
+    "name": "Bata Cell",
+    "slug": "bata-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:masaka-nyendo-mukungwe-katwe-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:masaka-nyendo-mukungwe-katwe-ward-cinema-cell",
+    "name": "Cinema Cell",
+    "slug": "cinema-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:masaka-nyendo-mukungwe-katwe-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:masaka-nyendo-mukungwe-katwe-ward-folk-land-cell",
+    "name": "Folk Land Cell",
+    "slug": "folk-land-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:masaka-nyendo-mukungwe-katwe-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:masaka-nyendo-mukungwe-katwe-ward-market-cell",
+    "name": "Market Cell",
+    "slug": "market-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:masaka-nyendo-mukungwe-katwe-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "09"
+    }
+  },
+  {
+    "id": "village:lyantonde-lyantonde-town-council-kooki-ward-cell-3c",
+    "name": "Cell 3c",
+    "slug": "cell-3c",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:lyantonde-lyantonde-town-council-kooki-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:lyantonde-lyantonde-town-council-kooki-ward-cell-4d",
+    "name": "Cell 4d",
+    "slug": "cell-4d",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:lyantonde-lyantonde-town-council-kooki-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:lyantonde-lyantonde-town-council-kaliiro-ward-cell-1a",
+    "name": "Cell 1a",
+    "slug": "cell-1a",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:lyantonde-lyantonde-town-council-kaliiro-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:lyantonde-lyantonde-town-council-kaliiro-ward-cell-2b",
+    "name": "Cell 2b",
+    "slug": "cell-2b",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:lyantonde-lyantonde-town-council-kaliiro-ward",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kapelebyong-acowa-town-council-acowa-ward-senior-quarters-cell",
+    "name": "Senior Quarters Cell",
+    "slug": "senior-quarters-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kapelebyong-acowa-town-council-acowa-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:kapelebyong-acowa-town-council-atumakasikou-ward-atumakasikou-cell",
+    "name": "Atumakasikou Cell",
+    "slug": "atumakasikou-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kapelebyong-acowa-town-council-atumakasikou-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:kapelebyong-obalanga-town-council-india-ward-school-cell",
+    "name": "School Cell",
+    "slug": "school-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kapelebyong-obalanga-town-council-india-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-akisim-ward-cell-2",
+    "name": "Cell 2",
+    "slug": "cell-2",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-akisim-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-akisim-ward-cell-3",
+    "name": "Cell 3",
+    "slug": "cell-3",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-akisim-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-akisim-ward-cell-4",
+    "name": "Cell 4",
+    "slug": "cell-4",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-akisim-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-akisim-ward-cell-5",
+    "name": "Cell 5",
+    "slug": "cell-5",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-akisim-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-akisim-ward-cell-i",
+    "name": "Cell I",
+    "slug": "cell-i",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-akisim-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-central-ward-cell-a",
+    "name": "Cell A",
+    "slug": "cell-a",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-central-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-central-ward-cell-b",
+    "name": "Cell B",
+    "slug": "cell-b",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-central-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-central-ward-cell-c",
+    "name": "Cell C",
+    "slug": "cell-c",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-central-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-central-ward-cell-d",
+    "name": "Cell D",
+    "slug": "cell-d",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-central-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-central-ward-cell-e",
+    "name": "Cell E",
+    "slug": "cell-e",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-central-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-central-ward-cell-f",
+    "name": "Cell F",
+    "slug": "cell-f",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-central-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-central-ward-cell-g",
+    "name": "Cell G",
+    "slug": "cell-g",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-central-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "07"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-kengere-ward-agip-cell",
+    "name": "Agip Cell",
+    "slug": "agip-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-kengere-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-kengere-ward-kigandani-cell",
+    "name": "Kigandani Cell",
+    "slug": "kigandani-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-kengere-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-kengere-ward-teso-inn-cell",
+    "name": "Teso Inn Cell",
+    "slug": "teso-inn-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-kengere-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-moruapesur-ward-central-cell-c",
+    "name": "Central Cell C",
+    "slug": "central-cell-c",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-moruapesur-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-moruapesur-ward-moruapesur-cell-b",
+    "name": "Moruapesur Cell B",
+    "slug": "moruapesur-cell-b",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-moruapesur-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-moruapesur-ward-moruapesur-cell-d",
+    "name": "Moruapesur Cell D",
+    "slug": "moruapesur-cell-d",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-moruapesur-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-moruapesur-ward-odokolen-cell-e",
+    "name": "Odokolen Cell E",
+    "slug": "odokolen-cell-e",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-moruapesur-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-moruapesur-ward-opegei-cell-a",
+    "name": "Opegei Cell A",
+    "slug": "opegei-cell-a",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-moruapesur-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-camp-swahili-ward-a1-cell",
+    "name": "A1 Cell",
+    "slug": "a1-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-camp-swahili-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-camp-swahili-ward-a2-cell",
+    "name": "A2 Cell",
+    "slug": "a2-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-camp-swahili-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-camp-swahili-ward-a3-cell",
+    "name": "A3 Cell",
+    "slug": "a3-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-camp-swahili-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-camp-swahili-ward-a4-cell",
+    "name": "A4 Cell",
+    "slug": "a4-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-camp-swahili-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-camp-swahili-ward-a5-cell",
+    "name": "A5 Cell",
+    "slug": "a5-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-camp-swahili-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-camp-swahili-ward-a6-cell",
+    "name": "A6 Cell",
+    "slug": "a6-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-camp-swahili-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-camp-swahili-ward-a7-8-cell",
+    "name": "A7/8 Cell",
+    "slug": "a7-8-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-camp-swahili-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "07"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-camp-swahili-ward-b1-cell",
+    "name": "B1 Cell",
+    "slug": "b1-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-camp-swahili-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "08"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-camp-swahili-ward-b2-b3-cell",
+    "name": "B2/B3 Cell",
+    "slug": "b2-b3-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-camp-swahili-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "09"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-camp-swahili-ward-b4-b5-cell",
+    "name": "B4/B5 Cell",
+    "slug": "b4-b5-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-camp-swahili-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "10"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-camp-swahili-ward-b6-b7-cell",
+    "name": "B6/B7 Cell",
+    "slug": "b6-b7-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-camp-swahili-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "11"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-kichinjanji-ward-aliabu-cell",
+    "name": "Aliabu Cell",
+    "slug": "aliabu-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-kichinjanji-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-kichinjanji-ward-central-cell",
+    "name": "Central Cell",
+    "slug": "central-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-kichinjanji-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-kichinjanji-ward-east-cell",
+    "name": "East Cell",
+    "slug": "east-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-kichinjanji-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-kichinjanji-ward-usuk-cell",
+    "name": "Usuk Cell",
+    "slug": "usuk-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-kichinjanji-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-kichinjanji-ward-west-cell",
+    "name": "West Cell",
+    "slug": "west-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-kichinjanji-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-madera-ward-aminit-cell",
+    "name": "Aminit Cell",
+    "slug": "aminit-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-madera-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-madera-ward-aregerego-cell",
+    "name": "Aregerego Cell",
+    "slug": "aregerego-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-madera-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-madera-ward-asingei-cell",
+    "name": "Asingei Cell",
+    "slug": "asingei-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-madera-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-madera-ward-central-cell",
+    "name": "Central Cell",
+    "slug": "central-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-madera-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-madera-ward-majengo-a-cell",
+    "name": "Majengo A Cell",
+    "slug": "majengo-a-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-madera-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-madera-ward-majengo-b-cell",
+    "name": "Majengo B Cell",
+    "slug": "majengo-b-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-madera-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-madera-ward-ogasia-cell",
+    "name": "Ogasia Cell",
+    "slug": "ogasia-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-madera-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "07"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-pioneer-ward-ejalu-cell",
+    "name": "Ejalu Cell",
+    "slug": "ejalu-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-pioneer-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-pioneer-ward-engwau-cell",
+    "name": "Engwau Cell",
+    "slug": "engwau-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-pioneer-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-pioneer-ward-flying-school-cell",
+    "name": "Flying School Cell",
+    "slug": "flying-school-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-pioneer-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-pioneer-ward-hospital-cell",
+    "name": "Hospital Cell",
+    "slug": "hospital-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-pioneer-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-pioneer-ward-madudu-cell",
+    "name": "Madudu Cell",
+    "slug": "madudu-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-pioneer-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-pioneer-ward-moroto-road-cell",
+    "name": "Moroto Road Cell",
+    "slug": "moroto-road-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-pioneer-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-pioneer-ward-pioneer-cell",
+    "name": "Pioneer Cell",
+    "slug": "pioneer-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-pioneer-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "07"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-east-division-pioneer-ward-soroti-nurses-cell",
+    "name": "Soroti Nurses Cell",
+    "slug": "soroti-nurses-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-east-division-pioneer-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "08"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-nakatunya-ward-lubiri-cell",
+    "name": "Lubiri Cell",
+    "slug": "lubiri-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-nakatunya-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-nakatunya-ward-malinga-cell",
+    "name": "Malinga Cell",
+    "slug": "malinga-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-nakatunya-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-nakatunya-ward-nursery-cell",
+    "name": "Nursery Cell",
+    "slug": "nursery-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-nakatunya-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-nakatunya-ward-odeke-cell",
+    "name": "Odeke Cell",
+    "slug": "odeke-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-nakatunya-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-nakatunya-ward-wire-cell",
+    "name": "Wire Cell",
+    "slug": "wire-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-nakatunya-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-oderai-majengo-majengo-cell",
+    "name": "Majengo Cell",
+    "slug": "majengo-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-oderai-majengo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-oderai-majengo-oderai-cell",
+    "name": "Oderai Cell",
+    "slug": "oderai-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-oderai-majengo",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-pamba-ward-kisenyi-cell",
+    "name": "Kisenyi Cell",
+    "slug": "kisenyi-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-pamba-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-pamba-ward-labour-line-cell",
+    "name": "Labour Line Cell",
+    "slug": "labour-line-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-pamba-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-pamba-ward-mutukula-cell",
+    "name": "Mutukula Cell",
+    "slug": "mutukula-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-pamba-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-pamba-ward-old-mbale-cell",
+    "name": "Old Mbale Cell",
+    "slug": "old-mbale-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-pamba-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-senior-quarters-cell-a",
+    "name": "Cell A",
+    "slug": "cell-a",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-senior-quarters",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-senior-quarters-cell-b",
+    "name": "Cell B",
+    "slug": "cell-b",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-senior-quarters",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-senior-quarters-cell-c",
+    "name": "Cell C",
+    "slug": "cell-c",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-senior-quarters",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-senior-quarters-cell-d",
+    "name": "Cell D",
+    "slug": "cell-d",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-senior-quarters",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-senior-quarters-cell-e",
+    "name": "Cell E",
+    "slug": "cell-e",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-senior-quarters",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-senior-quarters-cell-f",
+    "name": "Cell F",
+    "slug": "cell-f",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-senior-quarters",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-senior-quarters-cell-g",
+    "name": "Cell G",
+    "slug": "cell-g",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-senior-quarters",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "07"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-senior-quarters-cell-h",
+    "name": "Cell H",
+    "slug": "cell-h",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-senior-quarters",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "08"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-senior-quarters-cell-i",
+    "name": "Cell I",
+    "slug": "cell-i",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-senior-quarters",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "09"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-senior-quarters-cell-j",
+    "name": "Cell J",
+    "slug": "cell-j",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-senior-quarters",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "10"
+    }
+  },
+  {
+    "id": "village:soroti-soroti-west-division-senior-quarters-cell-k",
+    "name": "Cell K",
+    "slug": "cell-k",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:soroti-soroti-west-division-senior-quarters",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "11"
+    }
+  },
+  {
+    "id": "village:katakwi-kapujan-apapai-town-board-bisina-cell",
+    "name": "Bisina Cell",
+    "slug": "bisina-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:katakwi-kapujan-apapai-town-board",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:katakwi-kapujan-apapai-town-board-north-cell",
+    "name": "North Cell",
+    "slug": "north-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:katakwi-kapujan-apapai-town-board",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:katakwi-magoro-town-council-obwangor-ward-centre-cell",
+    "name": "Centre Cell",
+    "slug": "centre-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:katakwi-magoro-town-council-obwangor-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:katakwi-toroma-town-council-southern-ward-kk-cell",
+    "name": "Kk Cell",
+    "slug": "kk-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:katakwi-toroma-town-council-southern-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:katakwi-katakwi-town-council-eastern-ward-nurses-cell",
+    "name": "Nurses Cell",
+    "slug": "nurses-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:katakwi-katakwi-town-council-eastern-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:katakwi-katakwi-town-council-southern-ward-kololo-cell",
+    "name": "Kololo Cell",
+    "slug": "kololo-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:katakwi-katakwi-town-council-southern-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:katakwi-palam-ngariam-town-board-banda-cell",
+    "name": "Banda Cell",
+    "slug": "banda-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:katakwi-palam-ngariam-town-board",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:katakwi-palam-ngariam-town-board-ngariam-cell",
+    "name": "Ngariam Cell",
+    "slug": "ngariam-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:katakwi-palam-ngariam-town-board",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:katakwi-palam-odoot-town-board-northern-cell",
+    "name": "Northern Cell",
+    "slug": "northern-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:katakwi-palam-odoot-town-board",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:katakwi-palam-odoot-town-board-southern-cell",
+    "name": "Southern Cell",
+    "slug": "southern-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:katakwi-palam-odoot-town-board",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kaberamaido-kaberamaido-town-alem-ward-headquarter-cell",
+    "name": "Headquarter Cell",
+    "slug": "headquarter-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kaberamaido-kaberamaido-town-alem-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:amuria-amuria-town-council-eastern-ward-mission-cell",
+    "name": "Mission Cell",
+    "slug": "mission-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:amuria-amuria-town-council-eastern-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:amuria-asamuk-town-council-fr-touber-ward-school-cell",
+    "name": "School Cell",
+    "slug": "school-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:amuria-asamuk-town-council-fr-touber-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:amuria-asamuk-town-council-fr-touber-ward-police-cell",
+    "name": "Police Cell",
+    "slug": "police-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:amuria-asamuk-town-council-fr-touber-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:amuria-asamuk-town-council-ocaga-ward-amen-a-cell",
+    "name": "Amen A Cell",
+    "slug": "amen-a-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:amuria-asamuk-town-council-ocaga-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "10"
+    }
+  },
+  {
+    "id": "village:bukedea-kidongole-kidongole-town-north-cell",
+    "name": "North Cell",
+    "slug": "north-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bukedea-kidongole-kidongole-town",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:bukedea-kidongole-kidongole-town-south-cell",
+    "name": "South Cell",
+    "slug": "south-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bukedea-kidongole-kidongole-town",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:bukedea-bukedea-town-council-okunguro-complex-okwakol-cell",
+    "name": "Okwakol Cell",
+    "slug": "okwakol-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bukedea-bukedea-town-council-okunguro-complex",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:bukedea-koena-katekwan-town-north-cell",
+    "name": "North Cell",
+    "slug": "north-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bukedea-koena-katekwan-town",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:bukedea-koena-katekwan-town-south-cell",
+    "name": "South Cell",
+    "slug": "south-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bukedea-koena-katekwan-town",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:serere-kagwara-town-council-kagwara-central-kagwara-cell-a",
+    "name": "Kagwara Cell A",
+    "slug": "kagwara-cell-a",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:serere-kagwara-town-council-kagwara-central",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:serere-kagwara-town-council-kagwara-central-kagwara-cell-b",
+    "name": "Kagwara Cell B",
+    "slug": "kagwara-cell-b",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:serere-kagwara-town-council-kagwara-central",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:serere-kagwara-town-council-kagwara-central-kagwara-cell-c",
+    "name": "Kagwara Cell C",
+    "slug": "kagwara-cell-c",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:serere-kagwara-town-council-kagwara-central",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:serere-kyere-town-council-kyere-central-ward-cell-a",
+    "name": "Cell A",
+    "slug": "cell-a",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:serere-kyere-town-council-kyere-central-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:serere-kyere-town-council-kyere-central-ward-cell-b",
+    "name": "Cell B",
+    "slug": "cell-b",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:serere-kyere-town-council-kyere-central-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:mbale-industrial-division-napooli-central-primary-cell",
+    "name": "Primary Cell",
+    "slug": "primary-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:mbale-industrial-division-napooli-central",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:mbale-busiu-town-council-town-ward-town-cell",
+    "name": "Town Cell",
+    "slug": "town-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:mbale-busiu-town-council-town-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "12"
+    }
+  },
+  {
+    "id": "village:sironko-gombe-gasawa-town-kisali-ward-bumujenya-cell-lower",
+    "name": "Bumujenya Cell Lower",
+    "slug": "bumujenya-cell-lower",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:sironko-gombe-gasawa-town-kisali-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:sironko-gombe-gasawa-town-kisali-ward-dembelele-cell-lower",
+    "name": "Dembelele Cell Lower",
+    "slug": "dembelele-cell-lower",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:sironko-gombe-gasawa-town-kisali-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:sironko-mutufu-town-council-central-ward-mutufu-central-cell",
+    "name": "Mutufu Central Cell",
+    "slug": "mutufu-central-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:sironko-mutufu-town-council-central-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:bulambuli-buwanyanga-buwanyanga-central-cell",
+    "name": "Central Cell",
+    "slug": "central-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bulambuli-buwanyanga-buwanyanga",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "09"
+    }
+  },
+  {
+    "id": "village:bulambuli-buwanyanga-buwanyanga-lufula-cell",
+    "name": "Lufula Cell",
+    "slug": "lufula-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bulambuli-buwanyanga-buwanyanga",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "10"
+    }
+  },
+  {
+    "id": "village:bulambuli-buwanyanga-buwanyanga-vision-cell",
+    "name": "Vision Cell",
+    "slug": "vision-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bulambuli-buwanyanga-buwanyanga",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "13"
+    }
+  },
+  {
+    "id": "village:bulambuli-bulambuli-town-council-burukuru-ward-education-cell",
+    "name": "Education Cell",
+    "slug": "education-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bulambuli-bulambuli-town-council-burukuru-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:bulambuli-bulago-busiya-upland-cell",
+    "name": "Upland Cell",
+    "slug": "upland-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bulambuli-bulago-busiya",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "13"
+    }
+  },
+  {
+    "id": "village:bulambuli-bulegeni-town-council-magala-ward-kakweita-cell",
+    "name": "Kakweita Cell",
+    "slug": "kakweita-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bulambuli-bulegeni-town-council-magala-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:jinja-buyengo-town-council-bulugo-ward-budhobya-cell",
+    "name": "Budhobya Cell",
+    "slug": "budhobya-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:jinja-buyengo-town-council-bulugo-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:jinja-buyengo-town-council-iziru-ward-mbaale-cell",
+    "name": "Mbaale Cell",
+    "slug": "mbaale-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:jinja-buyengo-town-council-iziru-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:jinja-jinja-north-division-wanyama-ward-central-cell",
+    "name": "Central Cell",
+    "slug": "central-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:jinja-jinja-north-division-wanyama-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:jinja-jinja-north-division-wanyama-ward-eastern-cell",
+    "name": "Eastern Cell",
+    "slug": "eastern-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:jinja-jinja-north-division-wanyama-ward",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "08"
+    }
+  },
+  {
+    "id": "village:kitagwenda-bukurungo-town-council-buhumuriro-ward-kabanda-cell",
+    "name": "Kabanda Cell",
+    "slug": "kabanda-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kitagwenda-bukurungo-town-council-buhumuriro-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "07"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-central-ward-market-cell",
+    "name": "Market Cell",
+    "slug": "market-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-central-ward-stores-cell",
+    "name": "Stores Cell",
+    "slug": "stores-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-central-ward-south-cell",
+    "name": "South Cell",
+    "slug": "south-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-central-ward-west-cell",
+    "name": "West Cell",
+    "slug": "west-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-kinyamaseke-north-kinyamaseke-cell",
+    "name": "Kinyamaseke Cell",
+    "slug": "kinyamaseke-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-kinyamaseke-north",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-kinyamaseke-north-east-cell",
+    "name": "East Cell",
+    "slug": "east-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-kinyamaseke-north",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-kinyamaseke-north-north-cell",
+    "name": "North Cell",
+    "slug": "north-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-kinyamaseke-north",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-mairukumi-ward-kanyatsi-west-cell",
+    "name": "Kanyatsi West Cell",
+    "slug": "kanyatsi-west-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-mairukumi-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-mairukumi-ward-kanyampara-cell",
+    "name": "Kanyampara Cell",
+    "slug": "kanyampara-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-mairukumi-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-mairukumi-ward-kanyatsi-east-cell",
+    "name": "Kanyatsi East Cell",
+    "slug": "kanyatsi-east-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-mairukumi-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-musomoro-ward-musomoro-north-cell",
+    "name": "Musomoro North Cell",
+    "slug": "musomoro-north-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-musomoro-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-musomoro-ward-musomoro-south-cell",
+    "name": "Musomoro South Cell",
+    "slug": "musomoro-south-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-musomoro-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-rwengaju-ward-rwengaju-ii-cell",
+    "name": "Rwengaju II Cell",
+    "slug": "rwengaju-ii-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-rwengaju-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-rwengaju-ward-nyamatunga-cell",
+    "name": "Nyamatunga Cell",
+    "slug": "nyamatunga-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-rwengaju-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-rwengaju-ward-rwengaju-i-cell",
+    "name": "Rwengaju I Cell",
+    "slug": "rwengaju-i-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-rwengaju-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "08"
+    }
+  },
+  {
+    "id": "village:kasese-kinyamaseke-town-kinyamaseke-south-pida-cell",
+    "name": "Pida Cell",
+    "slug": "pida-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kinyamaseke-town-kinyamaseke-south",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kasese-kitswamba-town-council-kitswamba-central-market-cell",
+    "name": "Market Cell",
+    "slug": "market-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kitswamba-town-council-kitswamba-central",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:kasese-kitswamba-town-council-kitswamba-central-muslim-cell",
+    "name": "Muslim Cell",
+    "slug": "muslim-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kasese-kitswamba-town-council-kitswamba-central",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:apac-atik-division-bung-ward-atik-cell",
+    "name": "Atik Cell",
+    "slug": "atik-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:apac-atik-division-bung-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:bushenyi-ishaka-division-ward-iv-cell-c",
+    "name": "Cell C",
+    "slug": "cell-c",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bushenyi-ishaka-division-ward-iv",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:bushenyi-ishaka-division-ward-iv-cell-d",
+    "name": "Cell D",
+    "slug": "cell-d",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bushenyi-ishaka-division-ward-iv",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:bushenyi-ishaka-division-town-ward-cell-a",
+    "name": "Cell A",
+    "slug": "cell-a",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bushenyi-ishaka-division-town-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:bushenyi-ishaka-division-town-ward-cell-b",
+    "name": "Cell B",
+    "slug": "cell-b",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:bushenyi-ishaka-division-town-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:rwampara-buteraniro-nyeihanga-kakigani-ward-town-cell",
+    "name": "Town Cell",
+    "slug": "town-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:rwampara-buteraniro-nyeihanga-kakigani-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "10"
+    }
+  },
+  {
+    "id": "village:mbarara-mbarara-north-division-biharwe-west-ward-mailo-cell",
+    "name": "Mailo Cell",
+    "slug": "mailo-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:mbarara-mbarara-north-division-biharwe-west-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "13"
+    }
+  },
+  {
+    "id": "village:ntungamo-rweikiniro-kayenje-kayenje-cell",
+    "name": "Kayenje Cell",
+    "slug": "kayenje-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:ntungamo-rweikiniro-kayenje",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:ntungamo-eastern-division-park-ward-cell-1",
+    "name": "Cell 1",
+    "slug": "cell-1",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:ntungamo-eastern-division-park-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:ntungamo-eastern-division-park-ward-cell-2",
+    "name": "Cell 2",
+    "slug": "cell-2",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:ntungamo-eastern-division-park-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:ntungamo-eastern-division-park-ward-cell-3",
+    "name": "Cell 3",
+    "slug": "cell-3",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:ntungamo-eastern-division-park-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:ntungamo-central-division-central-ward-cell-6",
+    "name": "Cell 6",
+    "slug": "cell-6",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:ntungamo-central-division-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:ntungamo-central-division-central-ward-cell-7",
+    "name": "Cell 7",
+    "slug": "cell-7",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:ntungamo-central-division-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:ntungamo-central-division-central-ward-cell-8",
+    "name": "Cell 8",
+    "slug": "cell-8",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:ntungamo-central-division-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:ntungamo-western-division-muko-ward-cell-5",
+    "name": "Cell 5",
+    "slug": "cell-5",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:ntungamo-western-division-muko-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:ntungamo-western-division-muko-ward-cell-4",
+    "name": "Cell 4",
+    "slug": "cell-4",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:ntungamo-western-division-muko-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:ntungamo-western-division-muko-ward-cell-9",
+    "name": "Cell 9",
+    "slug": "cell-9",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:ntungamo-western-division-muko-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:rukungiri-nyarushanje-kisiizi-kisiizi-hosp-cell",
+    "name": "Kisiizi Hosp. Cell",
+    "slug": "kisiizi-hosp-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:rukungiri-nyarushanje-kisiizi",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "10"
+    }
+  },
+  {
+    "id": "village:rukungiri-buyanja-town-council-nyakaina-ward-buyanja-town-cell-b",
+    "name": "Buyanja Town Cell B",
+    "slug": "buyanja-town-cell-b",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:rukungiri-buyanja-town-council-nyakaina-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:rukungiri-buyanja-town-council-nyakaina-ward-buyanja-town-cell-a",
+    "name": "Buyanja Town Cell A",
+    "slug": "buyanja-town-cell-a",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:rukungiri-buyanja-town-council-nyakaina-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "07"
+    }
+  },
+  {
+    "id": "village:kanungu-kihiihi-town-council-kihiihi-town-ward-central-cell",
+    "name": "Central Cell",
+    "slug": "central-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kanungu-kihiihi-town-council-kihiihi-town-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:kanungu-kihiihi-town-council-kihiihi-town-ward-market-cell",
+    "name": "Market Cell",
+    "slug": "market-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:kanungu-kihiihi-town-council-kihiihi-town-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:ibanda-kagongo-division-kyaruhanga-ward-ibanda-cell",
+    "name": "Ibanda Cell",
+    "slug": "ibanda-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:ibanda-kagongo-division-kyaruhanga-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:isingiro-kikagate-nyabushenyi-nyabushenyi-cell",
+    "name": "Nyabushenyi Cell",
+    "slug": "nyabushenyi-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:isingiro-kikagate-nyabushenyi",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "07"
+    }
+  },
+  {
+    "id": "village:isingiro-nyakitunda-bugongi-town-cell",
+    "name": "Town Cell",
+    "slug": "town-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:isingiro-nyakitunda-bugongi",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "12"
+    }
+  },
+  {
+    "id": "village:isingiro-kikagate-town-council-kikagate-boarder-kikagate-boarder-cell",
+    "name": "Kikagate Boarder Cell",
+    "slug": "kikagate-boarder-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:isingiro-kikagate-town-council-kikagate-boarder",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:isingiro-ruyanga-kajaho-kajaho-cell",
+    "name": "Kajaho Cell",
+    "slug": "kajaho-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:isingiro-ruyanga-kajaho",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "07"
+    }
+  },
+  {
+    "id": "village:isingiro-kabuyanda-town-council-central-ward-kabuyanda-town-cell",
+    "name": "Kabuyanda Town Cell",
+    "slug": "kabuyanda-town-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:isingiro-kabuyanda-town-council-central-ward",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:isingiro-ruhiira-town-council-ruhiira-northern-town-cell",
+    "name": "Town Cell",
+    "slug": "town-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:isingiro-ruhiira-town-council-ruhiira-northern",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "14"
+    }
+  },
+  {
+    "id": "village:isingiro-ruhiira-town-council-ruhiira-northern-ngoma-cell",
+    "name": "Ngoma Cell",
+    "slug": "ngoma-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:isingiro-ruhiira-town-council-ruhiira-northern",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "16"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-okollo-ward-rabea-cell",
+    "name": "Rabea Cell",
+    "slug": "rabea-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-okollo-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-okollo-ward-congo-cell",
+    "name": "Congo Cell",
+    "slug": "congo-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-okollo-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-okollo-ward-police-cell",
+    "name": "Police Cell",
+    "slug": "police-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-okollo-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-okollo-ward-health-centre-cell",
+    "name": "Health Centre Cell",
+    "slug": "health-centre-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-okollo-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-ndubu-ward-ndubu-east-cell",
+    "name": "Ndubu East Cell",
+    "slug": "ndubu-east-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-ndubu-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-ndubu-ward-ndubu-west-cell",
+    "name": "Ndubu West Cell",
+    "slug": "ndubu-west-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-ndubu-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-ndubu-ward-awaa-cell",
+    "name": "Awaa Cell",
+    "slug": "awaa-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-ndubu-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-ndubu-ward-vuu-cell",
+    "name": "Vuu Cell",
+    "slug": "vuu-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-ndubu-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "10"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-oyhua-ward-ayiju-cell",
+    "name": "Ayiju Cell",
+    "slug": "ayiju-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-oyhua-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-oyhua-ward-batu-cell",
+    "name": "Batu Cell",
+    "slug": "batu-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-oyhua-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-oyhua-ward-oyobu-cell",
+    "name": "Oyobu Cell",
+    "slug": "oyobu-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-oyhua-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-oyhua-ward-pauni-cell",
+    "name": "Pauni Cell",
+    "slug": "pauni-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-oyhua-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "09"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-ayuu-ward-alinzi-cell",
+    "name": "Alinzi Cell",
+    "slug": "alinzi-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-ayuu-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:madi-okollo-okollo-town-council-ayuu-ward-parabu-cell",
+    "name": "Parabu Cell",
+    "slug": "parabu-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:madi-okollo-okollo-town-council-ayuu-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-awindiri-ward-academy-cell",
+    "name": "Academy Cell",
+    "slug": "academy-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-awindiri-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-awindiri-ward-arua-hill-cell",
+    "name": "Arua Hill Cell",
+    "slug": "arua-hill-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-awindiri-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-awindiri-ward-chongoloya-cell",
+    "name": "Chongoloya Cell",
+    "slug": "chongoloya-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-awindiri-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-awindiri-ward-junior-quarter-cell",
+    "name": "Junior Quarter Cell",
+    "slug": "junior-quarter-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-awindiri-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-awindiri-ward-niva-cell",
+    "name": "Niva Cell",
+    "slug": "niva-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-awindiri-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-awindiri-ward-nsambia-north-cell",
+    "name": "Nsambia North Cell",
+    "slug": "nsambia-north-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-awindiri-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-awindiri-ward-nsambia-south-cell",
+    "name": "Nsambia South Cell",
+    "slug": "nsambia-south-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-awindiri-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "07"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-basaar-ward-hospital-cell",
+    "name": "Hospital Cell",
+    "slug": "hospital-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-basaar-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-basaar-ward-arua-public-cell",
+    "name": "Arua Public Cell",
+    "slug": "arua-public-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-basaar-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-basaar-ward-central-market-cell",
+    "name": "Central Market Cell",
+    "slug": "central-market-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-basaar-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-basaar-ward-gaagaa-cell",
+    "name": "Gaagaa Cell",
+    "slug": "gaagaa-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-basaar-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-basaar-ward-gurua-cell",
+    "name": "Gurua Cell",
+    "slug": "gurua-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-basaar-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "05"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-basaar-ward-old-bus-park-cell",
+    "name": "Old Bus Park Cell",
+    "slug": "old-bus-park-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-basaar-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-basaar-ward-police-cell",
+    "name": "Police Cell",
+    "slug": "police-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-basaar-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "07"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-mvara-ward-anyafio-west-cell",
+    "name": "Anyafio West Cell",
+    "slug": "anyafio-west-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-mvara-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "01"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-mvara-ward-anyafiyo-central-cell",
+    "name": "Anyafiyo Central Cell",
+    "slug": "anyafiyo-central-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-mvara-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-mvara-ward-anyafiyo-east-cell",
+    "name": "Anyafiyo East Cell",
+    "slug": "anyafiyo-east-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-mvara-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "03"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-mvara-ward-ewavio-cell",
+    "name": "Ewavio Cell",
+    "slug": "ewavio-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-mvara-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "04"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-mvara-ward-mvara-s-s-cell",
+    "name": "Mvara S S Cell",
+    "slug": "mvara-s-s-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-mvara-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "06"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-mvara-ward-zambia-cell",
+    "name": "Zambia Cell",
+    "slug": "zambia-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-mvara-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "07"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-mvara-ward-congo-cell",
+    "name": "Congo Cell",
+    "slug": "congo-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-mvara-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "08"
+    }
+  },
+  {
+    "id": "village:arua-arua-central-division-pangisa-ward-baruku-central-cell",
+    "name": "Baruku Central Cell",
+    "slug": "baruku-central-cell",
+    "level": "cell",
+    "type": "cell",
+    "parent_id": "parish:arua-arua-central-division-pangisa-ward",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": null,
+    "external_refs": {
+      "ec_village_code": "02"
+    }
+  }
+]

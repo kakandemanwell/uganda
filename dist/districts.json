@@ -1,0 +1,2588 @@
+[
+  {
+    "id": "district:abim",
+    "name": "Abim",
+    "slug": "abim",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:adjumani",
+    "name": "Adjumani",
+    "slug": "adjumani",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:agago",
+    "name": "Agago",
+    "slug": "agago",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:alebtong",
+    "name": "Alebtong",
+    "slug": "alebtong",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:amolatar",
+    "name": "Amolatar",
+    "slug": "amolatar",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:amudat",
+    "name": "Amudat",
+    "slug": "amudat",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:amuru",
+    "name": "Amuru",
+    "slug": "amuru",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:apac",
+    "name": "Apac",
+    "slug": "apac",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:arua",
+    "name": "Arua",
+    "slug": "arua",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Also seat of Arua City (separate LG unit)"
+  },
+  {
+    "id": "district:dokolo",
+    "name": "Dokolo",
+    "slug": "dokolo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:gulu",
+    "name": "Gulu",
+    "slug": "gulu",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Also seat of Gulu City (separate LG unit)"
+  },
+  {
+    "id": "district:kaabong",
+    "name": "Kaabong",
+    "slug": "kaabong",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:karenga",
+    "name": "Karenga",
+    "slug": "karenga",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Kaabong"
+  },
+  {
+    "id": "district:kitgum",
+    "name": "Kitgum",
+    "slug": "kitgum",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:koboko",
+    "name": "Koboko",
+    "slug": "koboko",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kole",
+    "name": "Kole",
+    "slug": "kole",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kotido",
+    "name": "Kotido",
+    "slug": "kotido",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kwania",
+    "name": "Kwania",
+    "slug": "kwania",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Apac"
+  },
+  {
+    "id": "district:lamwo",
+    "name": "Lamwo",
+    "slug": "lamwo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:lira",
+    "name": "Lira",
+    "slug": "lira",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Also seat of Lira City (separate LG unit)"
+  },
+  {
+    "id": "district:madi-okollo",
+    "name": "Madi-Okollo",
+    "slug": "madi-okollo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Arua"
+  },
+  {
+    "id": "district:maracha",
+    "name": "Maracha",
+    "slug": "maracha",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:moroto",
+    "name": "Moroto",
+    "slug": "moroto",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:moyo",
+    "name": "Moyo",
+    "slug": "moyo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:nabilatuk",
+    "name": "Nabilatuk",
+    "slug": "nabilatuk",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Nakapiripirit"
+  },
+  {
+    "id": "district:nakapiripirit",
+    "name": "Nakapiripirit",
+    "slug": "nakapiripirit",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:napak",
+    "name": "Napak",
+    "slug": "napak",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:nebbi",
+    "name": "Nebbi",
+    "slug": "nebbi",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:nwoya",
+    "name": "Nwoya",
+    "slug": "nwoya",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:obongi",
+    "name": "Obongi",
+    "slug": "obongi",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Moyo"
+  },
+  {
+    "id": "district:omoro",
+    "name": "Omoro",
+    "slug": "omoro",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Gulu"
+  },
+  {
+    "id": "district:otuke",
+    "name": "Otuke",
+    "slug": "otuke",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:oyam",
+    "name": "Oyam",
+    "slug": "oyam",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:pader",
+    "name": "Pader",
+    "slug": "pader",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:pakwach",
+    "name": "Pakwach",
+    "slug": "pakwach",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Nebbi"
+  },
+  {
+    "id": "district:yumbe",
+    "name": "Yumbe",
+    "slug": "yumbe",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:zombo",
+    "name": "Zombo",
+    "slug": "zombo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:amuria",
+    "name": "Amuria",
+    "slug": "amuria",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:budaka",
+    "name": "Budaka",
+    "slug": "budaka",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:bududa",
+    "name": "Bududa",
+    "slug": "bududa",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:bugiri",
+    "name": "Bugiri",
+    "slug": "bugiri",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:bugweri",
+    "name": "Bugweri",
+    "slug": "bugweri",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Iganga"
+  },
+  {
+    "id": "district:bukedea",
+    "name": "Bukedea",
+    "slug": "bukedea",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:bukwo",
+    "name": "Bukwo",
+    "slug": "bukwo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:bulambuli",
+    "name": "Bulambuli",
+    "slug": "bulambuli",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:busia",
+    "name": "Busia",
+    "slug": "busia",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:butaleja",
+    "name": "Butaleja",
+    "slug": "butaleja",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:butebo",
+    "name": "Butebo",
+    "slug": "butebo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Pallisa"
+  },
+  {
+    "id": "district:buyende",
+    "name": "Buyende",
+    "slug": "buyende",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:iganga",
+    "name": "Iganga",
+    "slug": "iganga",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:jinja",
+    "name": "Jinja",
+    "slug": "jinja",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Also seat of Jinja City (separate LG unit)"
+  },
+  {
+    "id": "district:kaberamaido",
+    "name": "Kaberamaido",
+    "slug": "kaberamaido",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kalaki",
+    "name": "Kalaki",
+    "slug": "kalaki",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Kaberamaido"
+  },
+  {
+    "id": "district:kaliro",
+    "name": "Kaliro",
+    "slug": "kaliro",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kamuli",
+    "name": "Kamuli",
+    "slug": "kamuli",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kapchorwa",
+    "name": "Kapchorwa",
+    "slug": "kapchorwa",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kapelebyong",
+    "name": "Kapelebyong",
+    "slug": "kapelebyong",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Amuria"
+  },
+  {
+    "id": "district:katakwi",
+    "name": "Katakwi",
+    "slug": "katakwi",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kibuku",
+    "name": "Kibuku",
+    "slug": "kibuku",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kumi",
+    "name": "Kumi",
+    "slug": "kumi",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kween",
+    "name": "Kween",
+    "slug": "kween",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:luuka",
+    "name": "Luuka",
+    "slug": "luuka",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:manafwa",
+    "name": "Manafwa",
+    "slug": "manafwa",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:mayuge",
+    "name": "Mayuge",
+    "slug": "mayuge",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:mbale",
+    "name": "Mbale",
+    "slug": "mbale",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Also seat of Mbale City (separate LG unit)"
+  },
+  {
+    "id": "district:namayingo",
+    "name": "Namayingo",
+    "slug": "namayingo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:namisindwa",
+    "name": "Namisindwa",
+    "slug": "namisindwa",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Manafwa"
+  },
+  {
+    "id": "district:namutumba",
+    "name": "Namutumba",
+    "slug": "namutumba",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:ngora",
+    "name": "Ngora",
+    "slug": "ngora",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:pallisa",
+    "name": "Pallisa",
+    "slug": "pallisa",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:serere",
+    "name": "Serere",
+    "slug": "serere",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:sironko",
+    "name": "Sironko",
+    "slug": "sironko",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:soroti",
+    "name": "Soroti",
+    "slug": "soroti",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Also seat of Soroti City (separate LG unit)"
+  },
+  {
+    "id": "district:tororo",
+    "name": "Tororo",
+    "slug": "tororo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:eastern",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Reported subject of further splits ahead of 2026 elections - unverified, see docs/DATA_QUALITY.md"
+  },
+  {
+    "id": "district:terego",
+    "name": "Terego",
+    "slug": "terego",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:northern",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": "2020-07-01",
+    "source_ids": [
+      "src-ec-admin-units-2022"
+    ],
+    "notes": "Established 2020-07-01, split from Arua District. Missing from all three sources originally used for the 135-district baseline (Statoids, Wikipedia, and the MoLG-style PDF list) — confirmed as a real gap and added after cross-referencing the EC's June 2022 verified administrative units count (146 district-equivalent units, not 135)."
+  },
+  {
+    "id": "district:buhweju",
+    "name": "Buhweju",
+    "slug": "buhweju",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:buliisa",
+    "name": "Buliisa",
+    "slug": "buliisa",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:bundibugyo",
+    "name": "Bundibugyo",
+    "slug": "bundibugyo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:bunyangabu",
+    "name": "Bunyangabu",
+    "slug": "bunyangabu",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Kabarole"
+  },
+  {
+    "id": "district:bushenyi",
+    "name": "Bushenyi",
+    "slug": "bushenyi",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:hoima",
+    "name": "Hoima",
+    "slug": "hoima",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Also seat of Hoima City (separate LG unit)"
+  },
+  {
+    "id": "district:ibanda",
+    "name": "Ibanda",
+    "slug": "ibanda",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:isingiro",
+    "name": "Isingiro",
+    "slug": "isingiro",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kabale",
+    "name": "Kabale",
+    "slug": "kabale",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kabarole",
+    "name": "Kabarole",
+    "slug": "kabarole",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Also seat of Fort Portal City (separate LG unit)"
+  },
+  {
+    "id": "district:kagadi",
+    "name": "Kagadi",
+    "slug": "kagadi",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Kibaale"
+  },
+  {
+    "id": "district:kakumiro",
+    "name": "Kakumiro",
+    "slug": "kakumiro",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Kibaale"
+  },
+  {
+    "id": "district:kamwenge",
+    "name": "Kamwenge",
+    "slug": "kamwenge",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kanungu",
+    "name": "Kanungu",
+    "slug": "kanungu",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kasese",
+    "name": "Kasese",
+    "slug": "kasese",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kazo",
+    "name": "Kazo",
+    "slug": "kazo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Kiruhura"
+  },
+  {
+    "id": "district:kibaale",
+    "name": "Kibaale",
+    "slug": "kibaale",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kikuube",
+    "name": "Kikuube",
+    "slug": "kikuube",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Hoima"
+  },
+  {
+    "id": "district:kiruhura",
+    "name": "Kiruhura",
+    "slug": "kiruhura",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kiryandongo",
+    "name": "Kiryandongo",
+    "slug": "kiryandongo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kisoro",
+    "name": "Kisoro",
+    "slug": "kisoro",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kitagwenda",
+    "name": "Kitagwenda",
+    "slug": "kitagwenda",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Kamwenge"
+  },
+  {
+    "id": "district:kyegegwa",
+    "name": "Kyegegwa",
+    "slug": "kyegegwa",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kyenjojo",
+    "name": "Kyenjojo",
+    "slug": "kyenjojo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:masindi",
+    "name": "Masindi",
+    "slug": "masindi",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:mbarara",
+    "name": "Mbarara",
+    "slug": "mbarara",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Also seat of Mbarara City (separate LG unit)"
+  },
+  {
+    "id": "district:mitooma",
+    "name": "Mitooma",
+    "slug": "mitooma",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:ntoroko",
+    "name": "Ntoroko",
+    "slug": "ntoroko",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:ntungamo",
+    "name": "Ntungamo",
+    "slug": "ntungamo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:rubanda",
+    "name": "Rubanda",
+    "slug": "rubanda",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Kabale"
+  },
+  {
+    "id": "district:rubirizi",
+    "name": "Rubirizi",
+    "slug": "rubirizi",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:rukiga",
+    "name": "Rukiga",
+    "slug": "rukiga",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Kabale"
+  },
+  {
+    "id": "district:rukungiri",
+    "name": "Rukungiri",
+    "slug": "rukungiri",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:rwampara",
+    "name": "Rwampara",
+    "slug": "rwampara",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Mbarara"
+  },
+  {
+    "id": "district:sheema",
+    "name": "Sheema",
+    "slug": "sheema",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:western",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:buikwe",
+    "name": "Buikwe",
+    "slug": "buikwe",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:bukomansimbi",
+    "name": "Bukomansimbi",
+    "slug": "bukomansimbi",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:butambala",
+    "name": "Butambala",
+    "slug": "butambala",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:buvuma",
+    "name": "Buvuma",
+    "slug": "buvuma",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:gomba",
+    "name": "Gomba",
+    "slug": "gomba",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kalangala",
+    "name": "Kalangala",
+    "slug": "kalangala",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kalungu",
+    "name": "Kalungu",
+    "slug": "kalungu",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kampala",
+    "name": "Kampala",
+    "slug": "kampala",
+    "aliases": [],
+    "level": "district",
+    "type": "capital_city",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Uganda's capital city, occupying the same tier as a district. Administered by the Kampala Capital City Authority (KCCA) under the KCCA Act 2010 (KCCA is the governing authority, not a type of administrative unit). Divided into 5 Divisions rather than counties/subcounties."
+  },
+  {
+    "id": "district:kassanda",
+    "name": "Kassanda",
+    "slug": "kassanda",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Mubende"
+  },
+  {
+    "id": "district:kayunga",
+    "name": "Kayunga",
+    "slug": "kayunga",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kiboga",
+    "name": "Kiboga",
+    "slug": "kiboga",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:kyankwanzi",
+    "name": "Kyankwanzi",
+    "slug": "kyankwanzi",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Kiboga"
+  },
+  {
+    "id": "district:kyotera",
+    "name": "Kyotera",
+    "slug": "kyotera",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Split from Rakai"
+  },
+  {
+    "id": "district:luwero",
+    "name": "Luwero",
+    "slug": "luwero",
+    "aliases": [
+      "Luweero"
+    ],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:lwengo",
+    "name": "Lwengo",
+    "slug": "lwengo",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:lyantonde",
+    "name": "Lyantonde",
+    "slug": "lyantonde",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:masaka",
+    "name": "Masaka",
+    "slug": "masaka",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": "Also seat of Masaka City (separate LG unit)"
+  },
+  {
+    "id": "district:mityana",
+    "name": "Mityana",
+    "slug": "mityana",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:mpigi",
+    "name": "Mpigi",
+    "slug": "mpigi",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:mubende",
+    "name": "Mubende",
+    "slug": "mubende",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:mukono",
+    "name": "Mukono",
+    "slug": "mukono",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:nakaseke",
+    "name": "Nakaseke",
+    "slug": "nakaseke",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:nakasongola",
+    "name": "Nakasongola",
+    "slug": "nakasongola",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:rakai",
+    "name": "Rakai",
+    "slug": "rakai",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:sembabule",
+    "name": "Sembabule",
+    "slug": "sembabule",
+    "aliases": [
+      "Ssembabule"
+    ],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  },
+  {
+    "id": "district:wakiso",
+    "name": "Wakiso",
+    "slug": "wakiso",
+    "aliases": [],
+    "level": "district",
+    "type": "district",
+    "parent_id": "region:central",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": null,
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts",
+      "src-molg-lg-list"
+    ],
+    "notes": null
+  }
+]

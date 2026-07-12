@@ -1,6 +1,15 @@
-dist/
 node_modules/
 *.log
+
+# dist/ is otherwise committed (compiled outputs, so non-technical users can
+# use the data straight from GitHub without running the build) except the
+# two files that are just heavier restatements of what's already in
+# dist/uganda-locations-full.csv and the smaller per-level JSON exports:
+# uganda-locations.json (~39MB, the full unified tree) and villages.json
+# (~33MB, the single biggest per-level export). Run `npm run build` for
+# either.
+dist/uganda-locations.json
+dist/villages.json
 
 # Large regenerable EC provenance artifacts: the source PDF is re-fetchable
 # from the URL cited in data/sources.json (src-ec-admin-units-2022), and the

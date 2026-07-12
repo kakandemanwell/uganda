@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.1] - 2026-07-12
+
+### Added
+- `dist/uganda-locations-full.csv` — full ancestry (region/district/county/
+  constituency/subcounty/parish/village), one row per village, 71,230 rows,
+  ~6.6MB, meant to be opened directly in Excel/Google Sheets by non-technical
+  users.
+- Committed most of `dist/` to the repo so the data is usable directly from
+  GitHub without running the build. Excluded the two files that are just
+  heavier restatements of what's already covered (`uganda-locations.json`,
+  ~39MB, and `villages.json`, ~33MB) — run `npm run build` for those.
+
 ## [0.3.0] - 2026-07-12
 
 ### Added

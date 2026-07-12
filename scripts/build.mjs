@@ -173,6 +173,43 @@ writeFileSync(
   writeCsv(["id", "district", "county", "subcounty", "confidence", "legacy_location_id", "legacy_code"], flatRows)
 );
 
+// ---- full-ancestry CSV, one row per village, for non-technical users ----
+// (region, district, county, constituency, subcounty, parish, village) —
+// meant to be opened directly in Excel/Google Sheets, not just consumed by
+// code. "constituency" is included as its own column per the two-fold
+// county+constituency model (see docs/DATA_QUALITY.md); blank county/
+// constituency for city/Kampala divisions, which don't have a county tier.
+const fullRows = [];
+let fullSeq = 1;
+for (const u of units) {
+  if (!VILLAGE_LEVELS.includes(u.level)) continue;
+  const parish = idOf.get(u.parent_id);
+  const subcounty = idOf.get(parish.parent_id);
+  const subcountyParent = idOf.get(subcounty.parent_id);
+  const county = subcountyParent?.level === "county" ? subcountyParent : null;
+  const districtId = ancestorDistrictId(subcounty);
+  const district = districtId ? idOf.get(districtId) : null;
+  const region = district?.region_id ? idOf.get(district.region_id) : null;
+  fullRows.push({
+    id: fullSeq++,
+    region: region ? region.name : "",
+    district: district ? district.name : "",
+    county: county ? county.name : "",
+    constituency: (subcounty.external_refs?.ec_constituencies || []).join(" / "),
+    subcounty: subcounty.name,
+    parish: parish.name,
+    village: u.name,
+    confidence: u.confidence,
+  });
+}
+writeFileSync(
+  path.join(DIST, "uganda-locations-full.csv"),
+  writeCsv(
+    ["id", "region", "district", "county", "constituency", "subcounty", "parish", "village", "confidence"],
+    fullRows
+  )
+);
+
 // ---- data quality report ----
 // Counties (EC-derived, 2022) only exist for rural districts — cities/KCCA
 // have divisions directly under them instead, per Uganda's Local Governments

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "city:arua",
+    "name": "Arua City",
+    "slug": "arua-city",
+    "level": "city",
+    "type": "city",
+    "parent_id": "district:arua",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": "2020-07-01",
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts"
+    ],
+    "notes": "Second-generation city; coexists with Arua District as separate LG unit"
+  },
+  {
+    "id": "city:gulu",
+    "name": "Gulu City",
+    "slug": "gulu-city",
+    "level": "city",
+    "type": "city",
+    "parent_id": "district:gulu",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": "2020-07-01",
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts"
+    ],
+    "notes": "Coexists with Gulu District as separate LG unit"
+  },
+  {
+    "id": "city:lira",
+    "name": "Lira City",
+    "slug": "lira-city",
+    "level": "city",
+    "type": "city",
+    "parent_id": "district:lira",
+    "region_id": "region:northern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": "2020-07-01",
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts"
+    ],
+    "notes": "Coexists with Lira District as separate LG unit"
+  },
+  {
+    "id": "city:soroti",
+    "name": "Soroti City",
+    "slug": "soroti-city",
+    "level": "city",
+    "type": "city",
+    "parent_id": "district:soroti",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": "2020-07-01",
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts"
+    ],
+    "notes": "Coexists with Soroti District as separate LG unit"
+  },
+  {
+    "id": "city:mbale",
+    "name": "Mbale City",
+    "slug": "mbale-city",
+    "level": "city",
+    "type": "city",
+    "parent_id": "district:mbale",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": "2020-07-01",
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts"
+    ],
+    "notes": "Coexists with Mbale District as separate LG unit"
+  },
+  {
+    "id": "city:jinja",
+    "name": "Jinja City",
+    "slug": "jinja-city",
+    "level": "city",
+    "type": "city",
+    "parent_id": "district:jinja",
+    "region_id": "region:eastern",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": "2020-07-01",
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts"
+    ],
+    "notes": "Coexists with Jinja District as separate LG unit"
+  },
+  {
+    "id": "city:hoima",
+    "name": "Hoima City",
+    "slug": "hoima-city",
+    "level": "city",
+    "type": "city",
+    "parent_id": "district:hoima",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": "2020-07-01",
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts"
+    ],
+    "notes": "Coexists with Hoima District as separate LG unit"
+  },
+  {
+    "id": "city:fort-portal",
+    "name": "Fort Portal City",
+    "slug": "fort-portal-city",
+    "level": "city",
+    "type": "city",
+    "parent_id": "district:kabarole",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": "2020-07-01",
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts"
+    ],
+    "notes": "Elevated from Fort Portal Municipal Council (Kabarole District)"
+  },
+  {
+    "id": "city:mbarara",
+    "name": "Mbarara City",
+    "slug": "mbarara-city",
+    "level": "city",
+    "type": "city",
+    "parent_id": "district:mbarara",
+    "region_id": "region:western",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": "2020-07-01",
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts"
+    ],
+    "notes": "Coexists with Mbarara District as separate LG unit"
+  },
+  {
+    "id": "city:masaka",
+    "name": "Masaka City",
+    "slug": "masaka-city",
+    "level": "city",
+    "type": "city",
+    "parent_id": "district:masaka",
+    "region_id": "region:central",
+    "status": "operational",
+    "confidence": "verified",
+    "effective_date": "2020-07-01",
+    "source_ids": [
+      "src-statoids-2026",
+      "src-wikipedia-districts"
+    ],
+    "notes": "Coexists with Masaka District as separate LG unit"
+  }
+]
