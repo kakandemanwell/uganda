@@ -88,11 +88,20 @@
 
 ## Phase 4 — serving mechanism (in progress)
 Decision made 2026-07-12: npm package + Vercel API, in that order.
-- [ ] npm package wrapping the compiled data for direct JS/TS consumption.
-      Given the dataset is ~84,500 records / ~30-40MB unified, ship
-      region→county→subcounty bundled by default (~1MB) and treat
-      parish/village as opt-in (separate export path and/or via the API
-      below) rather than bundling everything into every install.
+- [x] npm package (`src/index.mjs`, `package.json` `exports`/`files`)
+      wrapping the compiled data for direct JS/TS consumption. Bundles
+      region→district/city→county→subcounty/town_council/division by
+      default (~1.3MB); parish/ward/cell (~5MB more) is opt-in via
+      `uganda-locale/deep`. Village-level data (71,230 records, ~33MB as
+      JSON) is deliberately **not** bundled — too heavy for an npm
+      install; use `dist/uganda-locations-full.csv` or the API instead.
+      Verified with `npm pack --dry-run`: 795KB compressed / 7.1MB
+      unpacked, no stray files. `npm run test` runs a smoke test
+      (`scripts/smoke-test.mjs`) against known record counts.
+- [ ] Not yet published to the npm registry (`npm publish` is a public,
+      hard-to-reverse action — holding until explicitly confirmed, same
+      caution as the Vercel deploy below). Installable today via
+      `npm install github:kakandemanwell/uganda`.
 - [ ] Minimal Next.js app on Vercel exposing `/api/districts`,
       `/api/districts/:id/counties`, `/api/counties/:id/subcounties`, etc.,
       plus a simple cascading-dropdown demo and a search endpoint — "serve

@@ -1,0 +1,18 @@
+{
+  "name": "uganda-locale-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal Next.js app serving Uganda's administrative-unit data as a JSON API, plus a cascading-dropdown demo.",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "uganda-locale": "file:.."
+  }
+}

@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.5.0] - 2026-07-12
+
+### Added
+- `uganda-locale` npm package: `src/index.mjs` bundles
+  region→district/city→county→subcounty/town_council/division (~1.3MB) with
+  a small query API (`regions()`, `districts()`, `cities()`, `counties()`,
+  `subcounties()`, `getUnit()`, `getChildren()`, `getAncestors()`,
+  `search()`, `country()`, `dataQualityReport()`). `src/deep.mjs` is an
+  opt-in extension adding parish/ward/cell (~5MB more) without weighing
+  down the default import.
+- `package.json` `exports`/`files` fields so `npm pack` ships only the data
+  actually needed (795KB compressed, 7.1MB unpacked) — verified with
+  `npm pack --dry-run`, excludes the two large regenerable files as before.
+- `scripts/smoke-test.mjs` (`npm run test`): checks the public API against
+  known record counts (136 districts, 322 counties, etc.) before publishing.
+
+### Noted
+- Not yet published to the npm registry — `npm publish` is public and
+  effectively irreversible, so it's held pending explicit confirmation, same
+  as `vercel deploy` will be. Installable now via
+  `npm install github:kakandemanwell/uganda`.
+- Village-level data (71,230 records) is intentionally not bundled in the
+  package (~33MB as JSON) — use `dist/uganda-locations-full.csv` or the
+  planned API instead.
+
 ## [0.4.0] - 2026-07-12
 
 ### Added

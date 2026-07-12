@@ -1,13 +1,55 @@
 {
   "name": "uganda-locale",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": false,
   "description": "Open, versioned dataset and library of Uganda's administrative units — regions, districts, cities, counties, municipalities, subcounties, town councils, parishes, wards, villages, cells and zones.",
   "type": "module",
   "license": "SEE LICENSE-CODE.md AND LICENSE-DATA.md",
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs",
+    "./deep": "./src/deep.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "dist/regions.json",
+    "dist/districts.json",
+    "dist/citys.json",
+    "dist/countys.json",
+    "dist/subcountys.json",
+    "dist/town_councils.json",
+    "dist/divisions.json",
+    "dist/parishs.json",
+    "dist/wards.json",
+    "dist/cells.json",
+    "dist/data-quality-report.json",
+    "dist/country/uganda.json",
+    "dist/country/assets",
+    "LICENSE-CODE.md",
+    "LICENSE-DATA.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakandemanwell/uganda.git"
+  },
+  "homepage": "https://github.com/kakandemanwell/uganda",
+  "bugs": "https://github.com/kakandemanwell/uganda/issues",
+  "keywords": [
+    "uganda",
+    "administrative-divisions",
+    "districts",
+    "counties",
+    "subcounties",
+    "parishes",
+    "villages",
+    "geodata",
+    "locale"
+  ],
   "scripts": {
     "build": "node scripts/build.mjs",
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/smoke-test.mjs"
   },
   "engines": {
     "node": ">=18"

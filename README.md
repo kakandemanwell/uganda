@@ -80,6 +80,12 @@ live coverage report — regenerated every build, not hand-maintained.
 ## Repo layout
 
 ```
+src/
+  index.mjs              # npm package entry point (region..division)
+  deep.mjs                # opt-in: adds parish/ward/cell
+  store.mjs                # shared lazy-loading index over dist/*.json
+web/
+  # minimal Next.js app / API — see web/README.md
 data/
   regions.csv           # 4 regions
   districts.csv         # 136 districts + Kampala/KCCA, verified
@@ -117,8 +123,48 @@ village (71,230 rows), with region/district/county/constituency/subcounty/
 parish/village columns plus a confidence flag. That's the whole dataset in
 one file.
 
-**Writing code?** Most of `dist/` is committed too, so you can use the data
-straight from a clone/download without running anything:
+**Writing JS/TS?** (Package prepared but not yet published to the npm
+registry — install straight from GitHub for now, or `npm link` a local
+clone.)
+
+```bash
+npm install github:kakandemanwell/uganda
+```
+
+```js
+import * as uganda from "uganda-locale";
+
+uganda.regions();                              // 4 regions
+uganda.districts();                             // 136 districts (incl. Kampala)
+uganda.counties({ districtId: "district:mbarara" });
+uganda.subcounties({ parentId: "county:mbarara-kashari-north-county" });
+uganda.getAncestors("subcounty:hoima-buhanika"); // walk up to region
+uganda.search("kampala");                        // name/alias search
+uganda.country();                                // ISO codes, currency, flag paths, etc.
+```
+
+The default import bundles region → district/city → county/municipality →
+subcounty/town council/division (~1.3MB). Parish/ward/cell data (~5MB more)
+is opt-in, so plain installs stay light:
+
+```js
+import * as uganda from "uganda-locale/deep";
+
+uganda.parishes({ parentId: "subcounty:hoima-buhanika" });
+uganda.cells({ parentId: "parish:some-ward" }); // urban wards only
+```
+
+Rural village-level data (71,230 records, ~33MB as JSON) is **not** bundled
+in the npm package — use `dist/uganda-locations-full.csv` from this repo, or
+the API (below), instead. Every function returns plain objects shaped like
+[`schema/administrative-unit.schema.json`](schema/administrative-unit.schema.json).
+
+**Just want an HTTP API?** A minimal Next.js app in [`web/`](web/) exposes
+the same data as JSON endpoints — see its README for routes once deployed.
+
+**Writing in another language, or want the raw files directly?** Most of
+`dist/` is committed too, so you can use the data straight from a
+clone/download without running anything:
 - `uganda-locations-full.csv` — full ancestry, one row per village (~6.6MB)
 - `uganda-locations.csv` — flattened, loosely backward-compatible with the original `location.csv` shape
 - `regions.json`, `districts.json`, `citys.json`, `countys.json`, `subcountys.json`, `town_councils.json`, `divisions.json`, `parishs.json`, `wards.json`, `cells.json` — per-level exports
@@ -147,6 +193,8 @@ which regenerates all of `dist/` from `data/`.
 
 Early stage. Region through village is now verified for all (or nearly all)
 district-equivalent units, and the compiled data is usable directly from
-this repo (see "Using the data" above). See [`docs/ROADMAP.md`](docs/ROADMAP.md)
-for what's next — the zone/polling-station layer, and a packaged serving
-mechanism (npm/API), neither of which exist yet.
+this repo (see "Using the data" above) or via the `uganda-locale` package
+in this repo (not yet published to the npm registry — install from GitHub
+in the meantime: `npm install github:kakandemanwell/uganda`). See
+[`docs/ROADMAP.md`](docs/ROADMAP.md) for what's next — the zone/polling-station
+layer and the hosted Vercel API.
