@@ -60,6 +60,21 @@
 - [x] Made the full-CSV download the first thing in the README, above the
       fold, after an earlier pass had it buried below other sections.
 
+## Phase 2.6 — country metadata (done)
+- [x] Added `data/country/uganda.json` (ISO codes, currency, calling code,
+      capital, languages, timezone, driving side, demonym, motto,
+      independence date, borders, area) sourced from mledoze/countries
+      (downloaded and parsed with a script, not summarized, to avoid
+      truncation on the ~1.4MB source file) and cross-checked timezone/
+      driving-side against independent current sources.
+- [x] Added `data/country/assets/` — flag and coat-of-arms in SVG and PNG,
+      downloaded from Wikimedia Commons and visually verified (not just
+      trusted by filename) before use.
+- [x] Flagged a real licensing wrinkle: the coat of arms is CC BY-SA 3.0,
+      stricter than this project's default CC-BY 4.0 — documented as an
+      explicit exception in `LICENSE-DATA.md`, not glossed over.
+- [x] Wired into the build (`dist/country/`) and validator.
+
 ## Phase 3 — zone / polling-station layer (not started)
 - [ ] The EC's polling-station-level data (50,739 stations for the 2025/26
       elections) is a *separate* publication from the administrative-unit

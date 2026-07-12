@@ -44,6 +44,15 @@ Run `npm run build` to compile `data/` into `dist/`:
 | Village / Cell | 71,230 | **verified** — EC gazetteer, July 2022, all 146 district-equivalent units |
 | Zone | 0 | not yet ingested — EC polling-station data is a separate source from the admin-unit gazetteer, see [Roadmap](docs/ROADMAP.md) |
 
+Plus country-level metadata (`dist/country/uganda.json`): ISO codes,
+currency (UGX), calling code (+256), timezone (Africa/Kampala, UTC+3, no
+DST), driving side, capital, languages, and flag/coat-of-arms images in SVG
+and PNG (`dist/country/assets/`) — sourced from
+[mledoze/countries](https://github.com/mledoze/countries) and Wikimedia
+Commons, see `docs/DATA_QUALITY.md`. **Note:** the coat-of-arms image is
+CC BY-SA 3.0, not this project's default CC-BY 4.0 — see
+[`LICENSE-DATA.md`](LICENSE-DATA.md) before reusing it.
+
 Every record has a `confidence` (`verified` / `legacy` / `unverified`) and a
 `status` (`operational` / `pending` / ...) field. Consuming code should
 filter on `confidence` explicitly rather than assume completeness — the one
@@ -78,6 +87,9 @@ data/
   sources.json          # every source cited, with access date + what it was used/rejected for
   ec/
     administrative_units_ec2022.json   # EC-verified county->subcounty->parish->village, all 146 units
+  country/
+    uganda.json          # ISO codes, currency, calling code, timezone, etc.
+    assets/               # flag + coat of arms, SVG and PNG
   legacy/
     counties_2015_statoids.csv       # superseded by data/ec/; kept for provenance only, ~2015 vintage
     subcounties_legacy_source.csv    # the project's original location.csv, kept for reference (superseded by data/ec/)
@@ -85,6 +97,7 @@ data/
       ec/               # the EC PDF parser, validation logs, and regeneration instructions
 schema/
   administrative-unit.schema.json    # the record shape everything compiles to
+  country.schema.json                # the shape of data/country/uganda.json
 scripts/
   build.mjs                    # data/*.csv + data/ec/*.json -> dist/
   ingest-ec-admin-units.mjs    # parsed EC village data -> schema-shaped units
@@ -110,6 +123,7 @@ straight from a clone/download without running anything:
 - `uganda-locations.csv` — flattened, loosely backward-compatible with the original `location.csv` shape
 - `regions.json`, `districts.json`, `citys.json`, `countys.json`, `subcountys.json`, `town_councils.json`, `divisions.json`, `parishs.json`, `wards.json`, `cells.json` — per-level exports
 - `data-quality-report.json` — coverage/gaps, regenerated every build
+- `country/uganda.json` + `country/assets/` — country metadata and flag/coat-of-arms images
 
 Two files are **not** committed because they're just heavier restatements of
 the above (39MB and 33MB respectively, mostly redundant with the full CSV

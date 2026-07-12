@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.4.0] - 2026-07-12
+
+### Added
+- Country-level metadata (`data/country/uganda.json`): ISO 3166 codes,
+  currency (UGX), calling code (+256), capital, region/subregion,
+  languages, TLD, timezone (Africa/Kampala, UTC+3, no DST), driving side,
+  demonym, motto, independence date, area, borders, flag emoji. Sourced
+  from mledoze/countries (MIT licensed), cross-checked for timezone/
+  driving-side against independent sources.
+- Flag and coat-of-arms images (`data/country/assets/`), SVG and PNG,
+  from Wikimedia Commons, visually verified before use (not just trusted
+  by filename).
+- `schema/country.schema.json` and validation coverage in
+  `scripts/validate.mjs`.
+- Wired into the build: `dist/country/uganda.json` + `dist/country/assets/`.
+
+### Noted
+- The coat-of-arms file is CC BY-SA 3.0, not this project's default
+  CC-BY 4.0 — documented as an explicit exception in `LICENSE-DATA.md`
+  rather than silently blanket-licensed.
+
 ## [0.3.1] - 2026-07-12
 
 ### Added

@@ -1,0 +1,58 @@
+{
+  "name": {
+    "common": "Uganda",
+    "official": "Republic of Uganda",
+    "native": {
+      "eng": "Uganda",
+      "swa": "Uganda"
+    }
+  },
+  "iso": {
+    "alpha2": "UG",
+    "alpha3": "UGA",
+    "numeric": "800"
+  },
+  "capital": "Kampala",
+  "region": "Africa",
+  "subregion": "Eastern Africa",
+  "languages": {
+    "eng": "English",
+    "swa": "Swahili"
+  },
+  "currency": {
+    "code": "UGX",
+    "name": "Ugandan shilling",
+    "symbol": "Sh"
+  },
+  "calling_code": "+256",
+  "tld": [".ug"],
+  "timezone": {
+    "name": "Africa/Kampala",
+    "utc_offset": "+03:00",
+    "abbreviation": "EAT",
+    "dst_observed": false
+  },
+  "driving_side": "left",
+  "demonym": "Ugandan",
+  "motto": "For God and My Country",
+  "independence_date": "1962-10-09",
+  "un_member": true,
+  "landlocked": true,
+  "area_km2": 241550,
+  "borders": ["COD", "KEN", "RWA", "SSD", "TZA"],
+  "flag_emoji": "🇺🇬",
+  "assets": {
+    "flag_svg": "assets/flag.svg",
+    "flag_png": "assets/flag.png",
+    "coat_of_arms_svg": "assets/coat-of-arms.svg",
+    "coat_of_arms_png": "assets/coat-of-arms.png"
+  },
+  "confidence": "verified",
+  "source_ids": [
+    "src-mledoze-countries",
+    "src-wikimedia-flag-uganda",
+    "src-wikimedia-coa-uganda",
+    "src-timezone-drivingside-2026"
+  ],
+  "notes": "Coat of arms image (assets/coat-of-arms.svg, assets/coat-of-arms.png) is CC BY-SA 3.0, not this project's default CC-BY 4.0 data license — attribution + share-alike required for that specific file. See LICENSE-DATA.md and data/sources.json."
+}

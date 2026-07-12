@@ -3,7 +3,7 @@
 // Schema engine (kept dependency-free) — checks required fields, enums, and
 // referential integrity (parent_id / region_id must point at a real record).
 
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
@@ -17,6 +17,23 @@ let errors = 0;
 function fail(msg) {
   errors++;
   console.error(`✗ ${msg}`);
+}
+
+// ---- country metadata ----
+const countrySchema = JSON.parse(readFileSync(path.join(ROOT, "schema/country.schema.json"), "utf-8"));
+const country = JSON.parse(readFileSync(path.join(ROOT, "dist/country/uganda.json"), "utf-8"));
+for (const req of countrySchema.required) {
+  if (country[req] === undefined || country[req] === null || country[req] === "") {
+    fail(`country: missing required field '${req}'`);
+  }
+}
+if (!countrySchema.properties.confidence.enum.includes(country.confidence)) {
+  fail(`country: invalid confidence '${country.confidence}'`);
+}
+for (const [key, rel] of Object.entries(country.assets || {})) {
+  if (!existsSync(path.join(ROOT, "dist/country", rel))) {
+    fail(`country.assets.${key}: file '${rel}' does not exist in dist/country/`);
+  }
 }
 
 const seenIds = new Set();

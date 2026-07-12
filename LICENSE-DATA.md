@@ -21,3 +21,17 @@ attribution line:
 Individual upstream sources may carry their own attribution expectations
 (e.g. OCHA/HDX Common Operational Datasets); consult `data/sources.json` for
 the specific source(s) backing any given record via its `source_ids` field.
+
+## Exception: `data/country/assets/coat-of-arms.svg` and `coat-of-arms.png`
+
+These two files are **not** covered by the CC BY 4.0 license above. They are
+sourced from Wikimedia Commons under **CC BY-SA 3.0 Unported**, which is
+stricter: it requires both attribution *and* that derivative works using
+this specific file be shared under the same or a compatible license. See
+`data/sources.json` → `src-wikimedia-coa-uganda`.
+
+`data/country/assets/flag.svg` and `flag.png` are public domain (see
+`data/sources.json` → `src-wikimedia-flag-uganda`), but national symbols
+carry usage restrictions independent of copyright in many jurisdictions
+(e.g. rules against implying official government endorsement) — check your
+own jurisdiction's rules on flag/emblem use before using these in a product.

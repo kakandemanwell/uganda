@@ -7,7 +7,7 @@
 // they await reconciliation. Nothing here is silently upgraded to "verified" without
 // being cross-checked against 2+ independent current sources.
 
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, cpSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { parseCsvObjects, writeCsv } from "./lib/csv.mjs";
@@ -273,6 +273,14 @@ const report = {
   ec_admin_units_2022: "Verified county -> subcounty/town_council/division -> parish/ward -> village/cell for all 146 district-equivalent units, sourced from the EC's July 2022 gazetteer (county layer reconstructed from EC constituency names, cross-validated against independent research — see docs/DATA_QUALITY.md). See data/sources.json -> src-ec-admin-units-2022. Dated 2022-07; does not reflect any changes since.",
 };
 writeFileSync(path.join(DIST, "data-quality-report.json"), JSON.stringify(report, null, 2) + "\n");
+
+// ---- country metadata (currency, calling code, timezone, flag/coat-of-arms assets, etc.) ----
+mkdirSync(path.join(DIST, "country"), { recursive: true });
+writeFileSync(
+  path.join(DIST, "country", "uganda.json"),
+  readFileSync(path.join(DATA, "country/uganda.json"), "utf-8")
+);
+cpSync(path.join(DATA, "country/assets"), path.join(DIST, "country", "assets"), { recursive: true });
 
 console.log(`Built ${units.length} records -> dist/`);
 console.log(

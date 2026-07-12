@@ -96,6 +96,31 @@ the general rule:
   distinguish "structurally has no county tier" from "actually missing
   data," which is worth tightening if it causes confusion.
 
+**Country-level metadata** (`data/country/uganda.json`) — ISO 3166 codes,
+currency (UGX), calling code (+256), capital, region/subregion, official
+languages, TLD, timezone, driving side, demonym, motto, independence date,
+area, and bordering countries. Sourced from
+[mledoze/countries](https://github.com/mledoze/countries) (a widely-used,
+MIT-licensed, community-maintained dataset — downloaded and parsed with a
+script rather than trusted via a truncated summarizer pass, since the raw
+file is ~1.4MB) and cross-checked for timezone/driving-side specifically
+against several independent current sources. These are long-stable,
+low-ambiguity facts (ISO codes and calling codes essentially never change
+retroactively), so the verification bar here is lower-effort than the
+administrative-unit data but the same discipline applies: nothing pulled
+from memory without a citable source.
+
+**Flag and coat of arms** (`data/country/assets/`) — downloaded from
+Wikimedia Commons and **visually verified** (not just trusted by filename)
+before use: the flag's black/yellow/red bands and grey crowned crane, and
+the coat of arms' kob antelope and crested crane supporters with the "FOR
+GOD AND MY COUNTRY" motto banner, both checked against the rendered image.
+Licensing differs between the two files — see `LICENSE-DATA.md` before
+reusing either: the flag is public domain (with an independent
+insignia-use caveat), the coat of arms is CC BY-SA 3.0 (attribution +
+share-alike required), which is stricter than this project's default
+CC-BY 4.0 data license.
+
 ## Explicitly not verified / not included
 
 **New town councils and district splits reported ahead of the 2026

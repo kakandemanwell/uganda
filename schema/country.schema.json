@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/uganda-locale/uganda-locale/schema/country.schema.json",
+  "title": "Country",
+  "description": "Standard country-level metadata (ISO codes, currency, calling code, timezone, branding assets, etc.) for Uganda.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "iso", "capital", "region", "currency", "calling_code", "flag_emoji", "confidence", "source_ids"],
+  "properties": {
+    "name": {
+      "type": "object",
+      "properties": {
+        "common": { "type": "string" },
+        "official": { "type": "string" },
+        "native": {
+          "type": "object",
+          "description": "Name in each official language, keyed by ISO 639-3 code.",
+          "additionalProperties": { "type": "string" }
+        }
+      },
+      "required": ["common", "official"]
+    },
+    "iso": {
+      "type": "object",
+      "description": "ISO 3166-1 codes.",
+      "properties": {
+        "alpha2": { "type": "string", "pattern": "^[A-Z]{2}$" },
+        "alpha3": { "type": "string", "pattern": "^[A-Z]{3}$" },
+        "numeric": { "type": "string", "pattern": "^[0-9]{3}$" }
+      },
+      "required": ["alpha2", "alpha3", "numeric"]
+    },
+    "capital": { "type": "string" },
+    "region": { "type": "string" },
+    "subregion": { "type": "string" },
+    "languages": {
+      "type": "object",
+      "description": "Official languages, keyed by ISO 639-3 code -> English name.",
+      "additionalProperties": { "type": "string" }
+    },
+    "currency": {
+      "type": "object",
+      "properties": {
+        "code": { "type": "string", "pattern": "^[A-Z]{3}$", "description": "ISO 4217 code." },
+        "name": { "type": "string" },
+        "symbol": { "type": "string" }
+      },
+      "required": ["code", "name", "symbol"]
+    },
+    "calling_code": { "type": "string", "pattern": "^\\+[0-9]+$" },
+    "tld": { "type": "array", "items": { "type": "string" } },
+    "timezone": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "IANA timezone name." },
+        "utc_offset": { "type": "string" },
+        "abbreviation": { "type": "string" },
+        "dst_observed": { "type": "boolean" }
+      },
+      "required": ["name", "utc_offset", "abbreviation", "dst_observed"]
+    },
+    "driving_side": { "type": "string", "enum": ["left", "right"] },
+    "demonym": { "type": "string" },
+    "motto": { "type": "string" },
+    "independence_date": { "type": "string", "format": "date" },
+    "un_member": { "type": "boolean" },
+    "landlocked": { "type": "boolean" },
+    "area_km2": { "type": "number" },
+    "borders": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[A-Z]{3}$" },
+      "description": "ISO alpha-3 codes of bordering countries."
+    },
+    "flag_emoji": { "type": "string" },
+    "assets": {
+      "type": "object",
+      "description": "Relative paths (from data/country/) to branding image files.",
+      "properties": {
+        "flag_svg": { "type": "string" },
+        "flag_png": { "type": "string" },
+        "coat_of_arms_svg": { "type": "string" },
+        "coat_of_arms_png": { "type": "string" }
+      }
+    },
+    "confidence": { "type": "string", "enum": ["verified", "legacy", "unverified"] },
+    "source_ids": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": ["string", "null"] }
+  }
+}

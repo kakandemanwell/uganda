@@ -1,5 +1,37 @@
 [
   {
+    "id": "src-mledoze-countries",
+    "title": "mledoze/countries",
+    "publisher": "GitHub (community-maintained, MIT licensed)",
+    "url": "https://github.com/mledoze/countries/blob/master/countries.json",
+    "accessed": "2026-07-12",
+    "note": "Widely-used, MIT-licensed country metadata dataset (backs many published npm country-data packages). Downloaded the full countries.json directly and extracted Uganda's entry (cca2=UG) with a script, not a summarizer, to avoid truncation (the file is ~1.4MB; an initial WebFetch attempt got cut off before reaching entries starting with 'U'). Source for name/ISO codes/currency/calling code/capital/region/languages/tld/borders/area/demonyms/flag emoji in data/country/uganda.json."
+  },
+  {
+    "id": "src-wikimedia-flag-uganda",
+    "title": "File:Flag_of_Uganda.svg",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Uganda.svg",
+    "accessed": "2026-07-12",
+    "note": "Downloaded via the Special:FilePath redirect and visually verified (black/yellow/red bands, grey crowned crane) before use. Public domain per Commons' file page: ineligible for copyright (simple geometric/national symbol) and expired under Uganda's Copyright and Neighbouring Rights Act 2004's non-retrospective provision. Carries a standard 'insignia' usage caveat: national symbol use is independently restricted in many countries regardless of copyright status. Stored at data/country/assets/flag.svg and flag.png (960x640 raster render)."
+  },
+  {
+    "id": "src-wikimedia-coa-uganda",
+    "title": "File:Coat_of_arms_of_Uganda.svg",
+    "publisher": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Uganda.svg",
+    "accessed": "2026-07-12",
+    "note": "Downloaded via the Special:FilePath redirect and visually verified (kob antelope + crested crane supporters, sun, drum, spears, 'FOR GOD AND MY COUNTRY' motto banner) before use. Licensed CC BY-SA 3.0 Unported — attribution and share-alike required, which is STRICTER than this project's default CC-BY 4.0 data license (see LICENSE-DATA.md). Stored at data/country/assets/coat-of-arms.svg and coat-of-arms.png (960x1029 raster render)."
+  },
+  {
+    "id": "src-timezone-drivingside-2026",
+    "title": "Web search: Uganda time zone and driving side",
+    "publisher": "Aggregated from timeanddate.com, Wikipedia (Time in Uganda), and driving-in-Uganda travel guides",
+    "url": "",
+    "accessed": "2026-07-12",
+    "note": "Confirmed Uganda observes East Africa Time (EAT, UTC+03:00) year-round with no DST, and drives on the left (former British colony convention). Both are extremely stable, long-established facts, cross-checked across multiple independent results rather than a single source."
+  },
+  {
     "id": "src-statoids-2026",
     "title": "Statoids: Districts in Uganda",
     "publisher": "statoids.org",
