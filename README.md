@@ -8,6 +8,14 @@ existed for software integration (form dropdowns, address validation,
 reporting, etc.), and Uganda's units change often enough that hand-maintained
 copies go stale fast.
 
+> **Just want the data, not the code?** Download
+> **[`dist/uganda-locations-full.csv`](dist/uganda-locations-full.csv)**
+> and open it in Excel or Google Sheets — one row per village (71,230 rows),
+> with region/district/county/constituency/subcounty/parish/village columns.
+> That's the whole dataset in one file. (On the file's GitHub page, use the
+> download/raw button to save it directly — GitHub doesn't fully render a
+> spreadsheet preview for a file this size.)
+
 ## Why this exists
 
 Uganda's Electoral Commission is the most tactically complete government body
@@ -123,8 +131,8 @@ which regenerates all of `dist/` from `data/`.
 
 ## Status
 
-Early stage, local-only (not yet pushed to GitHub). Region through village
-is now verified for all (or nearly all) district-equivalent units. See
-[`docs/ROADMAP.md`](docs/ROADMAP.md) for what's next — the zone/
-polling-station layer, and a packaged serving mechanism (npm/API), neither
-of which exist yet.
+Early stage. Region through village is now verified for all (or nearly all)
+district-equivalent units, and the compiled data is usable directly from
+this repo (see "Using the data" above). See [`docs/ROADMAP.md`](docs/ROADMAP.md)
+for what's next — the zone/polling-station layer, and a packaged serving
+mechanism (npm/API), neither of which exist yet.
