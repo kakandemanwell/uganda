@@ -49,7 +49,18 @@
       councils and any Tororo-area district/city split before adding them —
       do not merge the unverified news summary in as fact.
 
-## Phase 3 — zone / polling-station layer
+## Phase 2.5 — publish (done)
+- [x] Pushed to GitHub: [github.com/kakandemanwell/uganda](https://github.com/kakandemanwell/uganda).
+- [x] Committed most of `dist/` (~13MB) so the data is usable directly from
+      the repo without running the build, including
+      `dist/uganda-locations-full.csv` (one row per village, full ancestry,
+      6.6MB) specifically for non-technical users to open in Excel/Sheets.
+      Excluded only the two files that just restate the same data more
+      heavily (`uganda-locations.json` ~39MB, `villages.json` ~33MB).
+- [x] Made the full-CSV download the first thing in the README, above the
+      fold, after an earlier pass had it buried below other sections.
+
+## Phase 3 — zone / polling-station layer (not started)
 - [ ] The EC's polling-station-level data (50,739 stations for the 2025/26
       elections) is a *separate* publication from the administrative-unit
       gazetteer used in Phase 1 — locate and evaluate it the same way (check
@@ -60,19 +71,22 @@
       pipeline and land it district-by-district, each verified against the
       source before being marked `confidence: verified`.
 
-## Phase 4 — serving mechanism
-- [ ] Publish this repo to GitHub (held back per user's request until the
-      data above is reviewed).
-- [ ] npm package wrapping `dist/uganda-locations.json` for direct
-      JS/TS consumption. Given the dataset is now ~84,500 records / ~30-40MB,
-      consider shipping per-level or per-district lazy-loadable chunks rather
-      than one monolithic JSON.
+## Phase 4 — serving mechanism (in progress)
+Decision made 2026-07-12: npm package + Vercel API, in that order.
+- [ ] npm package wrapping the compiled data for direct JS/TS consumption.
+      Given the dataset is ~84,500 records / ~30-40MB unified, ship
+      region→county→subcounty bundled by default (~1MB) and treat
+      parish/village as opt-in (separate export path and/or via the API
+      below) rather than bundling everything into every install.
 - [ ] Minimal Next.js app on Vercel exposing `/api/districts`,
-      `/api/districts/:id/subcounties`, etc., plus a simple search UI —
-      "serve the website forever" per the original ask. Deploy only with
-      explicit go-ahead, since it's a public, shared action.
-- [ ] Consider a Python package mirroring the same `dist/` JSON for
-      non-JS consumers.
+      `/api/districts/:id/counties`, `/api/counties/:id/subcounties`, etc.,
+      plus a simple cascading-dropdown demo and a search endpoint — "serve
+      the website forever" per the original ask. Build and test locally
+      first; hold off on the actual `vercel deploy` (creates a public URL
+      under the user's account) until explicitly confirmed, same as the
+      GitHub push was.
+- [ ] Consider a Python package mirroring the same data for non-JS
+      consumers, after the JS one is working.
 
 ## Explicitly out of scope for now
 - Geometries/shapefiles — this project is name/hierarchy-focused; GIS
