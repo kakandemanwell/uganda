@@ -1,0 +1,5 @@
+id,name,slug,status,notes
+region:central,Central,central,operational,Includes Kampala Capital City (KCCA)
+region:eastern,Eastern,eastern,operational,
+region:northern,Northern,northern,operational,Includes Karamoja sub-region
+region:western,Western,western,operational,

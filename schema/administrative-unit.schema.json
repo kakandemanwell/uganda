@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/uganda-locale/uganda-locale/schema/administrative-unit.schema.json",
+  "title": "AdministrativeUnit",
+  "description": "A single node in Uganda's administrative hierarchy (region, district, city, county, municipality, subcounty, town council, division, parish, ward, village, cell, or zone).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "slug", "level", "type", "status", "confidence"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable identifier, formatted as 'level:slug' (e.g. 'district:kampala'). Safe to persist as a foreign key in external systems.",
+      "pattern": "^[a-z_]+:[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Canonical display name."
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL/lookup-safe lowercase-hyphenated form of name."
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Alternate spellings or former names (e.g. 'Ssembabule' for 'Sembabule')."
+    },
+    "level": {
+      "type": "string",
+      "enum": ["region", "district", "city", "county", "municipality", "constituency", "subcounty", "town_council", "division", "parish", "ward", "village", "cell", "zone"],
+      "description": "Which tier of the hierarchy this record occupies."
+    },
+    "type": {
+      "type": "string",
+      "description": "Sub-classification within a level, e.g. a 'district'-level record may have type 'district' or 'capital_city' (Kampala — note this describes the unit itself, not its governing authority; KCCA is the authority that administers the capital_city unit, analogous to how a District Local Government administers an ordinary district); a 'county'-level record may have type 'county' or 'municipality'."
+    },
+    "parent_id": {
+      "type": ["string", "null"],
+      "description": "id of the containing unit one level up. Null only for level=region."
+    },
+    "region_id": {
+      "type": ["string", "null"],
+      "description": "Denormalized pointer to the top-level region, for fast filtering regardless of depth."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["operational", "pending", "proposed", "merged", "renamed", "defunct"],
+      "description": "Lifecycle status. Only 'operational' units should be treated as ground truth by consuming applications by default."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["verified", "legacy", "unverified"],
+      "description": "verified = cross-checked against 2+ current independent sources. legacy = imported from a dated source and not yet reconciled to the current structure. unverified = present but not yet source-checked at all."
+    },
+    "effective_date": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Date the unit became operational, if known."
+    },
+    "source_ids": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "References into data/sources.json."
+    },
+    "notes": {
+      "type": ["string", "null"]
+    },
+    "external_refs": {
+      "type": "object",
+      "description": "Arbitrary identifiers/codes carried over from a source dataset (e.g. a legacy numeric id or code), preserved for traceability and backward compatibility with older integrations.",
+      "additionalProperties": true
+    }
+  }
+}

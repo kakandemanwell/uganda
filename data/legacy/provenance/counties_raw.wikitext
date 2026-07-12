@@ -1,0 +1,530 @@
+{{Short description|Third level of division of Uganda}}
+{{Politics of Uganda}}
+[[File:Uganda counties.png|thumb|400px|Counties of Uganda]]
+The [[Districts of Uganda|districts]] of [[Uganda]] are divided into 167 [[county|counties]], 1 city council, and 23 [[municipality|municipal councils]]. Counties are divided into [[Sub-counties of Uganda|sub-counties]].<ref name="Districts">[http://www.statoids.com/uug.html Districts of Uganda, ''Statoids'', accessed 3 August 2015]</ref> The counties are listed below, by district:<ref>[http://www.statoids.com/yug.html Counties of Uganda, ''Statoids'', accessed 3 August 2015]</ref><ref name="Districts"/>
+
+==List==
+{|class="wikitable sortable"
+!County!!District
+|-
+|[[Labwor County]]
+|[[Abim District]]
+|-
+|[[East Moyo County]]
+|[[Adjumani District]]
+|-
+|[[Agago County]]
+|[[Agago District]]
+|-
+|[[Ajuri County]]
+| rowspan="2" |[[Alebtong District]]
+|-
+|[[Moroto County]]
+|-
+|[[Kioga County]]
+|[[Amolatar District]]
+|-
+|[[Upe County]]
+|[[Amudat District]]
+|-
+|[[Amuria County]]
+| rowspan="2" |[[Amuria District]]
+|-
+|[[Kapelebyong County]]
+|-
+|[[Kilak County]]
+|[[Amuru District]]
+|-
+|[[Kwania County]]
+| rowspan="2" |[[Apac District]]
+|-
+|[[Maruzi County]]
+|-
+|[[Arua|Arua Municipal Council]]
+| rowspan="5" |[[Arua District]]
+|-
+|[[Ayivu County]]
+|-
+|[[Madi-Okollo County]]
+|-
+|[[Terego County]]
+|-
+|[[Vurra County]]
+|-
+|[[Budaka County]]
+| rowspan="2" |[[Budaka District]]
+|-
+|[[Iki-Iki County]]
+|-
+|[[Manjiya County]]
+|[[Bududa District]]
+|-
+|[[Bukooli County]]
+|[[Bugiri District]]
+|-
+|[[Buhweju County]]
+|[[Buhweju District]]
+|-
+|[[Buikwe County]]
+|[[Buikwe District]]
+|-
+|[[Bukedea County]]
+|[[Bukedea District]]
+|-
+|[[Bukomansimbi County]]
+|[[Bukomansimbi District]]
+|-
+|[[Kongasis County]]
+|[[Bukwo District]]
+|-
+|[[Bulambuli County]]
+|[[Bulambuli District]]
+|-
+|[[Buliisa County]]
+|[[Buliisa District]]
+|-
+|[[Bughendera County]]
+| rowspan="2" |[[Bundibugyo District]]
+|-
+|[[Bwamba County]]
+|-
+|[[Bushenyi-Ishaka|Bushenyi-Ishaka Municipal Council]]
+| rowspan="2" |[[Bushenyi District]]
+|-
+|[[Igara County]]
+|-
+|[[Busia, Uganda|Busia Municipal Council]]
+| rowspan="2" |[[Busia District, Uganda|Busia District]]
+|-
+|[[Samia-Bugwe County]]
+|-
+|[[Bunyole County]]
+|[[Butaleja District]]
+|-
+|[[Butambala County]]
+|[[Butambala District]]
+|-
+|[[Buvuma Islands County]]
+|[[Buvuma District]]
+|-
+|[[Budiope East County]]
+| rowspan="2" |[[Buyende District]]
+|-
+|[[Budiope West County]]
+|-
+|[[Dokolo County]]
+|[[Dokolo District]]
+|-
+|[[Gomba County]]
+|[[Gomba District]]
+|-
+|[[Aswa County]]
+| rowspan="3" |[[Gulu District]]
+|-
+|[[Gulu|Gulu Municipal Council]]
+|-
+|[[Omoro County]]
+|-
+|[[Bugahya County]]
+| rowspan="3" |[[Hoima District]]
+|-
+|[[Buhaguzi County]]
+|-
+|[[Hoima|Hoima Municipal Council]]
+|-
+|[[Ibanda County]]
+|[[Ibanda District]]
+|-
+|[[Bugweri County]]
+| rowspan="3" |[[Iganga District]]
+|-
+|[[Iganga|Iganga Municipal Council]]
+|-
+|[[Kigulu County]]
+|-
+|[[Bukanga County]]
+| rowspan="2" |[[Isingiro District]]
+|-
+|[[Isingiro County]]
+|-
+|[[Butembe County]]
+| rowspan="3" |[[Jinja District]]
+|-
+|[[Jinja, Uganda|Jinja Municipal Council]]
+|-
+|[[Kagoma County]]
+|-
+|[[Dodoth East County]]
+| rowspan="2" |[[Kaabong District]]
+|-
+|[[Dodoth West County]]
+|-
+|[[Kabale|Kabale Municipal Council]]
+| rowspan="4" |[[Kabale District]]
+|-
+|[[Ndorwa County]]
+|-
+|[[Rubanda County]]
+|-
+|[[Rukiga County]]
+|-
+|[[Bunyangabu County]]
+| rowspan="4" |[[Kabarole District]]
+|-
+|[[Burahya County]]
+|-
+|[[Fort Portal|Fort Portal Municipal Council]]
+|-
+|[[Nakasongola County]]
+|-
+|[[Kaberamaido County]]
+| rowspan="2" |[[Kaberamaido District]]
+|-
+|[[Kalaki County]]
+|-
+|[[Bujumba County]]
+| rowspan="2" |[[Kalangala District]]
+|-
+|[[Kyamuswa County]]
+|-
+|[[Bulamogi County]]
+|[[Kaliro District]]
+|-
+|[[Kalungu County]]
+|[[Kalungu District]]
+|-
+|[[Kampala|Kampala Capital City]]
+|[[Kampala District]]
+|-
+|[[Bugabula County]]
+| rowspan="2" |[[Kamuli District]]
+|-
+|[[Buzaaya County]]
+|-
+|[[Kibale County]]
+| rowspan="2" |[[Kamwenge District]]
+|-
+|[[Kitagwenda County]]
+|-
+|[[Kinkiizi County]]
+|[[Kanungu District]]
+|-
+|[[Tingey County]]
+|[[Kapchorwa District]]
+|-
+|[[Bukonzo County]]
+| rowspan="3" |[[Kasese District]]
+|-
+|[[Busongora County]]
+|-
+|[[Kasese|Kasese Municipal Council]]
+|-
+|[[Toroma County]]
+| rowspan="2" |[[Katakwi District]]
+|-
+|[[Usuk County]]
+|-
+|[[Bbaale County]]
+| rowspan="2" |[[Kayunga District]]
+|-
+|[[Ntenjeru County]]
+|-
+|[[Bugangaizi County]]
+| rowspan="5" |[[Kibaale District]]
+|-
+|[[Bugangaizi East County]]
+|-
+|[[Buyaga County]]
+|-
+|[[Buyaga West County]]
+|-
+|[[Buyanja County]]
+|-
+|[[Kiboga East County]]
+|[[Kiboga District]]
+|-
+|[[Kibuku County]]
+|[[Kibuku District]]
+|-
+|[[Kazo County]]
+| rowspan="2" |[[Kiruhura District]]
+|-
+|[[Nyabushozi County]]
+|-
+|[[Kibanda County]]
+|[[Kiryandongo District]]
+|-
+|[[Bufumbira County Easts]]
+| rowspan="3" |[[Kisoro District]]
+|-
+|[[Bufumbira County North]]
+|-
+|[[Kisoro|Bufumbira County South]]
+|-
+|[[Chua County]]
+|[[Kitgum District]]
+|-
+|[[Koboko County]]
+|[[Koboko District]]
+|-
+|[[Kole County]]
+|[[Kole District]]
+|-
+|[[Jie County]]
+|[[Kotido District]]
+|-
+|[[Kumi County]]
+|[[Kumi District]]
+|-
+|[[Kween County]]
+|[[Kween District]]
+|-
+|[[Kiboga West County]]
+|[[Kyankwanzi District]]
+|-
+|[[Kyaka County]]
+|[[Kyegegwa District]]
+|-
+|[[Mwenge County]]
+|[[Kyenjojo District]]
+|-
+|[[Lamwo County]]
+|[[Lamwo District]]
+|-
+|[[Erute County]]
+| rowspan="2" |[[Lira District]]
+|-
+|[[Lira, Uganda|Lira Municipal Council]]
+|-
+|[[Luuka County]]
+|[[Luuka District]]
+|-
+|[[Bamunanika County]]
+| rowspan="2" |[[Luweero District]]
+|-
+|[[Katikamu County]]
+|-
+|[[Bukoto County]]
+|[[Lwengo District]]
+|-
+|[[Kabula County]]
+|[[Lyantonde District]]
+|-
+|[[Bubulo County]]
+|[[Manafwa District]]
+|-
+|[[Maracha County]]
+|[[Maracha District]] 
+|-
+|[[Bukoto Central County]]
+| rowspan="3" |[[Masaka District]]
+|-
+|[[Bukoto East County]]
+|-
+|[[Masaka|Masaka Municipal Council]]
+|-
+|[[Bujenje County]]
+| rowspan="3" |[[Masindi District]]
+|-
+|[[Buruuli County]]
+|-
+|[[Masindi|Masindi Municipal Council]]
+|-
+|[[Bunya County]]
+|[[Mayuge District]]
+|-
+|[[Bungokho County]]
+| rowspan="2" |[[Mbale District]]
+|-
+|[[Mbale|Mbale Municipal Council]]
+|-
+|[[Kashari County]]
+| rowspan="3" |[[Mbarara District]]
+|-
+|[[Mbarara|Mbarara Municipal Council]]
+|-
+|[[Rwampara County]]
+|-
+|[[Ruhinda County]]
+|[[Mitooma District]]
+|-
+|[[Busujju County]]
+| rowspan="2" |[[Mityana District]]
+|-
+|[[Mityana County]]
+|-
+|[[Matheniko County]]
+| rowspan="2" |[[Moroto District]]
+|-
+|[[Moroto Town|Moroto Municipal Council]]
+|-
+|[[Obongi County]]
+| rowspan="2" |[[Moyo District]]
+|-
+|[[West Moyo County]]
+|-
+|[[Mawokota County]]
+|[[Mpigi District]]
+|-
+|[[Buwekula County]]
+| rowspan="3" |[[Mubende District]]
+|-
+|[[Kasambya County]]
+|-
+|[[Kassanda County]]
+|-
+|[[Mukono County]]
+| rowspan="2" |[[Mukono District]]
+|-
+|[[Mukono|Mukono Municipal Council]]
+|-
+|[[Ik County]]
+|[[Kaabong District]]
+|-
+|[[Nakifuma Council]]
+|[[Mukono District]]
+|-
+|[[Chekwii (Kadam) County]]
+| rowspan="2" |[[Nakapiripirit District]]
+|-
+|[[Pian County]]
+|-
+|[[Nakaseke North County]]
+| rowspan="2" |[[Nakaseke District]]
+|-
+|[[Nakaseke South County]]
+|-
+|[[Budyebo County]]
+| rowspan="2" |[[Nakasongola District]]
+|-
+|[[Nakasongola County]]
+|-
+|[[Bukooli Island County]]
+| rowspan="2" |[[Namayingo District]]
+|-
+|[[Bukooli South County]]
+|-
+|[[Busiki County]]
+|[[Namutumba District]]
+|-
+|[[Bokora County]]
+|[[Napak District]]
+|-
+|[[Jonam County]]
+| rowspan="2" |[[Nebbi District]]
+|-
+|[[Padyere County]]
+|-
+|[[Ngora County]]
+|[[Ngora District]]
+|-
+|[[Ntoroko County]]
+|[[Ntoroko District]]
+|-
+|[[Kajara County]]
+| rowspan="4" |[[Ntungamo District]]
+|-
+|[[Ntungamo|Ntungamo Municipal Council]]
+|-
+|[[Ruhaama County]]
+|-
+|[[Rushenyi County]]
+|-
+|[[Nwoya County]]
+|[[Nwoya District]]
+|-
+|[[Otuke County]]
+|[[Otuke District]]
+|-
+|[[Oyam County]]
+|[[Oyam District]]
+|-
+|[[Aruu County]]
+|[[Pader District]]
+|-
+|[[Agule County]]
+| rowspan="3" |[[Pallisa District]]
+|-
+|[[Butebo County]]
+|-
+|[[Pallisa County]]
+|-
+|[[Kakuuto County]]
+| rowspan="3" |[[Rakai District]]
+|-
+|[[Kooki County]]
+|-
+|[[Kyotera County]]
+|-
+|[[Bunyaruguru County]]
+| rowspan="2" |[[Rubirizi District]]
+|-
+|[[Katerera County]]
+|-
+|[[Rubabo County]]
+| rowspan="3" |[[Rukungiri District]]
+|-
+|[[Rujumbura County]]
+|-
+|[[Rukungiri|Rukungiri Municipal Council]]
+|-
+|[[Lwemiyaga County]]
+| rowspan="2" |[[Sembabule District]]
+|-
+|[[Mawogola County]]
+|-
+|[[Kasilo County]]
+| rowspan="2" |[[Serere District]]
+|-
+|[[Serere County]]
+|-
+|[[Sheema County]]
+|[[Sheema District]]
+|-
+|[[Budadiri County]]
+|[[Sironko District]]
+|-
+|[[Soroti County]]
+| rowspan="2" |[[Soroti District]]
+|-
+|[[Soroti|Soroti Municipal Council]]
+|-
+|[[Tororo County]]
+| rowspan="3" |[[Tororo District]]
+|-
+|[[Tororo|Tororo Municipal Council]]
+|-
+|[[West Budama County]]
+|-
+|[[Busiro County]]
+| rowspan="3" |[[Wakiso District]]
+|-
+|[[Entebbe|Entebbe Municipal Council]]
+|-
+|[[Kyadondo County]]
+|-
+|[[Aringa County]]
+|[[Yumbe District]]
+|-
+|[[Okoro County]]
+|[[Zombo District]]
+|}
+
+==See also==
+* [[Regions of Uganda]]
+* [[Districts of Uganda]]
+* [[Sub-counties of Uganda]]
+* [[Uganda Local Governments Association]]
+
+==References==
+{{Reflist}}
+
+{{Uganda topics}}
+{{Articles on second-level administrative divisions of African countries}}
+
+{{DEFAULTSORT:Counties Of Uganda}}
+[[Category:Counties of Uganda| ]]
+[[Category:Subdivisions of Uganda]]
+[[Category:Lists of administrative divisions|Uganda, Counties]]
+[[Category:Administrative divisions in Africa|Uganda 2]]
+[[Category:Second-level administrative divisions by country|Counties, Uganda]]

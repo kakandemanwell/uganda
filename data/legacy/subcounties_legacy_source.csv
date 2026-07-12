@@ -1,0 +1,1373 @@
+id,district,county,subcounty,location_id,code
+1,buikwe,buikwe,buikwe,1419,VJvmAQENPbr7
+2,buikwe,buikwe,buikwe town council,1420,fYNhAMG4S28h
+3,buikwe,buikwe,kawolo,1421,YYu9HtTFqm7X
+4,buikwe,buikwe,lugazi town council,1422,1VbV2PkzjOcu
+5,buikwe,buikwe,najja,1423,C6KHylR72XPk
+6,buikwe,buikwe,najjembe,1424,ytOfQNZodOLL
+7,buikwe,buikwe,ngogwe,1425,Y94PiYvPfAIF
+8,buikwe,buikwe,njeru town council,1426,pT6NVTPyXlir
+9,buikwe,buikwe,nkokonjeru town council,1427,VI7Y2NV4zzYN
+10,buikwe,buikwe,nyenga,1428,TVz5Dpw0nryi
+11,buikwe,buikwe,ssi bukunja,1429,VI7m96xVByT8
+12,buikwe,buikwe,wakisi,1430,a92pGcN9Ftgz
+13,bukomansimbi,bukomansimbi,bigasa,273,gCNSCRmNEMhP
+14,bukomansimbi,bukomansimbi,bukomasimbi town council,274,SFWkDh6NQcFN
+15,bukomansimbi,bukomansimbi,butenga,275,Q7Nx70A50m7A
+16,bukomansimbi,bukomansimbi,kibinge,276,Rhu1V7WtQyjs
+17,bukomansimbi,bukomansimbi,kitanda,277,wb9zniXgC1jE
+18,butambala,butambala,budde,360,hbguRIXWcRRe
+19,butambala,butambala,bulo,361,QMyrG6jABEIt
+20,butambala,butambala,gombe town council,362,wUCXEQEOeVxN
+21,butambala,butambala,kalamba,363,M09Jqpyb9aiz
+22,butambala,butambala,kibibi,364,0ldDzZnN6XOE
+23,butambala,butambala,ngando,365,gK0PvZhQzyDW
+24,buvuma,buvuma islands,bugaya,366,gUsj5ZI1PJGG
+25,buvuma,buvuma islands,busamuzi,367,rYpsbW51fqfS
+26,buvuma,buvuma islands,buvuma town council,368,wmWSK0s57gLK
+27,buvuma,buvuma islands,buwooya,0,0
+28,buvuma,buvuma islands,bweema,369,ACjbBO6eXggE
+29,buvuma,buvuma islands,lubya,0,0
+30,buvuma,buvuma islands,lwajje,0,0
+31,buvuma,buvuma islands,lyabaana,0,0
+32,buvuma,buvuma islands,nairambi,370,3BvNtkk4QsJS
+33,gomba,gomba,kabulasoke,389,vlYYD5a5RIEp
+34,gomba,gomba,kanoni town council,388,4XuViXC5NPDB
+35,gomba,gomba,kyegonza,390,b673SWd60YJv
+36,gomba,gomba,maddu,391,zUd1fK2SS1Ua
+37,gomba,gomba,mpenja,392,C2osYmkLrVil
+38,kalangala,bujumba,bujumba,562,x5YcLobryysN
+39,kalangala,bujumba,kalangala town council,563,btS2MlWR6GaO
+40,kalangala,bujumba,mugoye,566,ROPkLw82H5ra
+41,kalangala,kyamuswa,bubeke,560,OhMdNZDe9qor
+42,kalangala,kyamuswa,bufumira,561,PKdDZi6pDIvC
+43,kalangala,kyamuswa,kyamuswa,564,DUbLNIEvJTCp
+44,kalangala,kyamuswa,mazinga,565,hE7q6SNvE8KF
+45,kalungu,kalungu,bukulula,567,sYm66NXlXAw7
+46,kalungu,kalungu,kalungu,568,hHqefDGYhjLp
+47,kalungu,kalungu,kalungu town council,569,jcom5OrTSnFr
+48,kalungu,kalungu,kyamulibwa,570,VEXxvzwBOcj8
+49,kalungu,kalungu,lukaya town council,571,2exFPQdidEtw
+50,kalungu,kalungu,lwabenge,572,vfsXBAyH5ev1
+51,kampala,kampala capital city,central division,573,V7Kj57Zja4Ct
+52,kampala,kampala capital city,kawempe division,574,Gc9DWeo1gKUK
+53,kampala,kampala capital city,lubaga division,63397,7zR86le7j56w
+54,kampala,kampala capital city,makindye division,575,yD7OjmIpQ8et
+55,kampala,kampala capital city,nakawa division,576,zch6RLyHFvFF
+56,kayunga,bbaale,bbaale,679,zgFzFvw25uGh
+57,kayunga,bbaale,galiraaya,681,j4RLKscMGuBX
+58,kayunga,bbaale,kayonza,611,bEftYS4utuZf
+59,kayunga,bbaale,kitimbwa,686,fYqymFS6O6Vh
+60,kayunga,ntenjeru,busana,680,gSHerfzpmYT4
+61,kayunga,ntenjeru,kangulumira,682,d0sy9XL0n8EF
+62,kayunga,ntenjeru,kayunga,684,q52aDRf1OHuq
+63,kayunga,ntenjeru,kayunga town council,685,4i1ipfNiEDk6
+64,kayunga,ntenjeru,nazigo,687,Lz1edp7sqKpP
+65,kyankwanzi,kiboga,bananywa,0,0
+66,kyankwanzi,kiboga,butemba,825,FeA8aHfZQQlC
+67,kyankwanzi,kiboga,butemba town council,826,8BM6KZmdHwGU
+68,kyankwanzi,kiboga,gayaza,827,3pD5TNmnGrRA
+69,kyankwanzi,kiboga,kyankwanzi,828,M07jeFLh0mBW
+70,kyankwanzi,kiboga,mulagi,829,rCME1rGgvcpR
+71,kyankwanzi,kiboga,nkandwa,0,0
+72,kyankwanzi,kiboga,nsambya,830,oySYKugpsnno
+73,kyankwanzi,kiboga,ntwetwe,831,pC8DpFZyrDIe
+74,kyankwanzi,kiboga,ntwetwe town council,832,C2SFKnsYaoAv
+75,kyankwanzi,kiboga,wattuba,833,O2JjlbM8ESdv
+76,luwero,bamunanika,bamunanika,883,FEL2uSwT2SXZ
+77,luwero,bamunanika,kalagala,886,nRGpPFrMpMKQ
+78,luwero,bamunanika,kamira,887,0Pu75TCv1Im2
+79,luwero,bamunanika,kikyusa,889,IWj6Ss4MZEeC
+80,luwero,bamunanika,zirobwe,895,r1iZVFzpbYmQ
+81,luwero,katikamu,bombo town council,884,Li0oclJdoOFa
+82,luwero,katikamu,butuntumula,885,c2zqQtMVrifJ
+83,luwero,katikamu,katikamu,888,eNrTyjVvyBJO
+84,luwero,katikamu,luweero town council,891,IJicEIkXRMQp
+85,luwero,katikamu,luwero,890,yhxo2O7jNu8K
+86,luwero,katikamu,makulubita,892,bqaWFeCPjzOg
+87,luwero,katikamu,nyimbwa,893,ljoQPH51Kmep
+88,luwero,katikamu,wobulenzi town council,894,K9KcRa82mDay
+89,lwengo,bukoto,kisekka,896,Twqu4GsUZI6Q
+90,lwengo,bukoto,kkingo,897,1fK8MrGTbfEo
+91,lwengo,bukoto,kyazanga,898,mTPSZ2daS0Vd
+92,lwengo,bukoto,kyazanga town council,899,PZYOv9kSaKXE
+93,lwengo,bukoto,lwengo,900,EIv2IREsqz3G
+94,lwengo,bukoto,lwengo town council,901,FiGeYNW6TK5h
+95,lwengo,bukoto,malongo,902,XHA91fWcwM7F
+96,lwengo,bukoto,ndagwe,903,tX8OdAD2yG8N
+97,lyantonde,kabula,kaliiro,912,EdAsN9rMPhdg
+98,lyantonde,kabula,kasagama,913,1t5i0sR2cFnu
+99,lyantonde,kabula,kinuuka,914,ubW3TpDPzUPZ
+100,lyantonde,kabula,lyantonde,915,qtk3S19xSzZG
+101,lyantonde,kabula,lyantonde town council,916,hT421wiZSCfq
+102,lyantonde,kabula,mpumudde,485,JdthtL1ThMN2
+103,masaka,bukoto,bukakata,926,AB7jzwIaa2KK
+104,masaka,bukoto,buwunga,927,jRHnEizydU5E
+105,masaka,bukoto,kabonera,928,wptSaPja0lqG
+106,masaka,bukoto,kyannamukaaka,931,vhwtjtaeXGGT
+107,masaka,bukoto,kyesiiga,932,1N1En2Au2F4H
+108,masaka,bukoto,mukungwe,933,tEmZkaBtAoTn
+109,masaka,masaka mc,katwe/butego,929,j5LDdrEgMiiM
+110,masaka,masaka mc,kimaanya/kyabakuza,930,Tu4E5Z3EpupB
+111,masaka,masaka mc,nyendo-ssenyange,934,XKn7kPf6mK2S
+112,mityana,busujju,banda,1028,vQRM9ntVMs9u
+113,mityana,busujju,butayunja,1031,bG0xPnr4N0YD
+114,mityana,busujju,kakindu,1032,T7qnKlXI7S0a
+115,mityana,busujju,maanyi,1035,bJXvsPmRBhmK
+116,mityana,busujju,malangala,1036,tcn5V9Pm9kTi
+117,mityana,mityana,bulera,1029,gNG4lmhJmc1d
+118,mityana,mityana,busimbi,1030,cSad0lg2Jh9F
+119,mityana,mityana,kalangalo,1033,3n1WL3FgKhoP
+120,mityana,mityana,kikandwa,1034,utNLN4IoQHcR
+121,mityana,mityana,mityana town council,1037,7keOXf6cw8BY
+122,mityana,mityana,namungo,1038,GE0WipCGuRkU
+123,mityana,mityana,ssekanyonyi,1039,HjXxCB3asxep
+124,mpigi,mawokota,buwama,1057,EE8a24qy60XA
+125,mpigi,mawokota,kammengo,1058,9GMOlBwZTt9p
+126,mpigi,mawokota,kiringente,1059,abCaVlez7cgH
+127,mpigi,mawokota,kituntu,1060,y9OVLiRkvSoZ
+128,mpigi,mawokota,mpigi town council,1061,x1SHl9ri5kUS
+129,mpigi,mawokota,muduuma,1062,0Y2Hi3qtkXvX
+130,mpigi,mawokota,nkozi,1063,shS7mBVbaz2n
+131,mubende,buwekula,butoloogo,1066,3juGiFcfO2Gf
+132,mubende,buwekula,kitenga,1073,YsM9DvvU5kRP
+133,mubende,buwekula,kiyuni,0,0
+134,mubende,buwekula,madudu,1075,tKqpS9BqZ8eo
+135,mubende,buwekula,mubende town council,1077,aPF4KB68ymdd
+136,mubende,kasambya,bagezza,1064,QL5BxVQcnXfN
+137,mubende,kasambya,kasambya,1068,M5TmDuaiFbcE
+138,mubende,kasambya,kibalinga,1070,CCRhy2HLxuQk
+139,mubende,kasambya,kigando,1072,F7TYuRcZMV6T
+140,mubende,kasambya,nabingoola,1079,ur7hIPGKhnWt
+141,mubende,kassanda,bukuya,1065,9wzQvLeedQ1d
+142,mubende,kassanda,kalwana,1067,GXJleyqovkQA
+143,mubende,kassanda,kassanda,1069,UOuDkFPtpXzx
+144,mubende,kassanda,kiganda,1071,Io1Howt7bCh7
+145,mubende,kassanda,kitumbi,1074,sM6uDK3Zns4b
+146,mubende,kassanda,makokoto,1076,6Nwpyq06pepv
+147,mubende,kassanda,manyogaseka,0,0
+148,mubende,kassanda,myanzi,1078,E9PCrcWRr4Dz
+149,mubende,kassanda,nalutuntu,0,0
+150,mukono,mukono,koome,1083,tNc9WraTHEra
+151,mukono,mukono,kyampisi,1084,CE72Y7SWJFxt
+152,mukono,mukono,mpatta,1085,DX9ykdo5VW7C
+153,mukono,mukono,mpunge,1086,1AMcxeujtphP
+154,mukono,mukono,nakisunga,1090,Sd50ZF7eI65g
+155,mukono,mukono,nama,1091,ISsMqu2pfFra
+156,mukono,mukono,ntenjeru,1093,B9tveE14MEPD
+157,mukono,mukono mc,central division,1087,j0pOZVKiqW6Z
+158,mukono,mukono mc,goma division,1080,EUcPQqpShjC6
+159,mukono,nakifuma,kasawo,1081,mhpD6gd5ZpHc
+160,mukono,nakifuma,kimenyedde,1082,CjtnOGHIXUXJ
+161,mukono,nakifuma,nabbaale,1088,uGQHfNJKSlbJ
+162,mukono,nakifuma,nagojje,1089,zbd0FGBTBkUi
+163,mukono,nakifuma,ntunda,1094,Y7XfW8vxkVbw
+164,mukono,nakifuma,seeta-namuganga,0,0
+165,nakaseke,nakaseke,butalangu town council,1103,pbEsC0fEsm94
+166,nakaseke,nakaseke,kapeeka,1104,R1JcaZvpBJGA
+167,nakaseke,nakaseke,kasangombe,1105,CecvBCWCzSmh
+168,nakaseke,nakaseke,kikamulo,1106,yeAznmsEp32r
+169,nakaseke,nakaseke,kinoni,748,DAL0IFEINd3R
+170,nakaseke,nakaseke,kinyogoga,1108,tW4U0hIwT3xi
+171,nakaseke,nakaseke,kito,1109,9IGDfFHtKvJE
+172,nakaseke,nakaseke,kiwoko town council,1110,7nnCvulaA7pZ
+173,nakaseke,nakaseke,nakaseke,1111,tcGW6a0YMJpI
+174,nakaseke,nakaseke,nakaseke town council,1112,aTjYWBkt3Qn9
+175,nakaseke,nakaseke,ngoma,1113,DJ9pgAt5SEte
+176,nakaseke,nakaseke,ngoma town council,1114,MFntO8CwdIYN
+177,nakaseke,nakaseke,semuto,1115,kDhBM2RONX9u
+178,nakaseke,nakaseke,semuto town council,1116,eKacYiaNxNkL
+179,nakaseke,nakaseke,wakyato,0,0
+180,nakasongola,buruli,kakooge,1118,g7qzEftwKeHV
+181,nakasongola,buruli,kakooge town council,1119,bf2CWRvNHm3A
+182,nakasongola,buruli,kalongo,1120,RI51db7TtOBD
+183,nakasongola,buruli,kalungi,1121,MbsEfClPqBWQ
+184,nakasongola,buruli,lwabiyata,1122,0ulJPFYkLshx
+185,nakasongola,buruli,lwampanga,1123,pRhYe5OAoyOS
+186,nakasongola,buruli,migeera town council,1124,E7xa7ivoKvYl
+187,nakasongola,buruli,nabisweera,1125,2Fdu9ZyiLiOy
+188,nakasongola,buruli,nakasongola town council,1126,5spMFT77zX3C
+189,nakasongola,buruli,nakitoma,1127,Nq2oGKC0LJZk
+190,nakasongola,buruli,wabinyonyi,1128,f8FnWm0hpCp6
+191,rakai,kakuuto,kakuuto,1261,rdv6K34VYeWx
+192,rakai,kakuuto,kasasa,1265,crAXouZyJxPf
+193,rakai,kakuuto,kibanda,1266,VrxbVMAYKgAH
+194,rakai,kakuuto,kifamba,1267,DfdOyyAyGyZl
+195,rakai,kakuuto,kyebe,1270,9O4xZt42pbBs
+196,rakai,kooki,byakabanda,1255,eGiP9vqQ9o7r
+197,rakai,kooki,ddwaniro,1256,piQJhBdrD0iU
+198,rakai,kooki,kacheera,1259,AK9hDDWOk7xO
+199,rakai,kooki,kagamba,1260,7V1ATB04frTc
+200,rakai,kooki,kiziba,1269,p5k1GC5tlqwa
+201,rakai, kooki,kyalulangira,1257,T0rsCIZYnedq
+202,rakai,kooki,lwamagwa,1272,xF1uXkNq3X6X
+203,rakai,kooki,lwanda,1273,RV0zVyfx9oDx
+204,rakai,kooki,rakai town council,1276,lRPI22bh3i43
+205,rakai,kyotera,kabira,1017,3wwfGip5mQcc
+206,rakai,kyotera,kalisizo,1262,uv6waT9XZPdV
+207,rakai,kyotera,kalisizo town council,1263,21l3ENA6rYVD
+208,rakai,kyotera,kasaali,1264,xvJTw8F6rpZZ
+209,rakai,kyotera,kirumba,1268,E5p7FOU5fchs
+210,rakai,kyotera,kyotera town council,1271,QvZr97Sdkdve
+211,rakai,kyotera,lwankoni,1274,Mu8fPudiilEe
+212,rakai,kyotera,nabigasa,1275,g5b9q1rDPR3k
+213,ssembabule,lwemiyaga,lwemiyaga,1311,8U9LkCBVSCK7
+214,ssembabule,lwemiyaga,ntusi,1315,U8dNodTOBjUd
+215,ssembabule,mawogola,lugusulu,1309,WgWejmRu4lnn
+216,ssembabule,mawogola,lwebitakuli,1310,I6dFfwIf2e1w
+217,ssembabule,mawogola,mateete,1313,ERzdIClUCTaW
+218,ssembabule,mawogola,mateete town council,1314,5xrD8pVaZatB
+219,ssembabule,mawogola,mijwala,1312,6uJvDOjfLZ1T
+220,ssembabule,mawogola,sembabule town council,1316,AhkgOez7mjMF
+221,wakiso,busiro,bussi,1372,Tqt8vbEQh7aY
+222,wakiso,busiro,kakiri,1377,Mp35n0aqMCWV
+223,wakiso,busiro,kakiri town council,0,0
+224,wakiso,busiro,kasanje,1378,VCZQEwdp20Qp
+225,wakiso,busiro,katabi,1379,JbIuYYe33KPW
+226,wakiso,busiro,masulita,1383,OHdj16tg3b3a
+227,wakiso,busiro,masulita town council,1384,JPCjqWQreAwe
+228,wakiso,busiro,mende,1385,ZE0H0beL8vQk
+229,wakiso,busiro,namayumba,1387,btfqKovhZLc2
+230,wakiso,busiro,namayumba town council,0,0
+231,wakiso,busiro,nsangi,1390,TyXhjlgGKOS8
+232,wakiso,busiro,ssisa,1394,fWpC1BV52KJB
+233,wakiso,busiro,wakiso,1391,z0SqGGMab19L
+234,wakiso,busiro,wakiso town council,1392,6w9Ztkck3LQ8
+235,wakiso,entebbe mc,division a,0,0
+236,wakiso,entebbe mc,division b,0,0
+237,wakiso,kyadondo,busukuma,1373,YPMFmj3QQ0sN
+238,wakiso,kyadondo,gombe,0,0
+239,wakiso,kyadondo,kira town council,1380,OQ3bdrlxtJUc
+240,wakiso,kyadondo,makidye-ssabagabo,1382,HSdvtwv7cPJH
+241,wakiso,kyadondo,nabweru,1386,9rpXJ3SKM4sd
+242,wakiso,kyadondo,nangabo,1388,Pwti7CsoHKOj
+243,wakiso,kyadondo,nansana town council,1389,DlyljXE6qjcj
+244,amuria,amuria,abarilela,176,JSPmfSLxvrdc
+245,amuria,amuria,akeriau,178,SYiZ6MsT53Od
+246,amuria,amuria,amuria town council,180,wap5WKNmVC4r
+247,amuria,amuria,apeduru,181,DsbRZcXjOIfH
+248,amuria,amuria,asamuk,182,WvAWyCmVrFkk
+249,amuria,amuria,kuju,184,Ncd9hCBOyJgj
+250,amuria,amuria,morungatuny,185,VMAqQYEyuZel
+251,amuria,amuria,ogolai,187,ajKdWVB9uePh
+252,amuria,amuria,orungo,189,5gVWSPnVqSgb
+253,amuria,amuria,wera,190,xuqGP88vBgMS
+254,amuria,amuria,willa,0,0
+255,amuria,kapelebyong,acowa,177,XeAt991xsOcJ
+256,amuria,kapelebyong,akoromit,179,Lg9dYCZTN7i2
+257,amuria,kapelebyong,kapelebyong,183,ImOwZU7pWdE5
+258,amuria,kapelebyong,obalanga,186,YL08sOVUsMQq
+259,amuria,kapelebyong,okungur,188,o08k6pRIWx3A
+260,budaka,budaka,budaka,237,mhiJUIcQoXDB
+261,budaka,budaka,budaka town council,238,hLvpVdG8xHEn
+262,budaka,budaka,kachomo,240,J9RSJiDViAPS
+263,budaka,budaka,kaderuna,241,Rkx7ehSnRiFa
+264,budaka,budaka,kakule,242,tGY8YAwMnRYt
+265,budaka,budaka,lyama,246,HnQBJ032iDV9
+266,budaka,budaka,naboa,248,rx80GxowUTQ2
+267,budaka,budaka,nansanga,249,ItzVc81PgkfU
+268,budaka,iki iki,iki-iki,239,DVxOJP3nNghV
+269,budaka,iki iki,kameruka,243,VlsoaR8WWRak
+270,budaka,iki iki,kamonkoli,244,R9HWRcEYNEec
+271,budaka,iki iki,katiira,245,9i090RAOiB8L
+272,budaka,iki iki,mugiti,247,qGgGDKN0mzXa
+273,bududa,manjiya,bubiita.,250,zHJvEfzCJQTd
+274,bududa,manjiya,bududa town council.,252,blSidE5CrSqr
+275,bududa,manjiya,bududa.,251,rEYM3U3x4juD
+276,bududa,manjiya,bukalasi.,253,6GMvdY9CydI2
+277,bududa,manjiya,bukibokolo,254,9H3HSe4nGnIU
+278,bududa,manjiya,bukigai,255,Rxyx0g4ZLRfI
+279,bududa,manjiya,bulukecheke,256,UBj0Vwh5Cuij
+280,bududa,manjiya,bumasheti,257,9bQVswnzLAQB
+281,bududa,manjiya,bumayoka.,258,btlVoTxCOh0z
+282,bududa,manjiya,bushika,259,YNAvbX5aRP32
+283,bududa,manjiya,bushiribo,260,laO6DxUmm6th
+284,bududa,manjiya,bushiyi,261,Bcl7y1eAFKIJ
+285,bududa,manjiya,buwali.,262,rpfDgJtrpa6M
+286,bududa,manjiya,nabweya,263,RJvKySeyxgdf
+287,bududa,manjiya,nakatsi,264,jHNGgJrJU0c4
+288,bududa,manjiya,nalwanza,265,VEHn8zZAYr60
+289,bugiri,bukooli (north),budhaya,0,0
+290,bugiri,bukooli (north),bugiri town council,0,0
+291,bugiri,bukooli (north),bulesa,0,0
+292,bugiri,bukooli (north),bulidha,0,0
+293,bugiri,bukooli (north),buluguyi,0,0
+294,bugiri,bukooli (north),buwunga,0,0
+295,bugiri,bukooli (north),iwemba,0,0
+296,bugiri,bukooli (north),kapyanga,0,0
+297,bugiri,bukooli (north),muterere,0,0
+298,bugiri,bukooli (north),nabukalu,0,0
+299,bugiri,bukooli (north),nankoma,0,0
+300,bukedea,bukedea,bukedea,1431,MmykjdKKZbwL
+301,bukedea,bukedea,bukedea town council,1432,8YAvLPc9ha5P
+302,bukedea,bukedea,kachumbala,1433,MNua0UPMxlgG
+303,bukedea,bukedea,kidongole,1434,C65DHlZd9kni
+304,bukedea,bukedea,kolir,1435,ga7Wj0q1qqk3
+305,bukedea,bukedea,malera,1436,iK9VZtfcxfEK
+306,bukwo,kongasis,bukwo,1437,6PXrWhnIx8yh
+307,bukwo,kongasis,bukwo town council,1438,eSBuiyXfglU9
+308,bukwo,kongasis,chepkwasta,1439,gJktROYT8DKd
+309,bukwo,kongasis,chesower,1440,RacdK1rhumT9
+310,bukwo,kongasis,kabei,1441,Ys3SeJ8punph
+311,bukwo,kongasis,kamet,1442,YIQhOx7fFo8K
+312,bukwo,kongasis,kaptererwo,1443,3yT6f4Ty92yS
+313,bukwo,kongasis,kortek,1444,XlW7y3Ax0TZT
+314,bukwo,kongasis,riwo,1445,vu0XgVdsWOh5
+315,bukwo,kongasis,senendet,1446,cXXmZkZGQEi6
+316,bukwo,kongasis,suam,1447,tfAF3M7YvtHh
+317,bukwo,kongasis,tulel,1448,uxU20tGKcz6v
+318,bulambuli,bulambuli,buginyanya,279,wfZdOYf5PVNF
+319,bulambuli,bulambuli,bukhalu,280,9uilWgSUD26J
+320,bulambuli,bulambuli,bulaago,281,8psd4sSjfsVz
+321,bulambuli,bulambuli,bulambuli town council,282,H1jl5sPR7RWL
+322,bulambuli,bulambuli,bulegeni,283,yNPb1nGOnQ0D
+323,bulambuli,bulambuli,bulegeni town council,284,yXRrI1iNwHHS
+324,bulambuli,bulambuli,buluganya,285,oCLCkxriw9kM
+325,bulambuli,bulambuli,bumasobo,286,xfGLydi1hW9r
+326,bulambuli,bulambuli,bumugibole,278,g44UkhnF0PE3
+327,bulambuli,bulambuli,bunambutye,287,dp4DuNybct4e
+328,bulambuli,bulambuli,bwikhonge,288,KNYfLSdWzqzC
+329,bulambuli,bulambuli,kamu,289,ZcqyRaW3VibB
+330,bulambuli,bulambuli,lusha,290,VLrXpptMOjkz
+331,bulambuli,bulambuli,masiira,291,1h7iqvnnW4yB
+332,bulambuli,bulambuli,muyembe,292,YIUt3cusCNbK
+333,bulambuli,bulambuli,nabongo,293,olydI4WJIXW7
+334,bulambuli,bulambuli,namisuni,294,H9oZdLQh5CSh
+335,bulambuli,bulambuli,simu,295,BmCQM6KfhWSN
+336,bulambuli,bulambuli,sisiyi,296,RHDA6tKL4eFt
+337,busia,busia mc,eastern division,338,5vGJCn6ai8Kn
+338,busia,busia mc,western division,347,15nH3tbcn0on
+339,busia,samia-bugwe,buhehe,331,VrpM75nKodgf
+340,busia,samia-bugwe,bulumbi,332,dtMyWaLXOJHp
+341,busia,samia-bugwe,busime,333,tSgeuYEt5O3o
+342,busia,samia-bugwe,busitema,334,nH4DY6heAnDG
+343,busia,samia-bugwe,buteba,335,pJfkPdb5DPDe
+344,busia,samia-bugwe,buyanga,336,it7IFdcVJ24j
+345,busia,samia-bugwe,dabani,337,81hJtO54BSV1
+346,busia,samia-bugwe,lumino,339,2ihoV60wpbAP
+347,busia,samia-bugwe,lunyo,340,aeM0UHkR2gUz
+348,busia,samia-bugwe,majanji,341,efrEb6CXr3fW
+349,busia,samia-bugwe,masaba,342,RrnKU0rYIGtf
+350,busia,samia-bugwe,masafu,343,g4kcrD23s5Wp
+351,busia,samia-bugwe,masinya,344,1PpcyWVXV37d
+352,busia,samia-bugwe,sikuda,346,3MEhu16tyseK
+353,butaleja,bunyole,budumba,348,6xf2URXFKQKr
+354,butaleja,bunyole,busaba,349,0B4idKAdurM6
+355,butaleja,bunyole,busabi,350,gvwJlp0aEZ6q
+356,butaleja,bunyole,busolwe,351,sFQ4Lqup8WAW
+357,butaleja,bunyole,busolwe town council,352,9tiONQn9X6zK
+358,butaleja,bunyole,butaleja,353,3L54emHIzH07
+359,butaleja,bunyole,butaleja town council,354,JnLaTbGp5WSF
+360,butaleja,bunyole,himutu,355,A3EUI9nq7eNQ
+361,butaleja,bunyole,kachonga,356,1rk4ThprwJ9b
+362,butaleja,bunyole,mazimasa,357,FTwSSjsksMxX
+363,butaleja,bunyole,nawanjofu,358,fFHaIIQDzP0b
+364,butaleja,bunyole,naweyo,359,gGoMNSf82nGu
+365,buyende,budiope,bugaya,371,X94PlefJaou6
+366,buyende,budiope,buyende,372,69ORwkk1LkHe
+367,buyende,budiope,buyende town council,373,6pWj5bQc6ob8
+368,buyende,budiope,kagulu,374,ThyHIEYQWfcj
+369,buyende,budiope,kidera,375,E9PNy8gK2akX
+370,buyende,budiope,nkondo,376,mGYBtTEu72Lj
+371,iganga,bugweri,busembatia town council,443,OMRNyIXcJ73u
+372,iganga,bugweri,buyanga,336,it7IFdcVJ24j
+373,iganga,bugweri,ibulanku,446,rpFobQx3QxeJ
+374,iganga,bugweri,igombe,447,fdysZ9fRklUZ
+375,iganga,bugweri,makuutu,448,AL5JLVdqX4IU
+376,iganga,bugweri,namalemba,452,VD3lQFuGYK3m
+377,iganga,iganga mc,central division,321,eDN4sc951Y4s
+378,iganga,iganga mc,northern division,457,cn6eO9TX3LGY
+379,iganga,kigulu,bulamogi,0,0
+380,iganga,kigulu,nabitende,449,uAo4hPJafF2j
+381,iganga,kigulu,nakalama,450,CdA3g7Uak68Q
+382,iganga,kigulu,nakigo,451,kHXQp4A3qhIV
+383,iganga,kigulu,nambale,453,Qr5vhsoQvY6t
+384,iganga,kigulu,namungalwe,454,17Yaf1dsY7QI
+385,iganga,kigulu,nawandala,455,czyvRT2BRcdu
+386,iganga,kigulu,nawanyingi,456,YOBOxUZGtDfL
+387,jinja,butembe,bugembe town council,475,s3GpIWlQznrl
+388,jinja,butembe,busedde,476,kTL7fYNfzWBq
+389,jinja,butembe,kakira town council,483,o7LiLce7ri82
+390,jinja,butembe,mafubira,484,VuZY85qZPCK6
+391,jinja,jinja mc,jinja central division,482,BmkvDOBXGz9U
+392,jinja,jinja mc,kimaka/mpumudde/nalufenya division,485,JdthtL1ThMN2
+393,jinja,jinja mc,masese/walukuba division,486,PcUJEDxVhhlV
+394,jinja,kagoma,budondo,474,c70suzqrcPvL
+395,jinja,kagoma,butagaya,477,n4aB0syJT1xN
+396,jinja,kagoma,buwenge,478,YiHjuHizdXEP
+397,jinja,kagoma,buwenge town council,479,vWvKF8BG4nws
+398,jinja,kagoma,buyengo,480,VeReIEdJj95T
+399,kaberamaido,kaberamaido,alwa,534,Vi1DCbez5z1w
+400,kaberamaido,kaberamaido,aperikira,537,hKN1oDOujMtK
+401,kaberamaido,kaberamaido,kaberamaido,539,jkSwR2ILefrm
+402,kaberamaido,kaberamaido,kaberamaido town council,540,5RpJAJQofyiy
+403,kaberamaido,kaberamaido,kobulubulu,543,VD28XDQeTZvP
+404,kaberamaido,kaberamaido,ochero,544,o9djdVPIaoMT
+405,kaberamaido,kalaki,anyara,535,7TZjBI3HtVc2
+406,kaberamaido,kalaki,apapai,536,9gw73elJQ4ZI
+407,kaberamaido,kalaki,bululu,538,OU4a27fdNOLA
+408,kaberamaido,kalaki,kakure,541,s22aXWjV3tDW
+409,kaberamaido,kalaki,kalaki,542,g7vzB2JMwR6r
+410,kaberamaido,kalaki,otuboi,545,5wiXUNpd3Idk
+411,kaliro,bulamogi,bumanya,63545,ZmgcEuD4UJXA
+412,kaliro,bulamogi,gadumire,63547,xzYfm93CG4wK
+413,kaliro,bulamogi,kaliro town council,63548,iX1MhCaEX90p
+414,kaliro,bulamogi,namugongo,63551,wb86Nu84eelT
+415,kaliro,bulamogi,namwiwa,63552,WDxgJpHDga0c
+416,kaliro,bulamogi,nawaikoke,63554,ezqOsNZT32XG
+417,kamuli,bugabula,balawoli,577,m73p8MpobyX5
+418,kamuli,bugabula,bulopa,0,0
+419,kamuli,bugabula,butansi,579,KOKlo5uhF7LS
+420,kamuli,bugabula,kamuli town council,580,iJ9JEjcASCRD
+421,kamuli,bugabula,kitayunjwa,582,BEOL3pUpr046
+422,kamuli,bugabula,nabwigulu,584,gduIZ1eVu2Mi
+423,kamuli,bugabula,namasagali,585,4qgGhOTzdKo9
+424,kamuli,bugabula,namwendwa,586,vWasBSG45PeC
+425,kamuli,buzaaya,bugulumbya,578,5Z8OuLvwWgEw
+426,kamuli,buzaaya,kisozi,581,TDU2XcgA7MBa
+427,kamuli,buzaaya,mbulamuti,583,laKbizQKIgKD
+428,kamuli,buzaaya,nawanyago,587,wYQzGXA9CMXn
+429,kamuli,buzaaya,wankole,588,x7x7czX8xyBC
+430,kapchorwa,tingey,amukol,623,dJAlmL2ekL77
+431,kapchorwa,tingey,chema,624,pM4KbQLo28gK
+432,kapchorwa,tingey,chepteret,625,gpl58INUehr1
+433,kapchorwa,tingey,gamogo,626,TxFi7RMFh1Tc
+434,kapchorwa,tingey,kabeywa,627,CgczA0TKwBts
+435,kapchorwa,tingey,kapchesombe,628,gnn2tut8D3pS
+436,kapchorwa,tingey,kapchorwa town council,629,5H9T7qrKbijx
+437,kapchorwa,tingey,kapsinda,630,BjwveJURmOgM
+438,kapchorwa,tingey,kaptanya,631,5bhgLLRmssjc
+439,kapchorwa,tingey,kapteret,632,Sk6S5o7n7lIk
+440,kapchorwa,tingey,kaserem,633,W1StKWhtF2nx
+441,kapchorwa,tingey,kawowo,634,PTcMGUUwwCax
+442,kapchorwa,tingey,munarya,635,ZUq4pwYnTYAn
+443,kapchorwa,tingey,sipi,636,2Ir7U6lF8X2v
+444,kapchorwa,tingey,tegeres,637,6MaU0os0M1xo
+445,katakwi,toroma,kapujan,669,UYHjoRXyAnTb
+446,katakwi,toroma,magoro,672,nao9y1AHXIkr
+447,katakwi,toroma,omodoi,674,7dHkv2PhWpVx
+448,katakwi,toroma,toroma,677,3kgXncnsGXN9
+449,katakwi,usuk,katakwi,670,Z2aGbSutEK0o
+450,katakwi,usuk,katakwi town council,671,y6c60sM648SJ
+451,katakwi,usuk,ngariam,673,0niCycNzOuR6
+452,katakwi,usuk,ongongoja,675,7AvNwO0Ktkxd
+453,katakwi,usuk,palam,676,bQPTU6HuHWuZ
+454,katakwi,usuk,usuk,678,XP7AprVktKd2
+455,kibuku,kibuku,bulangira,0,0
+456,kibuku,kibuku,buseta,729,Dagial2RTdKD
+457,kibuku,kibuku,kabweri,730,R16ZvBc8OfMW
+458,kibuku,kibuku,kadama,731,ymWKrtp48I0f
+459,kibuku,kibuku,kagumu,732,7lL86hn9oI0t
+460,kibuku,kibuku,kasasira,733,DISiKSp0u6ew
+461,kibuku,kibuku,kibuku,734,YOLUyVRYQ4E9
+462,kibuku,kibuku,kibuku town council,735,HGvLVDjdV7mf
+463,kibuku,kibuku,kirika,736,b3iea0sXMPUE
+464,kibuku,kibuku,tirinyi,737,FDShQNEpgXxI
+465,kumi,kumi,atutur,807,5OEAhzN1zgGU
+466,kumi,kumi,kanyum,808,MqJMqT1n7dFD
+467,kumi,kumi,kumi,809,5mZoBUqXWzZI
+468,kumi,kumi,kumi town council,810,C5MbGbh5QmHW
+469,kumi,kumi,mukongoro,811,SB8ix9zDQG9B
+470,kumi,kumi,nyero,812,r8hRjXjTrEkc
+471,kumi,kumi,ongino,813,vxbCTMGcC0zS
+472,kween,kween,benet,814,JCHSzEDNJDzt
+473,kween,kween,binyiny,815,xgNxKFqOiKL2
+474,kween,kween,binyiny town council,0,0
+475,kween,kween,kaproron,816,6xuzRMUVQfAk
+476,kween,kween,kaptoyoy,817,1PsbiYxnDq9J
+477,kween,kween,kaptum,818,lu2OATC8ski8
+478,kween,kween,kiriki,819,xXqozV9ORObG
+479,kween,kween,kitawoi,820,kZfwKFGGVdxt
+480,kween,kween,kwanyiy,821,pU7MqL5sPZOg
+481,kween,kween,kwosir,822,jrUJr1ldakbB
+482,kween,kween,moyok,823,6wkDWNnpraoj
+483,kween,kween,ngenge,824,AlyC2XpqEp0p
+484,luuka,luuka,bukanga,904,63EMMNm9dGfS
+485,luuka,luuka,bukooma,905,83geAfI7Zngf
+486,luuka,luuka,bulongo,906,urajFWgvpa28
+487,luuka,luuka,ikumbya,907,4pmxlfZZRiEv
+488,luuka,luuka,irongo,908,bSpyo2anjscC
+489,luuka,luuka,luuka town council,909,dRE5hKMJlxvY
+490,luuka,luuka,nawampiti,910,YfioC3CvB2aL
+491,luuka,luuka,waibuga,911,mq0wBJhMtF6m
+492,manafwa,bubulo,bubutu,986,AHjou3zXqKOA
+493,manafwa,bubulo,bugobero,987,4CnWgbYrx6f1
+494,manafwa,bubulo,bukhabusi,988,o7N3SyVnNdm1
+495,manafwa,bubulo,bukhaweka,989,FWEWREUhC41L
+496,manafwa,bubulo,bukhofu,990,mNUuaG583gTL
+497,manafwa,bubulo,bukiabi,991,zoOOgEttuzk7
+498,manafwa,bubulo,bukokho,992,lskIAVJhqo50
+499,manafwa,bubulo,bukusu,997,Yeqr6e7Cuwi1
+500,manafwa,bubulo,bumbo,993,dWz2Sg1JTIxQ
+501,manafwa,bubulo,bumwoni,994,lMYCPHdtQtI2
+502,manafwa,bubulo,bunabwana,995,6CMxSMRrpcUM
+503,manafwa,bubulo,bupoto,996,tvZcET6QMNZp
+504,manafwa,bubulo,busukuya,998,270p9up6HS3w
+505,manafwa,bubulo,butiru,1015,pgxp2Y3fNMRz
+506,manafwa,bubulo,butta,999,GdUzRrSWJ7Ub
+507,manafwa,bubulo,buwabwala,1000,J1g35BVUtaJ6
+508,manafwa,bubulo,buwagogo,1001,Gr94y3WcZ8AY
+509,manafwa,bubulo,kaato,1002,xdLgkSSBA12V
+510,manafwa,bubulo,khabutoola,1003,ycXdbcS4kWta
+511,manafwa,bubulo,lwakhakha town council,1004,Tm9cicKQx1mI
+512,manafwa,bubulo,magale,1005,4pHzPt4FcRyv
+513,manafwa,bubulo,manafwa town council,1006,L6HGaTJTLbya
+514,manafwa,bubulo,mukoto,1007,j8GVIHufyJQA
+515,manafwa,bubulo,nalondo,1008,JmkhNUQD1ySm
+516,manafwa, bubulo,namabya,1009,qPErTKGScNLh
+517,manafwa,bubulo,namboko,1010,TqXiAJdFmQzx
+518,manafwa,bubulo,sibanga,1011,NtjyKkxEsIuJ
+519,manafwa,bubulo,sisuni,1012,KfUusyX0pBxD
+520,manafwa,bubulo,tsekululu,1013,a2y50c4vxpLr
+521,manafwa,bubulo,weswa,1014,2bJR0jySNoPv
+522,mayuge,bunya,baitambogwe,1449,5YlXzdIrI2gO
+523,mayuge,bunya,bukabooli,1450,l1JZmpMRSBmG
+524,mayuge,bunya,bukatube,1451,sPL2dmc90c30
+525,mayuge,bunya,busakira,1452,rQJ6rwvwmTT1
+526,mayuge,bunya,buwaaya,1453,rREzAAOucrhd
+527,mayuge,bunya,imanyiro,1454,k6ec7x2JwvfG
+528,mayuge,bunya,jaguzi,1455,4LswpLpQxCcV
+529,mayuge,bunya,kigandalo,1456,sZCiTba3LvQT
+530,mayuge,bunya,kityerera,1457,ycyYW0i5INDt
+531,mayuge,bunya,malongo,902,XHA91fWcwM7F
+532,mayuge,bunya,mayuge town council,1459,Ke331V6CDyZ8
+533,mayuge,bunya,mpungwe,1460,qOx2b4tEKaEe
+534,mayuge,bunya,wairasa,1461,65HOvPfI6r70
+535,mbale,bungokho,bubyangu,947,dIkO4XSB5EAd
+536,mbale,bungokho,budwale,945,2ewvask2500U
+537,mbale,bungokho,bufumbo,948,4DoUb88x5gIN
+538,mbale,bungokho,bukasakya,949,SpZCED3yh8bH
+539,mbale,bungokho,bukhiende,950,UA7n3IXVA86r
+540,mbale,bungokho,bukonde,951,hMJdgtPBJlon
+541,mbale,bungokho,bumasikye,952,YJPpkrLvRTYq
+542,mbale,bungokho,bumbobi,946,oPTlFAnVwulb
+543,mbale,bungokho,bungokho,953,MGdU8I6ox7XQ
+544,mbale,bungokho,bungokho mutoto,954,JTi3MxLEyXhJ
+545,mbale,bungokho,busano,955,4jPC9U5iYD0X
+546,mbale,bungokho,busiu,956,c5kxrITBuNXA
+547,mbale,bungokho,busoba,957,fweyxtMhDfJ1
+548,mbale,bungokho,lukhonge,959,cPnrZjKXR6kb
+549,mbale,bungokho,lwasso,960,gB8Q6QzQRgyj
+550,mbale,bungokho,nakaloke,961,NEZAAunqKmaC
+551,mbale,bungokho,nakaloke town council,962,5MrDnbRw3mfm
+552,mbale,bungokho,namanyonyi,963,iduYOCnxaeVf
+553,mbale,bungokho,nyondo,965,YB4nojbgao0V
+554,mbale,bungokho,wanale,966,mJb4ogc3EiV5
+555,mbale,mbale mc,industrial division,958,7rGGdh7q2G4P
+556,mbale,mbale mc,northern division,457,cn6eO9TX3LGY
+557,mbale,mbale mc,wanale division,967,nGjXWiKkGxL0
+558,namayingo,bukooli,banda,1129,XgCEAEKtNdyU
+559,namayingo,bukooli,bugana,0,0
+560,namayingo,bukooli,buhemba,1130,mEbB7PYsDFZQ
+561,namayingo,bukooli,buswale,1131,XMHgJK5rDY4q
+562,namayingo,bukooli,buyinja,1132,7Yl0gn3lXQJx
+563,namayingo,bukooli,lolwe,0,0
+564,namayingo,bukooli,mutumba,1133,7frMUTUGsbrb
+565,namayingo,bukooli,namayingo town council,1134,2uN7AnloYYTz
+566,namayingo,bukooli,sigulu islands,1135,BBlvAns0eTTU
+567,namutumba,busiki,bulange,1136,9N8HWWLlmtK3
+568,namutumba,busiki,ivukula,1137,ApaBiyWTRZMw
+569,namutumba,busiki,kibaale,1138,VDAULz5Fh0di
+570,namutumba,busiki,magada,1139,EX8hCeoFUCBi
+571,namutumba,busiki,namutumba,1140,J79AFHTHpcII
+572,namutumba,busiki,namutumba town council,1141,90FvlXFYzPcr
+573,namutumba,busiki,nsinze,1142,im11I2yqiiHS
+574,ngora,ngora,kapir,1166,wylLgc7WRF7Y
+575,ngora,ngora,kobwin,1167,Jsq3Oe9qOe8T
+576,ngora,ngora,mukura,1168,j335xuVpkbof
+577,ngora,ngora,ngora,1169,fZ5c4ZVlHxoQ
+578,ngora,ngora,ngora town council,1170,Q4F0R65Ifpsy
+579,pallisa,agule,agule,1237,nWB6lcIcIWmM
+580,pallisa,agule,akisim,1238,3aOUC9q4YWzx
+581,pallisa,agule,apopong,1239,4YBfwbapJ1hR
+582,pallisa,agule,chelekura,1241,vAtCEsgX8wB9
+583,pallisa,agule,gogonyo,0,0
+584,pallisa,agule,kameke,1244,0ISxXmBLOiK7
+585,pallisa,butebo,butebo,1240,3EleQFFqLvx6
+586,pallisa,butebo,kabwangasi,1242,GqfUiks5Lr7C
+587,pallisa,butebo,kakoro,1243,1oyq3nOiiUSO
+588,pallisa,butebo,kanginima,1247,wgEU3jziq5WM
+589,pallisa,butebo,kibale,1248,KPwo7FCcX7b9
+590,pallisa,butebo,opwateta,1250,4Xlf0ax2p1Xr
+591,pallisa,butebo,petete,1253,4OUllq1awlMX
+592,pallisa,pallisa,kamuge,1245,4mmGuEu0wJWn
+593,pallisa,pallisa,kasodo,1246,kdVpdc0H3voA
+594,pallisa,pallisa,olok,1249,aTYdKlc970c6
+595,pallisa,pallisa,pallisa,1251,Yk7526DAEqgM
+596,pallisa,pallisa,pallisa town council,1252,aFpcsZ7xLIRz
+597,pallisa,pallisa,puti-puti,1254,B3KO5cw0XFSU
+598,serere,kasilo,bugondo,63090,JplalD8rENYd
+599,serere,kasilo,kadungulu,63091,MiAdjjf6AWA1
+600,serere,kasilo,kasilo town council,63092,h06WY4yWPksY
+601,serere,kasilo,labori,63095,eS0LSoDBPbsO
+602,serere,kasilo,pingire,63097,IWiJt1BnES9o
+603,serere,serere,atiira,0,0
+604,serere,serere,kateta,63093,I2NH8nOcOMgJ
+605,serere,serere,kyere,63094,eypHOQfBwtsH
+606,serere,serere,olio,63096,U7RJ6j2Z5Goc
+607,serere,serere,serere town council,63098,JW3d7U62GjOs
+608,sironko,budadiri,budadiri town council,1329,qEKXpbByCw7e
+609,sironko,budadiri,bugitimwa,1330,nguPDc7FTNpO
+610,sironko,budadiri,buhugu,1331,kE1uzBgUJuP5
+611,sironko,budadiri,bukhulo,1332,2Mz5DrFyUGpT
+612,sironko,budadiri,bukiise,1333,kJkyJv6LofIV
+613,sironko,budadiri,bukiyi,1334,tC5cZTDM8C96
+614,sironko,budadiri,bukyabo,1335,iAdfQareCScR
+615,sironko,budadiri,bukyambi,1336,OOQBzTm1aTmw
+616,sironko,budadiri,bumalimba,1337,h5GDFXXqXa4X
+617,sironko,budadiri,bumasifwa,1338,1UOrzdWvFadL
+618,sironko,budadiri,bunyafa,1339,Fi3iJSfBLrFo
+619,sironko,budadiri,busulani,1340,BcK6LY0alRvt
+620,sironko,budadiri,butandiga,1341,jTKW931zZj6p
+621,sironko,budadiri,buteza,1342,MpBD2vG4cQYc
+622,sironko,budadiri,buwalasi,1343,lgwPjk8ObH9W
+623,sironko,budadiri,buwasa,1344,Os0nB5FgOdJi
+624,sironko,budadiri,buyobo,1345,cAmYa0FyIMtW
+625,sironko,budadiri,masaba,342,RrnKU0rYIGtf
+626,sironko,budadiri,nalusala,1347,GH9P2jbuCC5j
+627,sironko,budadiri,sironko town council,1348,Gelq70a1kMVX
+628,sironko,budadiri,zesui,1349,1eo4NUkirWf2
+629,soroti,soroti,arapai,1299,bqDnCyDHcD8S
+630,soroti,soroti,asuret,1300,5WVKUZxsX7s5
+631,soroti,soroti,gweri,1302,qgBgW1j7MgNK
+632,soroti,soroti,kamuda,1303,mNSuYoEYUSzM
+633,soroti,soroti,katine,1304,0mErGCMnsSFw
+634,soroti,soroti,soroti,1306,dGgzn4kBSKP6
+635,soroti,soroti,tubur,1307,mjE1THNhxHqM
+636,soroti,soroti mc,eastern division,1301,sEzAxAyCU6em
+637,soroti,soroti mc,northern division,1305,lhusoy8hglaD
+638,soroti,soroti mc,western division,1308,TqpAJi85MHTy
+639,tororo,tororo,kwapa,1354,g6k43YEkAOdj
+640,tororo,tororo,malaba town council,1356,BXe3pvpHGAS8
+641,tororo,tororo,mella,1357,bEreqCEKAaiw
+642,tororo,tororo,merikit,1358,8urmdpYSOn9p
+643,tororo,tororo,molo,1359,P6fHvEWZ8R8r
+644,tororo,tororo,mukuju,1360,v6F1UhK1W0e5
+645,tororo,tororo,osukuru,1365,nVibCDeuyeLn
+646,tororo,tororo mc,eastern division,338,5vGJCn6ai8Kn
+647,tororo,tororo mc,western division,347,15nH3tbcn0on
+648,tororo,west budama,iyolwa,1351,tZOStAuRNez7
+649,tororo,west budama,kirewa,1352,ijMkAtaFKsdd
+650,tororo,west budama,kisoko,1353,obqeRchhomOs
+651,tororo,west budama,magola,1355,FV8qsAnaPLlY
+652,tororo,west budama,mulanda,1361,Fr4zNVSl0z7l
+653,tororo,west budama,nabuyoga,1362,OLyHPGwHstSt
+654,tororo,west budama,nagongera,1363,reat828QeEC1
+655,tororo,west budama,nagongera town council,1364,4N387DlW3A3e
+656,tororo,west budama,paya,1366,lVTlIHD1UztL
+657,tororo,west budama,petta,1367,VNKQvBuzSLQe
+658,tororo,west budama,rubongi,1368,ssPCVVcAZZh1
+659,tororo,west budama,sop-sop,1369,usWvpWujGfj5
+660,abim,labwor,abim,118,PHHGEmzHCUd0
+661,abim,labwor,abim town council,119,hlcpIJzOttAk
+662,abim,labwor,alerek,120,fgTasDTPmaiH
+663,abim,labwor,lotukei,123,lDSgPYnS7WWD
+664,abim,labwor,morulem,124,k79matIWOj44
+665,adjumani,east moyo,adjumani town council,125,6TbN33WDPdHD
+666,adjumani,east moyo,adropi,126,uNmRIcjUTjWm
+667,adjumani,east moyo,arinyapi,127,tRaVz2eLNg9Z
+668,adjumani,east moyo,ciforo,128,q6gOWofSKvEb
+669,adjumani,east moyo,dzaipi,129,WOrUsyVPvCYe
+670,adjumani,east moyo,itirikwa,130,3y3aOiV61mlj
+671,adjumani,east moyo,ofua,131,g65sO2aHY5x0
+672,adjumani,east moyo,okusijoni,132,8v06wFjefCOb
+673,adjumani,east moyo,pacara,133,ubEKww7F97xw
+674,adjumani,east moyo,pakele,134,vCJSIzQZ97tX
+675,agago,agago,adilang,136,gd9r945TlYIr
+676,agago,agago,agago town council,137,TgzmnnZtTq9D
+677,agago,agago,arum,138,i4w4iN1L1TMK
+678,agago,agago,kalongo town council,139,uRoxhY2lp56R
+679,agago,agago,kotomol,140,B85Qb7DPwgts
+680,agago,agago,lamiyo,141,EExaMi7wpW4C
+681,agago,agago,lapono,142,UYARfBqbY3c0
+682,agago,agago,lira palwo,143,a7jMaQ7Vb0Yo
+683,agago,agago,lokole,144,NZN3ThmM7ro9
+684,agago,agago,omiya pacwa,145,3I88TbI3oEyd
+685,agago,agago,omot,146,WFarfO845OP2
+686,agago,agago,paimol,147,uNYF4iFBT2ay
+687,agago,agago,parabong,148,R8UyB4TpotoD
+688,agago,agago,patongo,149,ABCPArIac7XV
+689,agago,agago,patongo town council,150,OFpWhFXhWQhp
+690,agago,agago,wol,151,VcIui411e1gQ
+691,alebtong,moroto,abako,152,ZUFz1FgzeooE
+692,alebtong,moroto,abia,153,apnLEdRL1rrP
+693,alebtong,moroto,akura,154,5CABVSGplYiK
+694,alebtong,moroto,alebtong town council,155,cJ43RLdzCu3S
+695,alebtong,moroto,aloi,156,QayfOthAEKx5
+696,alebtong,moroto,amugu,160,agHQfsHRKRsy
+697,alebtong,moroto,apala,157,gu88jDRDLSiX
+698,alebtong,moroto,awei,158,ckRwW6WDk5x1
+699,alebtong,moroto,omoro,159,7UTEJOTdZT1F
+700,amolatar,kioga,agikdak,161,hbrW6s1Qh1EZ
+701,amolatar,kioga,agwingiri,162,loOJmq2aI1pL
+702,amolatar,kioga,akwon,163,2K1GHDmzvHyA
+703,amolatar,kioga,amolatar town council,164,womhCf39QPt2
+704,amolatar,kioga,aputi,165,YgWQGFKVgiax
+705,amolatar,kioga,arwotcek,166,QBA3WvoTsfKy
+706,amolatar,kioga,awelo,167,zWXbrwE8wpHv
+707,amolatar,kioga,etam,168,Ww4V3dOXm62y
+708,amolatar,kioga,muntu,169,R6SGmqlg5gcO
+709,amolatar,kioga,namasale,170,9Wf2n59uqNC1
+710,amolatar,kioga,namasale town council,171,01LrCkD6WuQ1
+711,amudat,pokot,amudat,172,WF5x7L7F9Dos
+712,amudat,pokot,amudat town council,173,HqgNZcdvLJsf
+713,amudat,pokot,karita,174,dvrUEpZBsKoY
+714,amudat,pokot,loroo,175,ivLRiG65arEn
+715,amudat,kilak,amuru,0,0
+716,amudat,kilak,amuru town council,0,0
+717,amudat,kilak,atiak,0,0
+718,amudat,kilak,lamogi,0,0
+719,amudat,kilak,pabo,0,0
+720,apac,kwania,abongomola,197,WtZ40LLtpTjU
+721,apac,kwania,aduku,198,kmTvme8qpwCe
+722,apac,kwania,aduku town council,199,cLKneBbG93FO
+723,apac,kwania,chawente,207,cSxP1ITqhYzl
+724,apac,kwania,inomo,205,f5esdDwRH22f
+725,apac,kwania,nambeiso,206,lnHKBtFT4jf7
+726,apac,maruzi,akokoro,200,WCR3nQe9ILyq
+727,apac,maruzi,apac,201,7oo1tUz12N0W
+728,apac,maruzi,apac town council,202,qOawYvSp9vqd
+729,apac,maruzi,chegere,203,BAhId8BsIG65
+730,apac,maruzi,ibuje,204,K5arjkVYpnPN
+731,arua,arua mc,arua hill,213,EVl9gMJrcHcQ
+732,arua,arua mc,river oli,229,503rG7g0mPE7
+733,arua,ayivu,adumi,208,hGZ7kEOpOsOU
+734,arua,ayivu,aroi,212,ltaHdSRxlh43
+735,arua,ayivu,ayivuni,214,XL53qKPaQCIw
+736,arua,ayivu,dadamu,216,yYXkWAxRpiD2
+737,arua, ayivu,manibe,218,ETUpriEtcErZ
+738,arua,ayivu,oluko,223,O0hyymy42qZV
+739,arua,ayivu,pajulu,236,qWtF2wfe5hT1
+740,arua,madi-okollo,anyiribu,210,jjZCPeKGgDVT
+741,arua,madi-okollo,offaka,220,oztTuPA4Ueqj
+742,arua,madi-okollo,ogoko,221,HvF8ZplD7jkl
+743,arua,madi-okollo,okollo,222,itQ74me6ldxQ
+744,arua,madi-okollo,pawor,225,aCx6xGhtLN2l
+745,arua,madi-okollo,rhino camp,226,h3NzSTFiz0EN
+746,arua,madi-okollo,rigbo,228,MwpmAPet4Vr1
+747,arua,madi-okollo,uleppi,231,GdyNAavLdaxq
+748,arua,terego,aii-vu,209,5ffh4uZYWm7G
+749,arua,terego,bileafe,215,04NzklsAmyHb
+750,arua,terego,katrini,235,zMbC1BNKaVzj
+751,arua,terego,omugo,224,gkZOKw0ME2ad
+752,arua,terego,udupi,219,U8wVv9Lw5fkA
+753,arua,terego,uriama,232,7IQsJio8RGpz
+754,arua,vurra,ajia,234,0LQ5doUtUQyS
+755,arua,vurra,arivu,211,GSS4QuW2XBPG
+756,arua,vurra,logiri,0,0
+757,arua,vurra,vurra,233,u9Z2po2k7hTt
+758,dokolo,dokolo,adeknino,377,2bXyGAhFNAG9
+759,dokolo,dokolo,adok,378,93tztfHEK6ny
+760,dokolo,dokolo,agwata,379,4TDk1uOLv7ut
+761,dokolo,dokolo,amwoma,380,a6Z4tI0t4Mxc
+762,dokolo,dokolo,batta,381,tLIdrXMHFifb
+763,dokolo,dokolo,dokolo,382,XynYNxnn874P
+764,dokolo,dokolo,dokolo town council,383,9cR2u5hbY2CW
+765,dokolo,dokolo,kangai,384,MN9VJngS1G4P
+766,dokolo,dokolo,kwera,385,aQrVqx6NgUBL
+767,dokolo,dokolo,okwalongwen,386,hVuAzjzk5z7o
+768,dokolo,dokolo,okwongodul,387,vyIdBu1eMCGA
+769,gulu,aswa,awach,394,nXstMI9LzONl
+770,gulu,aswa,bungatira,397,75xOvQFArATY
+771,gulu,aswa,paicho,0,0
+772,gulu,aswa,palaro,405,QsxuywowJzCW
+773,gulu,aswa,patiko,406,2D1ZTEOXDu9X
+774,gulu,aswa,unyama,408,APdvRIokVoLH
+775,gulu,gulu mc,bar dege division,395,TbMcPWOovgXN
+776,gulu,gulu mc,laroo division,0,0
+777,gulu,gulu mc,layibi division,0,0
+778,gulu,gulu mc,pece division,407,Neb8n93bJBRe
+779,gulu,omoro,bobi,0,0
+780,gulu,omoro,koro,0,0
+781,gulu,omoro,lakwana,0,0
+782,gulu,omoro,lalogi,0,0
+783,gulu,omoro,odek,0,0
+784,gulu,omoro,ongako,0,0
+785,kaabong,dodoth,kaabong east,546,9219AOctip15
+786,kaabong,dodoth,kaabong town council,547,Q1ZvO0apOLkS
+787,kaabong,dodoth,kaabong west,548,AQmmwebTpm3Q
+788,kaabong,dodoth,kalapata,549,pniWaViLyrJs
+789,kaabong,dodoth,kamion,550,t2k3JKL2Y7P7
+790,kaabong,dodoth,kapedo,551,I3moh18leKuL
+791,kaabong,dodoth,kathile,553,x9wHYSysFe5M
+792,kaabong,dodoth,kawalakol,554,gzmBYrWBnvys
+793,kaabong,dodoth,lobalangit,555,7XJyatSed7R8
+794,kaabong,dodoth,lodiko,556,uTitA04KubsD
+795,kaabong,dodoth,lolelia,557,txSxHkSBKVnJ
+796,kaabong,dodoth,loyoro,558,1FjpNHKGHfSC
+797,kaabong,dodoth,napore (karenga ),552,QJ41deO9kyTj
+798,kaabong,dodoth,sidok,559,z2v5k2RVmriW
+799,kitgum,chua,kitgum matidi,779,CJTliqDVlhvG
+800,kitgum,chua,kitgum town council,778,omwU8zi2R449
+801,kitgum,chua,labongo akwang,777,kGZhiuaucOws
+802,kitgum,chua,labongo amida,780,3rtBuKSsZWFh
+803,kitgum,chua,labongo layamo,781,gtPYTgytPkWK
+804,kitgum,chua,lagoro,783,OUDtLVcyC5Qo
+805,kitgum,chua,mucwini,784,D17Jg7hSnsrJ
+806,kitgum,chua,namokora,785,yf4ilnAN50ep
+807,kitgum,chua,omiya anyima,786,t4c1yHrxOCLK
+808,kitgum,chua,orom,787,6Rabf5HdI9ml
+809,koboko,koboko,abuku,788,znUxXbiMzwRj
+810,koboko,koboko,dranya,789,LMEJJQJYfKUL
+811,koboko,koboko,koboko town council,790,ADpcgosB5Bpj
+812,koboko,koboko,kuluba,793,ScijaHaO3D4b
+813,koboko,koboko,lobule,791,56XUFt9RK2SY
+814,koboko,koboko,ludara,794,ZXSkllzX2RzE
+815,koboko,koboko,midia,792,BWHcDwCHhRCX
+816,kole,kole,aboke,795,z9oxDNNXZR2L
+817,kole,kole,akalo,796,qTeI416fcY97
+818,kole,kole,alito,797,2V9FnOKEFzFX
+819,kole,kole,ayer,798,YCfDR3HO0WT5
+820,kole,kole,bala,800,YI2U0NplGcY2
+821,kole,kole,kole town council,0,0
+822,kole,kole,okwerodot,0,0
+823,kotido,jie,kacheri,801,RiQvEIUy5Dg0
+824,kotido,jie,kotido,802,Ff0ckwmtkpVt
+825,kotido,jie,kotido town council,803,pjKpRKxGZ9nR
+826,kotido,jie,nakaperimoru,804,9EaMXpXBekEh
+827,kotido,jie,panyangara,805,fndwF1r6anhW
+828,kotido,jie,rengen,806,VWef3gckHMl6
+829,lamwo,lamwo,agoro,859,1aT3RPNHBQZE
+830,lamwo,lamwo,lamwo town council,860,KbTaSdP7EPR4
+831,lamwo,lamwo,lokung,861,dE22TFx50Eq2
+832,lamwo,lamwo,madi opei,862,IwFgvEcoKdPG
+833,lamwo,lamwo,padibe west,865,RGYatfWSRtLv
+834,lamwo,lamwo,padibe east,863,8zyDzq5KcRmT
+835,lamwo,lamwo,padibe town council,864,kb5DjvWVcg0l
+836,lamwo,lamwo,palabek kal,867,pVc3shfzQQy4
+837,lamwo,lamwo,palabek-ogili,866,lam51uNJT1uk
+838,lamwo,lamwo,palabek gem,868,ZfPa5nooxJST
+839,lamwo,lamwo,paloga,0,0
+840,lira,erute,adekokwok,870,rXhgc4kbBnde
+841,lira,erute,agali,872,B0ov5cAnk4aM
+842,lira,erute,agweng,873,0J1omaES5AHP
+843,lira,erute,amach,874,PbMMImxymu9V
+844,lira,erute,aromo,875,ggvXVVLITwhr
+845,lira,erute,barr,876,PrqCCftLMvRf
+846,lira,erute,lira,877,2IA0aot6sYZH
+847,lira,erute,ngetta,879,XLxVmu2bYYvj
+848,lira,erute,ogur,880,N1uRqcThe7Dj
+849,lira,lira mc,adyel division,871,OiIcaUzifmwV
+850,lira,lira mc,central division,878,rIJDv1fmOHLd
+851,lira,lira mc,ojwina division,881,xN9Ua4W1f6xV
+852,lira,lira mc,railway division,882,7lOYx7LVjB6q
+853,maracha,maracha,kijomoro,918,ktbrXwd0AkLw
+854,maracha,maracha,maracha  town council,919,kUEc7U8KqQj4
+855,maracha,maracha,nyadri,920,EdQq3xJAicaP
+856,maracha,maracha,oleba,921,kU1nReLxYb12
+857,maracha,maracha,olufee,922,bw7rxRJvWoD3
+858,maracha,maracha,oluvu,923,jJFqMmPZlXKz
+859,maracha,maracha,tara,924,P19Q6RdkcVOY
+860,maracha,maracha,yivu,925,qJTUbIVmCJCg
+861,moroto,matheniko,katikekile,1040,HkpHWQjV1snM
+862,moroto,matheniko,nadunget,1041,ygIEhw4cm0YV
+863,moroto,matheniko,rupa,1043,wGhNqWPmBBgN
+864,moroto,matheniko,tapac,1045,tIPbDupk4tpY
+865,moroto,moroto mc,north division,1042,Sh1MjYPdOg9L
+866,moroto,moroto mc,south division,532,bzOORWEuuXtO
+867,moyo,obongi,aliba,1046,5kHuZo3qzdh7
+868,moyo,obongi,gimara,1048,PhvutZnSQAjL
+869,moyo,obongi,itula,1049,7384Snj2DT7T
+870,moyo,west moyo,difule,1047,8JjMOTbUrZ3c
+871,moyo,west moyo,laropi,1051,tEyNhoOrO1Gx
+872,moyo,west moyo,lefori,1052,qgla31llEIoA
+873,moyo,west moyo,metu,1053,C4S0u4yfJBTs
+874,moyo,west moyo,moyo,1054,0DFSnFeJOxRH
+875,moyo,west moyo,moyo town council,1055,PDRX2ivvr9hy
+876,nakapiripirit,chekwii,kakomongole,1095,LSKVIjt8ysSp
+877,nakapiripirit,chekwii,loregae,1097,hdc2lXaAvNjA
+878,nakapiripirit,chekwii,moruita,1101,qZzBjOSBGrL8
+879,nakapiripirit,chekwii,nakapiripirit town council,1100,LAPb6mVcRnxs
+880,nakapiripirit,chekwii,namalu,1102,Ez457nJLfM8v
+881,nakapiripirit,pian,lolachat,1096,83X6iaRNhuI3
+882,nakapiripirit,pian,lorengedwat,1098,5CCY19dRyAcw
+883,nakapiripirit,pian,nabilatuk,1099,XmSr0JOfdsnh
+884,napak,bokora,iriiri,1144,XhMgPABbQsn9
+885,napak,bokora,lokopo,1145,lY7kkAyrBr0A
+886,napak,bokora,lopeei,1146,CwIcKQyigGDD
+887,napak,bokora,lorengecora,1147,m62DspydjFYQ
+888,napak,bokora,lotome,1148,8NkUrK8rJMyK
+889,napak,bokora,matany,1143,SZaMJzipx3qf
+890,napak,bokora,napak town council,0,0
+891,napak,bokora,ngoleriet,1149,WZErEtl4BJYN
+892,nebbi,jonam,alwi,1151,JElBRbCSguR9
+893,nebbi,jonam,pakwach,1160,3n41Xq4U5OFq
+894,nebbi,jonam,pakwach town council,1161,RTK5tLz9LIKF
+895,nebbi,jonam,panyango,1162,wM5gEAk1hqx9
+896,nebbi,jonam,panyimur,1165,KyIhOA65rGBJ
+897,nebbi,jonam,wadelai,1164,ed9P0Lkzl1s1
+898,nebbi,padyere,akworo,1150,VcM3tk9xnL0k
+899,nebbi,padyere,atego,1152,dJblWEVVL2jq
+900,nebbi,padyere,erussi,1153,aQ5pGDAdzc4X
+901,nebbi,padyere,kucwiny,1154,ah1gUQMBOE4w
+902,nebbi,padyere,ndhew,1156,ciFipuzvOGMV
+903,nebbi,padyere,nebbi,1157,X1ntAbzIQDd0
+904,nebbi,padyere,nebbi town council,1158,bbs4mxszOA81
+905,nebbi,padyere,nyaravur,1159,VNDiTxpkbyFv
+906,nebbi,padyere,parombo,1163,pSeHkk1IB1Pa
+907,nwoya,nwoya,alero,1202,hCfnVhed5q4O
+908,nwoya,nwoya,anaka (payira),1203,nIH1vIa5lIlb
+909,nwoya,nwoya,anaka town council,1204,oYmtEsjCsKEK
+910,nwoya,nwoya,koch-goma,1205,RGpmAMgXwLdr
+911,nwoya,nwoya,purongo,1206,HwuGhSJADw7d
+912,otuke,otuke,adwari,1207,noiBP5lmlQov
+913,otuke,otuke,alango,0,0
+914,otuke,otuke,ogor,1208,VgXnjt1ybXxW
+915,otuke,otuke,ogwette,0,0
+916,otuke,otuke,okwang,1209,BLugVQQmwPOC
+917,otuke,otuke,olilm,1210,UulqE8GG93l2
+918,otuke,otuke,orum,1211,NZb8aAbrSbEo
+919,otuke,otuke,otuke town council,1212,Q18DeHMlWHYb
+920,oyam,oyam,aber,1213,1inWwXzrWiZb
+921,oyam,oyam,abok,1214,8VyloQTmoiB0
+922,oyam,oyam,acaba,1215,g22cSTvjcC0z
+923,oyam,oyam,aleka,1216,haHfqnMXBudB
+924,oyam,oyam,iceme,1217,58XdcGst1dHE
+925,oyam,oyam,kamdini,1218,wiPuLHIGuK3U
+926,oyam,oyam,loro,1219,ZtSmpuVP2EXC
+927,oyam,oyam,minakulu,1220,1bt7fSm94xvX
+928,oyam,oyam,myene,1221,3zkOjtj7HQTA
+929,oyam,oyam,ngai,1222,x3YaP51aMnQO
+930,oyam,oyam,otwal,1223,CSa4sKpt3qkI
+931,oyam,oyam,oyam town council,1224,Tgq8xMeOEjzi
+932,pader,aruu,acholi bur,1225,u5rCN8FYbnEq
+933,pader,aruu,angangura,1226,NtsQiZmWe7QM
+934,pader,aruu,atanga,1227,Z3oO7WM8mz6p
+935,pader,aruu,awere,1228,jRwxR8RdKqIk
+936,pader,aruu,laguti,1229,2MkSOX4eLKVX
+937,pader,aruu,lapul,1230,WKkulLMuKdkB
+938,pader,aruu,latanya,1231,fKZm7uEDHWne
+939,pader,aruu,ogom,1232,3wh1W8Zk4vpo
+940,pader,aruu,pader,1233,mAOwDFaZHIzv
+941,pader,aruu,pader town council,1234,5RK7C7XlfURO
+942,pader,aruu,pajule,1235,U7EXzFiewnFV
+943,pader,aruu,puranga,1236,MoH7drwZ5Ydn
+944,yumbe,aringa,apo,0,0
+945,yumbe,aringa,ariwa,1396,9hHyNab6VzdH
+946,yumbe,aringa,drajini,1397,g5w7i380lsy8
+947,yumbe,aringa,kei,1398,RerZsi3kasdf
+948,yumbe,aringa,kerwa,1399,7ctYWBhdd5Os
+949,yumbe,aringa,kochi,1400,tO39w9a6433V
+950,yumbe,aringa,kululu,1401,2TEm98jOIAsG
+951,yumbe,aringa,kuru,1402,fGS3uHSc2wbJ
+952,yumbe,aringa,lodonga,1403,bImrn2iFgESZ
+953,yumbe,aringa,midigo,1404,rGK5gfYurYnR
+954,yumbe,aringa,odravu,1405,OR3vaHJVSI6A
+955,yumbe,aringa,romogi,1406,z4eRZzgjDSeC
+956,yumbe,aringa,yumbe town council,1407,cdA7MBx7UPU2
+957,zombo,okoro,abanga,1408,9Wehnoi2VgCo
+958,zombo,okoro,atyak,1409,oHXQEuxaScR8
+959,zombo,okoro,jangokoro,1411,FX1WpzBALF6o
+960,zombo,okoro,kango,1412,wjqKlUi1pisk
+961,zombo,okoro,nyapea,1413,OHOZgyAINIzn
+962,zombo,okoro,paidha,1415,m1bI8giph4JX
+963,zombo,okoro,paidha town council,1414,HLFOADO2QzAm
+964,zombo,okoro,warr,1416,mim2ppuMEOGd
+965,zombo,okoro,zeu,1417,XLeuI9Q1Ou3k
+966,zombo,okoro,zombo town council,1418,t5ajQbjjQyE5
+967,buhweju,buhweju,bihanga,0,0
+968,buhweju,buhweju,bitsya,266,IKZyx0H5HOHl
+969,buhweju,buhweju,burere,267,8GqEWMfFet3E
+970,buhweju,buhweju,engaju,268,9rtzYBA5rua4
+971,buhweju,buhweju,karungu,269,K2lqxhBb6Fxd
+972,buhweju,buhweju,nsiika town council,270,naf82O3lo66U
+973,buhweju,buhweju,nyakishana,271,5sVD9EQtBZCm
+974,buhweju,buhweju,rwengwe,272,09l6ulOOnGVm
+975,buliisa,buliisa,biiso,297,wstKzY213vXU
+976,buliisa,buliisa,buliisa,298,9SjEqOCR4R2C
+977,buliisa,buliisa,buliisa town council,299,o6jHqk6Jl2l8
+978,buliisa,buliisa,butiaba,300,05ERZYrFyc2p
+979,buliisa,buliisa,kigwera,301,jJo0IQhGjtRT
+980,buliisa,buliisa,kihungya,302,KPs1cnE1RvwT
+981,buliisa,buliisa,ngwedo,303,stYliBt6Bgs5
+982,bundibugyo,bughendera,bukonzo,306,ZZRD38ZktLoo
+983,bundibugyo,bughendera,harugale,309,C1OFPGC5wjKC
+984,bundibugyo,bughendera,ndugutu,314,WDIXBPI6QSU8
+985,bundibugyo,bughendera,ngamba,315,FLxK5elNSdNe
+986,bundibugyo,bughendera,ntotoro,316,DMfVG9iRAT3u
+987,bundibugyo,bughendera,sindila,318,RhcTfl1ZE8L0
+988,bundibugyo,bwamba,bubandi,304,TnMNKbeLjb7P
+989,bundibugyo,bwamba,bubukwanga,305,uUT4XW2XEtwk
+990,bundibugyo,bwamba,bundibugyo town council,307,O7BS7R6ZznDm
+991,bundibugyo,bwamba,busaru,308,FtCJ0KgZHFaG
+992,bundibugyo,bwamba,kasitu,310,lt6g1eKQmAcG
+993,bundibugyo,bwamba,kirumya,311,QGTCc7pueybC
+994,bundibugyo,bwamba,kisuba,312,Kv9NrU5e5pC8
+995,bundibugyo,bwamba,mirambi,313,ZFKzCEw1MDQf
+996,bundibugyo,bwamba,nyahuka town council,317,wQJvVYd4G2Ty
+997,bushenyi,bushenyi- ishaka mc,central division,321,eDN4sc951Y4s
+998,bushenyi,bushenyi- ishaka mc,ishaka division,323,NEKng9JigISF
+999,bushenyi,bushenyi- ishaka mc,nyakabirizi division,329,fjcBZ5C3s8s6
+1000,bushenyi,igara,bitooma,319,viFPxA71pw52
+1001,bushenyi,igara,bumbaire,320,yQzSwA30Tc2b
+1002,bushenyi,igara,ibaare,322,BykJOAePOxDW
+1003,bushenyi,igara,kakanju,324,3WHrp7UFoT7o
+1004,bushenyi,igara,kyabugimbi,325,yERXx8Jq0svH
+1005,bushenyi,igara,kyamuhunga,326,9eQwtA3n2WTD
+1006,bushenyi,igara,kyeizooba,327,mzME0iazvhY3
+1007,bushenyi,igara,nyabubare,328,TLfSxYslp6GK
+1008,bushenyi,igara,ruhumuro,330,lqWTNmjjzzzC
+1009,hoima,bugahya,buhanika,411,Xo7tfQpz340j
+1010,hoima,bugahya,buseruka,414,PX0PGs3xgKRc
+1011,hoima,bugahya,kigorobya,419,FntO3OsGjtYt
+1012,hoima,bugahya,kigorobya town council,420,C3QTO7IJs0LG
+1013,hoima,bugahya,kitoba,421,FRPHOSYBLjZn
+1014,hoima,bugahya,kyabigambire,423,gnRSiKZmAlZf
+1015,hoima,buhaguzi,bugambe,410,dsElH7L1DwYk
+1016,hoima,buhaguzi,buhimba,412,QyjVKq3tlKo8
+1017,hoima,buhaguzi,kabwoya,417,XZlSLbX3bjnS
+1018,hoima,buhaguzi,kiziranfumbi,422,YQtcTIN1Bp6n
+1019,hoima,buhaguzi,kyangwali,424,PrIP352H3HWV
+1020,hoima,hoima mc,bujumbura division,413,XwEVsWgEtSAE
+1021,hoima,hoima mc,busiisi division,415,azcG5mr0LhvX
+1022,hoima,hoima mc,kahoora division,418,pXs0GoBAqQCT
+1023,hoima,hoima mc,mparo division,425,PzL9WbpnlghU
+1024,ibanda,ibanda,bisheshe,426,3x0NBKpZTiXH
+1025,ibanda,ibanda,ibanda town council,427,dN04FIr4HxXy
+1026,ibanda,ibanda,igorora town council,429,wBJhTG8Dxmy9
+1027,ibanda,ibanda,ishongororo,430,q6XMrYtuV2S2
+1028,ibanda,ibanda,ishongororo town council,431,DT9v6xk6rtwW
+1029,ibanda,ibanda,kashangura,432,G7OswtuT5HhQ
+1030,ibanda,ibanda,keihangara,433,yA2jypoXVy3V
+1031,ibanda,ibanda,kicuzi,434,K73iekQI67o3
+1032,ibanda,ibanda,kijongo,435,qvEantt9awUn
+1033,ibanda,ibanda,kikyenkye,436,vLc8fNr9LR6c
+1034,ibanda,ibanda,nsasi,437,hsjNEO4NTRMK
+1035,ibanda,ibanda,nyabuhikye,438,oU28jdnyUqPa
+1036,ibanda,ibanda,nyamarebe,439,cAZhWu8qaIW6
+1037,ibanda,ibanda,rukiri,440,QZFyZT9VzZBC
+1038,ibanda,ibanda,rushango town council,441,7J8z48fezMZo
+1039,isingiro,bukanga,endiinzi,459,UjNHkZZGmThs
+1040,isingiro,bukanga,kashumba,464,AoqN1mOXq7qM
+1041,isingiro,bukanga,mbaare,467,jfpdZGi516Eo
+1042,isingiro,bukanga,nakivale,0,0
+1043,isingiro,bukanga,ngarama,468,scvdzImyJuB0
+1044,isingiro,bukanga,rugaaga,472,vU7oDrCvu3Lz
+1045,isingiro,bukanga,rushasha,473,uLGNMalfot3l
+1046,isingiro,isingiro,bireere,458,u1lgWtKQq1Xz
+1047,isingiro,isingiro,isingiro town council,460,5S5wzuThhJfe
+1048,isingiro,isingiro,kabarebere town council,461,9aaobx54Si6e
+1049,isingiro,isingiro,kabingo,462,ZdQ6XNqEk9QX
+1050,isingiro,isingiro,kabuyanda,463,N3lh7nNNV9W4
+1051,isingiro,isingiro,kabuyanda town council,0,0
+1052,isingiro,isingiro,kikagate,465,kD0wuG3KpERV
+1053,isingiro,isingiro,masha,466,AyMMDHQJDPsj
+1054,isingiro,isingiro,nyakitunda,469,hnlAhV2qfweT
+1055,isingiro,isingiro,nyamuyanja,470,nZTQebhSXZjI
+1056,isingiro,isingiro,oruchinga,0,0
+1057,isingiro,isingiro,ruborogota,471,eI3FadsWiSCd
+1058,kabale,kabale mc,central division,321,eDN4sc951Y4s
+1059,kabale,kabale mc,northern division,457,cn6eO9TX3LGY
+1060,kabale,kabale mc,southern division,0,0
+1061,kabale,ndorwa,buhara,490,WYMMkDUXFwHz
+1062,kabale,ndorwa,butanda,487,gr1VlVKcJzbq
+1063,kabale,ndorwa,kaharo,497,YdL4UXbNXou2
+1064,kabale, ndorwa,kamuganguzi,498,8dZEhV5vp8kJ
+1065,kabale,ndorwa,katuna town councul,496,TftLsSl8lxW3
+1066,kabale,ndorwa,kitumba,501,tSIs6ue8sFOJ
+1067,kabale,ndorwa,kyanamira,502,wROJCFC1lqLD
+1068,kabale,ndorwa,maziba,503,ckkDQxqsLMtB
+1069,kabale,ndorwa,rubaya,508,nX8IW9LaxEHB
+1070,kabale,rubanda,bubaare,0,0
+1071,kabale,rubanda,bufundi,0,0
+1072,kabale,rubanda,hamurwa,0,0
+1073,kabale,rubanda,hamurwa town council,0,0
+1074,kabale,rubanda,ikumba,0,0
+1075,kabale,rubanda,muko,0,0
+1076,kabale,rubanda,nyamweru,0,0
+1077,kabale,rubanda,ruhija,0,0
+1078,kabale,rukiga,bukinda,491,UJn8oFoVeMZJ
+1079,kabale,rukiga,kamwezi,499,0fRnilMbokid
+1080,kabale,rukiga,kashambya,500,kXLxpMrZqgur
+1081,kabale,rukiga,muhanga town council,504,Dl0bJpNU8AGY
+1082,kabale,rukiga,rwamucucu,510,NnHGiBROZTge
+1083,kabarole,bunyangabu,buheesi,512,eJEZ27UWEiMh
+1084,kabarole,bunyangabu,kabonero,517,ihGDPi8ysNmF
+1085,kabarole,bunyangabu,kateebwa,522,BBQ3KFNuW0Ex
+1086,kabarole,bunyangabu,kibiito,523,bJKATkgTNWfI
+1087,kabarole,bunyangabu,kibiito town council,524,O8gp7BkQpzRh
+1088,kabarole,bunyangabu,kisomoro,527,XvOTMMpCoxDZ
+1089,kabarole,bunyangabu,rubona town council,0,0
+1090,kabarole,bunyangabu,rwimi,530,xzROmdjzAfBb
+1091,kabarole,bunyangabu,rwimi town council,531,hFgS2VCWpCr8
+1092,kabarole,burahya,bukuuku,0,0
+1093,kabarole,burahya,busoro,513,I3eRHw6kdVSC
+1094,kabarole,burahya,hakibale,515,TDzTubiD9aKT
+1095,kabarole,burahya,karago town council,518,11VVvAaCARzg
+1096,kabarole,burahya,karambi,519,EhcvoVqrea6Q
+1097,kabarole,burahya,karangura,520,LyLgxWENXTSx
+1098,kabarole,burahya,kasenda,521,C4peqVyxViPC
+1099,kabarole,burahya,kicwamba,525,4kMbqXOgCAxO
+1100,kabarole,burahya,kiko town council,526,v6EgqVq4tUMQ
+1101,kabarole,burahya,kyaitamba town council,0,0
+1102,kabarole,burahya,mugusu,528,e5YjFbQYjYX5
+1103,kabarole,burahya,ruteete,529,ukwDn9N3X0D4
+1104,kabarole,fort portal  mc,eastern division,514,sz98ihToeZi9
+1105,kabarole,fort portal  mc,southern division,532,bzOORWEuuXtO
+1106,kabarole,fort portal  mc,western division,533,0kZskXWNfUBN
+1107,kamwenge,kibale,biguli,589,BnvESShn9XsW
+1108,kamwenge,kibale,bihanga,590,4tbbUN5B1Mvw
+1109,kamwenge,kibale,busiriba,593,DNQQINHF8dwK
+1110,kamwenge,kibale,bwizi,594,RXtz8N5bRpu0
+1111,kamwenge,kibale,kabambiro,595,p2KM6ZR3H790
+1112,kamwenge,kibale,kahunge,596,KvbGmKjZ01hH
+1113,kamwenge,kibale,kamwenge,597,tMWP1Uabas6q
+1114,kamwenge,kibale,kamwenge town council,598,uRDnvdYQF3pQ
+1115,kamwenge,kibale,nkoma,602,BBw4bJw1zdB2
+1116,kamwenge,kibale,rwamwanja r/s,605,dkfteY8jZqkz
+1117,kamwenge,kitagwenda,buhanda,591,ys30E1qNzfWv
+1118,kamwenge,kitagwenda,kanara,599,JABumhVsd2Qn
+1119,kamwenge,kitagwenda,kicheche,600,5ptwifc4qNuK
+1120,kamwenge,kitagwenda,mahyoro,601,lcqhwKPC4I1m
+1121,kamwenge,kitagwenda,ntara,603,dP1aoVUcgoIL
+1122,kamwenge,kitagwenda,nyabbani,604,TjmfwUZ5jKOs
+1123,kanungu,kinkiizi,butogota town council,606,zRWrd7ma6U0Q
+1124,kanungu,kinkiizi,kambuga,607,SI5SFGFpD5pt
+1125,kanungu,kinkiizi,kambuga town council,608,LHcWxPTQ8KZN
+1126,kanungu,kinkiizi,kanungu town council,609,Y4nqb15v48Bj
+1127,kanungu,kinkiizi,kanyantorogo,610,S2Vpsu9wCG4c
+1128,kanungu,kinkiizi,katete,622,xxbGRkP1B2Xz
+1129,kanungu,kinkiizi,kayonza,611,bEftYS4utuZf
+1130,kanungu,kinkiizi,kihiihi,612,LaB1FXTqXrmh
+1131,kanungu,kinkiizi,kihiihi town council,613,hpki4JgAH6do
+1132,kanungu,kinkiizi,kinaaba,614,gGd2Qs8WnkFt
+1133,kanungu,kinkiizi,kirima,615,glbTET28e2Mg
+1134,kanungu,kinkiizi,mpungu,616,0SK8N35FM1Xr
+1135,kanungu,kinkiizi,nyakinoni,617,dPwVex0NG38d
+1136,kanungu,kinkiizi,nyamirama,618,96aXfDt33UHT
+1137,kanungu, kinkiizi,nyanga,619,zGmBrFlvCjP2
+1138,kanungu,kinkiizi,rugyeyo,620,zfBpkQLYKDbY
+1139,kanungu,kinkiizi,rutenga,621,LFJiyWwtZlDj
+1140,kasese,bukonzo,bwera,641,HFCt1NSYLiYa
+1141,kasese,bukonzo,ihandiro,645,2zzg2ywP8rd5
+1142,kasese,bukonzo,isango,646,jGte9Q2pHMwB
+1143,kasese,bukonzo,karambi,519,EhcvoVqrea6Q
+1144,kasese,bukonzo,kisinga,651,bUKSbcWl1Tb8
+1145,kasese,bukonzo,kitholhu,652,8GZpgjQwUNL3
+1146,kasese,bukonzo,kyarumba,654,CCKBvCzwhLxV
+1147,kasese,bukonzo,kyondo,655,ctTx9vpvS3cb
+1148,kasese,bukonzo,mahango,657,VydeI2S3PJ7F
+1149,kasese,bukonzo,mpondwe/lhubiriha town council,659,6QIrXzwNHOXk
+1150,kasese,bukonzo,mukunyu,661,uUf9HM2Gcjzi
+1151,kasese,bukonzo,nyakatonnzi,662,gGOXFIRtyPqp
+1152,kasese,bukonzo,nyakiyumbu,663,9Sxl0l49CDBz
+1153,kasese,busongora,bugoye,638,ZDoyWyP9sj3d
+1154,kasese,busongora,buhuhira,639,yOQEwnXPP0Mw
+1155,kasese,busongora,bwesumbu,642,gGtx5qiqDZYL
+1156,kasese,busongora,hima town council,644,ROkdhNKqIYXp
+1157,kasese,busongora,karusandara,666,6OM9J0Ntzhb6
+1158,kasese,busongora,katwe-kabatoro town council,649,AiJJqM7SpRBz
+1159,kasese,busongora,kilembe,650,3zqdxRZu8YUj
+1160,kasese,busongora,kitswamba,667,rx1Dx5iVrI18
+1161,kasese,busongora,kyabarungira,653,mS9HvNHIpyci
+1162,kasese,busongora,lake katwe,656,MFe5HUBnXdJh
+1163,kasese,busongora,maliba,658,j194nBvxOw7h
+1164,kasese,busongora,muhokya,660,RqefPhueIcQw
+1165,kasese,busongora,rukoki,665,ZAOtTgzmYnZW
+1166,kasese,kasese mc,bulembia division,640,viV7VBIhOx7j
+1167,kasese,kasese mc,central division,321,eDN4sc951Y4s
+1168,kasese,kasese mc,nyamwamba division,664,ICzcm3UKoSmA
+1169,kibaale,bugangaizi,birembo,689,i1Jnff2rxl3P
+1170,kibaale,bugangaizi,bwanswa,692,X7YmXp499dbn
+1171,kibaale,bugangaizi,kakindo,697,OVS5aAKzMKCy
+1172,kibaale,bugangaizi,kakumiro town council,698,GKHNuODXTe55
+1173,kibaale, bugangaizi,kasambya,0,0
+1174,kibaale,bugangaizi,kasiita,701,RGnz8ZHNSBMH
+1175,kibaale,bugangaizi,mpasaana,709,ca7bqNTbumWB
+1176,kibaale,bugangaizi,nalweyo,713,fPYpzdzgjrzA
+1177,kibaale,bugangaizi,nkooko,715,EZx7cSTUmxl4
+1178,kibaale,buyaga,burora,691,LH2eWBd7U3pP
+1179,kibaale,buyaga,bwikara,693,apfaJMW5tdfw
+1180,kibaale,buyaga,kabamba,0,0
+1181,kibaale,buyaga,kagadi,0,0
+1182,kibaale,buyaga,kagadi town council,696,ib0HIohGD9qL
+1183,kibaale,buyaga,kiryanga,700,VgaOVg2blE1C
+1184,kibaale,buyaga,kyakabadiima,702,N0ujrMVv9bhN
+1185,kibaale,buyaga,kyanaisoke,703,CJeKWRjMQemY
+1186,kibaale,buyaga,kyaterekera,704,VNFTPKvIFKYD
+1187,kibaale,buyaga,kyenzige,706,0DiArvZF0fk8
+1188,kibaale,buyaga,mabaale,707,2DmHrhIjBuCc
+1189,kibaale,buyaga,mpeefu,710,8O29E2rs5AMg
+1190,kibaale,buyaga,muhorro,712,4hdOWLP7J2pB
+1191,kibaale,buyaga,muhorro town council,0,0
+1192,kibaale,buyaga,ndaiga,714,jZIt3QjxS0Cr
+1193,kibaale,buyaga,paacwa,718,dH11EJGVkBAJ
+1194,kibaale,buyaga,rugashari,719,vUwWb8fDunnk
+1195,kibaale,buyaga,ruteete,0,0
+1196,kibaale,buyanja,bubango,0,0
+1197,kibaale,buyanja,bwamiramira,0,0
+1198,kibaale,buyanja,kibaale town council,0,0
+1199,kibaale,buyanja,kyebando,0,0
+1200,kibaale,buyanja,matale,0,0
+1201,kibaale,buyanja,mugarama,0,0
+1202,kibaale,buyanja,nyamarunda,0,0
+1203,kibaale,buyanja,nyamarwa,0,0
+1204,kiruhura,kazo,buremba,738,RjmaatibKqfd
+1205,kiruhura,kazo,burunga,739,9uArwxZAI1xF
+1206,kiruhura,kazo,engari,740,LEtRIvfd4r8l
+1207,kiruhura,kazo,kanoni,741,4RFFPf0Armcv
+1208,kiruhura,kazo,kazo,744,sfmutDDtGxNG
+1209,kiruhura,kazo,kazo town council,745,ztvJpQYFhFf4
+1210,kiruhura, kazo,nkungu,751,1q49ItaJSpec
+1211,kiruhura,kazo,rwemikoma,753,lwM4sQ51ZYt1
+1212,kiruhura,nyabushozi,kanyaryeru,742,32xqeWyGkdas
+1213,kiruhura,nyabushozi,kashongi,743,D3K04vwWeW3c
+1214,kiruhura,nyabushozi,kenshunga,746,doguceNkzVgA
+1215,kiruhura,nyabushozi,kikaatsi,747,QDuYhbMri0Gv
+1216,kiruhura,nyabushozi,kinoni,748,DAL0IFEINd3R
+1217,kiruhura,nyabushozi,kiruhura town council,749,rBoYxwnDnvZ3
+1218,kiruhura,nyabushozi,kitura,750,ixVrb33WF59L
+1219,kiruhura,nyabushozi,nyakashashara,752,ArWFQ2iZDU5h
+1220,kiruhura,nyabushozi,sanga,754,f8t86UK37jbX
+1221,kiruhura,nyabushozi,sanga town council,755,tpG2sudOvJsF
+1222,kiryandongo,kibanda,bweyale town council,756,yy2BnQzX9vTS
+1223,kiryandongo,kibanda,kigumba,757,Csovx0noMwuE
+1224,kiryandongo,kibanda,kigumba town council,758,1ZIDs2g4llaO
+1225,kiryandongo,kibanda,kiryandongo,759,EAyhHDdVIPYw
+1226,kiryandongo,kibanda kibanda,kiryandongo refugee settlement,0,0
+1227,kiryandongo,"",kiryandongo town council,760,Jn6rGshQ5gq5
+1228,kiryandongo,kibanda,masindi port,761,7dQi3Jn1910I
+1229,kiryandongo,kibanda,mutunda,762,dWQJuxSw7GWS
+1230,kisoro,bufumbira,bukimbiri,763,sCBctjjf0aa7
+1231,kisoro,bufumbira,busanza,764,gfocdU2kMCF1
+1232,kisoro,bufumbira,chahi,765,l9EbN7ssqWN6
+1233,kisoro,bufumbira,kanaba,766,hXCYRbzwj6Mp
+1234,kisoro,bufumbira,kirundo,767,fZKsl975e1Fz
+1235,kisoro,bufumbira,kisoro town council,768,h8ZeDezJewSw
+1236,kisoro,bufumbira,muramba,769,KaqXHhLnTmvP
+1237,kisoro,bufumbira,murora,770,2bhHKyYpT2wA
+1238,kisoro,bufumbira,nyabwishenya,771,GOCmkqPROB8w
+1239,kisoro,bufumbira,nyakabande,772,IQuVwlEEguNw
+1240,kisoro,bufumbira,nyakinama,773,xaGilwqOailc
+1241,kisoro,bufumbira,nyarubuye,774,m0GwbhcLb5kz
+1242,kisoro,bufumbira,nyarusiza,775,yCEv2ZRDLURs
+1243,kisoro,bufumbira,nyundo,776,qtCwp5heleLw
+1244,kyegegwa,kyaka,hapuuyo,834,SQurEBZRCAfi
+1245,kyegegwa,kyaka,kabweeza-kyegegwa,835,GcnM4V23RZPY
+1246,kyegegwa,kyaka,kakabara,836,N71Xb4mbEcMq
+1247,kyegegwa,kyaka,kasule,837,l5OPxPhI5u9e
+1248,kyegegwa,kyaka,kyaka,0,0
+1249,kyegegwa,kyaka,kyegegwa town council,839,OvZNd09iMBPW
+1250,kyegegwa,kyaka,mpara,840,mpeT1XuIZgLw
+1251,kyegegwa,kyaka,ruyonza,841,gxaSTLr7SdTn
+1252,kyegegwa,kyaka,rwentuha,842,WiAAv2LwofcI
+1253,kyenjojo,mwenge,bufunjo,843,0r6ELDL1F5KA
+1254,kyenjojo,mwenge,bugaaki,844,PMDmmmY0Jj0Z
+1255,kyenjojo,mwenge,butiiti,845,FqeINAvv6Dx3
+1256,kyenjojo,mwenge,butunduzi,846,hb6d7cYqvBhx
+1257,kyenjojo,mwenge,butunduzi town council,847,L27ifaOYMvOq
+1258,kyenjojo,mwenge,katooke,848,bb56e9NIO25U
+1259,kyenjojo,mwenge,katooke town council,849,1TOdHD3v1DYA
+1260,kyenjojo,mwenge,kigaraale,850,3x512pxo1hCQ
+1261,kyenjojo,mwenge,kihuura,851,qKiYtKpho9ob
+1262,kyenjojo,mwenge,kisojo,852,CRTilJiTQap1
+1263,kyenjojo,mwenge,kyarusozi,853,hFOgNyIjLl5e
+1264,kyenjojo,mwenge,kyarusozi town council,854,6Kx54u7GYIy0
+1265,kyenjojo,mwenge,kyenjojo town council,855,1gkZsSpBZKTY
+1266,kyenjojo,mwenge,nyabuharwa,856,qf7Or1p8NXVg
+1267,kyenjojo,mwenge,nyankwanzi,857,qbkfUguYV4yP
+1268,masindi,mwenge,nyantungo,858,8B6GI2drgtGf
+1269,masindi,bujenje,budongo,935,I4jXkx3nkvUV
+1270,masindi,bujenje,bwijanga,936,nnNMqkV08JMG
+1271,masindi,buruuli,kimengo,938,chHN76zjv2In
+1272,masindi,buruuli,miirya,942,GUDB3QRvl3e3
+1273,masindi,buruuli,pakanyi,944,HjSCM2sj9zxx
+1274,masindi,masindi mc,central division,321,eDN4sc951Y4s
+1275,masindi,masindi mc,karujubu division,939,gyEih6XQcTK0
+1276,masindi,masindi mc,kigulya division,940,F1fmpLsckeEj
+1277,masindi,masindi mc,nyangahya division,943,exqwRIhRhOnB
+1278,mbarara,kashari,bubaare,969,9OGgQhg3zkb8
+1279,mbarara,kashari,bukiiro,971,ekQL8UkM3WDF
+1280,mbarara,kashari,kagongi,972,STCkTc0SWwRU
+1281,mbarara,kashari,kashare,976,oIOtxhVJVRd8
+1282,mbarara,kashari,rubaya,508,nX8IW9LaxEHB
+1283,mbarara,kashari,rubindi,983,9qRBzIhd5Ug5
+1284,mbarara,kashari,rwanyamahembe,985,SU0qYl8bq5uP
+1285,mbarara,mbarara mc,biharwe division,968,XtRWC38sGNSY
+1286,mbarara,mbarara mc,kakiika division,973,2ZYfMiTAm44f
+1287,mbarara,mbarara mc,kakoba division,974,Tv1kLfls0eEv
+1288,mbarara,mbarara mc,kamukuzi division,975,NqqftOHG8Sey
+1289,mbarara,mbarara mc,nyakayojo division,980,j8gAJ6u5exP0
+1290,mbarara,mbarara mc,nyamitanga division,981,O2K9PGrJddZr
+1291,mbarara,rwampara,bugamba,970,1rQhmkA4EJgs
+1292,mbarara,rwampara,mwizi,978,1ifV5dGlnSe2
+1293,mbarara,rwampara,ndeija,979,4dCEujrmOyXJ
+1294,mbarara,rwampara,rugando,984,OTkFAdTg6YKA
+1295,mitooma,ruhinda,bitereko,1016,2eH8sYxxf5KM
+1296,mitooma,ruhinda,kabira,1017,3wwfGip5mQcc
+1297,mitooma,ruhinda,kanyabwanga,1018,Vs700KFKQ5VL
+1298,mitooma,ruhinda,kashenshero,1019,yaCCwaMtpgaD
+1299,mitooma,ruhinda,kashenshero town council,1020,thcmIx2p7Yw1
+1300,mitooma,ruhinda,katenga,1021,t7v5iRMBofzE
+1301,mitooma,ruhinda,kiyanga,1022,YloVRmEbVMzJ
+1302,mitooma,ruhinda,mayanga,1023,tAbREmHFzKZj
+1303,mitooma,ruhinda,mitooma,1024,5WwP2EBCHPM4
+1304,mitooma,ruhinda,mitooma town council,1025,IEfJs3VPk8u2
+1305,mitooma,ruhinda,mutara,1026,E4ycMKFCtD11
+1306,mitooma,ruhinda,rurehe,1027,gHnJ8ZrEQnTE
+1307,ntoroko,ntoroko,butungama,1171,g46XXo4KwC0h
+1308,ntoroko,ntoroko,bweramule,1172,uP5ywiQNUcRA
+1309,ntoroko,ntoroko,kanara,599,JABumhVsd2Qn
+1310,ntoroko,ntoroko,kanara town council,1174,jvfi19juEAKR
+1311,ntoroko,ntoroko,karugutu,1175,wugR8jsnaTUT
+1312,ntoroko,ntoroko,karugutu town council,1176,7dAp7fyVoW1K
+1313,ntoroko,ntoroko,kibuuku town council,1177,vtIEXkXJWC1G
+1314,ntoroko,ntoroko,nombe,1178,xu1NY8KFjuuf
+1315,ntoroko,ntoroko,rwebisengo,1179,Vvno0lgaMfi9
+1316,ntoroko,ntoroko,rwebisengo town council,1180,U8RffEwAwl9G
+1317,ntungamo,kajara,bwongyera,1181,d1SPchuTYDI8
+1318,ntungamo,kajara,ihunga,1184,9D4SOKNDqCeL
+1319,ntungamo,kajara,kibatsi,1187,VaKrVHBtDCLt
+1320,ntungamo,kajara,nyabihoko,1191,GduEYC9PpCMn
+1321,ntungamo,kajara,rwashamaire town council,1199,L6Oi2ICeexPV
+1322,ntungamo,ntugamo mc,central division,321,eDN4sc951Y4s
+1323,ntungamo,ntugamo mc,eastern division,338,5vGJCn6ai8Kn
+1324,ntungamo,ntugamo mc,western division,347,15nH3tbcn0on
+1325,ntungamo,ruhaama,itojo,1185,ga27NrtgvdLU
+1326,ntungamo,ruhaama,kitwe town council,1188,3vh0OOoY5GrW
+1327,ntungamo,ruhaama,ntungamo,1190,xzEPWSU3VZOz
+1328,ntungamo,ruhaama,nyakyera,1056,JBUBpL6zqAIT
+1329,ntungamo,ruhaama,ruhaama,1196,tYuYYObt9o8i
+1330,ntungamo,ruhaama,rukoni east,1197,D5uWRM33Nvd4
+1331,ntungamo,ruhaama,rukoni west,1198,lJzSjAuSy8NL
+1332,ntungamo,ruhaama,rweikiniro,1200,SZGpa8NGhcp0
+1333,ntungamo,rushenyi,kayonza,611,bEftYS4utuZf
+1334,ntungamo,rushenyi,ngoma,1113,DJ9pgAt5SEte
+1335,ntungamo,rushenyi,rubaare,1193,aR3iCfL7rm5Y
+1336,ntungamo,rushenyi,rubaare town council,1194,jpRewzrIK6gw
+1337,ntungamo,rushenyi,rugarama,1195,qWevMA0eL1KN
+1338,rubirizi,bunyaruguru,katunguru,1279,V5bwieRNHCmh
+1339,rubirizi,bunyaruguru,kichwamba,1280,bUUShDrd6M5j
+1340,rubirizi,bunyaruguru,magambo,1283,eg8ykrVPxDLw
+1341,rubirizi,bunyaruguru,rubirizi town council,1284,CbJ3Z1iIeEuC
+1342,rubirizi,bunyaruguru,rutoto,1285,mqEeQVdqBsWL
+1343,rubirizi,bunyaruguru,ryeru,1286,cv9duAxk5xtI
+1344,rubirizi,katerera,katanda,1277,N7UDSuTgHatz
+1345,rubirizi,katerera,katerera,0,0
+1346,rubirizi,katerera,katerera town council,1278,FNUMZa9zJlgy
+1347,rubirizi,katerera,kirugu,1281,4pb1bByycPZM
+1348,rubirizi,katerera,kyabakara,1282,MTgsitPxiPC8
+1349,rukungiri,rubabo,buyanja,1289,XbiZQv0PanSS
+1350,rukungiri,rubabo,kebisoni,1292,etZxIpaE4hDx
+1351,rukungiri,rubabo,nyakishenyi,1294,k8oQlRmmxsCK
+1352,rukungiri,rubabo,nyarushanje,1295,bNyq4PWCesUh
+1353,rukungiri,rujumbura,bugangari,1287,wfvlARbABRUE
+1354,rukungiri,rujumbura,buhunga,1288,N6COBHAuyGz1
+1355,rukungiri,rujumbura,bwambara,1290,4N5b3o9v7WCp
+1356,rukungiri,rujumbura,nyakagyeme,1293,Yj0AtUmFNULU
+1357,rukungiri,rujumbura,ruhinda,1296,PhhKXnOpqxwT
+1358,rukungiri,rukungiri mc,eastern division,338,5vGJCn6ai8Kn
+1359,rukungiri,rukungiri mc,southern division,511,XkK2QDcagQX0
+1360,rukungiri,rukungiri mc,western division,347,15nH3tbcn0on
+1361,sheema,sheema,bugongi town council,1317,82LybExKHFE8
+1362,sheema,sheema,kabwohe-itendero town council,1318,Ai4FafWszz5h
+1363,sheema,sheema,kagango,1319,ctEFVkUB7VUu
+1364,sheema,sheema,kasaana,1320,DDvI45UGFA7C
+1365,sheema,sheema,kashozi,1321,2GQQmB46eli5
+1366,sheema,sheema,kigarama,1322,8DEx9AhAblZX
+1367,sheema,sheema,kitagata,1323,4qOHkOE4FrV8
+1368,sheema,sheema,kyangyenyi,1324,UrUhA5xioPgk
+1369,sheema,sheema,masheruka,1325,iu4XHa77ds5M
+1370,sheema,sheema,rugarama,1195,qWevMA0eL1KN
+1371,sheema,sheema,sheema town council,1328,CdWjD4VZW6Ds
+1372,sheema,sheema,shuuku,1327,zU7Kmb3oCaoP

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "src-statoids-2026",
+    "title": "Statoids: Districts in Uganda",
+    "publisher": "statoids.org",
+    "url": "https://www.statoids.org/en/ug/admin-levels/l2/list/uganda/districts",
+    "accessed": "2026-07-09",
+    "note": "Page states last updated April 2026. Used to cross-check the 135-district count and region groupings."
+  },
+  {
+    "id": "src-wikipedia-districts",
+    "title": "Districts of Uganda",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Districts_of_Uganda",
+    "accessed": "2026-07-09",
+    "note": "Cross-checked district list and region totals (135 as of 2020 baseline, still current at district-count level)."
+  },
+  {
+    "id": "src-molg-lg-list",
+    "title": "List of Local Governments in Uganda",
+    "publisher": "Uganda government (hosted via ugandatrades.go.ug)",
+    "url": "https://ugandatrades.go.ug/media/List%20of%20Local%20Governments%20in%20Uganda.pdf",
+    "accessed": "2026-07-09",
+    "note": "Official-style enumerated list of 135 districts; used as the primary cross-check against the other two sources."
+  },
+  {
+    "id": "src-counties-wikipedia-statoids-2015",
+    "title": "Counties of Uganda",
+    "publisher": "Wikipedia (citing statoids.com)",
+    "url": "https://en.wikipedia.org/wiki/Counties_of_Uganda",
+    "accessed": "2026-07-09",
+    "note": "Wikitext table mechanically parsed (see data/legacy/provenance/parse_counties.mjs). Reflects county/district structure as of ~2015 (167 counties, 23 municipal councils) predating the 2016-2020 wave of new districts. Superseded entirely by src-ec-admin-units-2022's county layer (2022, verified, covers all 136 rural districts) — no longer ingested into the build; kept at data/legacy/counties_2015_statoids.csv for provenance only. One item flagged in an earlier pass as a likely source error — a 'Ik County' row under Kaabong District that looked like a duplicate/anomaly — was independently confirmed real by the 2022 EC data (Ik County is a genuine, small Kaabong constituency/county), so that flag was wrong and has been retracted; a 'Nakifuma Council' row that doesn't cleanly fit its rowspan group remains unexplained."
+  },
+  {
+    "id": "src-hdx-cod-ab-uga",
+    "title": "Uganda - Subnational Administrative Boundaries (COD-AB)",
+    "publisher": "OCHA / Humanitarian Data Exchange, sourced from UBOS",
+    "url": "https://data.humdata.org/dataset/cod-ab-uga",
+    "accessed": "2026-07-09",
+    "note": "Evaluated as a candidate bulk source. Rejected for subcounty/parish level: only ~208 admin3 and ~1,520 admin4 features nationally, far below the real count of subcounties/parishes, indicating the dataset is stale and not usable below district level."
+  },
+  {
+    "id": "src-ec-ug",
+    "title": "Electoral Commission of Uganda",
+    "publisher": "ec.or.ug",
+    "url": "https://www.ec.or.ug/",
+    "accessed": "2026-07-09",
+    "note": "Identified as the deepest authoritative source. Initial WebFetch-tool requests to ec.or.ug pages returned HTTP 403; a direct request with a standard browser user-agent succeeded (see src-ec-admin-units-2022), which is where the actual village-level bulk data and its provenance are documented. Polling-station-level data (50,739 stations reported for 2025/26) is separate from the administrative-unit gazetteer and remains un-ingested."
+  },
+  {
+    "id": "src-monitor-town-councils-2025",
+    "title": "FULL LIST: Govt approves nine new town councils ahead of 2026 elections",
+    "publisher": "Daily Monitor",
+    "url": "https://www.monitor.co.ug/uganda/news/national/full-list-govt-approves-nine-new-town-councils-ahead-of-2026-elections-5117060",
+    "accessed": "2026-07-09",
+    "note": "Reports 9 new town councils effective 2025-07-01. Direct fetch returned HTTP 403 during research, so the specific list of names/districts is UNVERIFIED and intentionally not included in data/ yet. Needs a primary-source re-check."
+  },
+  {
+    "id": "src-ec-admin-units-2022",
+    "title": "Uganda's Verified Administrative Units, July 2022 (full village-level gazetteer) + Summary of Administrative Units After Verification, June 2022",
+    "publisher": "Electoral Commission of Uganda (ec.or.ug)",
+    "url": "https://ec.or.ug/admin-units ; https://ec.or.ug/sites/default/files/statistics/ADMINISTRATIVE%20UNITS%20IN%20UGANDA_JULY%202022.pdf ; https://ec.or.ug/sites/default/files/statistics/summary%20administrative%20units%20statistics%20july%202022.pdf",
+    "accessed": "2026-07-09",
+    "note": "The genuine bulk source this project was missing: a 3,019-page PDF listing every district > constituency > subcounty/town/division > parish/ward > village in Uganda (146 district-equivalent units, 353 constituencies, 2,191 subcounties/towns/divisions, 10,717 parishes/wards, 71,230 villages), plus a companion 4-page summary-statistics PDF with the same totals per district. Direct WebFetch requests to ec.or.ug returned HTTP 403; the files downloaded fine via a direct request with a standard browser user-agent. Parsed with a custom coordinate-aware script (data/legacy/provenance/ec/parse_admin_units.mjs) because plain text extraction destroys the nested table structure. Validated twice: (1) every one of the ~2,198 'TOTAL VILLAGES IN <subcounty>' checksums printed in the source document itself matches the parser's accumulated count, and (2) fully re-aggregated per-district totals (villages, subcounties, parishes, constituencies) match the companion summary PDF exactly for all 146 districts/cities, zero discrepancies. This is what confirmed Terego District was missing from the original 135-district baseline (it is included here as district-equivalent #142 of 146). Promoted to confidence: verified in data/ec/. Caveat: dated July 2022 — does not reflect any 2023-2026 changes (e.g. the reported-but-unverified 2025/2026 new town councils, see src-monitor-town-councils-2025)."
+  },
+  {
+    "id": "src-county-constituency-crosscheck-2026",
+    "title": "User-supplied research cross-checking EC constituency data as a current county source (Manafwa/Namisindwa, Nebbi/Pakwach, Nakapiripirit/Nabilatuk, Hoima/Kikuube, Kaabong/Karenga, Kibaale/Kagadi/Kakumiro)",
+    "publisher": "UBOS National Population and Housing Census drilldown (statistics.ubos.org/nphc/drilldown), Wikipedia district pages, and several Google AI Mode conversation shares (share.google/aimode/...)",
+    "url": "https://statistics.ubos.org/nphc/drilldown?subregion=22&district=234 ; https://statistics.ubos.org/nphc/drilldown?subregion=34&district=310 ; https://en.wikipedia.org/wiki/Manafwa_District",
+    "accessed": "2026-07-12",
+    "note": "User-provided research used to test whether EC 'constituency' names (src-ec-admin-units-2022) are usable as current county names outside city/Kampala divisions. Checked against 13 districts: 11 matched exactly, and 2 (Nakapiripirit, Kikuube) showed the EC data has one additional split the cited sources didn't mention (Chekwii -> Chekwii + Chekwii East; Buhaguzi -> Buhaguzi + Buhaguzi East) — a refinement, not a contradiction. This result is what justified the county-promotion logic in scripts/ingest-ec-admin-units.mjs. Caveat: the share.google/aimode links are AI Mode conversation shares, not primary documents, and were not independently re-fetched/verified by the assistant — treated as corroborating signal alongside the UBOS/Wikipedia links, not as a primary source in their own right. The county layer's actual confidence rests on src-ec-admin-units-2022's own two independent validation passes, not on this cross-check alone."
+  },
+  {
+    "id": "src-user-legacy-location-csv",
+    "title": "location.csv (user-supplied legacy dataset)",
+    "publisher": "Unknown/original provenance not documented by user",
+    "url": "",
+    "accessed": "2026-07-09",
+    "note": "The project's original seed file (135-row header implies district+county+subcounty, but only covered 110 of 135 districts and the county column duplicates the subcounty name for most rows, i.e. it does not contain real county data). Migrated as-is to data/legacy/subcounties_legacy_source.csv for reconciliation, not treated as verified."
+  }
+]
