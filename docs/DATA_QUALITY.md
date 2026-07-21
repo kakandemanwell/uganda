@@ -172,6 +172,23 @@ district layer and the dissolved region layer (no geometry lost/duplicated
 in the union). See `data/sources.json` → `src-geoboundaries-uga-adm3` and
 `src-region-boundary-dissolve`.
 
+**Post-hoc correctness note (2026-07-22):** all four boundary files
+(district/region/subcounty/parish) were found to have polygon rings wound
+in the direction opposite to what d3-geo's spherical/RFC 7946 convention
+expects — structurally valid GeoJSON, and invisible to every schema and
+coverage check already in place here, but it made every single feature
+render as an extra ring tracing the whole map's clip rectangle the moment
+anything actually tried to draw these polygons with d3-geo (caught while
+building the web UI's interactive map — see `web/CHANGELOG` entries via
+the root `CHANGELOG.md`). Root cause confirmed empirically (not just
+inferred from the RFC), fixed at the source in all four ingestion/build
+scripts via `turf.rewind(feature, { reverse: true })`, applied uniformly
+regardless of each feature's starting orientation. Worth flagging as a
+general lesson: passing a schema/coverage check is not the same as being
+render-correct — geometry validity and geometry *orientation* are
+different properties, and this project's structural validator
+(`scripts/validate.mjs`) does not and cannot catch the latter.
+
 **Subcounty and parish boundary polygons** (`data/geo/subcountys.geojson`,
 `data/geo/parishs.geojson`) — **intentionally partial coverage, shipped
 anyway.** An earlier pass evaluated these same candidates and deferred/

@@ -116,7 +116,13 @@ for (const f of raw.features) {
       subregion_id: unit.subregion_id || null,
       source_ids: ["src-hdx-cod-ab-uga-admin4-parish"],
     },
-    geometry: f.geometry,
+    // Same ring-winding fix as scripts/ingest-district-boundaries.mjs — see
+    // that file's comment for the full explanation. HDX's rings are
+    // inconsistently wound (~51% already correct, ~49% backwards) rather
+    // than uniformly wrong like geoBoundaries' — forcing every feature to
+    // the same target orientation fixes both cases identically, since
+    // rewinding an already-correct ring to its own orientation is a no-op.
+    geometry: turf.rewind(f, { reverse: true }).geometry,
   });
 }
 

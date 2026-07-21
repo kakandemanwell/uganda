@@ -1,9 +1,13 @@
 # uganda-locale-web
 
-A minimal Next.js app that serves the [`uganda-locale`](../README.md) dataset
-as a JSON API, plus a small cascading-dropdown demo. Depends on the
-`uganda-locale` package in the parent directory via `file:..` — no publish
-required to develop this locally.
+A Next.js app that serves the [`uganda-locale`](../README.md) dataset as a
+JSON API, plus an interactive demo UI: a live district map (d3-geo choropleth,
+toggle between population/region coloring), Cmd/Ctrl+K search, and a
+region → sub-region → district → county → subcounty → parish drill-down
+explorer. Built with [shadcn/ui](https://ui.shadcn.com) (Base UI primitives)
+and Tailwind v4, dark mode by default. Depends on the `uganda-locale` package
+in the parent directory via `file:..` — no publish required to develop this
+locally.
 
 ## Develop
 

@@ -1,6 +1,13 @@
 node_modules/
 *.log
 
+# Playwright MCP browser-testing artifacts (snapshots, console logs, ad-hoc
+# screenshots) — local testing output only, never part of the project
+.playwright-mcp/
+
+# UI benchmark/inspiration images — never committed, reference-only for design work
+docs/demo/
+
 # dist/ is otherwise committed (compiled outputs, so non-technical users can
 # use the data straight from GitHub without running the build) except the
 # two files that are just heavier restatements of what's already in

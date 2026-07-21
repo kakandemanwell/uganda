@@ -37,10 +37,17 @@ for (const r of regions) {
     console.error(`No district geometry found for region ${r.id}`);
     process.exit(1);
   }
-  const geometry =
+  const dissolved =
     group.length === 1
       ? group[0].geometry
       : turf.union(turf.featureCollection(group)).geometry;
+  // turf.union (like all turf output) normalizes to turf's own canonical
+  // ring winding regardless of its inputs' winding — which is the OPPOSITE
+  // of what d3-geo's spherical convention expects (see the detailed
+  // comment in scripts/ingest-district-boundaries.mjs). So this needs the
+  // same reverse-rewind treatment even though the input districts were
+  // already corrected; it's not simply inherited through the union.
+  const geometry = turf.rewind(turf.feature(dissolved), { reverse: true }).geometry;
   features.push({
     type: "Feature",
     properties: {

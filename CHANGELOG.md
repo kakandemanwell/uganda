@@ -1,5 +1,77 @@
 # Changelog
 
+## [0.9.1] - 2026-07-22
+
+### Fixed
+- **All four boundary GeoJSON files** (`data/geo/districts.geojson`,
+  `regions.geojson`, `subcountys.geojson`, `parishs.geojson`) had polygon
+  rings wound in the direction opposite to what d3-geo's spherical
+  (RFC 7946) convention expects. The geometry was structurally valid and
+  passed every schema/coverage check already in place, but any consumer
+  actually *rendering* these polygons with d3-geo (as the new web UI's map
+  does — see below) would get an extra ring tracing the full clip
+  rectangle around every feature, making the whole country render as one
+  solid block instead of 136 distinct district shapes. Root-caused to
+  geoBoundaries' and HDX's source data both using the opposite winding
+  convention from what d3-geo needs (confirmed empirically, not just by
+  spec-reading — see the comment in `scripts/ingest-district-boundaries.mjs`
+  for the full story). Fixed at the source in all four
+  `scripts/ingest-*-boundaries.mjs` / `build-region-boundaries.mjs` scripts
+  via `turf.rewind(feature, { reverse: true })`, applied uniformly so it's
+  a no-op for any feature that happened to already be correctly wound.
+- A second, separate d3-geo edge case: a feature whose vertex lands exactly
+  on the fitted projection's boundary (guaranteed to happen at least once
+  per `fitSize()` call, since fitting is edge-to-edge with zero padding)
+  can trigger the same full-canvas-ring artifact independent of winding.
+  Fixed in `components/uganda-map.jsx` by switching to `fitExtent()` with a
+  small inset padding instead of `fitSize()`.
+
+### Added (web app, `web/` — not part of the published npm package)
+- Rebuilt the demo site from a bare-bones cascading-dropdown page into a
+  full interactive UI: shadcn/ui (Base UI primitives) + Tailwind v4, dark
+  mode by default, Geist fonts.
+- **Interactive district map** (`components/uganda-map.jsx`): renders all
+  136 district boundaries as an SVG choropleth via `d3-geo`, computed
+  client-side from `/api/geo/districts` (no tile server, no API key).
+  Toggle between coloring by 2024 population (sqrt-scaled, `color-mix()`
+  against the theme's primary color) or by administrative region. Hover
+  for a tooltip, click to select — syncs with search and the hierarchy
+  explorer via lifted state. Keyboard-navigable (tab through districts,
+  Enter/Space to select).
+- **Global search** (`components/command-search.jsx`): Cmd/Ctrl+K command
+  palette over `/api/search`, debounced, grouped by level.
+- **Hierarchy explorer** (`components/hierarchy-explorer.jsx`): redesigned
+  cascading picker — Region/Sub-region filters (in-memory, no extra
+  fetch) narrow a District select, then County → Subcounty → Parish load
+  live from the API as before, now with loading skeletons and a
+  breadcrumb trail.
+- Stat cards, a boundary-coverage section surfacing the real
+  verified/partial numbers from `docs/DATA_QUALITY.md` (not just a clean
+  claim), and a tabbed (Data/Geo) API reference table.
+- Pinned dev/start scripts to port 3002 (3000 was blocked by another local
+  service).
+
+Three real Base UI integration bugs found and fixed while building this
+(none are npm-package bugs — all in the generated `web/components/ui/*`
+shadcn output or this app's own usage of it):
+- `shadcn add`'s generated `CommandDialog` never wrapped its children in
+  the `cmdk` `<Command>` root, so the search palette crashed the instant
+  it opened (`Cannot read properties of undefined (reading 'subscribe')`).
+  Fixed directly in `components/ui/command.jsx`.
+- Base UI's `ToggleGroup` takes/returns arrays (`value: Value[]`,
+  `onValueChange: (values: Value[]) => void`) even in single-select mode,
+  unlike Radix's string-based `type="single"` API the component's own
+  prop names suggest — the map's Population/Region toggle silently did
+  nothing until this was fixed in `uganda-map.jsx`.
+- Base UI's `Select.Value` shows the raw value verbatim unless given a
+  render-prop child to map value → label (Radix auto-resolves this from
+  matching `SelectItem` children) — every select in the hierarchy explorer
+  was displaying raw ids/`"all"` instead of names until fixed.
+- Also: Base UI components compose via a `render` prop
+  (`<Button render={<a href=... />} />`), not Radix's `asChild` + children
+  — using `asChild` silently produces two nested `<button>`s and a
+  hydration mismatch.
+
 ## [0.9.0] - 2026-07-21
 
 ### Added

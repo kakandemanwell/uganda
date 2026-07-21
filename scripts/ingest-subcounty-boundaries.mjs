@@ -110,7 +110,10 @@ for (const f of raw.features) {
       subregion_id: unit.subregion_id || null,
       source_ids: ["src-geoboundaries-uga-adm4"],
     },
-    geometry: f.geometry,
+    // Same ring-winding fix as scripts/ingest-district-boundaries.mjs — see
+    // that file's comment for the full explanation. geoBoundaries' rings
+    // are wound opposite to what d3-geo's spherical convention expects.
+    geometry: turf.rewind(f, { reverse: true }).geometry,
   });
 }
 

@@ -14,6 +14,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import * as turf from "@turf/turf";
 import { parseCsvObjects } from "./lib/csv.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -79,7 +80,20 @@ for (const f of raw.features) {
       subregion_id: district.subregion_id,
       source_ids: ["src-geoboundaries-uga-adm3"],
     },
-    geometry: f.geometry,
+    // geoBoundaries' rings are wound opposite to what d3-geo (and the
+    // GeoJSON/RFC 7946 spherical right-hand rule) expects — left as-is,
+    // every feature renders correctly on its own but with an extra
+    // full-canvas-tracing ring when projected with d3-geo, since d3
+    // interprets "outside" and "inside" backwards for these rings and
+    // draws the clip rectangle to compensate. turf.rewind's *default*
+    // (reverse: false) targets the PLANAR convention (flat x/y shoelace),
+    // which is the OPPOSITE handedness from the spherical convention d3-geo
+    // uses — confirmed empirically (reverse: true is what actually fixes
+    // rendering; reverse: false left the artifact in place). Applied
+    // uniformly to every feature regardless of its current winding, so
+    // features that happened to already be correctly wound are unaffected
+    // (rewind to a fixed target orientation is idempotent).
+    geometry: turf.rewind(f, { reverse: true }).geometry,
   });
 }
 
