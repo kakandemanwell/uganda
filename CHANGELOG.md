@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.8.0] - 2026-07-21
+
+### Added
+- `data/population/uganda-nphc-2024-population.csv` and a new `population`
+  field (`{ year, male, female, total }`) on every district/city record and
+  on `data/geo/districts.geojson` features — sourced from UBOS's National
+  Population and Housing Census 2024 Final Report (the actual final count,
+  not the 2023 HDX projection originally considered), extracted with
+  `pdftotext -table` mode and cross-checked three independent ways
+  (per-row arithmetic, the report's own prose, and an independent
+  national-total reconciliation), all with zero discrepancies. See
+  `data/legacy/provenance/population/README.md` for the full extraction
+  story, including how a plain `curl -k` request succeeded where the
+  WebFetch tool's TLS handling had failed against ubos.org in an earlier
+  pass.
+- `schema/administrative-unit.schema.json` and `schema/boundary.schema.json`
+  updated with the new `population` property.
+- `scripts/validate.mjs` now checks population coverage (136 districts +
+  10 cities) and that `male + female === total` for every record.
+
 ## [0.7.0] - 2026-07-21
 
 ### Added

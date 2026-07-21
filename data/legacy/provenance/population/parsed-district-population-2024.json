@@ -1,0 +1,878 @@
+[
+  {
+    "name": "Buikwe",
+    "male": 248191,
+    "female": 271967,
+    "total": 520158
+  },
+  {
+    "name": "Bukomansimbi",
+    "male": 90135,
+    "female": 107433,
+    "total": 197568
+  },
+  {
+    "name": "Butambala",
+    "male": 78993,
+    "female": 67523,
+    "total": 146516
+  },
+  {
+    "name": "Buvuma",
+    "male": 58410,
+    "female": 52422,
+    "total": 110832
+  },
+  {
+    "name": "Gomba",
+    "male": 97889,
+    "female": 101231,
+    "total": 199120
+  },
+  {
+    "name": "Kalangala",
+    "male": 45396,
+    "female": 29015,
+    "total": 74411
+  },
+  {
+    "name": "Kalungu",
+    "male": 101915,
+    "female": 119654,
+    "total": 221569
+  },
+  {
+    "name": "Kampala",
+    "male": 1004884,
+    "female": 792838,
+    "total": 1797722
+  },
+  {
+    "name": "Kassanda",
+    "male": 153298,
+    "female": 160710,
+    "total": 314008
+  },
+  {
+    "name": "Kayunga",
+    "male": 208845,
+    "female": 230330,
+    "total": 439175
+  },
+  {
+    "name": "Kiboga",
+    "male": 95629,
+    "female": 87626,
+    "total": 183255
+  },
+  {
+    "name": "Kyankwanzi",
+    "male": 134600,
+    "female": 143832,
+    "total": 278432
+  },
+  {
+    "name": "Kyotera",
+    "male": 132091,
+    "female": 143826,
+    "total": 275917
+  },
+  {
+    "name": "Luweero",
+    "male": 294285,
+    "female": 321957,
+    "total": 616242
+  },
+  {
+    "name": "Lwengo",
+    "male": 139446,
+    "female": 185817,
+    "total": 325263
+  },
+  {
+    "name": "Lyantonde",
+    "male": 72366,
+    "female": 60651,
+    "total": 133017
+  },
+  {
+    "name": "Masaka",
+    "male": 57129,
+    "female": 58326,
+    "total": 115455
+  },
+  {
+    "name": "Masaka city",
+    "male": 154355,
+    "female": 139811,
+    "total": 294166
+  },
+  {
+    "name": "Mityana",
+    "male": 197040,
+    "female": 210346,
+    "total": 407386
+  },
+  {
+    "name": "Mpigi",
+    "male": 150208,
+    "female": 176482,
+    "total": 326690
+  },
+  {
+    "name": "Mubende",
+    "male": 251165,
+    "female": 270850,
+    "total": 522015
+  },
+  {
+    "name": "Mukono",
+    "male": 452447,
+    "female": 476777,
+    "total": 929224
+  },
+  {
+    "name": "Nakaseke",
+    "male": 125784,
+    "female": 125614,
+    "total": 251398
+  },
+  {
+    "name": "Nakasongola",
+    "male": 114805,
+    "female": 111269,
+    "total": 226074
+  },
+  {
+    "name": "Rakai",
+    "male": 194969,
+    "female": 151916,
+    "total": 346885
+  },
+  {
+    "name": "Ssembabule",
+    "male": 157207,
+    "female": 148764,
+    "total": 305971
+  },
+  {
+    "name": "Wakiso",
+    "male": 1828466,
+    "female": 1582711,
+    "total": 3411177
+  },
+  {
+    "name": "Amuria",
+    "male": 118804,
+    "female": 132849,
+    "total": 251653
+  },
+  {
+    "name": "Budaka",
+    "male": 121908,
+    "female": 159629,
+    "total": 281537
+  },
+  {
+    "name": "Bududa",
+    "male": 139627,
+    "female": 129343,
+    "total": 268970
+  },
+  {
+    "name": "Bugiri",
+    "male": 220485,
+    "female": 259860,
+    "total": 480345
+  },
+  {
+    "name": "Bugweri",
+    "male": 99283,
+    "female": 112228,
+    "total": 211511
+  },
+  {
+    "name": "Bukedea",
+    "male": 133204,
+    "female": 149660,
+    "total": 282864
+  },
+  {
+    "name": "Bukwo",
+    "male": 55683,
+    "female": 58713,
+    "total": 114396
+  },
+  {
+    "name": "Bulambuli",
+    "male": 101286,
+    "female": 134105,
+    "total": 235391
+  },
+  {
+    "name": "Busia",
+    "male": 194114,
+    "female": 218557,
+    "total": 412671
+  },
+  {
+    "name": "Butaleja",
+    "male": 147067,
+    "female": 165704,
+    "total": 312771
+  },
+  {
+    "name": "Butebo",
+    "male": 81386,
+    "female": 90047,
+    "total": 171433
+  },
+  {
+    "name": "Buyende",
+    "male": 191715,
+    "female": 211771,
+    "total": 403486
+  },
+  {
+    "name": "Iganga",
+    "male": 196636,
+    "female": 230322,
+    "total": 426958
+  },
+  {
+    "name": "Jinja",
+    "male": 127893,
+    "female": 153012,
+    "total": 280905
+  },
+  {
+    "name": "Jinja city",
+    "male": 123031,
+    "female": 156153,
+    "total": 279184
+  },
+  {
+    "name": "Kaberamaido",
+    "male": 66856,
+    "female": 74130,
+    "total": 140986
+  },
+  {
+    "name": "Kalaki",
+    "male": 71246,
+    "female": 78490,
+    "total": 149736
+  },
+  {
+    "name": "Kaliro",
+    "male": 137725,
+    "female": 148672,
+    "total": 286397
+  },
+  {
+    "name": "Kamuli",
+    "male": 252892,
+    "female": 287360,
+    "total": 540252
+  },
+  {
+    "name": "Kapchorwa",
+    "male": 63668,
+    "female": 69953,
+    "total": 133621
+  },
+  {
+    "name": "Kapelebyong",
+    "male": 68768,
+    "female": 74768,
+    "total": 143536
+  },
+  {
+    "name": "Katakwi",
+    "male": 111791,
+    "female": 122541,
+    "total": 234332
+  },
+  {
+    "name": "Kibuku",
+    "male": 121056,
+    "female": 128385,
+    "total": 249441
+  },
+  {
+    "name": "Kumi",
+    "male": 134979,
+    "female": 152013,
+    "total": 286992
+  },
+  {
+    "name": "Kween",
+    "male": 63860,
+    "female": 65417,
+    "total": 129277
+  },
+  {
+    "name": "Luuka",
+    "male": 153329,
+    "female": 145310,
+    "total": 298639
+  },
+  {
+    "name": "Manafwa",
+    "male": 88490,
+    "female": 98427,
+    "total": 186917
+  },
+  {
+    "name": "Mayuge",
+    "male": 281051,
+    "female": 296512,
+    "total": 577563
+  },
+  {
+    "name": "Mbale",
+    "male": 133202,
+    "female": 157154,
+    "total": 290356
+  },
+  {
+    "name": "Mbale city",
+    "male": 134412,
+    "female": 156002,
+    "total": 290414
+  },
+  {
+    "name": "Namayingo",
+    "male": 126122,
+    "female": 140594,
+    "total": 266716
+  },
+  {
+    "name": "Namisindwa",
+    "male": 123345,
+    "female": 134001,
+    "total": 257346
+  },
+  {
+    "name": "Namutumba",
+    "male": 146632,
+    "female": 164707,
+    "total": 311339
+  },
+  {
+    "name": "Ngora",
+    "male": 116739,
+    "female": 97038,
+    "total": 213777
+  },
+  {
+    "name": "Pallisa",
+    "male": 157165,
+    "female": 177532,
+    "total": 334697
+  },
+  {
+    "name": "Serere",
+    "male": 169703,
+    "female": 188420,
+    "total": 358123
+  },
+  {
+    "name": "Sironko",
+    "male": 143357,
+    "female": 155006,
+    "total": 298363
+  },
+  {
+    "name": "Soroti",
+    "male": 126583,
+    "female": 139606,
+    "total": 266189
+  },
+  {
+    "name": "Soroti city",
+    "male": 63226,
+    "female": 70973,
+    "total": 134199
+  },
+  {
+    "name": "Tororo",
+    "male": 285894,
+    "female": 324045,
+    "total": 609939
+  },
+  {
+    "name": "Abim",
+    "male": 67976,
+    "female": 76108,
+    "total": 144084
+  },
+  {
+    "name": "Adjumani",
+    "male": 146101,
+    "female": 154489,
+    "total": 300590
+  },
+  {
+    "name": "Agago",
+    "male": 147969,
+    "female": 159266,
+    "total": 307235
+  },
+  {
+    "name": "Alebtong",
+    "male": 127112,
+    "female": 156397,
+    "total": 283509
+  },
+  {
+    "name": "Amolatar",
+    "male": 91066,
+    "female": 97649,
+    "total": 188715
+  },
+  {
+    "name": "Amudat",
+    "male": 100537,
+    "female": 102821,
+    "total": 203358
+  },
+  {
+    "name": "Amuru",
+    "male": 120602,
+    "female": 126972,
+    "total": 247574
+  },
+  {
+    "name": "Apac",
+    "male": 106696,
+    "female": 115266,
+    "total": 221962
+  },
+  {
+    "name": "Arua",
+    "male": 74949,
+    "female": 84773,
+    "total": 159722
+  },
+  {
+    "name": "Arua city",
+    "male": 178725,
+    "female": 205931,
+    "total": 384656
+  },
+  {
+    "name": "Dokolo",
+    "male": 108260,
+    "female": 107365,
+    "total": 215625
+  },
+  {
+    "name": "Gulu",
+    "male": 68192,
+    "female": 67181,
+    "total": 135373
+  },
+  {
+    "name": "Gulu city",
+    "male": 109996,
+    "female": 123275,
+    "total": 233271
+  },
+  {
+    "name": "Kaabong",
+    "male": 126921,
+    "female": 137710,
+    "total": 264631
+  },
+  {
+    "name": "Karenga",
+    "male": 48006,
+    "female": 52369,
+    "total": 100375
+  },
+  {
+    "name": "Kitgum",
+    "male": 114065,
+    "female": 125590,
+    "total": 239655
+  },
+  {
+    "name": "Koboko",
+    "male": 130234,
+    "female": 141547,
+    "total": 271781
+  },
+  {
+    "name": "Kole",
+    "male": 132346,
+    "female": 161955,
+    "total": 294301
+  },
+  {
+    "name": "Kotido",
+    "male": 102837,
+    "female": 116897,
+    "total": 219734
+  },
+  {
+    "name": "Kwania",
+    "male": 105103,
+    "female": 111022,
+    "total": 216125
+  },
+  {
+    "name": "Lamwo",
+    "male": 103290,
+    "female": 109866,
+    "total": 213156
+  },
+  {
+    "name": "Lira",
+    "male": 113505,
+    "female": 128711,
+    "total": 242216
+  },
+  {
+    "name": "Lira city",
+    "male": 112439,
+    "female": 132693,
+    "total": 245132
+  },
+  {
+    "name": "Madi-okollo",
+    "male": 87410,
+    "female": 90641,
+    "total": 178051
+  },
+  {
+    "name": "Maracha",
+    "male": 109515,
+    "female": 125197,
+    "total": 234712
+  },
+  {
+    "name": "Moroto",
+    "male": 46546,
+    "female": 57093,
+    "total": 103639
+  },
+  {
+    "name": "Moyo",
+    "male": 57211,
+    "female": 52361,
+    "total": 109572
+  },
+  {
+    "name": "Nabilatuk",
+    "male": 68203,
+    "female": 68582,
+    "total": 136785
+  },
+  {
+    "name": "Nakapiripirit",
+    "male": 54983,
+    "female": 56698,
+    "total": 111681
+  },
+  {
+    "name": "Napak",
+    "male": 105425,
+    "female": 106405,
+    "total": 211830
+  },
+  {
+    "name": "Nebbi",
+    "male": 139832,
+    "female": 159566,
+    "total": 299398
+  },
+  {
+    "name": "Nwoya",
+    "male": 107748,
+    "female": 112845,
+    "total": 220593
+  },
+  {
+    "name": "Obongi",
+    "male": 69596,
+    "female": 73387,
+    "total": 142983
+  },
+  {
+    "name": "Omoro",
+    "male": 99389,
+    "female": 107950,
+    "total": 207339
+  },
+  {
+    "name": "Otuke",
+    "male": 74697,
+    "female": 86372,
+    "total": 161069
+  },
+  {
+    "name": "Oyam",
+    "male": 224158,
+    "female": 253306,
+    "total": 477464
+  },
+  {
+    "name": "Pader",
+    "male": 114088,
+    "female": 126071,
+    "total": 240159
+  },
+  {
+    "name": "Pakwach",
+    "male": 97830,
+    "female": 109131,
+    "total": 206961
+  },
+  {
+    "name": "Terego",
+    "male": 153873,
+    "female": 169380,
+    "total": 323253
+  },
+  {
+    "name": "Yumbe",
+    "male": 474777,
+    "female": 470323,
+    "total": 945100
+  },
+  {
+    "name": "Zombo",
+    "male": 146719,
+    "female": 165902,
+    "total": 312621
+  },
+  {
+    "name": "Buhweju",
+    "male": 88145,
+    "female": 79776,
+    "total": 167921
+  },
+  {
+    "name": "Buliisa",
+    "male": 81437,
+    "female": 86457,
+    "total": 167894
+  },
+  {
+    "name": "Bundibugyo",
+    "male": 123964,
+    "female": 140814,
+    "total": 264778
+  },
+  {
+    "name": "Bunyangabu",
+    "male": 112678,
+    "female": 106334,
+    "total": 219012
+  },
+  {
+    "name": "Bushenyi",
+    "male": 128632,
+    "female": 154760,
+    "total": 283392
+  },
+  {
+    "name": "Fort portal city",
+    "male": 62575,
+    "female": 74974,
+    "total": 137549
+  },
+  {
+    "name": "Hoima",
+    "male": 122572,
+    "female": 134972,
+    "total": 257544
+  },
+  {
+    "name": "Hoima city",
+    "male": 66218,
+    "female": 77086,
+    "total": 143304
+  },
+  {
+    "name": "Ibanda",
+    "male": 141194,
+    "female": 168272,
+    "total": 309466
+  },
+  {
+    "name": "Isingiro",
+    "male": 295801,
+    "female": 339276,
+    "total": 635077
+  },
+  {
+    "name": "Kabale",
+    "male": 121223,
+    "female": 164365,
+    "total": 285588
+  },
+  {
+    "name": "Kabarole",
+    "male": 112305,
+    "female": 118063,
+    "total": 230368
+  },
+  {
+    "name": "Kagadi",
+    "male": 222911,
+    "female": 248200,
+    "total": 471111
+  },
+  {
+    "name": "Kakumiro",
+    "male": 205199,
+    "female": 222977,
+    "total": 428176
+  },
+  {
+    "name": "Kamwenge",
+    "male": 157559,
+    "female": 179608,
+    "total": 337167
+  },
+  {
+    "name": "Kanungu",
+    "male": 137963,
+    "female": 172099,
+    "total": 310062
+  },
+  {
+    "name": "Kasese",
+    "male": 408524,
+    "female": 445307,
+    "total": 853831
+  },
+  {
+    "name": "Kazo",
+    "male": 110216,
+    "female": 98682,
+    "total": 208898
+  },
+  {
+    "name": "Kibaale",
+    "male": 113255,
+    "female": 124394,
+    "total": 237649
+  },
+  {
+    "name": "Kikuube",
+    "male": 181461,
+    "female": 198086,
+    "total": 379547
+  },
+  {
+    "name": "Kiruhura",
+    "male": 97124,
+    "female": 106378,
+    "total": 203502
+  },
+  {
+    "name": "Kiryandongo",
+    "male": 176128,
+    "female": 188744,
+    "total": 364872
+  },
+  {
+    "name": "Kisoro",
+    "male": 251631,
+    "female": 182031,
+    "total": 433662
+  },
+  {
+    "name": "Kitagwenda",
+    "male": 96534,
+    "female": 88413,
+    "total": 184947
+  },
+  {
+    "name": "Kyegegwa",
+    "male": 237257,
+    "female": 263863,
+    "total": 501120
+  },
+  {
+    "name": "Kyenjojo",
+    "male": 261171,
+    "female": 282827,
+    "total": 543998
+  },
+  {
+    "name": "Masindi",
+    "male": 166626,
+    "female": 176009,
+    "total": 342635
+  },
+  {
+    "name": "Mbarara",
+    "male": 78766,
+    "female": 95273,
+    "total": 174039
+  },
+  {
+    "name": "Mbarara city",
+    "male": 123540,
+    "female": 140885,
+    "total": 264425
+  },
+  {
+    "name": "Mitooma",
+    "male": 100023,
+    "female": 125986,
+    "total": 226009
+  },
+  {
+    "name": "Ntoroko",
+    "male": 66786,
+    "female": 48072,
+    "total": 114858
+  },
+  {
+    "name": "Ntungamo",
+    "male": 251168,
+    "female": 301618,
+    "total": 552786
+  },
+  {
+    "name": "Rubanda",
+    "male": 115633,
+    "female": 133821,
+    "total": 249454
+  },
+  {
+    "name": "Rubirizi",
+    "male": 72265,
+    "female": 95946,
+    "total": 168211
+  },
+  {
+    "name": "Rukiga",
+    "male": 55360,
+    "female": 76995,
+    "total": 132355
+  },
+  {
+    "name": "Rukungiri",
+    "male": 169502,
+    "female": 206608,
+    "total": 376110
+  },
+  {
+    "name": "Rwampara",
+    "male": 84812,
+    "female": 78155,
+    "total": 162967
+  },
+  {
+    "name": "Sheema",
+    "male": 113043,
+    "female": 139232,
+    "total": 252275
+  }
+]

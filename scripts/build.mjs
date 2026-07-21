@@ -36,6 +36,16 @@ function splitList(s) {
     .filter(Boolean);
 }
 
+// ---- population (NPHC 2024, district/city level only — see
+// data/legacy/provenance/population/README.md) ----
+const populationById = new Map();
+for (const r of readCsv("population/uganda-nphc-2024-population.csv")) {
+  populationById.set(r.id, { year: 2024, male: Number(r.male), female: Number(r.female), total: Number(r.total) });
+}
+function populationFor(id) {
+  return populationById.get(id) || null;
+}
+
 const units = [];
 const districtBySlug = new Map(); // slug of bare district name -> unit
 
@@ -54,6 +64,7 @@ for (const r of readCsv("regions.csv")) {
     effective_date: null,
     source_ids: [],
     notes: r.notes || null,
+    population: null,
   });
 }
 
@@ -72,6 +83,7 @@ for (const r of readCsv("subregions.csv")) {
     effective_date: null,
     source_ids: [],
     notes: r.notes || null,
+    population: null,
   });
 }
 
@@ -92,6 +104,7 @@ for (const r of readCsv("districts.csv")) {
     effective_date: r.effective_date || null,
     source_ids: splitList(r.source_ids),
     notes: r.notes || null,
+    population: populationFor(r.id),
   };
   units.push(unit);
   districtBySlug.set(slugify(r.name), unit);
@@ -114,6 +127,7 @@ for (const r of readCsv("cities.csv")) {
     effective_date: r.effective_date || null,
     source_ids: splitList(r.source_ids),
     notes: r.notes || null,
+    population: populationFor(r.id),
   });
 }
 
@@ -308,13 +322,22 @@ cpSync(path.join(DATA, "country/assets"), path.join(DIST, "country", "assets"), 
 // ---- boundary geometry (region/district polygons for map visualization) ----
 // Prebuilt by scripts/ingest-district-boundaries.mjs (from geoBoundaries' CC0
 // district layer) and scripts/build-region-boundaries.mjs (dissolved from
-// that same district geometry by region_id) — both checked into data/geo/,
-// copied through verbatim here like country metadata above. See
-// docs/DATA_QUALITY.md for what levels below district were evaluated and why
-// they aren't included (county/subcounty/parish/village boundary data).
+// that same district geometry by region_id) — both checked into data/geo/.
+// District features get population merged into their properties at build
+// time (not baked into the checked-in data/geo/districts.geojson, keeping
+// that file geometry-only) so the GeoJSON is self-sufficient for a
+// choropleth map without a second lookup. See docs/DATA_QUALITY.md for what
+// levels below district were evaluated and why they aren't included
+// (county/subcounty/parish/village boundary data).
 mkdirSync(path.join(DIST, "geo"), { recursive: true });
-for (const file of ["districts.geojson", "regions.geojson"]) {
-  writeFileSync(path.join(DIST, "geo", file), readFileSync(path.join(DATA, "geo", file), "utf-8"));
+{
+  const districtsFc = JSON.parse(readFileSync(path.join(DATA, "geo/districts.geojson"), "utf-8"));
+  for (const f of districtsFc.features) f.properties.population = populationFor(f.properties.id);
+  writeFileSync(path.join(DIST, "geo", "districts.geojson"), JSON.stringify(districtsFc));
+  writeFileSync(
+    path.join(DIST, "geo", "regions.geojson"),
+    readFileSync(path.join(DATA, "geo/regions.geojson"), "utf-8")
+  );
 }
 
 console.log(`Built ${units.length} records -> dist/`);

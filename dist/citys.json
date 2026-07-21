@@ -15,7 +15,13 @@
       "src-statoids-2026",
       "src-wikipedia-districts"
     ],
-    "notes": "Second-generation city; coexists with Arua District as separate LG unit"
+    "notes": "Second-generation city; coexists with Arua District as separate LG unit",
+    "population": {
+      "year": 2024,
+      "male": 178725,
+      "female": 205931,
+      "total": 384656
+    }
   },
   {
     "id": "city:gulu",
@@ -33,7 +39,13 @@
       "src-statoids-2026",
       "src-wikipedia-districts"
     ],
-    "notes": "Coexists with Gulu District as separate LG unit"
+    "notes": "Coexists with Gulu District as separate LG unit",
+    "population": {
+      "year": 2024,
+      "male": 109996,
+      "female": 123275,
+      "total": 233271
+    }
   },
   {
     "id": "city:lira",
@@ -51,7 +63,13 @@
       "src-statoids-2026",
       "src-wikipedia-districts"
     ],
-    "notes": "Coexists with Lira District as separate LG unit"
+    "notes": "Coexists with Lira District as separate LG unit",
+    "population": {
+      "year": 2024,
+      "male": 112439,
+      "female": 132693,
+      "total": 245132
+    }
   },
   {
     "id": "city:soroti",
@@ -69,7 +87,13 @@
       "src-statoids-2026",
       "src-wikipedia-districts"
     ],
-    "notes": "Coexists with Soroti District as separate LG unit"
+    "notes": "Coexists with Soroti District as separate LG unit",
+    "population": {
+      "year": 2024,
+      "male": 63226,
+      "female": 70973,
+      "total": 134199
+    }
   },
   {
     "id": "city:mbale",
@@ -87,7 +111,13 @@
       "src-statoids-2026",
       "src-wikipedia-districts"
     ],
-    "notes": "Coexists with Mbale District as separate LG unit"
+    "notes": "Coexists with Mbale District as separate LG unit",
+    "population": {
+      "year": 2024,
+      "male": 134412,
+      "female": 156002,
+      "total": 290414
+    }
   },
   {
     "id": "city:jinja",
@@ -105,7 +135,13 @@
       "src-statoids-2026",
       "src-wikipedia-districts"
     ],
-    "notes": "Coexists with Jinja District as separate LG unit"
+    "notes": "Coexists with Jinja District as separate LG unit",
+    "population": {
+      "year": 2024,
+      "male": 123031,
+      "female": 156153,
+      "total": 279184
+    }
   },
   {
     "id": "city:hoima",
@@ -123,7 +159,13 @@
       "src-statoids-2026",
       "src-wikipedia-districts"
     ],
-    "notes": "Coexists with Hoima District as separate LG unit"
+    "notes": "Coexists with Hoima District as separate LG unit",
+    "population": {
+      "year": 2024,
+      "male": 66218,
+      "female": 77086,
+      "total": 143304
+    }
   },
   {
     "id": "city:fort-portal",
@@ -141,7 +183,13 @@
       "src-statoids-2026",
       "src-wikipedia-districts"
     ],
-    "notes": "Elevated from Fort Portal Municipal Council (Kabarole District)"
+    "notes": "Elevated from Fort Portal Municipal Council (Kabarole District)",
+    "population": {
+      "year": 2024,
+      "male": 62575,
+      "female": 74974,
+      "total": 137549
+    }
   },
   {
     "id": "city:mbarara",
@@ -159,7 +207,13 @@
       "src-statoids-2026",
       "src-wikipedia-districts"
     ],
-    "notes": "Coexists with Mbarara District as separate LG unit"
+    "notes": "Coexists with Mbarara District as separate LG unit",
+    "population": {
+      "year": 2024,
+      "male": 123540,
+      "female": 140885,
+      "total": 264425
+    }
   },
   {
     "id": "city:masaka",
@@ -177,6 +231,12 @@
       "src-statoids-2026",
       "src-wikipedia-districts"
     ],
-    "notes": "Coexists with Masaka District as separate LG unit"
+    "notes": "Coexists with Masaka District as separate LG unit",
+    "population": {
+      "year": 2024,
+      "male": 154355,
+      "female": 139811,
+      "total": 294166
+    }
   }
 ]

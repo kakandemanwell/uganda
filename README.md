@@ -59,6 +59,14 @@ boundary data was evaluated and found too incomplete, too stale, or
 unlicensed to ship — see [`docs/DATA_QUALITY.md`](docs/DATA_QUALITY.md) for
 the full list of sources checked and why each was or wasn't used.
 
+Plus **2024 census population** for every district and city (`population`
+field: `{ year, male, female, total }`), from UBOS's National Population
+and Housing Census 2024 Final Report — the actual final count, not a
+projection. Cross-checked three independent ways (per-row arithmetic, the
+report's own prose, and an independent national-total reconciliation) with
+zero discrepancies; see [`docs/DATA_QUALITY.md`](docs/DATA_QUALITY.md) for
+the full validation story.
+
 Plus country-level metadata (`dist/country/uganda.json`): ISO codes,
 currency (UGX), calling code (+256), timezone (Africa/Kampala, UTC+3, no
 DST), driving side, capital, languages, and flag/coat-of-arms images in SVG
@@ -112,6 +120,8 @@ data/
   geo/
     districts.geojson    # 136 district boundary polygons, CC0 (geoBoundaries-derived)
     regions.geojson       # 4 region boundary polygons, dissolved from districts.geojson by region_id
+  population/
+    uganda-nphc-2024-population.csv   # 146 rows (136 districts + 10 cities), 2024 census male/female/total
   country/
     uganda.json          # ISO codes, currency, calling code, timezone, etc.
     assets/               # flag + coat of arms, SVG and PNG
@@ -157,8 +167,9 @@ import * as uganda from "uganda-locale";
 
 uganda.regions();                              // 4 administrative regions
 uganda.subregions();                            // 17 cultural/traditional sub-regions (Buganda, Acholi, Ankole, ...)
-uganda.districts();                             // 136 districts (incl. Kampala) — each has region_id AND subregion_id
+uganda.districts();                             // 136 districts (incl. Kampala) — each has region_id, subregion_id, population
 uganda.districts().filter((d) => d.subregion_id === "subregion:acholi");
+uganda.districts().find((d) => d.slug === "wakiso").population; // { year: 2024, male, female, total: 3411177 }
 uganda.counties({ districtId: "district:mbarara" });
 uganda.subcounties({ parentId: "county:mbarara-kashari-north-county" });
 uganda.getAncestors("subcounty:hoima-buhanika"); // walk up to region

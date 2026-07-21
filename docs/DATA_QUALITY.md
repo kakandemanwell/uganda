@@ -214,16 +214,42 @@ candidate below was independently evaluated, not just assumed absent:
   OSM and lower tiers are mapped mostly as point nodes, not polygons.
   (`src-osm-wikiproject-uganda-not-used`)
 
-**"Aggregated values per district"** (e.g. population) was scoped out of
-this pass deliberately — geometry and attribute data are being added
-separately so each change stays reviewable. Two real candidates were
-identified for later: HDX's `cod-ps-uga` (2023 district population
-projections, CC BY-IGO — but built on the old 135-district system, so it
-will need the same Terego reconciliation done for `districts.csv`) and
-WorldPop's gridded population raster (more flexible, works with any future
-boundary layer, but needs GIS zonal-statistics processing rather than a
-simple CSV join). See `data/sources.json` → `src-hdx-cod-ps-uga-not-used`
-and `src-worldpop-uga-not-used`.
+**District/city population** (`data/population/uganda-nphc-2024-population.csv`,
+`population` field on district/city records and on
+`data/geo/districts.geojson` features) — sourced from UBOS's **National
+Population and Housing Census 2024 Final Report, Volume 1**, the actual
+final census count, not a projection. This supersedes the original plan to
+use HDX's `cod-ps-uga` (2023 projection) once it turned out ubos.org was
+directly reachable after all: every earlier `WebFetch`-tool request to
+ubos.org had failed with a TLS certificate error, but a plain `curl` request
+with a browser User-Agent and `-k` succeeded — a tool-side TLS issue, not a
+real access block (see `data/legacy/provenance/population/README.md` for
+the full story). Extracted with `pdftotext -table` mode (plain `-layout`
+mode badly misaligned this specific table's columns — every number shifted
+down one row relative to its district name — `-table` mode extracted every
+row correctly with no manual correction needed). Validated three
+independent ways, all with zero discrepancies: (1) male + female = total
+for all 146 rows; (2) cross-checked against the report's own prose ("Wakiso
+district was the most populated with 3,411,177 people while Kalangala was
+the least populated district with 74,411 people") — exact match; (3) summed
+all 146 rows' male/female/total columns independently and reproduced the
+report's separately-stated national total (22,314,289 / 23,591,128 /
+45,905,417) exactly, to the person, across all three columns — the same
+kind of independent-checksum validation this project already relies on for
+the EC gazetteer. All 146 names (136 districts + 10 cities, each counted
+separately from its parent district, e.g. "Masaka" and "Masaka City" are
+two distinct rows) resolved to this project's own ids with zero unresolved
+and zero missing. No explicit copyright/license statement was found
+anywhere in the 36MB report; treated as public government statistical data
+per this project's CC BY 4.0 default, but flagged rather than assumed — see
+`LICENSE-DATA.md`. See `data/sources.json` →
+`src-ubos-nphc2024-final-report`.
+
+Population below district level (subcounty/parish/village) and WorldPop's
+gridded raster alternative remain un-ingested — see `data/sources.json` →
+`src-worldpop-uga-not-used` and the subcounty-boundary gap above (population
+below district level has no matching boundary layer to report against yet
+anyway).
 
 ## Explicitly not verified / not included
 

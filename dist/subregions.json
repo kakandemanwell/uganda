@@ -11,7 +11,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": null
+    "notes": null,
+    "population": null
   },
   {
     "id": "subregion:ankole",
@@ -25,7 +26,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": null
+    "notes": null,
+    "population": null
   },
   {
     "id": "subregion:buganda",
@@ -39,7 +41,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": null
+    "notes": null,
+    "population": null
   },
   {
     "id": "subregion:bugisu",
@@ -53,7 +56,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": null
+    "notes": null,
+    "population": null
   },
   {
     "id": "subregion:bukedi",
@@ -67,7 +71,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": null
+    "notes": null,
+    "population": null
   },
   {
     "id": "subregion:bunyoro",
@@ -81,7 +86,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": null
+    "notes": null,
+    "population": null
   },
   {
     "id": "subregion:busoga",
@@ -95,7 +101,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": null
+    "notes": null,
+    "population": null
   },
   {
     "id": "subregion:kampala",
@@ -109,7 +116,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": "Treated by UBOS as its own sub-region-equivalent (separate 'Kampala Capital City' census profile), not nested under Buganda."
+    "notes": "Treated by UBOS as its own sub-region-equivalent (separate 'Kampala Capital City' census profile), not nested under Buganda.",
+    "population": null
   },
   {
     "id": "subregion:karamoja",
@@ -123,7 +131,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": null
+    "notes": null,
+    "population": null
   },
   {
     "id": "subregion:kigezi",
@@ -137,7 +146,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": null
+    "notes": null,
+    "population": null
   },
   {
     "id": "subregion:lango",
@@ -151,7 +161,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": null
+    "notes": null,
+    "population": null
   },
   {
     "id": "subregion:madi",
@@ -165,7 +176,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": "UBOS 2024 census treats Madi as its own sub-region, split out from the broader West Nile grouping used in older sources."
+    "notes": "UBOS 2024 census treats Madi as its own sub-region, split out from the broader West Nile grouping used in older sources.",
+    "population": null
   },
   {
     "id": "subregion:rwenzori",
@@ -179,7 +191,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": "UBOS 2024 census treats Rwenzori as its own sub-region, split from Tooro (Rwenzururu/Bwamba traditional institutions became independent of the Tooro kingdom in 1993)."
+    "notes": "UBOS 2024 census treats Rwenzori as its own sub-region, split from Tooro (Rwenzururu/Bwamba traditional institutions became independent of the Tooro kingdom in 1993).",
+    "population": null
   },
   {
     "id": "subregion:sebei",
@@ -193,7 +206,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": "UBOS 2024 census treats Sebei as its own sub-region, split out from the broader Bugisu grouping used in older sources."
+    "notes": "UBOS 2024 census treats Sebei as its own sub-region, split out from the broader Bugisu grouping used in older sources.",
+    "population": null
   },
   {
     "id": "subregion:teso",
@@ -207,7 +221,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": null
+    "notes": null,
+    "population": null
   },
   {
     "id": "subregion:tooro",
@@ -221,7 +236,8 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": null
+    "notes": null,
+    "population": null
   },
   {
     "id": "subregion:west-nile",
@@ -235,6 +251,7 @@
     "confidence": "verified",
     "effective_date": null,
     "source_ids": [],
-    "notes": null
+    "notes": null,
+    "population": null
   }
 ]

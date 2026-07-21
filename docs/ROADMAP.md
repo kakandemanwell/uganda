@@ -132,10 +132,14 @@ Decision made 2026-07-12: npm package + Vercel API, in that order.
       simplification, and should probably ship as a separate opt-in asset
       given file size. County/parish/village: no usable free source found
       at all (see `docs/DATA_QUALITY.md` for why each was rejected).
-- [ ] "Aggregated values per district" (population etc.) deliberately left
-      for a separate pass — two real candidates identified (HDX's
-      `cod-ps-uga` district population dataset, and WorldPop's gridded
-      raster) but neither ingested yet.
+- [x] "Aggregated values per district": added 2024 census population
+      (`population` field, `{ year, male, female, total }`) on every
+      district/city record and on `data/geo/districts.geojson` features,
+      sourced from UBOS's actual Final Report (not the 2023 HDX
+      projection originally considered) — see `docs/DATA_QUALITY.md` and
+      `data/legacy/provenance/population/README.md` for the extraction and
+      three-way validation story. WorldPop's gridded raster remains a
+      future option for anything below district level.
 
 ## Explicitly out of scope for now
 - Keeping the EC gazetteer current past July 2022 — that requires either a

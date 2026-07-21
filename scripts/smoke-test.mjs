@@ -15,6 +15,15 @@ const mbarara = ug.districts().find((d) => d.slug === "mbarara");
 assert.ok(mbarara, "Mbarara district should exist");
 assert.equal(mbarara.subregion_id, "subregion:ankole", "Mbarara should be in the Ankole subregion");
 
+// population (NPHC 2024, district/city level)
+const wakiso = ug.districts().find((d) => d.slug === "wakiso");
+assert.equal(wakiso.population.total, 3411177, "Wakiso should be Uganda's most populous district (NPHC 2024)");
+// Cities are counted separately from their parent district in the census
+// (e.g. "Masaka" district and "Masaka City" are two distinct rows), so both
+// need to be summed to reach the national total.
+const nationalTotal = [...ug.districts(), ...ug.cities()].reduce((sum, u) => sum + u.population.total, 0);
+assert.equal(nationalTotal, 45905417, "district+city population totals should sum to the NPHC 2024 national total");
+
 const mbararaCounties = ug.counties({ districtId: mbarara.id });
 assert.ok(mbararaCounties.length > 0, "Mbarara should have counties");
 

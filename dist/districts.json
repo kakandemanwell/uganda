@@ -17,7 +17,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 67976,
+      "female": 76108,
+      "total": 144084
+    }
   },
   {
     "id": "district:adjumani",
@@ -37,7 +43,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 146101,
+      "female": 154489,
+      "total": 300590
+    }
   },
   {
     "id": "district:agago",
@@ -57,7 +69,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 147969,
+      "female": 159266,
+      "total": 307235
+    }
   },
   {
     "id": "district:alebtong",
@@ -77,7 +95,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 127112,
+      "female": 156397,
+      "total": 283509
+    }
   },
   {
     "id": "district:amolatar",
@@ -97,7 +121,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 91066,
+      "female": 97649,
+      "total": 188715
+    }
   },
   {
     "id": "district:amudat",
@@ -117,7 +147,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 100537,
+      "female": 102821,
+      "total": 203358
+    }
   },
   {
     "id": "district:amuru",
@@ -137,7 +173,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 120602,
+      "female": 126972,
+      "total": 247574
+    }
   },
   {
     "id": "district:apac",
@@ -157,7 +199,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 106696,
+      "female": 115266,
+      "total": 221962
+    }
   },
   {
     "id": "district:arua",
@@ -177,7 +225,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Also seat of Arua City (separate LG unit)"
+    "notes": "Also seat of Arua City (separate LG unit)",
+    "population": {
+      "year": 2024,
+      "male": 74949,
+      "female": 84773,
+      "total": 159722
+    }
   },
   {
     "id": "district:dokolo",
@@ -197,7 +251,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 108260,
+      "female": 107365,
+      "total": 215625
+    }
   },
   {
     "id": "district:gulu",
@@ -217,7 +277,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Also seat of Gulu City (separate LG unit)"
+    "notes": "Also seat of Gulu City (separate LG unit)",
+    "population": {
+      "year": 2024,
+      "male": 68192,
+      "female": 67181,
+      "total": 135373
+    }
   },
   {
     "id": "district:kaabong",
@@ -237,7 +303,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 126921,
+      "female": 137710,
+      "total": 264631
+    }
   },
   {
     "id": "district:karenga",
@@ -257,7 +329,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Kaabong"
+    "notes": "Split from Kaabong",
+    "population": {
+      "year": 2024,
+      "male": 48006,
+      "female": 52369,
+      "total": 100375
+    }
   },
   {
     "id": "district:kitgum",
@@ -277,7 +355,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 114065,
+      "female": 125590,
+      "total": 239655
+    }
   },
   {
     "id": "district:koboko",
@@ -297,7 +381,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 130234,
+      "female": 141547,
+      "total": 271781
+    }
   },
   {
     "id": "district:kole",
@@ -317,7 +407,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 132346,
+      "female": 161955,
+      "total": 294301
+    }
   },
   {
     "id": "district:kotido",
@@ -337,7 +433,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 102837,
+      "female": 116897,
+      "total": 219734
+    }
   },
   {
     "id": "district:kwania",
@@ -357,7 +459,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Apac"
+    "notes": "Split from Apac",
+    "population": {
+      "year": 2024,
+      "male": 105103,
+      "female": 111022,
+      "total": 216125
+    }
   },
   {
     "id": "district:lamwo",
@@ -377,7 +485,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 103290,
+      "female": 109866,
+      "total": 213156
+    }
   },
   {
     "id": "district:lira",
@@ -397,7 +511,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Also seat of Lira City (separate LG unit)"
+    "notes": "Also seat of Lira City (separate LG unit)",
+    "population": {
+      "year": 2024,
+      "male": 113505,
+      "female": 128711,
+      "total": 242216
+    }
   },
   {
     "id": "district:madi-okollo",
@@ -417,7 +537,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Arua"
+    "notes": "Split from Arua",
+    "population": {
+      "year": 2024,
+      "male": 87410,
+      "female": 90641,
+      "total": 178051
+    }
   },
   {
     "id": "district:maracha",
@@ -437,7 +563,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 109515,
+      "female": 125197,
+      "total": 234712
+    }
   },
   {
     "id": "district:moroto",
@@ -457,7 +589,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 46546,
+      "female": 57093,
+      "total": 103639
+    }
   },
   {
     "id": "district:moyo",
@@ -477,7 +615,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 57211,
+      "female": 52361,
+      "total": 109572
+    }
   },
   {
     "id": "district:nabilatuk",
@@ -497,7 +641,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Nakapiripirit"
+    "notes": "Split from Nakapiripirit",
+    "population": {
+      "year": 2024,
+      "male": 68203,
+      "female": 68582,
+      "total": 136785
+    }
   },
   {
     "id": "district:nakapiripirit",
@@ -517,7 +667,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 54983,
+      "female": 56698,
+      "total": 111681
+    }
   },
   {
     "id": "district:napak",
@@ -537,7 +693,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 105425,
+      "female": 106405,
+      "total": 211830
+    }
   },
   {
     "id": "district:nebbi",
@@ -557,7 +719,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 139832,
+      "female": 159566,
+      "total": 299398
+    }
   },
   {
     "id": "district:nwoya",
@@ -577,7 +745,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 107748,
+      "female": 112845,
+      "total": 220593
+    }
   },
   {
     "id": "district:obongi",
@@ -597,7 +771,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Moyo"
+    "notes": "Split from Moyo",
+    "population": {
+      "year": 2024,
+      "male": 69596,
+      "female": 73387,
+      "total": 142983
+    }
   },
   {
     "id": "district:omoro",
@@ -617,7 +797,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Gulu"
+    "notes": "Split from Gulu",
+    "population": {
+      "year": 2024,
+      "male": 99389,
+      "female": 107950,
+      "total": 207339
+    }
   },
   {
     "id": "district:otuke",
@@ -637,7 +823,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 74697,
+      "female": 86372,
+      "total": 161069
+    }
   },
   {
     "id": "district:oyam",
@@ -657,7 +849,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 224158,
+      "female": 253306,
+      "total": 477464
+    }
   },
   {
     "id": "district:pader",
@@ -677,7 +875,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 114088,
+      "female": 126071,
+      "total": 240159
+    }
   },
   {
     "id": "district:pakwach",
@@ -697,7 +901,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Nebbi"
+    "notes": "Split from Nebbi",
+    "population": {
+      "year": 2024,
+      "male": 97830,
+      "female": 109131,
+      "total": 206961
+    }
   },
   {
     "id": "district:yumbe",
@@ -717,7 +927,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 474777,
+      "female": 470323,
+      "total": 945100
+    }
   },
   {
     "id": "district:zombo",
@@ -737,7 +953,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 146719,
+      "female": 165902,
+      "total": 312621
+    }
   },
   {
     "id": "district:amuria",
@@ -757,7 +979,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 118804,
+      "female": 132849,
+      "total": 251653
+    }
   },
   {
     "id": "district:budaka",
@@ -777,7 +1005,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 121908,
+      "female": 159629,
+      "total": 281537
+    }
   },
   {
     "id": "district:bududa",
@@ -797,7 +1031,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 139627,
+      "female": 129343,
+      "total": 268970
+    }
   },
   {
     "id": "district:bugiri",
@@ -817,7 +1057,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 220485,
+      "female": 259860,
+      "total": 480345
+    }
   },
   {
     "id": "district:bugweri",
@@ -837,7 +1083,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Iganga"
+    "notes": "Split from Iganga",
+    "population": {
+      "year": 2024,
+      "male": 99283,
+      "female": 112228,
+      "total": 211511
+    }
   },
   {
     "id": "district:bukedea",
@@ -857,7 +1109,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 133204,
+      "female": 149660,
+      "total": 282864
+    }
   },
   {
     "id": "district:bukwo",
@@ -877,7 +1135,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 55683,
+      "female": 58713,
+      "total": 114396
+    }
   },
   {
     "id": "district:bulambuli",
@@ -897,7 +1161,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 101286,
+      "female": 134105,
+      "total": 235391
+    }
   },
   {
     "id": "district:busia",
@@ -917,7 +1187,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 194114,
+      "female": 218557,
+      "total": 412671
+    }
   },
   {
     "id": "district:butaleja",
@@ -937,7 +1213,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 147067,
+      "female": 165704,
+      "total": 312771
+    }
   },
   {
     "id": "district:butebo",
@@ -957,7 +1239,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Pallisa"
+    "notes": "Split from Pallisa",
+    "population": {
+      "year": 2024,
+      "male": 81386,
+      "female": 90047,
+      "total": 171433
+    }
   },
   {
     "id": "district:buyende",
@@ -977,7 +1265,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 191715,
+      "female": 211771,
+      "total": 403486
+    }
   },
   {
     "id": "district:iganga",
@@ -997,7 +1291,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 196636,
+      "female": 230322,
+      "total": 426958
+    }
   },
   {
     "id": "district:jinja",
@@ -1017,7 +1317,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Also seat of Jinja City (separate LG unit)"
+    "notes": "Also seat of Jinja City (separate LG unit)",
+    "population": {
+      "year": 2024,
+      "male": 127893,
+      "female": 153012,
+      "total": 280905
+    }
   },
   {
     "id": "district:kaberamaido",
@@ -1037,7 +1343,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 66856,
+      "female": 74130,
+      "total": 140986
+    }
   },
   {
     "id": "district:kalaki",
@@ -1057,7 +1369,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Kaberamaido"
+    "notes": "Split from Kaberamaido",
+    "population": {
+      "year": 2024,
+      "male": 71246,
+      "female": 78490,
+      "total": 149736
+    }
   },
   {
     "id": "district:kaliro",
@@ -1077,7 +1395,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 137725,
+      "female": 148672,
+      "total": 286397
+    }
   },
   {
     "id": "district:kamuli",
@@ -1097,7 +1421,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 252892,
+      "female": 287360,
+      "total": 540252
+    }
   },
   {
     "id": "district:kapchorwa",
@@ -1117,7 +1447,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 63668,
+      "female": 69953,
+      "total": 133621
+    }
   },
   {
     "id": "district:kapelebyong",
@@ -1137,7 +1473,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Amuria"
+    "notes": "Split from Amuria",
+    "population": {
+      "year": 2024,
+      "male": 68768,
+      "female": 74768,
+      "total": 143536
+    }
   },
   {
     "id": "district:katakwi",
@@ -1157,7 +1499,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 111791,
+      "female": 122541,
+      "total": 234332
+    }
   },
   {
     "id": "district:kibuku",
@@ -1177,7 +1525,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 121056,
+      "female": 128385,
+      "total": 249441
+    }
   },
   {
     "id": "district:kumi",
@@ -1197,7 +1551,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 134979,
+      "female": 152013,
+      "total": 286992
+    }
   },
   {
     "id": "district:kween",
@@ -1217,7 +1577,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 63860,
+      "female": 65417,
+      "total": 129277
+    }
   },
   {
     "id": "district:luuka",
@@ -1237,7 +1603,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 153329,
+      "female": 145310,
+      "total": 298639
+    }
   },
   {
     "id": "district:manafwa",
@@ -1257,7 +1629,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 88490,
+      "female": 98427,
+      "total": 186917
+    }
   },
   {
     "id": "district:mayuge",
@@ -1277,7 +1655,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 281051,
+      "female": 296512,
+      "total": 577563
+    }
   },
   {
     "id": "district:mbale",
@@ -1297,7 +1681,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Also seat of Mbale City (separate LG unit)"
+    "notes": "Also seat of Mbale City (separate LG unit)",
+    "population": {
+      "year": 2024,
+      "male": 133202,
+      "female": 157154,
+      "total": 290356
+    }
   },
   {
     "id": "district:namayingo",
@@ -1317,7 +1707,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 126122,
+      "female": 140594,
+      "total": 266716
+    }
   },
   {
     "id": "district:namisindwa",
@@ -1337,7 +1733,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Manafwa"
+    "notes": "Split from Manafwa",
+    "population": {
+      "year": 2024,
+      "male": 123345,
+      "female": 134001,
+      "total": 257346
+    }
   },
   {
     "id": "district:namutumba",
@@ -1357,7 +1759,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 146632,
+      "female": 164707,
+      "total": 311339
+    }
   },
   {
     "id": "district:ngora",
@@ -1377,7 +1785,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 116739,
+      "female": 97038,
+      "total": 213777
+    }
   },
   {
     "id": "district:pallisa",
@@ -1397,7 +1811,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 157165,
+      "female": 177532,
+      "total": 334697
+    }
   },
   {
     "id": "district:serere",
@@ -1417,7 +1837,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 169703,
+      "female": 188420,
+      "total": 358123
+    }
   },
   {
     "id": "district:sironko",
@@ -1437,7 +1863,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 143357,
+      "female": 155006,
+      "total": 298363
+    }
   },
   {
     "id": "district:soroti",
@@ -1457,7 +1889,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Also seat of Soroti City (separate LG unit)"
+    "notes": "Also seat of Soroti City (separate LG unit)",
+    "population": {
+      "year": 2024,
+      "male": 126583,
+      "female": 139606,
+      "total": 266189
+    }
   },
   {
     "id": "district:tororo",
@@ -1477,7 +1915,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Reported subject of further splits ahead of 2026 elections - unverified, see docs/DATA_QUALITY.md"
+    "notes": "Reported subject of further splits ahead of 2026 elections - unverified, see docs/DATA_QUALITY.md",
+    "population": {
+      "year": 2024,
+      "male": 285894,
+      "female": 324045,
+      "total": 609939
+    }
   },
   {
     "id": "district:terego",
@@ -1495,7 +1939,13 @@
     "source_ids": [
       "src-ec-admin-units-2022"
     ],
-    "notes": "Established 2020-07-01, split from Arua District. Missing from all three sources originally used for the 135-district baseline (Statoids, Wikipedia, and the MoLG-style PDF list) — confirmed as a real gap and added after cross-referencing the EC's June 2022 verified administrative units count (146 district-equivalent units, not 135)."
+    "notes": "Established 2020-07-01, split from Arua District. Missing from all three sources originally used for the 135-district baseline (Statoids, Wikipedia, and the MoLG-style PDF list) — confirmed as a real gap and added after cross-referencing the EC's June 2022 verified administrative units count (146 district-equivalent units, not 135).",
+    "population": {
+      "year": 2024,
+      "male": 153873,
+      "female": 169380,
+      "total": 323253
+    }
   },
   {
     "id": "district:buhweju",
@@ -1515,7 +1965,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 88145,
+      "female": 79776,
+      "total": 167921
+    }
   },
   {
     "id": "district:buliisa",
@@ -1535,7 +1991,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 81437,
+      "female": 86457,
+      "total": 167894
+    }
   },
   {
     "id": "district:bundibugyo",
@@ -1555,7 +2017,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 123964,
+      "female": 140814,
+      "total": 264778
+    }
   },
   {
     "id": "district:bunyangabu",
@@ -1575,7 +2043,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Kabarole"
+    "notes": "Split from Kabarole",
+    "population": {
+      "year": 2024,
+      "male": 112678,
+      "female": 106334,
+      "total": 219012
+    }
   },
   {
     "id": "district:bushenyi",
@@ -1595,7 +2069,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 128632,
+      "female": 154760,
+      "total": 283392
+    }
   },
   {
     "id": "district:hoima",
@@ -1615,7 +2095,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Also seat of Hoima City (separate LG unit)"
+    "notes": "Also seat of Hoima City (separate LG unit)",
+    "population": {
+      "year": 2024,
+      "male": 122572,
+      "female": 134972,
+      "total": 257544
+    }
   },
   {
     "id": "district:ibanda",
@@ -1635,7 +2121,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 141194,
+      "female": 168272,
+      "total": 309466
+    }
   },
   {
     "id": "district:isingiro",
@@ -1655,7 +2147,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 295801,
+      "female": 339276,
+      "total": 635077
+    }
   },
   {
     "id": "district:kabale",
@@ -1675,7 +2173,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 121223,
+      "female": 164365,
+      "total": 285588
+    }
   },
   {
     "id": "district:kabarole",
@@ -1695,7 +2199,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Also seat of Fort Portal City (separate LG unit)"
+    "notes": "Also seat of Fort Portal City (separate LG unit)",
+    "population": {
+      "year": 2024,
+      "male": 112305,
+      "female": 118063,
+      "total": 230368
+    }
   },
   {
     "id": "district:kagadi",
@@ -1715,7 +2225,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Kibaale"
+    "notes": "Split from Kibaale",
+    "population": {
+      "year": 2024,
+      "male": 222911,
+      "female": 248200,
+      "total": 471111
+    }
   },
   {
     "id": "district:kakumiro",
@@ -1735,7 +2251,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Kibaale"
+    "notes": "Split from Kibaale",
+    "population": {
+      "year": 2024,
+      "male": 205199,
+      "female": 222977,
+      "total": 428176
+    }
   },
   {
     "id": "district:kamwenge",
@@ -1755,7 +2277,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 157559,
+      "female": 179608,
+      "total": 337167
+    }
   },
   {
     "id": "district:kanungu",
@@ -1775,7 +2303,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 137963,
+      "female": 172099,
+      "total": 310062
+    }
   },
   {
     "id": "district:kasese",
@@ -1795,7 +2329,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 408524,
+      "female": 445307,
+      "total": 853831
+    }
   },
   {
     "id": "district:kazo",
@@ -1815,7 +2355,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Kiruhura"
+    "notes": "Split from Kiruhura",
+    "population": {
+      "year": 2024,
+      "male": 110216,
+      "female": 98682,
+      "total": 208898
+    }
   },
   {
     "id": "district:kibaale",
@@ -1835,7 +2381,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 113255,
+      "female": 124394,
+      "total": 237649
+    }
   },
   {
     "id": "district:kikuube",
@@ -1855,7 +2407,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Hoima"
+    "notes": "Split from Hoima",
+    "population": {
+      "year": 2024,
+      "male": 181461,
+      "female": 198086,
+      "total": 379547
+    }
   },
   {
     "id": "district:kiruhura",
@@ -1875,7 +2433,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 97124,
+      "female": 106378,
+      "total": 203502
+    }
   },
   {
     "id": "district:kiryandongo",
@@ -1895,7 +2459,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 176128,
+      "female": 188744,
+      "total": 364872
+    }
   },
   {
     "id": "district:kisoro",
@@ -1915,7 +2485,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 251631,
+      "female": 182031,
+      "total": 433662
+    }
   },
   {
     "id": "district:kitagwenda",
@@ -1935,7 +2511,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Kamwenge"
+    "notes": "Split from Kamwenge",
+    "population": {
+      "year": 2024,
+      "male": 96534,
+      "female": 88413,
+      "total": 184947
+    }
   },
   {
     "id": "district:kyegegwa",
@@ -1955,7 +2537,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 237257,
+      "female": 263863,
+      "total": 501120
+    }
   },
   {
     "id": "district:kyenjojo",
@@ -1975,7 +2563,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 261171,
+      "female": 282827,
+      "total": 543998
+    }
   },
   {
     "id": "district:masindi",
@@ -1995,7 +2589,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 166626,
+      "female": 176009,
+      "total": 342635
+    }
   },
   {
     "id": "district:mbarara",
@@ -2015,7 +2615,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Also seat of Mbarara City (separate LG unit)"
+    "notes": "Also seat of Mbarara City (separate LG unit)",
+    "population": {
+      "year": 2024,
+      "male": 78766,
+      "female": 95273,
+      "total": 174039
+    }
   },
   {
     "id": "district:mitooma",
@@ -2035,7 +2641,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 100023,
+      "female": 125986,
+      "total": 226009
+    }
   },
   {
     "id": "district:ntoroko",
@@ -2055,7 +2667,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 66786,
+      "female": 48072,
+      "total": 114858
+    }
   },
   {
     "id": "district:ntungamo",
@@ -2075,7 +2693,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 251168,
+      "female": 301618,
+      "total": 552786
+    }
   },
   {
     "id": "district:rubanda",
@@ -2095,7 +2719,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Kabale"
+    "notes": "Split from Kabale",
+    "population": {
+      "year": 2024,
+      "male": 115633,
+      "female": 133821,
+      "total": 249454
+    }
   },
   {
     "id": "district:rubirizi",
@@ -2115,7 +2745,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 72265,
+      "female": 95946,
+      "total": 168211
+    }
   },
   {
     "id": "district:rukiga",
@@ -2135,7 +2771,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Kabale"
+    "notes": "Split from Kabale",
+    "population": {
+      "year": 2024,
+      "male": 55360,
+      "female": 76995,
+      "total": 132355
+    }
   },
   {
     "id": "district:rukungiri",
@@ -2155,7 +2797,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 169502,
+      "female": 206608,
+      "total": 376110
+    }
   },
   {
     "id": "district:rwampara",
@@ -2175,7 +2823,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Mbarara"
+    "notes": "Split from Mbarara",
+    "population": {
+      "year": 2024,
+      "male": 84812,
+      "female": 78155,
+      "total": 162967
+    }
   },
   {
     "id": "district:sheema",
@@ -2195,7 +2849,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 113043,
+      "female": 139232,
+      "total": 252275
+    }
   },
   {
     "id": "district:buikwe",
@@ -2215,7 +2875,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 248191,
+      "female": 271967,
+      "total": 520158
+    }
   },
   {
     "id": "district:bukomansimbi",
@@ -2235,7 +2901,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 90135,
+      "female": 107433,
+      "total": 197568
+    }
   },
   {
     "id": "district:butambala",
@@ -2255,7 +2927,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 78993,
+      "female": 67523,
+      "total": 146516
+    }
   },
   {
     "id": "district:buvuma",
@@ -2275,7 +2953,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 58410,
+      "female": 52422,
+      "total": 110832
+    }
   },
   {
     "id": "district:gomba",
@@ -2295,7 +2979,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 97889,
+      "female": 101231,
+      "total": 199120
+    }
   },
   {
     "id": "district:kalangala",
@@ -2315,7 +3005,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 45396,
+      "female": 29015,
+      "total": 74411
+    }
   },
   {
     "id": "district:kalungu",
@@ -2335,7 +3031,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 101915,
+      "female": 119654,
+      "total": 221569
+    }
   },
   {
     "id": "district:kampala",
@@ -2355,7 +3057,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Uganda's capital city, occupying the same tier as a district. Administered by the Kampala Capital City Authority (KCCA) under the KCCA Act 2010 (KCCA is the governing authority, not a type of administrative unit). Divided into 5 Divisions rather than counties/subcounties."
+    "notes": "Uganda's capital city, occupying the same tier as a district. Administered by the Kampala Capital City Authority (KCCA) under the KCCA Act 2010 (KCCA is the governing authority, not a type of administrative unit). Divided into 5 Divisions rather than counties/subcounties.",
+    "population": {
+      "year": 2024,
+      "male": 1004884,
+      "female": 792838,
+      "total": 1797722
+    }
   },
   {
     "id": "district:kassanda",
@@ -2375,7 +3083,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Mubende"
+    "notes": "Split from Mubende",
+    "population": {
+      "year": 2024,
+      "male": 153298,
+      "female": 160710,
+      "total": 314008
+    }
   },
   {
     "id": "district:kayunga",
@@ -2395,7 +3109,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 208845,
+      "female": 230330,
+      "total": 439175
+    }
   },
   {
     "id": "district:kiboga",
@@ -2415,7 +3135,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 95629,
+      "female": 87626,
+      "total": 183255
+    }
   },
   {
     "id": "district:kyankwanzi",
@@ -2435,7 +3161,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Kiboga"
+    "notes": "Split from Kiboga",
+    "population": {
+      "year": 2024,
+      "male": 134600,
+      "female": 143832,
+      "total": 278432
+    }
   },
   {
     "id": "district:kyotera",
@@ -2455,7 +3187,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Split from Rakai"
+    "notes": "Split from Rakai",
+    "population": {
+      "year": 2024,
+      "male": 132091,
+      "female": 143826,
+      "total": 275917
+    }
   },
   {
     "id": "district:luwero",
@@ -2477,7 +3215,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 294285,
+      "female": 321957,
+      "total": 616242
+    }
   },
   {
     "id": "district:lwengo",
@@ -2497,7 +3241,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 139446,
+      "female": 185817,
+      "total": 325263
+    }
   },
   {
     "id": "district:lyantonde",
@@ -2517,7 +3267,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 72366,
+      "female": 60651,
+      "total": 133017
+    }
   },
   {
     "id": "district:masaka",
@@ -2537,7 +3293,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": "Also seat of Masaka City (separate LG unit)"
+    "notes": "Also seat of Masaka City (separate LG unit)",
+    "population": {
+      "year": 2024,
+      "male": 57129,
+      "female": 58326,
+      "total": 115455
+    }
   },
   {
     "id": "district:mityana",
@@ -2557,7 +3319,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 197040,
+      "female": 210346,
+      "total": 407386
+    }
   },
   {
     "id": "district:mpigi",
@@ -2577,7 +3345,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 150208,
+      "female": 176482,
+      "total": 326690
+    }
   },
   {
     "id": "district:mubende",
@@ -2597,7 +3371,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 251165,
+      "female": 270850,
+      "total": 522015
+    }
   },
   {
     "id": "district:mukono",
@@ -2617,7 +3397,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 452447,
+      "female": 476777,
+      "total": 929224
+    }
   },
   {
     "id": "district:nakaseke",
@@ -2637,7 +3423,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 125784,
+      "female": 125614,
+      "total": 251398
+    }
   },
   {
     "id": "district:nakasongola",
@@ -2657,7 +3449,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 114805,
+      "female": 111269,
+      "total": 226074
+    }
   },
   {
     "id": "district:rakai",
@@ -2677,7 +3475,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 194969,
+      "female": 151916,
+      "total": 346885
+    }
   },
   {
     "id": "district:sembabule",
@@ -2699,7 +3503,13 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 157207,
+      "female": 148764,
+      "total": 305971
+    }
   },
   {
     "id": "district:wakiso",
@@ -2719,6 +3529,12 @@
       "src-wikipedia-districts",
       "src-molg-lg-list"
     ],
-    "notes": null
+    "notes": null,
+    "population": {
+      "year": 2024,
+      "male": 1828466,
+      "female": 1582711,
+      "total": 3411177
+    }
   }
 ]

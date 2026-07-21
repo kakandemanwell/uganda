@@ -46,6 +46,10 @@
               "source": {
                 "type": "string",
                 "description": "Present on region-level features only: a plain-text note that the geometry was dissolved from district-level features rather than sourced independently."
+              },
+              "population": {
+                "type": ["object", "null"],
+                "description": "Present on district-level features only (null on region-level features). Same shape as the `population` property on AdministrativeUnit records — see schema/administrative-unit.schema.json — merged in at build time for direct choropleth-map use."
               }
             }
           }

@@ -20,8 +20,8 @@ Then open `http://localhost:3000`.
 |---|---|
 | `GET /api/regions` | All 4 administrative regions |
 | `GET /api/subregions` | All 17 cultural/traditional sub-regions (Buganda, Acholi, Ankole, ...) |
-| `GET /api/districts` | All 136 districts (`?regionId=` or `?subregionId=` to filter) |
-| `GET /api/cities` | All 10 cities |
+| `GET /api/districts` | All 136 districts (`?regionId=` or `?subregionId=` to filter), each with a `population` field (2024 census) |
+| `GET /api/cities` | All 10 cities, each with a `population` field (2024 census) |
 | `GET /api/districts/:id/counties` | Counties/municipalities under a district |
 | `GET /api/counties/:id/subcounties` | Subcounties/town councils/divisions under a county |
 | `GET /api/subcounties/:id/parishes` | Parishes/wards under a subcounty (parish/ward data, opt-in at the library level) |

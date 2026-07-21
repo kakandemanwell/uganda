@@ -73,6 +73,16 @@
       "type": "object",
       "description": "Arbitrary identifiers/codes carried over from a source dataset (e.g. a legacy numeric id or code), preserved for traceability and backward compatibility with older integrations.",
       "additionalProperties": true
+    },
+    "population": {
+      "type": ["object", "null"],
+      "description": "Census population, present only on level='district' and level='city' records (null everywhere else — not yet ingested below district level). Sourced from UBOS's National Population and Housing Census 2024 Final Report — see data/legacy/provenance/population/README.md.",
+      "properties": {
+        "year": { "type": "integer", "description": "Census year, currently always 2024." },
+        "male": { "type": "integer" },
+        "female": { "type": "integer" },
+        "total": { "type": "integer", "description": "Always equal to male + female." }
+      }
     }
   }
 }

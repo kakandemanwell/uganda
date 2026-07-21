@@ -61,6 +61,17 @@ for (const u of units) {
   if (u.region_id && !ids.has(u.region_id)) {
     fail(`${u.id}: region_id '${u.region_id}' does not resolve to any record`);
   }
+
+  if (u.level === "district" || u.level === "city") {
+    const p = u.population;
+    if (!p || typeof p.male !== "number" || typeof p.female !== "number" || typeof p.total !== "number") {
+      fail(`${u.id}: missing/malformed population data`);
+    } else if (p.male + p.female !== p.total) {
+      fail(`${u.id}: population male (${p.male}) + female (${p.female}) != total (${p.total})`);
+    }
+  } else if (u.population !== undefined && u.population !== null) {
+    fail(`${u.id}: level '${u.level}' should not carry population data`);
+  }
 }
 
 // ---- boundary geometry (region/district polygons) ----

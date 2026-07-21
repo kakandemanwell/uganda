@@ -48,3 +48,15 @@ region-level file is derived entirely from that same district geometry
 (dissolved by `region_id`, not sourced independently — see
 `scripts/build-region-boundaries.mjs`), so the same CC0 origin applies to
 it too.
+
+## Note: `data/population/uganda-nphc-2024-population.csv` and the `population` field
+
+Sourced from UBOS's National Population and Housing Census 2024 Final
+Report -- see `data/sources.json` -> `src-ubos-nphc2024-final-report`. No
+explicit copyright or license statement was found anywhere in that report
+(searched directly for "copyright", "license", "creative commons", and the
+copyright symbol -- no matches). This is treated as public government
+statistical data for the purposes of this project's CC BY 4.0 default,
+consistent with how other UBOS-sourced content is already handled here
+(e.g. the sub-region taxonomy), but this is a judgment call, not a
+confirmed license -- flagged here rather than silently assumed.
