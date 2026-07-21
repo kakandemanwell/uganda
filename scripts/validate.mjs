@@ -63,6 +63,27 @@ for (const u of units) {
   }
 }
 
+// ---- boundary geometry (region/district polygons) ----
+const GEO_EXPECTED_COUNT = { "dist/geo/districts.geojson": 136, "dist/geo/regions.geojson": 4 };
+for (const [rel, expectedCount] of Object.entries(GEO_EXPECTED_COUNT)) {
+  const fc = JSON.parse(readFileSync(path.join(ROOT, rel), "utf-8"));
+  if (fc.type !== "FeatureCollection") fail(`${rel}: expected a FeatureCollection`);
+  if (fc.features.length !== expectedCount) {
+    fail(`${rel}: expected ${expectedCount} features, got ${fc.features.length}`);
+  }
+  const seenGeoIds = new Set();
+  for (const f of fc.features) {
+    const p = f.properties || {};
+    if (!p.id || !p.name || !p.slug) fail(`${rel}: feature missing id/name/slug (${JSON.stringify(p)})`);
+    if (seenGeoIds.has(p.id)) fail(`${rel}: duplicate feature id '${p.id}'`);
+    seenGeoIds.add(p.id);
+    if (!ids.has(p.id)) fail(`${rel}: feature id '${p.id}' does not resolve to any record in uganda-locations.json`);
+    if (!["Polygon", "MultiPolygon"].includes(f.geometry?.type)) {
+      fail(`${rel}: feature '${p.id}' has unexpected geometry type '${f.geometry?.type}'`);
+    }
+  }
+}
+
 if (errors) {
   console.error(`\n${errors} validation error(s) in ${units.length} records.`);
   process.exit(1);

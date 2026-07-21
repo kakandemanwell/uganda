@@ -1,6 +1,6 @@
 {
   "name": "uganda-locale",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "private": false,
   "description": "Open, versioned dataset and library of Uganda's administrative units — regions, districts, cities, counties, municipalities, subcounties, town councils, parishes, wards, villages, cells and zones.",
   "type": "module",
@@ -9,12 +9,15 @@
   "exports": {
     ".": "./src/index.mjs",
     "./deep": "./src/deep.mjs",
+    "./geo": "./src/geo.mjs",
     "./package.json": "./package.json"
   },
   "files": [
     "src",
     "dist/regions.json",
     "dist/subregions.json",
+    "dist/geo/districts.geojson",
+    "dist/geo/regions.geojson",
     "dist/districts.json",
     "dist/citys.json",
     "dist/countys.json",
@@ -45,6 +48,8 @@
     "parishes",
     "villages",
     "geodata",
+    "geojson",
+    "boundaries",
     "locale"
   ],
   "scripts": {
@@ -54,5 +59,8 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@turf/turf": "^7.3.5"
   }
 }

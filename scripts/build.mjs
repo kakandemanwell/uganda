@@ -305,6 +305,18 @@ writeFileSync(
 );
 cpSync(path.join(DATA, "country/assets"), path.join(DIST, "country", "assets"), { recursive: true });
 
+// ---- boundary geometry (region/district polygons for map visualization) ----
+// Prebuilt by scripts/ingest-district-boundaries.mjs (from geoBoundaries' CC0
+// district layer) and scripts/build-region-boundaries.mjs (dissolved from
+// that same district geometry by region_id) — both checked into data/geo/,
+// copied through verbatim here like country metadata above. See
+// docs/DATA_QUALITY.md for what levels below district were evaluated and why
+// they aren't included (county/subcounty/parish/village boundary data).
+mkdirSync(path.join(DIST, "geo"), { recursive: true });
+for (const file of ["districts.geojson", "regions.geojson"]) {
+  writeFileSync(path.join(DIST, "geo", file), readFileSync(path.join(DATA, "geo", file), "utf-8"));
+}
+
 console.log(`Built ${units.length} records -> dist/`);
 console.log(
   `District-equivalents with subcounty data: ${report.coverage.district_equivalents_with_subcounty_data}/${report.coverage.district_equivalents_total}`

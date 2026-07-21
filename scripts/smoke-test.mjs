@@ -4,6 +4,7 @@
 import assert from "node:assert/strict";
 import * as ug from "../src/index.mjs";
 import * as deep from "../src/deep.mjs";
+import * as geo from "../src/geo.mjs";
 
 assert.equal(ug.regions().length, 4, "expected 4 regions");
 assert.equal(ug.subregions().length, 17, "expected 17 subregions");
@@ -40,6 +41,17 @@ const someSubcounty = subcounties[0];
 const parishes = deep.parishes({ parentId: someSubcounty.id });
 assert.ok(Array.isArray(parishes), "deep.parishes should return an array");
 assert.ok(deep.getUnit(mbarara.id), "deep re-exports index.mjs functions");
+
+// geo.mjs: region/district boundary polygons
+const districtBoundaries = geo.districtBoundaries();
+assert.equal(districtBoundaries.type, "FeatureCollection", "districtBoundaries should be a FeatureCollection");
+assert.equal(districtBoundaries.features.length, 136, "expected 136 district boundary features");
+assert.ok(
+  districtBoundaries.features.some((f) => f.properties.id === mbarara.id),
+  "district boundaries should include Mbarara"
+);
+const regionBoundaries = geo.regionBoundaries();
+assert.equal(regionBoundaries.features.length, 4, "expected 4 region boundary features");
 
 console.log("smoke test passed:", {
   regions: ug.regions().length,

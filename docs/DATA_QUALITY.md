@@ -150,6 +150,81 @@ insignia-use caveat), the coat of arms is CC BY-SA 3.0 (attribution +
 share-alike required), which is stricter than this project's default
 CC-BY 4.0 data license.
 
+**Region/district boundary polygons** (`data/geo/districts.geojson`,
+`data/geo/regions.geojson`) — for map visualization. District geometry is
+[geoBoundaries](https://www.geoboundaries.org)' Uganda ADM3 release: CC0
+(public domain), 2020 vintage, downloaded directly and diffed 136/136
+against `data/districts.csv` (5 minor spelling variants, handled in
+`scripts/ingest-district-boundaries.mjs`; one extraneous "Lake Victoria"
+water-body feature dropped). This vintage already includes **Terego**
+District, the split that Statoids/Wikipedia/the MoLG list all missed (see
+above) — a better vintage than HDX's stale district layer for this specific
+purpose. Region geometry is **not** an independent source: it's dissolved
+from that same district geometry, grouped by `region_id`, using
+`@turf/turf` (a dev-only dependency, never shipped in the published
+package) — see `scripts/build-region-boundaries.mjs`. This guarantees the
+region shapes can never drift out of sync with `region_id` as assigned in
+`data/districts.csv`, and sidesteps needing geoBoundaries' own region layer,
+which is ODbL-licensed (a second, stricter license) rather than CC0.
+Sanity-checked post-build: bounding box and total area (~211,760 km²) match
+Uganda's known geography, and area is exactly conserved between the
+district layer and the dissolved region layer (no geometry lost/duplicated
+in the union). See `data/sources.json` → `src-geoboundaries-uga-adm3` and
+`src-region-boundary-dissolve`.
+
+**What's deliberately NOT included below district level, and why** — every
+candidate below was independently evaluated, not just assumed absent:
+- **County**: no usable source at all. geoBoundaries' own "county" layer is
+  2006 vintage, 151 counties vs. this project's 322 — stale by nearly two
+  decades of splits. (`src-geoboundaries-uga-adm2-county-rejected`)
+- **Subcounty**: geoBoundaries' ADM4 layer covers ~69% of this project's
+  2,191 subcounties/town councils/divisions (1,521 features, 2019 vintage,
+  CC BY 3.0 IGO) — a real improvement over HDX's ~9.5%, but still a
+  meaningful gap, over 10MB raw, and not yet name-reconciled against this
+  project's own subcounty list. Deferred, not rejected — if it's added
+  later it should probably ship as a separate opt-in asset (parity with
+  `uganda-locale/deep`), simplified first.
+  (`src-geoboundaries-uga-adm4-subcounty-deferred`)
+- **Parish**: HDX's admin4 layer (1,520 features vs. 10,717 verified
+  parishes, ~14%) confirms this project's prior rejection of HDX below
+  district level. A real UBOS parish shapefile exists
+  (`src-ubos-parish-2010-stanford-rejected`), but it's 2010/2012 vintage,
+  predating roughly half of today's districts — rejected as stale.
+- **Village**: no trustworthy source exists, full stop. One candidate was
+  found and scrutinized at the byte level, not trusted from its filename —
+  genuine Polygon geometry (shape type 5), 44,034 records with a real
+  VILLAGE/PARISH/SUBCOUNTY/COUNTY/DISTRICT field structure, but only ~62%
+  of this project's verified 71,230-village count, **no license anywhere**
+  (anonymous single-commit GitHub upload, no README), and an unverifiable
+  "2011" vintage claim. Rejected — real-looking data with no license and
+  material staleness isn't something this project's no-guessing culture
+  should ship. (`src-github-village-shapefile-unlicensed-rejected`)
+- **GADM** was rejected as a source family entirely, independent of
+  geometry quality: its license flatly disallows redistribution/commercial
+  use without permission, incompatible with this project's CC BY 4.0 / CC0
+  posture. Its ADM3/ADM4 counts exactly match HDX's, suggesting it
+  repackages the same stale COD-AB data rather than adding independent
+  value. (`src-gadm-uga-rejected`)
+- **OpenStreetMap** self-reports all 146 district-equivalents "Complete" at
+  `admin_level=4` (per the WikiProject Uganda wiki page, 2026-03-05), a
+  genuine actively-maintained alternative — not used since geoBoundaries'
+  CC0 layer already fully covers districts with a simpler license, and this
+  pass didn't independently spot-check OSM's polygons one by one. The same
+  page confirms subcounty/county boundaries are explicitly "future work" in
+  OSM and lower tiers are mapped mostly as point nodes, not polygons.
+  (`src-osm-wikiproject-uganda-not-used`)
+
+**"Aggregated values per district"** (e.g. population) was scoped out of
+this pass deliberately — geometry and attribute data are being added
+separately so each change stays reviewable. Two real candidates were
+identified for later: HDX's `cod-ps-uga` (2023 district population
+projections, CC BY-IGO — but built on the old 135-district system, so it
+will need the same Terego reconciliation done for `districts.csv`) and
+WorldPop's gridded population raster (more flexible, works with any future
+boundary layer, but needs GIS zonal-statistics processing rather than a
+simple CSV join). See `data/sources.json` → `src-hdx-cod-ps-uga-not-used`
+and `src-worldpop-uga-not-used`.
+
 ## Explicitly not verified / not included
 
 **New town councils and district splits reported ahead of the 2026

@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.7.0] - 2026-07-21
+
+### Added
+- `data/geo/districts.geojson` (136 district boundary polygons, CC0, from
+  geoBoundaries' Uganda ADM3 release — already includes Terego) and
+  `data/geo/regions.geojson` (4 region polygons, dissolved from the district
+  geometry by `region_id` using `@turf/turf`, a dev-only dependency).
+  Nothing below district level: county/subcounty/parish/village boundary
+  data was evaluated and found too incomplete, too stale, or unlicensed —
+  see `docs/DATA_QUALITY.md` for the full list of sources checked (HDX
+  COD-AB, GADM, geoBoundaries ADM2/ADM4, OpenStreetMap, a 2010 UBOS parish
+  shapefile, and an unlicensed village shapefile) and why each was or
+  wasn't used.
+- `uganda.subregions()`-style opt-in module `uganda-locale/geo`:
+  `districtBoundaries()` and `regionBoundaries()`, mirroring the
+  `uganda-locale/deep` pattern (not bundled in the default import).
+- `/api/geo/districts` and `/api/geo/regions` web routes.
+- `scripts/ingest-district-boundaries.mjs` and
+  `scripts/build-region-boundaries.mjs`; `scripts/validate.mjs` now checks
+  feature counts, id uniqueness, and id resolution for both GeoJSON files.
+- `schema/boundary.schema.json` describing the FeatureCollection properties
+  shape used by both files.
+
 ## [0.6.0] - 2026-07-21
 
 ### Added

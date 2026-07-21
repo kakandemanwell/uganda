@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/uganda-locale/uganda-locale/schema/boundary.schema.json",
+  "title": "AdministrativeBoundaryFeatureCollection",
+  "description": "A standard GeoJSON FeatureCollection of Polygon/MultiPolygon boundaries for one level of Uganda's administrative hierarchy (currently: region, district). Geometry itself follows the GeoJSON spec (RFC 7946) as-is; this schema only constrains the `properties` object each feature carries, which links the polygon back to the corresponding AdministrativeUnit record in dist/uganda-locations.json.",
+  "type": "object",
+  "required": ["type", "features"],
+  "properties": {
+    "type": { "const": "FeatureCollection" },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "properties", "geometry"],
+        "properties": {
+          "type": { "const": "Feature" },
+          "geometry": {
+            "type": "object",
+            "properties": {
+              "type": { "enum": ["Polygon", "MultiPolygon"] }
+            }
+          },
+          "properties": {
+            "type": "object",
+            "required": ["id", "name", "slug"],
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "Matches the id of the corresponding record in dist/uganda-locations.json (e.g. 'district:mbarara', 'region:western')."
+              },
+              "name": { "type": "string" },
+              "slug": { "type": "string" },
+              "region_id": {
+                "type": ["string", "null"],
+                "description": "Present on district-level features; null/absent on region-level features (a region has no parent region)."
+              },
+              "subregion_id": {
+                "type": ["string", "null"],
+                "description": "Present on district-level features; the cultural/traditional sub-region, see schema/administrative-unit.schema.json."
+              },
+              "source_ids": {
+                "type": "array",
+                "items": { "type": "string" },
+                "description": "References into data/sources.json. Absent on region-level features, which are derived from the district geometry rather than an independent source — see their 'source' property instead."
+              },
+              "source": {
+                "type": "string",
+                "description": "Present on region-level features only: a plain-text note that the geometry was dissolved from district-level features rather than sourced independently."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

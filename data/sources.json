@@ -120,6 +120,94 @@
     "note": "Used to assign all 136 districts (plus Kampala and the 10 second-generation cities) to one of the 17 UBOS-named subregions in data/subregions.csv / data/districts.csv / data/cities.csv. Every district, including every post-2015 split (e.g. Karenga from Kaabong, Kwania from Apac, Madi-Okollo/Terego from Arua, Obongi from Moyo, Kazo from Kiruhura, Kikuube from Hoima, Rubanda/Rukiga from Kabale, Rwampara from Mbarara, Kassanda/Kyankwanzi/Kyotera from Mubende/Kiboga/Rakai), was found named explicitly in at least one of these sources alongside its parent district in the same subregion group — no district's placement was inferred purely from its parent without direct confirmation. Cross-checked two ways per subregion (a Wikipedia sub-region article's district list against citypopulation.de's independent administrative breakdown); all matched with no contradictions. Confidence: verified, on the same basis the project already uses for region_id (2+ independent, currently-maintained secondary sources in agreement), not on a fetched UBOS primary document — see src-ubos-subregions-2024's caveat. This is inherently a coarser, more contestable classification than administrative boundaries (sub-region membership reflects a historical/cultural majority, not a claim that a district's population is ethnically homogeneous)."
   },
   {
+    "id": "src-geoboundaries-uga-adm3",
+    "title": "geoBoundaries — Uganda ADM3 (labeled 'District')",
+    "publisher": "William & Mary geoLab (geoboundaries.org), via GitHub (wmgeolab/geoBoundaries)",
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/UGA/ALL/ ; https://github.com/wmgeolab/geoBoundaries/raw/main/releaseData/gbOpen/UGA/ADM3/geoBoundaries-UGA-ADM3.geojson",
+    "accessed": "2026-07-21",
+    "note": "USED for data/geo/districts.geojson. Downloaded directly (550KB raw GeoJSON, not a summarizer pass) and diffed all 137 shapeName values against data/districts.csv programmatically: 136/136 districts matched (5 minor spelling variants — Madi Okollo/Ssembabule matched via existing slug/alias handling; Kalanga->Kalangala, Kitagwenga->Kitagwenda, Rubirzi->Rubirizi needed an explicit override, see scripts/ingest-district-boundaries.mjs), plus one extraneous non-district 'Lake Victoria' water-body polygon (dropped). Critically, this 2020-vintage file already includes Terego District — the split that Statoids/Wikipedia/the MoLG list all missed (see the 136-district entry above) — making it a better vintage than HDX's district layer for this specific purpose. Licensed CC0 1.0 (public domain, no attribution required) per geoBoundaries' own per-level metadata API. Sanity-checked post-ingestion: bounding box (29.58-34.99°E, -1.47-4.22°N) and total area (~211,760 km²) match Uganda's known geography, and area is exactly conserved between the district layer and the region layer dissolved from it (see src-region-boundary-dissolve below)."
+  },
+  {
+    "id": "src-geoboundaries-uga-adm1-not-used",
+    "title": "geoBoundaries — Uganda ADM1 ('Region')",
+    "publisher": "William & Mary geoLab (geoboundaries.org)",
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/UGA/ALL/",
+    "accessed": "2026-07-21",
+    "note": "Evaluated, deliberately NOT used. Confirmed via direct fetch to be exactly the 4 regions (e.g. 'Northern Region'), 2017 vintage. Not ingested because it's licensed ODbL 1.0 (share-alike) — a second, stricter license alongside the CC0 district layer — and because dissolving our own district polygons by region_id (see src-region-boundary-dissolve) guarantees the region shapes can never drift out of sync with this project's own region_id assignments in data/districts.csv. Kept as a source-of-record only in case a future cross-check against an independently-drawn region boundary is useful."
+  },
+  {
+    "id": "src-region-boundary-dissolve",
+    "title": "Region boundaries dissolved from data/geo/districts.geojson",
+    "publisher": "This project (derived, not an external source)",
+    "url": "",
+    "accessed": "2026-07-21",
+    "note": "data/geo/regions.geojson is not sourced from anywhere external — it's produced by scripts/build-region-boundaries.mjs, which groups the CC0 district features (src-geoboundaries-uga-adm3) by region_id and unions each group's geometry with @turf/turf (a devDependency used only at data-prep time, never shipped in the published package). Verified lossless: total area before and after dissolve matches to the km². Central and Eastern come out as MultiPolygon (they contain non-contiguous island districts, e.g. Kalangala/Buvuma); Northern and Western are single contiguous Polygons."
+  },
+  {
+    "id": "src-geoboundaries-uga-adm2-county-rejected",
+    "title": "geoBoundaries — Uganda ADM2 ('County')",
+    "publisher": "William & Mary geoLab (geoboundaries.org)",
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/UGA/ALL/",
+    "accessed": "2026-07-21",
+    "note": "Evaluated and rejected for county-level boundaries. Per geoBoundaries' own metadata: 151 counties, 2006 vintage — stale and short of this project's own EC-derived 322 counties/constituencies (see src-ec-admin-units-2022) by more than half. No other free source of standalone county polygon geometry was found either; this project's county *data* (names) comes from EC gazetteer text, not from any geometry source. County-level boundaries are not included in this dataset."
+  },
+  {
+    "id": "src-geoboundaries-uga-adm4-subcounty-deferred",
+    "title": "geoBoundaries — Uganda ADM4 ('Sub-county')",
+    "publisher": "William & Mary geoLab (geoboundaries.org)",
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/UGA/ALL/",
+    "accessed": "2026-07-21",
+    "note": "Evaluated, not included in this pass (deferred, not rejected outright). 1,521 features, 2019 vintage, CC BY 3.0 IGO, covering roughly 69% of this project's own verified 2,191 subcounties/town councils/divisions — a real improvement over HDX's ~208 (9.5%) but still a meaningful gap. The raw file also exceeds 10MB unsimplified, direct WebFetch of it hit a size cap, and name-matching against data/ec/administrative_units_ec2022.json's subcounty list was not attempted in this pass. If added later, it should likely ship as a separate opt-in asset (like uganda-locale/deep for parish/ward/cell) rather than bundled into the core package, and would need mapshaper-style simplification plus a full name-reconciliation pass first."
+  },
+  {
+    "id": "src-gadm-uga-rejected",
+    "title": "GADM — Database of Global Administrative Areas, Uganda",
+    "publisher": "gadm.org",
+    "url": "https://gadm.org/download_country.html ; https://gadm.org/maps/UGA.html ; https://gadm.org/license.html",
+    "accessed": "2026-07-21",
+    "note": "Evaluated and rejected outright, regardless of geometry quality. GADM's own license page states redistribution or commercial use is not allowed without prior permission — directly incompatible with this project's CC BY 4.0 / CC0 posture. Also suspected (not fully confirmed — GADM's per-level pages are JS-rendered and count wasn't independently opened) to simply repackage the same stale COD-AB source as HDX: its reported ADM3/ADM4 counts (208/1,520) exactly match HDX's."
+  },
+  {
+    "id": "src-osm-wikiproject-uganda-not-used",
+    "title": "OpenStreetMap WikiProject Uganda — District Boundaries status page",
+    "publisher": "OpenStreetMap Wiki",
+    "url": "https://wiki.openstreetmap.org/wiki/WikiProject_Uganda/Uganda_District_Boundaries ; https://download.geofabrik.de/africa/uganda.html",
+    "accessed": "2026-07-21",
+    "note": "A genuine, actively-maintained alternative for district-level boundaries (all 146 district-equivalents self-reported 'Complete' at admin_level=4 as of the page's 2026-03-05 revision), ODbL-licensed. Not used because geoBoundaries' CC0 layer already fully covers this project's 136 districts with a simpler license. Not independently spot-checked polygon-by-polygon — this is a self-reported project-status table, not something this pass validated at the geometry level. The same page states subcounty/county boundaries are 'future work' and lower levels are mapped mostly as point nodes, not polygons — confirms those tiers aren't available from OSM either, for now."
+  },
+  {
+    "id": "src-ubos-parish-2010-stanford-rejected",
+    "title": "Parish Boundaries: Uganda, 2010",
+    "publisher": "Uganda Bureau of Statistics, hosted by Stanford Earth Sciences Library / AGSL",
+    "url": "https://searchworks.stanford.edu/view/hb557fg0018 ; https://geodiscovery.uwm.edu/catalog/stanford-hb557fg0018",
+    "accessed": "2026-07-21",
+    "note": "Evaluated and rejected for parish-level boundaries. A real, public-domain UBOS parish polygon shapefile exists here, but it's 2010/2012 vintage — well over a decade before this project's own verified 10,717-parish EC gazetteer figure, from before roughly half of today's districts existed. The catalog page doesn't publish a feature count, so an exact coverage percentage couldn't be computed, but given the district count alone has more than doubled since 2010, well under half of today's parishes are likely represented. Not ingested."
+  },
+  {
+    "id": "src-github-village-shapefile-unlicensed-rejected",
+    "title": "\"uganda_village_shapefile\" (unlicensed GitHub repository)",
+    "publisher": "GitHub user justinelliotmeyers, surfaced via a June 2026 'Revolutionary GIS' blog post",
+    "url": "https://github.com/justinelliotmeyers/uganda_village_shapefile ; https://revolutionarygis.wordpress.com/2026/06/29/uganda-village-shapefile/",
+    "accessed": "2026-07-21",
+    "note": "Evaluated and rejected, the only candidate found for village-level geometry at all. Not trusted from the filename alone — the raw .shp/.dbf headers were inspected byte-by-byte directly: shape type 5 (genuine Polygon geometry, not points), 44,034 records, with a real VILLAGE/PARISH/SUBCOUNTY/COUNTY/DISTRICT field structure consistent with authentic UBOS cartographic data. But: 44,034 is only ~62% of this project's own verified 71,230-village count (src-ec-admin-units-2022, July 2022), the repository has no README, license, or description anywhere (an anonymous single-commit upload), and the '2011' vintage implied by the filename could not be independently confirmed — the .dbf's internal last-modified field just reflects a 2026-06-29 re-save, not original survey date. Given no license and material staleness/incompleteness, this is documented as evaluated-and-rejected, the same way this project already treats other real-but-unusable candidates, rather than ingested. No village/cell-level boundary data is included in this dataset."
+  },
+  {
+    "id": "src-hdx-cod-ps-uga-not-used",
+    "title": "Uganda - Subnational Population Statistics",
+    "publisher": "OCHA / Humanitarian Data Exchange (data.humdata.org/dataset/cod-ps-uga), sourced from UBOS",
+    "url": "https://data.humdata.org/dataset/cod-ps-uga",
+    "accessed": "2026-07-21",
+    "note": "Candidate for a future 'aggregated values per district' population layer — 2023-projected population, age/sex disaggregated, national/region/district levels, CSV+XLSX, CC BY-IGO, last updated 2023-11-09. Not ingested in this pass (boundary geometry only, by design — see docs/DATA_QUALITY.md). Explicitly built on the old 135-district system, so it almost certainly has the same Terego gap this project already solved once for districts.csv and would need the same reconciliation before use."
+  },
+  {
+    "id": "src-worldpop-uga-not-used",
+    "title": "WorldPop — Population Counts for Uganda",
+    "publisher": "WorldPop, via OCHA/HDX (data.humdata.org/dataset/worldpop-population-counts-for-uganda)",
+    "url": "https://data.humdata.org/dataset/worldpop-population-counts-for-uganda",
+    "accessed": "2026-07-21",
+    "note": "Candidate for a future population layer, not ingested. 100m-resolution gridded, UN-adjusted population raster (GeoTIFF), not tied to any fixed admin schema — would need zonal-statistics GIS processing (e.g. summing raster cells within each district/subcounty polygon) rather than being a drop-in CSV join. More flexible than src-hdx-cod-ps-uga (works with any future boundary layer, not just district) but meaningfully more engineering effort."
+  },
+  {
     "id": "src-user-legacy-location-csv",
     "title": "location.csv (user-supplied legacy dataset)",
     "publisher": "Unknown/original provenance not documented by user",

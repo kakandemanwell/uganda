@@ -27,6 +27,8 @@ Then open `http://localhost:3000`.
 | `GET /api/subcounties/:id/parishes` | Parishes/wards under a subcounty (parish/ward data, opt-in at the library level) |
 | `GET /api/search?q=...` | Name/alias search (`&level=`, `&limit=`) |
 | `GET /api/country` | Uganda country metadata — ISO codes, currency, flag/coat-of-arms paths, etc. |
+| `GET /api/geo/districts` | GeoJSON FeatureCollection of all 136 district boundary polygons |
+| `GET /api/geo/regions` | GeoJSON FeatureCollection of all 4 region boundary polygons |
 
 `:id` accepts either the full id (`district:mbarara`) or the bare slug
 (`mbarara`).

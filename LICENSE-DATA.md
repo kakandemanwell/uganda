@@ -35,3 +35,16 @@ this specific file be shared under the same or a compatible license. See
 carry usage restrictions independent of copyright in many jurisdictions
 (e.g. rules against implying official government endorsement) — check your
 own jurisdiction's rules on flag/emblem use before using these in a product.
+
+## Note: `data/geo/districts.geojson` and `data/geo/regions.geojson`
+
+The underlying district boundary geometry is sourced from
+[geoBoundaries](https://www.geoboundaries.org)' Uganda ADM3 release, itself
+licensed **CC0 1.0** (public domain) — see `data/sources.json` →
+`src-geoboundaries-uga-adm3`. This is *more* permissive than this project's
+own CC BY 4.0, not stricter, so no separate exception applies; it's noted
+here only for transparency about where the raw geometry comes from. The
+region-level file is derived entirely from that same district geometry
+(dissolved by `region_id`, not sourced independently — see
+`scripts/build-region-boundaries.mjs`), so the same CC0 origin applies to
+it too.

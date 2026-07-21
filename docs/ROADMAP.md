@@ -112,11 +112,32 @@ Decision made 2026-07-12: npm package + Vercel API, in that order.
 - [ ] Consider a Python package mirroring the same data for non-JS
       consumers, after the JS one is working.
 
+## Phase 5 — boundary geometry for map visualization (done, district level)
+- [x] Evaluated every free/open boundary source found for Uganda (HDX
+      COD-AB, GADM, geoBoundaries at ADM1-4, OpenStreetMap, a 2010 UBOS
+      parish shapefile, and an unlicensed village shapefile) — see
+      `docs/DATA_QUALITY.md` and `data/sources.json` for the full verdict
+      on each, used or rejected.
+- [x] Shipped `data/geo/districts.geojson` (136 features, CC0, from
+      geoBoundaries' ADM3 release — already includes Terego) and
+      `data/geo/regions.geojson` (4 features, dissolved from the district
+      geometry by `region_id`, not sourced independently, so it can never
+      drift out of sync).
+- [x] `uganda-locale/geo` opt-in module (`districtBoundaries()`,
+      `regionBoundaries()`) and `/api/geo/districts` /
+      `/api/geo/regions` web routes.
+- [ ] Subcounty-level boundaries: a real candidate exists (geoBoundaries
+      ADM4, ~69% coverage of this project's 2,191 subcounties) but was
+      deferred, not rejected — would need name-reconciliation and
+      simplification, and should probably ship as a separate opt-in asset
+      given file size. County/parish/village: no usable free source found
+      at all (see `docs/DATA_QUALITY.md` for why each was rejected).
+- [ ] "Aggregated values per district" (population etc.) deliberately left
+      for a separate pass — two real candidates identified (HDX's
+      `cod-ps-uga` district population dataset, and WorldPop's gridded
+      raster) but neither ingested yet.
+
 ## Explicitly out of scope for now
-- Geometries/shapefiles — this project is name/hierarchy-focused; GIS
-  boundary data (HDX, geoBoundaries) is a separate concern with its own
-  licensing and could be a later add-on, not a blocker for the naming
-  dataset.
 - Keeping the EC gazetteer current past July 2022 — that requires either a
   newer EC publication (worth checking for one before assuming none exists,
   per the Phase 3 lesson above) or manual district-by-district updates as
