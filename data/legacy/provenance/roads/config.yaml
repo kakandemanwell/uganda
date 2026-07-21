@@ -1,0 +1,66 @@
+iso3: UGA
+category:
+  name: roads
+  formats: null
+  skip_pcodes: false
+  boundary_resolution: h3_neighbor
+  hdx:
+    title: Roads
+    notes: 'Road network across the region tagged `highway=*`: motorways, residential
+      streets, service roads, footways, and trails. Useful for routing, accessibility
+      analysis, and evacuation planning.
+
+
+      Coverage reflects where volunteer mappers have been active. Urban areas are
+      usually well represented, remote areas may be sparse. Cross-check critical decisions
+      with local field knowledge.
+
+
+      - Source: [OpenStreetMap](https://www.openstreetmap.org), a free, collaborative
+      world map
+
+      - Tags: [highway](https://wiki.openstreetmap.org/wiki/Key:highway)
+
+      - Part of the [exports grid on HDX](https://data.humdata.org/organization/hot/)
+      by [HOT](https://www.hotosm.org/)
+
+      '
+    tags:
+    - geodata
+    - roads
+    - transportation
+    license: hdx-odc-odbl
+    license_url: https://opendatacommons.org/licenses/odbl/1-0/
+    caveats: OpenStreetMap data is crowd sourced and cannot be considered to be exhaustive
+    dataset_source: OpenStreetMap contributors
+  overture:
+    enabled: false
+    theme: ''
+    feature_type: ''
+    select: []
+    where: []
+  osm:
+    enabled: true
+    select:
+    - feature_id AS id
+    - tags['name'] AS name
+    - tags['name:en'] AS name_en
+    - tags['highway'] AS highway
+    - tags['surface'] AS surface
+    - tags['smoothness'] AS smoothness
+    - tags['width'] AS width
+    - tags['lanes'] AS lanes
+    - tags['oneway'] AS oneway
+    - tags['bridge'] AS bridge
+    - tags['layer'] AS layer
+    - tags['source'] AS source
+    where: []
+    filter:
+      highway: true
+  transliterate:
+  - target: name_latin
+    source: name
+    prefer: name_en
+  temporal:
+    column: update_time
+source: osm

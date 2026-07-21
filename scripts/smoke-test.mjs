@@ -62,6 +62,18 @@ assert.ok(
 const regionBoundaries = geo.regionBoundaries();
 assert.equal(regionBoundaries.features.length, 4, "expected 4 region boundary features");
 
+// subcounty/parish boundaries (intentionally partial coverage) and roads (independent layer)
+const subcountyBoundaries = geo.subcountyBoundaries();
+assert.ok(subcountyBoundaries.features.length > 1000, "expected a substantial (but partial) number of subcounty boundary features");
+const parishBoundaries = geo.parishBoundaries();
+assert.ok(parishBoundaries.features.length > 0, "expected at least some parish boundary features");
+const roads = geo.roads();
+assert.ok(roads.features.length > 10000, "expected the major road network to have a substantial number of features");
+assert.ok(
+  roads.features.every((f) => !("region_id" in f.properties)),
+  "road features should not carry a region_id — they aren't tied to any AdministrativeUnit"
+);
+
 console.log("smoke test passed:", {
   regions: ug.regions().length,
   subregions: ug.subregions().length,

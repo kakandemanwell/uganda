@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/uganda-locale/uganda-locale/schema/boundary.schema.json",
   "title": "AdministrativeBoundaryFeatureCollection",
-  "description": "A standard GeoJSON FeatureCollection of Polygon/MultiPolygon boundaries for one level of Uganda's administrative hierarchy (currently: region, district). Geometry itself follows the GeoJSON spec (RFC 7946) as-is; this schema only constrains the `properties` object each feature carries, which links the polygon back to the corresponding AdministrativeUnit record in dist/uganda-locations.json.",
+  "description": "A standard GeoJSON FeatureCollection of Polygon/MultiPolygon boundaries for one level of Uganda's administrative hierarchy (region, district, and — partially, see docs/DATA_QUALITY.md for coverage caveats — subcounty/town_council/division and parish/ward). Geometry itself follows the GeoJSON spec (RFC 7946) as-is; this schema only constrains the `properties` object each feature carries, which links the polygon back to the corresponding AdministrativeUnit record in dist/uganda-locations.json. Coverage below district level is intentionally partial (subcounty ~57%, parish ~4%) — this file lists only the units a real source's geometry actually matched; consult dist/data-quality-report.json or docs/DATA_QUALITY.md for exact coverage, don't assume completeness.",
   "type": "object",
   "required": ["type", "features"],
   "properties": {
@@ -30,6 +30,14 @@
               },
               "name": { "type": "string" },
               "slug": { "type": "string" },
+              "level": {
+                "type": "string",
+                "description": "Present on subcounty/parish-tier features (values: 'subcounty', 'town_council', 'division', 'parish', 'ward'), since a single subcounty/parish file mixes tiers. Absent on region/district features, where the file itself is already single-tier."
+              },
+              "district_id": {
+                "type": "string",
+                "description": "Present on subcounty/parish-tier features only: the id of the nearest district/city ancestor (walking up through county where applicable), for filtering without a separate lookup."
+              },
               "region_id": {
                 "type": ["string", "null"],
                 "description": "Present on district-level features; null/absent on region-level features (a region has no parent region)."

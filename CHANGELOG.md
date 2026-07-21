@@ -1,5 +1,40 @@
 # Changelog
 
+## [0.9.0] - 2026-07-21
+
+### Added
+- `data/geo/subcountys.geojson` (1,249/2,191 subcounty/town_council/division
+  boundaries, 57.0% coverage) and `data/geo/parishs.geojson` (423/10,717
+  parish/ward boundaries, 3.95% coverage) — deliberately partial, shipped
+  anyway rather than withheld, per an explicit decision to surface all
+  available data now and treat accuracy/completeness as future work. See
+  `docs/DATA_QUALITY.md` and `data/legacy/provenance/geo/README.md` for the
+  full matching/exclusion story (including resolving a naming collision
+  between geoBoundaries' and HDX's differently-scoped-but-similarly-sized
+  "ADM4" layers).
+- `data/geo/roads.geojson` — the major Uganda road network (motorway
+  through tertiary, 10,721 features) from OpenStreetMap via HDX's HOTOSM
+  export. A fundamentally different kind of layer from the boundary
+  files: not tied to any administrative unit (no district_id/region_id —
+  computing one would need a spatial join against the partial boundary
+  layers, not attempted here). Residential/unclassified streets and
+  informal paths/tracks are excluded (98.8% of the raw 681,317-feature
+  export has no name tag at all) — see
+  `data/legacy/provenance/roads/README.md`.
+- `schema/road.schema.json` for the new roads layer;
+  `schema/boundary.schema.json` extended with `level`/`district_id` for
+  the subcounty/parish tier.
+- `geo.subcountyBoundaries()`, `geo.parishBoundaries()`, `geo.roads()` in
+  the `uganda-locale/geo` opt-in module; `/api/geo/subcounties`,
+  `/api/geo/parishes`, `/api/geo/roads` web routes.
+- `shapefile` and `@turf/turf` (already present) as dev-only dependencies
+  used to parse/simplify the new sources — never shipped in the published
+  package.
+
+### Changed
+- `web/package.json`: dev/start scripts pinned to port 3002 (3000 was
+  blocked by another local service).
+
 ## [0.8.0] - 2026-07-21
 
 ### Added

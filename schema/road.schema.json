@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/uganda-locale/uganda-locale/schema/road.schema.json",
+  "title": "RoadFeatureCollection",
+  "description": "A standard GeoJSON FeatureCollection of LineString/MultiLineString road-network geometry (dist/geo/roads.geojson), sourced from OpenStreetMap. Unlike schema/boundary.schema.json, road features are NOT tied to any AdministrativeUnit — a road crosses many districts/subcounties, and OSM carries no district/subcounty tagging at all, so there is no district_id/region_id on these features (a spatial join against the boundary layers would be needed to compute one, and hasn't been done). Only the major road network is included (motorway through tertiary, including _link variants) — see docs/DATA_QUALITY.md and data/legacy/provenance/roads/README.md for why residential/unclassified streets and informal paths/tracks are excluded (size and near-total lack of naming), and where to get the fuller (but far heavier and still mostly unnamed) OSM export directly.",
+  "type": "object",
+  "required": ["type", "features"],
+  "properties": {
+    "type": { "const": "FeatureCollection" },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "properties", "geometry"],
+        "properties": {
+          "type": { "const": "Feature" },
+          "geometry": {
+            "type": "object",
+            "properties": {
+              "type": { "enum": ["LineString", "MultiLineString"] }
+            }
+          },
+          "properties": {
+            "type": "object",
+            "required": ["highway"],
+            "properties": {
+              "id": {
+                "type": ["string", "null"],
+                "description": "OSM way id, prefixed 'road:' (e.g. 'road:123456789'). Not a lookup key into any other part of this dataset — roads are not AdministrativeUnits."
+              },
+              "name": {
+                "type": ["string", "null"],
+                "description": "OSM 'name' tag. Null for the majority of features — see docs/DATA_QUALITY.md for the exact named/unnamed breakdown."
+              },
+              "highway": {
+                "type": "string",
+                "enum": ["motorway", "motorway_link", "trunk", "trunk_link", "primary", "primary_link", "secondary", "secondary_link", "tertiary", "tertiary_link"],
+                "description": "OSM highway classification. Only these 10 values are included in this dataset (see file-level description)."
+              },
+              "surface": {
+                "type": ["string", "null"],
+                "description": "OSM 'surface' tag (e.g. 'asphalt', 'unpaved'). Frequently null — OSM surface tagging is sparse for Uganda."
+              },
+              "oneway": {
+                "type": ["string", "null"],
+                "description": "OSM 'oneway' tag, raw value as tagged (e.g. 'yes'), not normalized to a boolean."
+              },
+              "source_ids": {
+                "type": "array",
+                "items": { "type": "string" },
+                "description": "References into data/sources.json."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -49,6 +49,27 @@ region-level file is derived entirely from that same district geometry
 `scripts/build-region-boundaries.mjs`), so the same CC0 origin applies to
 it too.
 
+## Note: `data/geo/subcountys.geojson` and `data/geo/parishs.geojson`
+
+Sourced from geoBoundaries (CC BY 3.0 IGO) and HDX/UBOS (CC BY-IGO)
+respectively — see `data/sources.json` → `src-geoboundaries-uga-adm4` and
+`src-hdx-cod-ab-uga-admin4-parish`. Both are attribution-only licenses, like
+this project's own CC BY 4.0 default (not share-alike, not more
+restrictive) — noted here for transparency and attribution completeness,
+not as a stricter exception.
+
+## Exception: `data/geo/roads.geojson`
+
+Sourced from OpenStreetMap (via HDX's HOTOSM export) — see
+`data/sources.json` → `src-hotosm-uga-roads`. OSM data is licensed
+**ODbL 1.0 (Open Database License)**, which is **stricter** than this
+project's CC BY 4.0 default: it requires attribution AND that any produced
+work using this specific data be shared under ODbL or a compatible
+share-alike license (not simply CC BY). If you redistribute or build on
+`data/geo/roads.geojson` specifically, comply with ODbL's share-alike terms
+for that file, separately from the CC BY 4.0 terms covering the rest of
+this dataset.
+
 ## Note: `data/population/uganda-nphc-2024-population.csv` and the `population` field
 
 Sourced from UBOS's National Population and Housing Census 2024 Final

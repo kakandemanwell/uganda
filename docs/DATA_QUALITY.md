@@ -172,24 +172,73 @@ district layer and the dissolved region layer (no geometry lost/duplicated
 in the union). See `data/sources.json` → `src-geoboundaries-uga-adm3` and
 `src-region-boundary-dissolve`.
 
-**What's deliberately NOT included below district level, and why** — every
-candidate below was independently evaluated, not just assumed absent:
+**Subcounty and parish boundary polygons** (`data/geo/subcountys.geojson`,
+`data/geo/parishs.geojson`) — **intentionally partial coverage, shipped
+anyway.** An earlier pass evaluated these same candidates and deferred/
+rejected them for being incomplete; on explicit instruction to surface all
+available data now (accuracy/completeness is future work; a known,
+documented gap is more useful than no data at all), both were ingested:
+
+- **Subcounty**: geoBoundaries' ADM4 layer (1,521 features, 2019 vintage,
+  CC BY 3.0 IGO — see `data/sources.json` → `src-geoboundaries-uga-adm4`)
+  carries no parent-district attribute, so matching against this project's
+  own subcounty/town_council/division records had to be by bare name. 1,249
+  matched a **unique** current unit; 165 had no name match at all; 102
+  (42 distinct names) were excluded as **ambiguous** — ~5% of this
+  project's 2,191 subcounty-tier units reuse the same name across 2+
+  districts (e.g. multiple "Central Division"s), and this source gives no
+  way to tell which is which, so those are dropped rather than guessed.
+  **Net coverage: 1,249/2,191 = 57.0%.** Simplified (tolerance 0.001°) from
+  a 36.4MB raw match down to ~3.2MB. See
+  `data/legacy/provenance/geo/README.md`.
+- **Parish**: HDX's admin4 layer (1,520 features, `valid_on: 2020-08-24`,
+  CC BY-IGO — see `data/sources.json` → `src-hdx-cod-ab-uga-admin4-parish`)
+  is a *different* dataset from the subcounty layer above despite the
+  confusingly similar "ADM4"/1,520-1,521-feature coincidence — confirmed
+  directly from its own attributes (`adm2_name`=district, `adm4_name`=
+  parish) that this one really is parish-level, not subcounty. Unlike
+  geoBoundaries, it carries the parent district name per feature, so
+  matching was done on (district, parish name) pairs against this
+  project's EC-derived parish/ward records — far less ambiguous than name
+  alone, but the underlying data is much thinner: only 423 of 1,520
+  features matched a unique current parish/ward. **Net coverage:
+  423/10,717 = 3.95%** of this project's verified parishes/wards — a
+  genuinely thin result reflecting real source scarcity, not an ingestion
+  bug (1,083 features resolved to a real current district but no matching
+  parish name — the 2020 vintage predates a lot of parish-level
+  reorganization; 8 didn't resolve to any current district name at all; 6
+  excluded as ambiguous). See `data/legacy/provenance/geo/README.md`.
+
+Both are exposed via `uganda-locale/geo` (`subcountyBoundaries()`,
+`parishBoundaries()`) and `/api/geo/subcounties` / `/api/geo/parishes` —
+**do not assume completeness**; check `properties.id` against your own
+subcounty/parish list, or just expect gaps, before rendering a "complete"
+map.
+
+**Road network** (`data/geo/roads.geojson`) — OpenStreetMap-derived (HDX's
+HOTOSM export, ODC-ODbL, Geofabrik snapshot 2026-06-22 — see
+`data/sources.json` → `src-hotosm-uga-roads`), a fundamentally different
+kind of data from the boundary layers above: a road crosses many
+districts/subcounties, so these features carry **no district_id/region_id
+at all** — there's no admin-unit linkage without a spatial join against the
+(partial) boundary layers, which hasn't been attempted. The raw export is
+681,317 features and **98.8% have no name tag at all** — this project ships
+only the major road network (motorway through tertiary + `_link` variants,
+10,721 features, ~29% named, ~3.6MB simplified), dropping residential/
+unclassified streets and informal paths/tracks (which make up the other
+~96% of the raw data and are overwhelmingly unnamed) as too heavy and too
+noisy for a locale package. The fuller 278,185-feature "classified roads"
+cut (still ~89% unnamed) and the complete 681,317-feature raw export are
+**not shipped** but remain directly reproducible from the cited source —
+see `data/legacy/provenance/roads/README.md` and
+`scripts/ingest-roads.mjs`. No street addressing (`addr:housenumber`/
+`addr:street`) exists in Uganda's OSM coverage at all, not just filtered
+out here.
+
+**What's still NOT included at all, and why**:
 - **County**: no usable source at all. geoBoundaries' own "county" layer is
   2006 vintage, 151 counties vs. this project's 322 — stale by nearly two
   decades of splits. (`src-geoboundaries-uga-adm2-county-rejected`)
-- **Subcounty**: geoBoundaries' ADM4 layer covers ~69% of this project's
-  2,191 subcounties/town councils/divisions (1,521 features, 2019 vintage,
-  CC BY 3.0 IGO) — a real improvement over HDX's ~9.5%, but still a
-  meaningful gap, over 10MB raw, and not yet name-reconciled against this
-  project's own subcounty list. Deferred, not rejected — if it's added
-  later it should probably ship as a separate opt-in asset (parity with
-  `uganda-locale/deep`), simplified first.
-  (`src-geoboundaries-uga-adm4-subcounty-deferred`)
-- **Parish**: HDX's admin4 layer (1,520 features vs. 10,717 verified
-  parishes, ~14%) confirms this project's prior rejection of HDX below
-  district level. A real UBOS parish shapefile exists
-  (`src-ubos-parish-2010-stanford-rejected`), but it's 2010/2012 vintage,
-  predating roughly half of today's districts — rejected as stale.
 - **Village**: no trustworthy source exists, full stop. One candidate was
   found and scrutinized at the byte level, not trusted from its filename —
   genuine Polygon geometry (shape type 5), 44,034 records with a real

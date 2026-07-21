@@ -338,6 +338,13 @@ mkdirSync(path.join(DIST, "geo"), { recursive: true });
     path.join(DIST, "geo", "regions.geojson"),
     readFileSync(path.join(DATA, "geo/regions.geojson"), "utf-8")
   );
+  // subcounty/parish: partial-coverage boundary layers (see
+  // docs/DATA_QUALITY.md) and roads: an independent, non-admin-unit layer
+  // (see schema/road.schema.json) — none need build-time enrichment, just
+  // copied through like the files above.
+  for (const file of ["subcountys.geojson", "parishs.geojson", "roads.geojson"]) {
+    writeFileSync(path.join(DIST, "geo", file), readFileSync(path.join(DATA, "geo", file), "utf-8"));
+  }
 }
 
 console.log(`Built ${units.length} records -> dist/`);

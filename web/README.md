@@ -12,7 +12,7 @@ npm install
 npm run dev
 ```
 
-Then open `http://localhost:3000`.
+Then open `http://localhost:3002` (pinned away from 3000, which is blocked/in use by another local service).
 
 ## Routes
 
@@ -29,6 +29,9 @@ Then open `http://localhost:3000`.
 | `GET /api/country` | Uganda country metadata — ISO codes, currency, flag/coat-of-arms paths, etc. |
 | `GET /api/geo/districts` | GeoJSON FeatureCollection of all 136 district boundary polygons |
 | `GET /api/geo/regions` | GeoJSON FeatureCollection of all 4 region boundary polygons |
+| `GET /api/geo/subcounties` | GeoJSON FeatureCollection of subcounty/town_council/division boundaries (1,249/2,191, 57.0% coverage — partial by design) |
+| `GET /api/geo/parishes` | GeoJSON FeatureCollection of parish/ward boundaries (423/10,717, 3.95% coverage — partial by design) |
+| `GET /api/geo/roads` | GeoJSON FeatureCollection of the major road network (10,721 features, motorway-tertiary; not tied to any admin unit) |
 
 `:id` accepts either the full id (`district:mbarara`) or the bare slug
 (`mbarara`).

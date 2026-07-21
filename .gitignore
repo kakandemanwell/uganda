@@ -19,3 +19,10 @@ dist/villages.json
 # so `npm run build` works from a fresh clone without needing either of these.
 data/legacy/provenance/ec/admin-units-2022.pdf
 data/legacy/provenance/ec/parsed_admin_units_2022.json
+
+# Same reasoning for the large raw boundary/road sources: each is
+# re-fetchable from the URL cited in its data/sources.json entry, and the
+# curated data/geo/*.geojson output scripts/ingest-*.mjs actually produces
+# IS tracked, so `npm run build` works from a fresh clone without these.
+data/legacy/provenance/geo/geoBoundaries-UGA-ADM4.geojson
+data/legacy/provenance/geo/hdx-uga-admin4-parish.geojson

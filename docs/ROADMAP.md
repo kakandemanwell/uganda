@@ -112,7 +112,7 @@ Decision made 2026-07-12: npm package + Vercel API, in that order.
 - [ ] Consider a Python package mirroring the same data for non-JS
       consumers, after the JS one is working.
 
-## Phase 5 — boundary geometry for map visualization (done, district level)
+## Phase 5 — boundary geometry, roads, and population for map visualization (in progress — district level complete, below-district intentionally partial)
 - [x] Evaluated every free/open boundary source found for Uganda (HDX
       COD-AB, GADM, geoBoundaries at ADM1-4, OpenStreetMap, a 2010 UBOS
       parish shapefile, and an unlicensed village shapefile) — see
@@ -126,12 +126,22 @@ Decision made 2026-07-12: npm package + Vercel API, in that order.
 - [x] `uganda-locale/geo` opt-in module (`districtBoundaries()`,
       `regionBoundaries()`) and `/api/geo/districts` /
       `/api/geo/regions` web routes.
-- [ ] Subcounty-level boundaries: a real candidate exists (geoBoundaries
-      ADM4, ~69% coverage of this project's 2,191 subcounties) but was
-      deferred, not rejected — would need name-reconciliation and
-      simplification, and should probably ship as a separate opt-in asset
-      given file size. County/parish/village: no usable free source found
-      at all (see `docs/DATA_QUALITY.md` for why each was rejected).
+- [x] Subcounty-level boundaries: ingested geoBoundaries ADM4, 1,249/2,191
+      (57.0%) matched to a unique current subcounty/town_council/division
+      by name (102 excluded as ambiguous — same name reused across
+      districts). Deliberately partial, shipped anyway.
+- [x] Parish-level boundaries: ingested HDX's admin4 layer (genuinely
+      parish-level, confirmed via its own district/parish attributes —
+      distinct from geoBoundaries' similarly-numbered subcounty layer
+      despite a near-identical feature count), 423/10,717 (3.95%) matched.
+      Deliberately partial, shipped anyway — see `docs/DATA_QUALITY.md`.
+- [x] Major road network: ingested OSM/HOTOSM roads (motorway-tertiary,
+      10,721 features), independent of the admin-unit tree — no
+      district/region tagging exists in OSM for Uganda. Residential/
+      unclassified streets and informal paths/tracks excluded (98.8% of
+      the raw 681K-feature export is unnamed).
+      County/village boundaries: still no usable free source found at all
+      (see `docs/DATA_QUALITY.md` for why each was rejected).
 - [x] "Aggregated values per district": added 2024 census population
       (`population` field, `{ year, male, female, total }`) on every
       district/city record and on `data/geo/districts.geojson` features,
@@ -140,6 +150,16 @@ Decision made 2026-07-12: npm package + Vercel API, in that order.
       `data/legacy/provenance/population/README.md` for the extraction and
       three-way validation story. WorldPop's gridded raster remains a
       future option for anything below district level.
+- [ ] Not attempted: a spatial join tying `data/geo/roads.geojson` back to
+      the district/subcounty it runs through (roads carry no admin-unit
+      tagging from OSM, and subcounty coverage is itself only 57%, so any
+      join would inherit that gap). Would need `@turf/booleanIntersects`
+      or similar against the boundary layers, run once at build time.
+- [ ] Subcounty/parish coverage could be pushed higher with more effort
+      (fuzzy/phonetic name matching instead of exact-slug matching, or
+      tracing pre-split parent names for parishes in districts that have
+      since reorganized) — not attempted in this pass; the exact-match
+      results are honestly reported instead as a documented gap.
 
 ## Explicitly out of scope for now
 - Keeping the EC gazetteer current past July 2022 — that requires either a

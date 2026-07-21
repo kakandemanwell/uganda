@@ -95,6 +95,46 @@ for (const [rel, expectedCount] of Object.entries(GEO_EXPECTED_COUNT)) {
   }
 }
 
+// ---- partial-coverage boundary layers (subcounty/parish) — no fixed
+// expected count (coverage is intentionally partial, see
+// docs/DATA_QUALITY.md), just structural + referential integrity ----
+const PARTIAL_GEO_FILES = ["dist/geo/subcountys.geojson", "dist/geo/parishs.geojson"];
+for (const rel of PARTIAL_GEO_FILES) {
+  const fc = JSON.parse(readFileSync(path.join(ROOT, rel), "utf-8"));
+  if (fc.type !== "FeatureCollection") fail(`${rel}: expected a FeatureCollection`);
+  if (!fc.features.length) fail(`${rel}: expected at least some features`);
+  const seenGeoIds = new Set();
+  for (const f of fc.features) {
+    const p = f.properties || {};
+    if (!p.id || !p.name || !p.slug || !p.district_id) {
+      fail(`${rel}: feature missing id/name/slug/district_id (${JSON.stringify(p)})`);
+    }
+    if (seenGeoIds.has(p.id)) fail(`${rel}: duplicate feature id '${p.id}'`);
+    seenGeoIds.add(p.id);
+    if (p.id && !ids.has(p.id)) fail(`${rel}: feature id '${p.id}' does not resolve to any record in uganda-locations.json`);
+    if (p.district_id && !ids.has(p.district_id)) {
+      fail(`${rel}: feature district_id '${p.district_id}' does not resolve to any record`);
+    }
+    if (!["Polygon", "MultiPolygon"].includes(f.geometry?.type)) {
+      fail(`${rel}: feature '${p.id}' has unexpected geometry type '${f.geometry?.type}'`);
+    }
+  }
+}
+
+// ---- roads: an independent layer, not tied to any AdministrativeUnit ----
+{
+  const rel = "dist/geo/roads.geojson";
+  const fc = JSON.parse(readFileSync(path.join(ROOT, rel), "utf-8"));
+  if (fc.type !== "FeatureCollection") fail(`${rel}: expected a FeatureCollection`);
+  if (!fc.features.length) fail(`${rel}: expected at least some features`);
+  for (const f of fc.features) {
+    if (!f.properties?.highway) fail(`${rel}: feature missing 'highway' property`);
+    if (!["LineString", "MultiLineString"].includes(f.geometry?.type)) {
+      fail(`${rel}: feature has unexpected geometry type '${f.geometry?.type}'`);
+    }
+  }
+}
+
 if (errors) {
   console.error(`\n${errors} validation error(s) in ${units.length} records.`);
   process.exit(1);
