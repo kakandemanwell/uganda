@@ -6,11 +6,13 @@ import * as ug from "../src/index.mjs";
 import * as deep from "../src/deep.mjs";
 
 assert.equal(ug.regions().length, 4, "expected 4 regions");
+assert.equal(ug.subregions().length, 17, "expected 17 subregions");
 assert.equal(ug.districts().length, 136, "expected 136 districts");
 assert.equal(ug.cities().length, 10, "expected 10 cities");
 
 const mbarara = ug.districts().find((d) => d.slug === "mbarara");
 assert.ok(mbarara, "Mbarara district should exist");
+assert.equal(mbarara.subregion_id, "subregion:ankole", "Mbarara should be in the Ankole subregion");
 
 const mbararaCounties = ug.counties({ districtId: mbarara.id });
 assert.ok(mbararaCounties.length > 0, "Mbarara should have counties");
@@ -41,6 +43,7 @@ assert.ok(deep.getUnit(mbarara.id), "deep re-exports index.mjs functions");
 
 console.log("smoke test passed:", {
   regions: ug.regions().length,
+  subregions: ug.subregions().length,
   districts: ug.districts().length,
   cities: ug.cities().length,
   counties: ug.counties().length,

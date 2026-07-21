@@ -18,8 +18,9 @@ Then open `http://localhost:3000`.
 
 | Route | Description |
 |---|---|
-| `GET /api/regions` | All 4 regions |
-| `GET /api/districts` | All 136 districts (`?regionId=` to filter) |
+| `GET /api/regions` | All 4 administrative regions |
+| `GET /api/subregions` | All 17 cultural/traditional sub-regions (Buganda, Acholi, Ankole, ...) |
+| `GET /api/districts` | All 136 districts (`?regionId=` or `?subregionId=` to filter) |
 | `GET /api/cities` | All 10 cities |
 | `GET /api/districts/:id/counties` | Counties/municipalities under a district |
 | `GET /api/counties/:id/subcounties` | Subcounties/town councils/divisions under a county |

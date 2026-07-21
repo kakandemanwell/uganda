@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/uganda-locale/uganda-locale/schema/administrative-unit.schema.json",
   "title": "AdministrativeUnit",
-  "description": "A single node in Uganda's administrative hierarchy (region, district, city, county, municipality, subcounty, town council, division, parish, ward, village, cell, or zone).",
+  "description": "A single node in Uganda's administrative hierarchy (region, district, city, county, municipality, subcounty, town council, division, parish, ward, village, cell, or zone), or a subregion — a cultural/traditional grouping (e.g. Buganda, Acholi, Ankole) that runs parallel to the administrative tree rather than nesting inside it.",
   "type": "object",
   "additionalProperties": false,
   "required": ["id", "name", "slug", "level", "type", "status", "confidence"],
@@ -27,7 +27,7 @@
     },
     "level": {
       "type": "string",
-      "enum": ["region", "district", "city", "county", "municipality", "constituency", "subcounty", "town_council", "division", "parish", "ward", "village", "cell", "zone"],
+      "enum": ["region", "subregion", "district", "city", "county", "municipality", "constituency", "subcounty", "town_council", "division", "parish", "ward", "village", "cell", "zone"],
       "description": "Which tier of the hierarchy this record occupies."
     },
     "type": {
@@ -41,6 +41,10 @@
     "region_id": {
       "type": ["string", "null"],
       "description": "Denormalized pointer to the top-level region, for fast filtering regardless of depth."
+    },
+    "subregion_id": {
+      "type": ["string", "null"],
+      "description": "Denormalized pointer to the cultural/traditional sub-region (e.g. 'subregion:buganda', 'subregion:acholi'), for fast filtering regardless of depth. This is a parallel classification alongside region_id, not a tier in the parent_id chain — each district/city carries it directly, and it is propagated down to every descendant (county, subcounty, parish, village, etc). Null for level='region' and level='subregion' records themselves. See docs/DATA_QUALITY.md for the UBOS-based taxonomy and sourcing."
     },
     "status": {
       "type": "string",

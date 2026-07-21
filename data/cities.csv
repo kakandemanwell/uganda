@@ -1,11 +1,11 @@
-id,name,slug,region_id,parent_district_id,status,effective_date,source_ids,notes
-city:arua,Arua City,arua-city,region:northern,district:arua,operational,2020-07-01,"src-statoids-2026;src-wikipedia-districts","Second-generation city; coexists with Arua District as separate LG unit"
-city:gulu,Gulu City,gulu-city,region:northern,district:gulu,operational,2020-07-01,"src-statoids-2026;src-wikipedia-districts","Coexists with Gulu District as separate LG unit"
-city:lira,Lira City,lira-city,region:northern,district:lira,operational,2020-07-01,"src-statoids-2026;src-wikipedia-districts","Coexists with Lira District as separate LG unit"
-city:soroti,Soroti City,soroti-city,region:eastern,district:soroti,operational,2020-07-01,"src-statoids-2026;src-wikipedia-districts","Coexists with Soroti District as separate LG unit"
-city:mbale,Mbale City,mbale-city,region:eastern,district:mbale,operational,2020-07-01,"src-statoids-2026;src-wikipedia-districts","Coexists with Mbale District as separate LG unit"
-city:jinja,Jinja City,jinja-city,region:eastern,district:jinja,operational,2020-07-01,"src-statoids-2026;src-wikipedia-districts","Coexists with Jinja District as separate LG unit"
-city:hoima,Hoima City,hoima-city,region:western,district:hoima,operational,2020-07-01,"src-statoids-2026;src-wikipedia-districts","Coexists with Hoima District as separate LG unit"
-city:fort-portal,Fort Portal City,fort-portal-city,region:western,district:kabarole,operational,2020-07-01,"src-statoids-2026;src-wikipedia-districts","Elevated from Fort Portal Municipal Council (Kabarole District)"
-city:mbarara,Mbarara City,mbarara-city,region:western,district:mbarara,operational,2020-07-01,"src-statoids-2026;src-wikipedia-districts","Coexists with Mbarara District as separate LG unit"
-city:masaka,Masaka City,masaka-city,region:central,district:masaka,operational,2020-07-01,"src-statoids-2026;src-wikipedia-districts","Coexists with Masaka District as separate LG unit"
+id,name,slug,region_id,subregion_id,parent_district_id,status,effective_date,source_ids,notes
+city:arua,Arua City,arua-city,region:northern,subregion:west-nile,district:arua,operational,2020-07-01,src-statoids-2026;src-wikipedia-districts,Second-generation city; coexists with Arua District as separate LG unit
+city:gulu,Gulu City,gulu-city,region:northern,subregion:acholi,district:gulu,operational,2020-07-01,src-statoids-2026;src-wikipedia-districts,Coexists with Gulu District as separate LG unit
+city:lira,Lira City,lira-city,region:northern,subregion:lango,district:lira,operational,2020-07-01,src-statoids-2026;src-wikipedia-districts,Coexists with Lira District as separate LG unit
+city:soroti,Soroti City,soroti-city,region:eastern,subregion:teso,district:soroti,operational,2020-07-01,src-statoids-2026;src-wikipedia-districts,Coexists with Soroti District as separate LG unit
+city:mbale,Mbale City,mbale-city,region:eastern,subregion:bugisu,district:mbale,operational,2020-07-01,src-statoids-2026;src-wikipedia-districts,Coexists with Mbale District as separate LG unit
+city:jinja,Jinja City,jinja-city,region:eastern,subregion:busoga,district:jinja,operational,2020-07-01,src-statoids-2026;src-wikipedia-districts,Coexists with Jinja District as separate LG unit
+city:hoima,Hoima City,hoima-city,region:western,subregion:bunyoro,district:hoima,operational,2020-07-01,src-statoids-2026;src-wikipedia-districts,Coexists with Hoima District as separate LG unit
+city:fort-portal,Fort Portal City,fort-portal-city,region:western,subregion:tooro,district:kabarole,operational,2020-07-01,src-statoids-2026;src-wikipedia-districts,Elevated from Fort Portal Municipal Council (Kabarole District)
+city:mbarara,Mbarara City,mbarara-city,region:western,subregion:ankole,district:mbarara,operational,2020-07-01,src-statoids-2026;src-wikipedia-districts,Coexists with Mbarara District as separate LG unit
+city:masaka,Masaka City,masaka-city,region:central,subregion:buganda,district:masaka,operational,2020-07-01,src-statoids-2026;src-wikipedia-districts,Coexists with Masaka District as separate LG unit

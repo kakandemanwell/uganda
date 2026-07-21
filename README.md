@@ -6,12 +6,16 @@ subcounty/town council/division → parish/ward → village/cell → zone** — 
 because no single free, current, machine-readable source of this hierarchy
 existed for software integration (form dropdowns, address validation,
 reporting, etc.), and Uganda's units change often enough that hand-maintained
-copies go stale fast.
+copies go stale fast. Every district/city also carries a `subregion_id`
+pointing into a second, parallel classification — Uganda's 17
+cultural/traditional sub-regions (Buganda, Acholi, Ankole, Busoga, ...), the
+grouping UBOS itself uses for census reporting — since the 4 administrative
+regions don't map onto historical/cultural boundaries.
 
 > **Just want the data, not the code?** Download
 > **[`dist/uganda-locations-full.csv`](dist/uganda-locations-full.csv)**
 > and open it in Excel or Google Sheets — one row per village (71,230 rows),
-> with region/district/county/constituency/subcounty/parish/village columns.
+> with region/sub_region/district/county/constituency/subcounty/parish/village columns.
 > That's the whole dataset in one file. (On the file's GitHub page, use the
 > download/raw button to save it directly — GitHub doesn't fully render a
 > spreadsheet preview for a file this size.)
@@ -36,6 +40,7 @@ Run `npm run build` to compile `data/` into `dist/`:
 | Level | Count | Confidence |
 |---|---|---|
 | Region | 4 | verified |
+| Sub-region (cultural/traditional, e.g. Buganda, Acholi, Ankole) | 17 | verified — see caveat in [`docs/DATA_QUALITY.md`](docs/DATA_QUALITY.md) |
 | District (incl. Kampala/KCCA) | 136 | verified — cross-checked against 3 independent current sources |
 | City | 10 | verified |
 | County / Municipality | 322 | **verified** — reconstructed from the EC gazetteer's constituency data, July 2022, 135/136 rural districts (Kampala has no county tier, like cities) |
@@ -88,7 +93,8 @@ web/
   # minimal Next.js app / API — see web/README.md
 data/
   regions.csv           # 4 regions
-  districts.csv         # 136 districts + Kampala/KCCA, verified
+  subregions.csv        # 17 cultural/traditional sub-regions (Buganda, Acholi, Ankole, ...), parallel to regions
+  districts.csv         # 136 districts + Kampala/KCCA, verified; carries both region_id and subregion_id
   cities.csv            # 10 second-generation cities, verified
   sources.json          # every source cited, with access date + what it was used/rejected for
   ec/
@@ -119,9 +125,9 @@ docs/
 
 **Not writing code?** Download [`dist/uganda-locations-full.csv`](dist/uganda-locations-full.csv)
 directly from this repo and open it in Excel or Google Sheets — one row per
-village (71,230 rows), with region/district/county/constituency/subcounty/
-parish/village columns plus a confidence flag. That's the whole dataset in
-one file.
+village (71,230 rows), with region/sub_region/district/county/constituency/
+subcounty/parish/village columns plus a confidence flag. That's the whole
+dataset in one file.
 
 **Writing JS/TS?** (Package prepared but not yet published to the npm
 registry — install straight from GitHub for now, or `npm link` a local
@@ -134,8 +140,10 @@ npm install github:kakandemanwell/uganda
 ```js
 import * as uganda from "uganda-locale";
 
-uganda.regions();                              // 4 regions
-uganda.districts();                             // 136 districts (incl. Kampala)
+uganda.regions();                              // 4 administrative regions
+uganda.subregions();                            // 17 cultural/traditional sub-regions (Buganda, Acholi, Ankole, ...)
+uganda.districts();                             // 136 districts (incl. Kampala) — each has region_id AND subregion_id
+uganda.districts().filter((d) => d.subregion_id === "subregion:acholi");
 uganda.counties({ districtId: "district:mbarara" });
 uganda.subcounties({ parentId: "county:mbarara-kashari-north-county" });
 uganda.getAncestors("subcounty:hoima-buhanika"); // walk up to region
@@ -144,7 +152,8 @@ uganda.country();                                // ISO codes, currency, flag pa
 ```
 
 The default import bundles region → district/city → county/municipality →
-subcounty/town council/division (~1.3MB). Parish/ward/cell data (~5MB more)
+subcounty/town council/division (~1.3MB), plus the 17-record subregion
+lookup table (`subregion_id` on every district/city points into it). Parish/ward/cell data (~5MB more)
 is opt-in, so plain installs stay light:
 
 ```js
@@ -167,7 +176,7 @@ the same data as JSON endpoints — see its README for routes once deployed.
 clone/download without running anything:
 - `uganda-locations-full.csv` — full ancestry, one row per village (~6.6MB)
 - `uganda-locations.csv` — flattened, loosely backward-compatible with the original `location.csv` shape
-- `regions.json`, `districts.json`, `citys.json`, `countys.json`, `subcountys.json`, `town_councils.json`, `divisions.json`, `parishs.json`, `wards.json`, `cells.json` — per-level exports
+- `regions.json`, `subregions.json`, `districts.json`, `citys.json`, `countys.json`, `subcountys.json`, `town_councils.json`, `divisions.json`, `parishs.json`, `wards.json`, `cells.json` — per-level exports
 - `data-quality-report.json` — coverage/gaps, regenerated every build
 - `country/uganda.json` + `country/assets/` — country metadata and flag/coat-of-arms images
 

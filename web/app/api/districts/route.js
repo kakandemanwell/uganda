@@ -2,7 +2,11 @@ import * as uganda from "uganda-locale";
 import { ok } from "../../../lib/respond.mjs";
 
 export function GET(request) {
-  const regionId = new URL(request.url).searchParams.get("regionId");
-  const all = uganda.districts();
-  return ok(regionId ? all.filter((d) => d.region_id === regionId) : all);
+  const params = new URL(request.url).searchParams;
+  const regionId = params.get("regionId");
+  const subregionId = params.get("subregionId");
+  let all = uganda.districts();
+  if (regionId) all = all.filter((d) => d.region_id === regionId);
+  if (subregionId) all = all.filter((d) => d.subregion_id === subregionId);
+  return ok(all);
 }

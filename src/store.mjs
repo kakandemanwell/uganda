@@ -10,6 +10,7 @@ const DIST = path.join(__dirname, "..", "dist");
 
 const FILES = {
   region: "regions.json",
+  subregion: "subregions.json",
   district: "districts.json",
   city: "citys.json",
   county: "countys.json",

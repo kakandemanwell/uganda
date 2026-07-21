@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.6.0] - 2026-07-21
+
+### Added
+- `data/subregions.csv` and a new `subregion_id` field on every district/city
+  (and everything beneath them, down to village/cell): Uganda's 17
+  cultural/traditional sub-regions (Acholi, Ankole, Buganda, Bugisu, Bukedi,
+  Bunyoro, Busoga, Kampala, Karamoja, Kigezi, Lango, Madi, Rwenzori, Sebei,
+  Teso, Tooro, West Nile) — the taxonomy UBOS itself uses for census
+  reporting, distinct from and parallel to the 4 administrative regions
+  (several sub-regions, e.g. Busoga/Bukedi/Bugisu/Sebei/Teso, all sit inside
+  the single "Eastern" administrative region). See
+  `docs/DATA_QUALITY.md` for sourcing and its caveats.
+- `uganda.subregions()` export (bundled by default alongside `regions()`).
+- `sub_region` column in `dist/uganda-locations-full.csv`.
+- `subregionId` query param on the `/api/districts` route; new
+  `/api/subregions` route.
+- `"subregion"` added to `schema/administrative-unit.schema.json`'s `level`
+  enum, plus the `subregion_id` property description.
+
 ## [0.5.0] - 2026-07-12
 
 ### Added

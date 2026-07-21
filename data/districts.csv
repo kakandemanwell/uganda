@@ -1,137 +1,137 @@
-id,name,slug,region_id,type,status,effective_date,aliases,source_ids,notes
-district:abim,Abim,abim,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:adjumani,Adjumani,adjumani,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:agago,Agago,agago,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:alebtong,Alebtong,alebtong,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:amolatar,Amolatar,amolatar,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:amudat,Amudat,amudat,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:amuru,Amuru,amuru,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:apac,Apac,apac,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:arua,Arua,arua,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Also seat of Arua City (separate LG unit)
-district:dokolo,Dokolo,dokolo,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:gulu,Gulu,gulu,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Also seat of Gulu City (separate LG unit)
-district:kaabong,Kaabong,kaabong,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:karenga,Karenga,karenga,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Kaabong
-district:kitgum,Kitgum,kitgum,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:koboko,Koboko,koboko,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kole,Kole,kole,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kotido,Kotido,kotido,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kwania,Kwania,kwania,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Apac
-district:lamwo,Lamwo,lamwo,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:lira,Lira,lira,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Also seat of Lira City (separate LG unit)
-district:madi-okollo,Madi-Okollo,madi-okollo,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Arua
-district:maracha,Maracha,maracha,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:moroto,Moroto,moroto,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:moyo,Moyo,moyo,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:nabilatuk,Nabilatuk,nabilatuk,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Nakapiripirit
-district:nakapiripirit,Nakapiripirit,nakapiripirit,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:napak,Napak,napak,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:nebbi,Nebbi,nebbi,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:nwoya,Nwoya,nwoya,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:obongi,Obongi,obongi,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Moyo
-district:omoro,Omoro,omoro,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Gulu
-district:otuke,Otuke,otuke,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:oyam,Oyam,oyam,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:pader,Pader,pader,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:pakwach,Pakwach,pakwach,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Nebbi
-district:yumbe,Yumbe,yumbe,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:zombo,Zombo,zombo,region:northern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:amuria,Amuria,amuria,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:budaka,Budaka,budaka,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:bududa,Bududa,bududa,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:bugiri,Bugiri,bugiri,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:bugweri,Bugweri,bugweri,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Iganga
-district:bukedea,Bukedea,bukedea,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:bukwo,Bukwo,bukwo,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:bulambuli,Bulambuli,bulambuli,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:busia,Busia,busia,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:butaleja,Butaleja,butaleja,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:butebo,Butebo,butebo,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Pallisa
-district:buyende,Buyende,buyende,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:iganga,Iganga,iganga,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:jinja,Jinja,jinja,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Also seat of Jinja City (separate LG unit)
-district:kaberamaido,Kaberamaido,kaberamaido,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kalaki,Kalaki,kalaki,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Kaberamaido
-district:kaliro,Kaliro,kaliro,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kamuli,Kamuli,kamuli,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kapchorwa,Kapchorwa,kapchorwa,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kapelebyong,Kapelebyong,kapelebyong,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Amuria
-district:katakwi,Katakwi,katakwi,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kibuku,Kibuku,kibuku,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kumi,Kumi,kumi,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kween,Kween,kween,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:luuka,Luuka,luuka,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:manafwa,Manafwa,manafwa,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:mayuge,Mayuge,mayuge,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:mbale,Mbale,mbale,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Also seat of Mbale City (separate LG unit)
-district:namayingo,Namayingo,namayingo,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:namisindwa,Namisindwa,namisindwa,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Manafwa
-district:namutumba,Namutumba,namutumba,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:ngora,Ngora,ngora,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:pallisa,Pallisa,pallisa,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:serere,Serere,serere,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:sironko,Sironko,sironko,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:soroti,Soroti,soroti,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Also seat of Soroti City (separate LG unit)
-district:tororo,Tororo,tororo,region:eastern,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list","Reported subject of further splits ahead of 2026 elections - unverified, see docs/DATA_QUALITY.md"
-district:terego,Terego,terego,region:northern,district,operational,2020-07-01,,"src-ec-admin-units-2022","Established 2020-07-01, split from Arua District. Missing from all three sources originally used for the 135-district baseline (Statoids, Wikipedia, and the MoLG-style PDF list) — confirmed as a real gap and added after cross-referencing the EC's June 2022 verified administrative units count (146 district-equivalent units, not 135)."
-district:buhweju,Buhweju,buhweju,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:buliisa,Buliisa,buliisa,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:bundibugyo,Bundibugyo,bundibugyo,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:bunyangabu,Bunyangabu,bunyangabu,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Kabarole
-district:bushenyi,Bushenyi,bushenyi,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:hoima,Hoima,hoima,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Also seat of Hoima City (separate LG unit)
-district:ibanda,Ibanda,ibanda,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:isingiro,Isingiro,isingiro,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kabale,Kabale,kabale,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kabarole,Kabarole,kabarole,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Also seat of Fort Portal City (separate LG unit)
-district:kagadi,Kagadi,kagadi,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Kibaale
-district:kakumiro,Kakumiro,kakumiro,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Kibaale
-district:kamwenge,Kamwenge,kamwenge,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kanungu,Kanungu,kanungu,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kasese,Kasese,kasese,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kazo,Kazo,kazo,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Kiruhura
-district:kibaale,Kibaale,kibaale,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kikuube,Kikuube,kikuube,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Hoima
-district:kiruhura,Kiruhura,kiruhura,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kiryandongo,Kiryandongo,kiryandongo,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kisoro,Kisoro,kisoro,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kitagwenda,Kitagwenda,kitagwenda,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Kamwenge
-district:kyegegwa,Kyegegwa,kyegegwa,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kyenjojo,Kyenjojo,kyenjojo,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:masindi,Masindi,masindi,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:mbarara,Mbarara,mbarara,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Also seat of Mbarara City (separate LG unit)
-district:mitooma,Mitooma,mitooma,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:ntoroko,Ntoroko,ntoroko,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:ntungamo,Ntungamo,ntungamo,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:rubanda,Rubanda,rubanda,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Kabale
-district:rubirizi,Rubirizi,rubirizi,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:rukiga,Rukiga,rukiga,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Kabale
-district:rukungiri,Rukungiri,rukungiri,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:rwampara,Rwampara,rwampara,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Mbarara
-district:sheema,Sheema,sheema,region:western,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:buikwe,Buikwe,buikwe,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:bukomansimbi,Bukomansimbi,bukomansimbi,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:butambala,Butambala,butambala,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:buvuma,Buvuma,buvuma,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:gomba,Gomba,gomba,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kalangala,Kalangala,kalangala,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kalungu,Kalungu,kalungu,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kampala,Kampala,kampala,region:central,capital_city,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list","Uganda's capital city, occupying the same tier as a district. Administered by the Kampala Capital City Authority (KCCA) under the KCCA Act 2010 (KCCA is the governing authority, not a type of administrative unit). Divided into 5 Divisions rather than counties/subcounties."
-district:kassanda,Kassanda,kassanda,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Mubende
-district:kayunga,Kayunga,kayunga,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kiboga,Kiboga,kiboga,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:kyankwanzi,Kyankwanzi,kyankwanzi,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Kiboga
-district:kyotera,Kyotera,kyotera,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Split from Rakai
-district:luwero,Luwero,luwero,region:central,district,operational,,"Luweero","src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:lwengo,Lwengo,lwengo,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:lyantonde,Lyantonde,lyantonde,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:masaka,Masaka,masaka,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",Also seat of Masaka City (separate LG unit)
-district:mityana,Mityana,mityana,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:mpigi,Mpigi,mpigi,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:mubende,Mubende,mubende,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:mukono,Mukono,mukono,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:nakaseke,Nakaseke,nakaseke,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:nakasongola,Nakasongola,nakasongola,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:rakai,Rakai,rakai,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:sembabule,Sembabule,sembabule,region:central,district,operational,,"Ssembabule","src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
-district:wakiso,Wakiso,wakiso,region:central,district,operational,,,"src-statoids-2026;src-wikipedia-districts;src-molg-lg-list",
+id,name,slug,region_id,subregion_id,type,status,effective_date,aliases,source_ids,notes
+district:abim,Abim,abim,region:northern,subregion:karamoja,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:adjumani,Adjumani,adjumani,region:northern,subregion:madi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:agago,Agago,agago,region:northern,subregion:acholi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:alebtong,Alebtong,alebtong,region:northern,subregion:lango,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:amolatar,Amolatar,amolatar,region:northern,subregion:lango,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:amudat,Amudat,amudat,region:northern,subregion:karamoja,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:amuru,Amuru,amuru,region:northern,subregion:acholi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:apac,Apac,apac,region:northern,subregion:lango,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:arua,Arua,arua,region:northern,subregion:west-nile,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Also seat of Arua City (separate LG unit)
+district:dokolo,Dokolo,dokolo,region:northern,subregion:lango,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:gulu,Gulu,gulu,region:northern,subregion:acholi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Also seat of Gulu City (separate LG unit)
+district:kaabong,Kaabong,kaabong,region:northern,subregion:karamoja,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:karenga,Karenga,karenga,region:northern,subregion:karamoja,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Kaabong
+district:kitgum,Kitgum,kitgum,region:northern,subregion:acholi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:koboko,Koboko,koboko,region:northern,subregion:west-nile,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kole,Kole,kole,region:northern,subregion:lango,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kotido,Kotido,kotido,region:northern,subregion:karamoja,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kwania,Kwania,kwania,region:northern,subregion:lango,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Apac
+district:lamwo,Lamwo,lamwo,region:northern,subregion:acholi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:lira,Lira,lira,region:northern,subregion:lango,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Also seat of Lira City (separate LG unit)
+district:madi-okollo,Madi-Okollo,madi-okollo,region:northern,subregion:west-nile,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Arua
+district:maracha,Maracha,maracha,region:northern,subregion:west-nile,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:moroto,Moroto,moroto,region:northern,subregion:karamoja,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:moyo,Moyo,moyo,region:northern,subregion:madi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:nabilatuk,Nabilatuk,nabilatuk,region:northern,subregion:karamoja,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Nakapiripirit
+district:nakapiripirit,Nakapiripirit,nakapiripirit,region:northern,subregion:karamoja,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:napak,Napak,napak,region:northern,subregion:karamoja,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:nebbi,Nebbi,nebbi,region:northern,subregion:west-nile,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:nwoya,Nwoya,nwoya,region:northern,subregion:acholi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:obongi,Obongi,obongi,region:northern,subregion:madi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Moyo
+district:omoro,Omoro,omoro,region:northern,subregion:acholi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Gulu
+district:otuke,Otuke,otuke,region:northern,subregion:lango,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:oyam,Oyam,oyam,region:northern,subregion:lango,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:pader,Pader,pader,region:northern,subregion:acholi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:pakwach,Pakwach,pakwach,region:northern,subregion:west-nile,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Nebbi
+district:yumbe,Yumbe,yumbe,region:northern,subregion:west-nile,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:zombo,Zombo,zombo,region:northern,subregion:west-nile,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:amuria,Amuria,amuria,region:eastern,subregion:teso,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:budaka,Budaka,budaka,region:eastern,subregion:bukedi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:bududa,Bududa,bududa,region:eastern,subregion:bugisu,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:bugiri,Bugiri,bugiri,region:eastern,subregion:busoga,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:bugweri,Bugweri,bugweri,region:eastern,subregion:busoga,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Iganga
+district:bukedea,Bukedea,bukedea,region:eastern,subregion:teso,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:bukwo,Bukwo,bukwo,region:eastern,subregion:sebei,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:bulambuli,Bulambuli,bulambuli,region:eastern,subregion:bugisu,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:busia,Busia,busia,region:eastern,subregion:bukedi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:butaleja,Butaleja,butaleja,region:eastern,subregion:bukedi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:butebo,Butebo,butebo,region:eastern,subregion:bukedi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Pallisa
+district:buyende,Buyende,buyende,region:eastern,subregion:busoga,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:iganga,Iganga,iganga,region:eastern,subregion:busoga,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:jinja,Jinja,jinja,region:eastern,subregion:busoga,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Also seat of Jinja City (separate LG unit)
+district:kaberamaido,Kaberamaido,kaberamaido,region:eastern,subregion:teso,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kalaki,Kalaki,kalaki,region:eastern,subregion:teso,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Kaberamaido
+district:kaliro,Kaliro,kaliro,region:eastern,subregion:busoga,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kamuli,Kamuli,kamuli,region:eastern,subregion:busoga,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kapchorwa,Kapchorwa,kapchorwa,region:eastern,subregion:sebei,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kapelebyong,Kapelebyong,kapelebyong,region:eastern,subregion:teso,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Amuria
+district:katakwi,Katakwi,katakwi,region:eastern,subregion:teso,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kibuku,Kibuku,kibuku,region:eastern,subregion:bukedi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kumi,Kumi,kumi,region:eastern,subregion:teso,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kween,Kween,kween,region:eastern,subregion:sebei,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:luuka,Luuka,luuka,region:eastern,subregion:busoga,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:manafwa,Manafwa,manafwa,region:eastern,subregion:bugisu,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:mayuge,Mayuge,mayuge,region:eastern,subregion:busoga,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:mbale,Mbale,mbale,region:eastern,subregion:bugisu,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Also seat of Mbale City (separate LG unit)
+district:namayingo,Namayingo,namayingo,region:eastern,subregion:busoga,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:namisindwa,Namisindwa,namisindwa,region:eastern,subregion:bugisu,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Manafwa
+district:namutumba,Namutumba,namutumba,region:eastern,subregion:busoga,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:ngora,Ngora,ngora,region:eastern,subregion:teso,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:pallisa,Pallisa,pallisa,region:eastern,subregion:bukedi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:serere,Serere,serere,region:eastern,subregion:teso,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:sironko,Sironko,sironko,region:eastern,subregion:bugisu,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:soroti,Soroti,soroti,region:eastern,subregion:teso,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Also seat of Soroti City (separate LG unit)
+district:tororo,Tororo,tororo,region:eastern,subregion:bukedi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,"Reported subject of further splits ahead of 2026 elections - unverified, see docs/DATA_QUALITY.md"
+district:terego,Terego,terego,region:northern,subregion:west-nile,district,operational,2020-07-01,,src-ec-admin-units-2022,"Established 2020-07-01, split from Arua District. Missing from all three sources originally used for the 135-district baseline (Statoids, Wikipedia, and the MoLG-style PDF list) — confirmed as a real gap and added after cross-referencing the EC's June 2022 verified administrative units count (146 district-equivalent units, not 135)."
+district:buhweju,Buhweju,buhweju,region:western,subregion:ankole,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:buliisa,Buliisa,buliisa,region:western,subregion:bunyoro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:bundibugyo,Bundibugyo,bundibugyo,region:western,subregion:rwenzori,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:bunyangabu,Bunyangabu,bunyangabu,region:western,subregion:tooro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Kabarole
+district:bushenyi,Bushenyi,bushenyi,region:western,subregion:ankole,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:hoima,Hoima,hoima,region:western,subregion:bunyoro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Also seat of Hoima City (separate LG unit)
+district:ibanda,Ibanda,ibanda,region:western,subregion:ankole,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:isingiro,Isingiro,isingiro,region:western,subregion:ankole,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kabale,Kabale,kabale,region:western,subregion:kigezi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kabarole,Kabarole,kabarole,region:western,subregion:tooro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Also seat of Fort Portal City (separate LG unit)
+district:kagadi,Kagadi,kagadi,region:western,subregion:bunyoro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Kibaale
+district:kakumiro,Kakumiro,kakumiro,region:western,subregion:bunyoro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Kibaale
+district:kamwenge,Kamwenge,kamwenge,region:western,subregion:tooro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kanungu,Kanungu,kanungu,region:western,subregion:kigezi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kasese,Kasese,kasese,region:western,subregion:rwenzori,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kazo,Kazo,kazo,region:western,subregion:ankole,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Kiruhura
+district:kibaale,Kibaale,kibaale,region:western,subregion:bunyoro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kikuube,Kikuube,kikuube,region:western,subregion:bunyoro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Hoima
+district:kiruhura,Kiruhura,kiruhura,region:western,subregion:ankole,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kiryandongo,Kiryandongo,kiryandongo,region:western,subregion:bunyoro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kisoro,Kisoro,kisoro,region:western,subregion:kigezi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kitagwenda,Kitagwenda,kitagwenda,region:western,subregion:tooro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Kamwenge
+district:kyegegwa,Kyegegwa,kyegegwa,region:western,subregion:tooro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kyenjojo,Kyenjojo,kyenjojo,region:western,subregion:tooro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:masindi,Masindi,masindi,region:western,subregion:bunyoro,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:mbarara,Mbarara,mbarara,region:western,subregion:ankole,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Also seat of Mbarara City (separate LG unit)
+district:mitooma,Mitooma,mitooma,region:western,subregion:ankole,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:ntoroko,Ntoroko,ntoroko,region:western,subregion:rwenzori,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:ntungamo,Ntungamo,ntungamo,region:western,subregion:ankole,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:rubanda,Rubanda,rubanda,region:western,subregion:kigezi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Kabale
+district:rubirizi,Rubirizi,rubirizi,region:western,subregion:ankole,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:rukiga,Rukiga,rukiga,region:western,subregion:kigezi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Kabale
+district:rukungiri,Rukungiri,rukungiri,region:western,subregion:kigezi,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:rwampara,Rwampara,rwampara,region:western,subregion:ankole,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Mbarara
+district:sheema,Sheema,sheema,region:western,subregion:ankole,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:buikwe,Buikwe,buikwe,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:bukomansimbi,Bukomansimbi,bukomansimbi,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:butambala,Butambala,butambala,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:buvuma,Buvuma,buvuma,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:gomba,Gomba,gomba,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kalangala,Kalangala,kalangala,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kalungu,Kalungu,kalungu,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kampala,Kampala,kampala,region:central,subregion:kampala,capital_city,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,"Uganda's capital city, occupying the same tier as a district. Administered by the Kampala Capital City Authority (KCCA) under the KCCA Act 2010 (KCCA is the governing authority, not a type of administrative unit). Divided into 5 Divisions rather than counties/subcounties."
+district:kassanda,Kassanda,kassanda,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Mubende
+district:kayunga,Kayunga,kayunga,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kiboga,Kiboga,kiboga,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:kyankwanzi,Kyankwanzi,kyankwanzi,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Kiboga
+district:kyotera,Kyotera,kyotera,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Split from Rakai
+district:luwero,Luwero,luwero,region:central,subregion:buganda,district,operational,,Luweero,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:lwengo,Lwengo,lwengo,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:lyantonde,Lyantonde,lyantonde,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:masaka,Masaka,masaka,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,Also seat of Masaka City (separate LG unit)
+district:mityana,Mityana,mityana,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:mpigi,Mpigi,mpigi,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:mubende,Mubende,mubende,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:mukono,Mukono,mukono,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:nakaseke,Nakaseke,nakaseke,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:nakasongola,Nakasongola,nakasongola,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:rakai,Rakai,rakai,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:sembabule,Sembabule,sembabule,region:central,subregion:buganda,district,operational,,Ssembabule,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,
+district:wakiso,Wakiso,wakiso,region:central,subregion:buganda,district,operational,,,src-statoids-2026;src-wikipedia-districts;src-molg-lg-list,

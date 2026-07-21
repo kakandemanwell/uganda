@@ -32,6 +32,35 @@ Masaka, Mbale, Mbarara, Soroti), each a distinct local-government unit
 carved out of a municipality in 2020, coexisting with (not replacing) their
 parent district.
 
+**17 cultural/traditional sub-regions** (`data/subregions.csv`, `subregion_id`
+on every district/city and everything beneath them) — Uganda's 4
+administrative regions (Central/Eastern/Northern/Western) group districts by
+government convenience, not by shared history or culture; several distinct
+peoples sit inside the same administrative region (e.g. Busoga, Bukedi,
+Bugisu, Sebei, and Teso are all "Eastern"). `subregion_id` is a second,
+parallel classification for that — the taxonomy UBOS itself uses for census
+reporting: Acholi, Ankole, Buganda, Bugisu, Bukedi, Bunyoro, Busoga, Kampala,
+Karamoja, Kigezi, Lango, Madi, Rwenzori, Sebei, Teso, Tooro, West Nile. All
+136 districts (plus Kampala and all 10 cities) were placed by finding each
+one named explicitly in a Wikipedia sub-region article or citypopulation.de's
+independent administrative breakdown, cross-checked against each other — see
+`data/sources.json` → `src-ubos-subregions-2024` and
+`src-subregion-district-mapping-2026`. Three of the 17 (Madi, Rwenzori,
+Sebei) are UBOS-specific 2024-census splits from broader groupings
+(West Nile, Tooro, Bugisu respectively) that older sources still lump
+together — don't be surprised if you see e.g. "Bugisu" used elsewhere to
+include Sebei districts. **Caveat, in keeping with this document's honesty
+policy:** every direct fetch attempt against ubos.org/statistics.ubos.org hit
+a TLS certificate error, so the UBOS attribution rests on search-engine-
+mediated corroboration of UBOS's report titles/PDFs, not a primary-document
+fetch — strong enough to mark `confidence: verified` on the same 2+-
+independent-secondary-source basis this project already uses for
+`region_id`, but weaker than the EC gazetteer's doubly-validated primary
+source. Also note this classification is inherently coarser than
+administrative boundaries: sub-region membership reflects a historical/
+cultural majority for the district as a whole, not a claim that every
+resident identifies with it.
+
 **Subcounty/town council/division → parish/ward → village/cell for all 146
 district-equivalent units** — sourced from the EC's "Verified Administrative
 Units, July 2022," a 3,019-page gazetteer linked from

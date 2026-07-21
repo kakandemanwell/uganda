@@ -1,0 +1,18 @@
+id,name,slug,region_id,status,notes
+subregion:acholi,Acholi,acholi,region:northern,operational,
+subregion:ankole,Ankole,ankole,region:western,operational,
+subregion:buganda,Buganda,buganda,region:central,operational,
+subregion:bugisu,Bugisu,bugisu,region:eastern,operational,
+subregion:bukedi,Bukedi,bukedi,region:eastern,operational,
+subregion:bunyoro,Bunyoro,bunyoro,region:western,operational,
+subregion:busoga,Busoga,busoga,region:eastern,operational,
+subregion:kampala,Kampala,kampala,region:central,operational,"Treated by UBOS as its own sub-region-equivalent (separate 'Kampala Capital City' census profile), not nested under Buganda."
+subregion:karamoja,Karamoja,karamoja,region:northern,operational,
+subregion:kigezi,Kigezi,kigezi,region:western,operational,
+subregion:lango,Lango,lango,region:northern,operational,
+subregion:madi,Madi,madi,region:northern,operational,"UBOS 2024 census treats Madi as its own sub-region, split out from the broader West Nile grouping used in older sources."
+subregion:rwenzori,Rwenzori,rwenzori,region:western,operational,"UBOS 2024 census treats Rwenzori as its own sub-region, split from Tooro (Rwenzururu/Bwamba traditional institutions became independent of the Tooro kingdom in 1993)."
+subregion:sebei,Sebei,sebei,region:eastern,operational,"UBOS 2024 census treats Sebei as its own sub-region, split out from the broader Bugisu grouping used in older sources."
+subregion:teso,Teso,teso,region:eastern,operational,
+subregion:tooro,Tooro,tooro,region:western,operational,
+subregion:west-nile,West Nile,west-nile,region:northern,operational,

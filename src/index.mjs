@@ -11,6 +11,7 @@ import { loadLevel, getById, getChildren as childrenOf, loadCountry, loadDataQua
 
 const DEFAULT_LEVELS = [
   "region",
+  "subregion",
   "district",
   "city",
   "county",
@@ -23,6 +24,17 @@ for (const level of DEFAULT_LEVELS) loadLevel(level);
 
 export function regions() {
   return loadLevel("region");
+}
+
+/**
+ * Uganda's cultural/traditional sub-regions (Buganda, Busoga, Bukedi, Bugisu,
+ * Sebei, Teso, Karamoja, Lango, Acholi, West Nile, Madi, Bunyoro, Tooro,
+ * Rwenzori, Ankole, Kigezi, Kampala) — UBOS's statistical grouping, distinct
+ * from and parallel to the 4 administrative regions. Every district/city
+ * (and everything under it) carries a subregion_id pointing here.
+ */
+export function subregions() {
+  return loadLevel("subregion");
 }
 
 export function districts() {

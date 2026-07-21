@@ -1,6 +1,6 @@
 {
   "name": "uganda-locale",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": false,
   "description": "Open, versioned dataset and library of Uganda's administrative units — regions, districts, cities, counties, municipalities, subcounties, town councils, parishes, wards, villages, cells and zones.",
   "type": "module",
@@ -14,6 +14,7 @@
   "files": [
     "src",
     "dist/regions.json",
+    "dist/subregions.json",
     "dist/districts.json",
     "dist/citys.json",
     "dist/countys.json",

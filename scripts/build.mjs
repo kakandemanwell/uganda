@@ -57,6 +57,24 @@ for (const r of readCsv("regions.csv")) {
   });
 }
 
+// ---- subregions (cultural/traditional groupings, parallel to the admin tree) ----
+for (const r of readCsv("subregions.csv")) {
+  units.push({
+    id: r.id,
+    name: r.name,
+    slug: r.slug,
+    level: "subregion",
+    type: "subregion",
+    parent_id: r.region_id,
+    region_id: r.region_id,
+    status: r.status || "operational",
+    confidence: "verified",
+    effective_date: null,
+    source_ids: [],
+    notes: r.notes || null,
+  });
+}
+
 // ---- districts (incl. Kampala/KCCA) ----
 for (const r of readCsv("districts.csv")) {
   const unit = {
@@ -68,6 +86,7 @@ for (const r of readCsv("districts.csv")) {
     type: r.type || "district",
     parent_id: r.region_id,
     region_id: r.region_id,
+    subregion_id: r.subregion_id || null,
     status: r.status || "operational",
     confidence: "verified",
     effective_date: r.effective_date || null,
@@ -89,6 +108,7 @@ for (const r of readCsv("cities.csv")) {
     type: "city",
     parent_id: r.parent_district_id,
     region_id: r.region_id,
+    subregion_id: r.subregion_id || null,
     status: r.status || "operational",
     confidence: "verified",
     effective_date: r.effective_date || null,
@@ -190,9 +210,11 @@ for (const u of units) {
   const districtId = ancestorDistrictId(subcounty);
   const district = districtId ? idOf.get(districtId) : null;
   const region = district?.region_id ? idOf.get(district.region_id) : null;
+  const subregion = u.subregion_id ? idOf.get(u.subregion_id) : null;
   fullRows.push({
     id: fullSeq++,
     region: region ? region.name : "",
+    sub_region: subregion ? subregion.name : "",
     district: district ? district.name : "",
     county: county ? county.name : "",
     constituency: (subcounty.external_refs?.ec_constituencies || []).join(" / "),
@@ -205,7 +227,7 @@ for (const u of units) {
 writeFileSync(
   path.join(DIST, "uganda-locations-full.csv"),
   writeCsv(
-    ["id", "region", "district", "county", "constituency", "subcounty", "parish", "village", "confidence"],
+    ["id", "region", "sub_region", "district", "county", "constituency", "subcounty", "parish", "village", "confidence"],
     fullRows
   )
 );
@@ -247,6 +269,7 @@ const report = {
   generated_at: new Date().toISOString(),
   totals: {
     regions: byLevel.region?.length || 0,
+    subregions: byLevel.subregion?.length || 0,
     districts: districts.length,
     cities: byLevel.city?.length || 0,
     counties: byLevel.county?.length || 0,

@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-07-12T13:17:41.178Z",
+  "generated_at": "2026-07-21T10:35:30.831Z",
   "totals": {
     "regions": 4,
+    "subregions": 17,
     "districts": 136,
     "cities": 10,
     "counties": 322,
@@ -10,7 +11,7 @@
     "villages": 71230
   },
   "by_confidence": {
-    "verified": 84610
+    "verified": 84627
   },
   "coverage": {
     "districts_total": 136,

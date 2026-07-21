@@ -32,17 +32,18 @@ function readCsv(rel) {
   return parseCsvObjects(readFileSync(path.join(DATA, rel), "utf-8"));
 }
 
-// ---- resolve district/city name -> id, region_id ----
+// ---- resolve district/city name -> id, region_id, subregion_id ----
 const districtBySlug = new Map();
 for (const r of readCsv("districts.csv")) {
-  districtBySlug.set(slugify(r.name), { id: r.id, region_id: r.region_id });
+  const ref = { id: r.id, region_id: r.region_id, subregion_id: r.subregion_id || null };
+  districtBySlug.set(slugify(r.name), ref);
   for (const alias of (r.aliases || "").split(";").map((x) => x.trim()).filter(Boolean)) {
-    districtBySlug.set(slugify(alias), { id: r.id, region_id: r.region_id });
+    districtBySlug.set(slugify(alias), ref);
   }
 }
 const cityBySlug = new Map();
 for (const r of readCsv("cities.csv")) {
-  cityBySlug.set(slugify(r.name), { id: r.id, region_id: r.region_id });
+  cityBySlug.set(slugify(r.name), { id: r.id, region_id: r.region_id, subregion_id: r.subregion_id || null });
 }
 
 function resolveDistrictOrCity(ecDistrictName) {
@@ -118,6 +119,7 @@ for (const r of records) {
       type: lvl,
       parent_id: districtRef.id,
       region_id: districtRef.region_id,
+      subregion_id: districtRef.subregion_id,
       status: "operational",
       confidence: "verified",
       effective_date: null,
@@ -145,6 +147,7 @@ for (const r of records) {
       type: lvl,
       parent_id: subcounty.id,
       region_id: districtRef.region_id,
+      subregion_id: districtRef.subregion_id,
       status: "operational",
       confidence: "verified",
       effective_date: null,
@@ -165,6 +168,7 @@ for (const r of records) {
     type: lvl,
     parent_id: parish.id,
     region_id: districtRef.region_id,
+    subregion_id: districtRef.subregion_id,
     status: "operational",
     confidence: "verified",
     effective_date: null,
@@ -214,6 +218,7 @@ for (const subcounty of subcountyMap.values()) {
       type: /municipality/i.test(countyName) ? "municipality" : "county",
       parent_id: districtId,
       region_id: subcounty.region_id,
+      subregion_id: subcounty.subregion_id,
       status: "operational",
       confidence: "verified",
       effective_date: null,
