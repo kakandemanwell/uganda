@@ -10,10 +10,20 @@ import { DistrictDetailPanel } from "@/components/district-detail-panel";
 import { HierarchyExplorer } from "@/components/hierarchy-explorer";
 import { CoverageSection } from "@/components/coverage-section";
 import { ApiReference } from "@/components/api-reference";
+import { CountryCard } from "@/components/country-card";
 import { Button } from "@/components/ui/button";
 import { formatCompact, formatExact } from "@/lib/format";
 
-export function HomeClient({ regions, subregions, districts, regionsById, subregionsById, totals, totalPopulation }) {
+export function HomeClient({
+  regions,
+  subregions,
+  districts,
+  regionsById,
+  subregionsById,
+  totals,
+  totalPopulation,
+  country,
+}) {
   const [selectedDistrict, setSelectedDistrict] = useState(null);
 
   return (
@@ -25,8 +35,9 @@ export function HomeClient({ regions, subregions, districts, regionsById, subreg
         <section className="flex flex-col gap-6">
           <div className="flex flex-col gap-4">
             <h1 className="max-w-2xl text-4xl font-semibold tracking-tight sm:text-5xl">
-              Uganda&apos;s administrative data,
-              <span className="text-primary"> mapped and cited.</span>
+              Uganda&apos;s administrative data,{" "}
+              <span className="text-flag-yellow">mapped</span> and{" "}
+              <span className="text-flag-red">cited.</span>
             </h1>
             <p className="max-w-xl text-base text-muted-foreground sm:text-lg">
               Region → sub-region → district → county → subcounty → parish → village, plus
@@ -50,14 +61,14 @@ export function HomeClient({ regions, subregions, districts, regionsById, subreg
           </div>
         </section>
 
-        {/* Stats */}
+        {/* Stats — each tile links into /explore, pre-filtered to that level */}
         <section className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
-          <StatCard icon={Landmark} label="Regions" value={totals.regions} />
-          <StatCard icon={Layers} label="Sub-regions" value={totals.subregions} />
-          <StatCard icon={MapPin} label="Districts" value={totals.districts} />
-          <StatCard icon={Building2} label="Cities" value={totals.cities} />
-          <StatCard icon={Users} label="Population" value={formatCompact(totalPopulation)} hint="2024 census" />
-          <StatCard icon={HomeIcon} label="Villages" value={formatCompact(totals.villages)} />
+          <StatCard icon={Landmark} label="Regions" value={totals.regions} href="/explore?level=region" />
+          <StatCard icon={Layers} label="Sub-regions" value={totals.subregions} href="/explore?level=subregion" />
+          <StatCard icon={MapPin} label="Districts" value={totals.districts} href="/explore?level=district" />
+          <StatCard icon={Building2} label="Cities" value={totals.cities} href="/explore?level=city" />
+          <StatCard icon={Users} label="Population" value={formatCompact(totalPopulation)} hint="2024 census" href="/explore?level=district" />
+          <StatCard icon={HomeIcon} label="Villages" value={formatCompact(totals.villages)} href="/explore?level=village" />
         </section>
 
         {/* Map + detail */}
@@ -90,6 +101,11 @@ export function HomeClient({ regions, subregions, districts, regionsById, subreg
             onSelectDistrict={setSelectedDistrict}
           />
           <CoverageSection />
+        </section>
+
+        {/* Country info */}
+        <section>
+          <CountryCard country={country} />
         </section>
 
         {/* API reference */}

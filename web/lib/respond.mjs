@@ -10,3 +10,7 @@ export function ok(data) {
 export function notFound(message = "Not found") {
   return Response.json({ error: message }, { status: 404 });
 }
+
+export function badRequest(message = "Bad request") {
+  return Response.json({ error: message }, { status: 400 });
+}

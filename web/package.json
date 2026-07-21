@@ -1,10 +1,13 @@
 {
   "name": "uganda-locale-web",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
-  "description": "Next.js app serving Uganda's administrative-unit data as a JSON API, plus an interactive map/search/hierarchy-explorer UI built with shadcn/ui and Tailwind v4.",
+  "description": "Next.js app serving Uganda's administrative-unit data as a JSON API, plus a full interactive site: a zoomable drill-down map, a filterable/exportable data browser, per-unit detail pages, and a downloads page — built with shadcn/ui and Tailwind v4.",
   "type": "module",
   "scripts": {
+    "sync-data": "node scripts/sync-data.mjs",
+    "predev": "npm run sync-data",
+    "prebuild": "npm run sync-data",
     "dev": "next dev -p 3002",
     "build": "next build",
     "start": "next start -p 3002"
@@ -16,6 +19,8 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "d3-geo": "^3.1.1",
+    "d3-selection": "^3.0.0",
+    "d3-zoom": "^3.0.0",
     "lucide-react": "^1.25.0",
     "next": "^15.0.0",
     "next-themes": "^0.4.6",

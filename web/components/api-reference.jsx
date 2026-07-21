@@ -11,6 +11,9 @@ const DATA_ROUTES = [
   ["/api/districts/:id/counties", "Counties/municipalities under a district"],
   ["/api/counties/:id/subcounties", "Subcounties/town councils/divisions under a county"],
   ["/api/subcounties/:id/parishes", "Parishes/wards under a subcounty"],
+  ["/api/units", "Any level, filterable + paginated (?level=, &regionId=, &subregionId=, &districtId=, &q=)"],
+  ["/api/units/:id", "A single unit + its ancestors and direct children"],
+  ["/api/units/export", "Same filters as /api/units, unpaginated CSV/JSON download (&format=)"],
   ["/api/search", "Name/alias search (?q=, &level=, &limit=)"],
   ["/api/country", "Country metadata — ISO codes, currency, flag, etc."],
 ];

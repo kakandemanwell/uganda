@@ -7,6 +7,7 @@ export default function Home() {
   const districts = uganda.districts();
   const cities = uganda.cities();
   const totals = uganda.dataQualityReport().totals;
+  const country = uganda.country();
 
   const regionsById = Object.fromEntries(regions.map((r) => [r.id, r]));
   const subregionsById = Object.fromEntries(subregions.map((s) => [s.id, s]));
@@ -21,6 +22,7 @@ export default function Home() {
       subregionsById={subregionsById}
       totals={totals}
       totalPopulation={totalPopulation}
+      country={country}
     />
   );
 }

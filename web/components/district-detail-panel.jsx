@@ -55,7 +55,20 @@ export function DistrictDetailPanel({ district, regionsById, subregionsById }) {
           <p className="text-sm text-muted-foreground">No population data for this unit.</p>
         )}
         <Separator className="my-3" />
-        <div className="font-mono text-xs text-muted-foreground">{district.id}</div>
+        <div className="flex items-center justify-between">
+          <span className="font-mono text-xs text-muted-foreground">{district.id}</span>
+          <div className="flex gap-3 text-xs">
+            <a href={`/map?focus=${encodeURIComponent(district.id)}`} className="underline underline-offset-2 hover:text-foreground">
+              Zoom in →
+            </a>
+            <a
+              href={`/unit/${encodeURIComponent(district.id)}`}
+              className="underline underline-offset-2 hover:text-foreground"
+            >
+              Full record →
+            </a>
+          </div>
+        </div>
       </CardContent>
     </Card>
   );

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -28,12 +29,17 @@ const LEVEL_LABEL = {
 };
 
 /**
- * Global Cmd/Ctrl+K search over the bundled hierarchy. Selecting a
- * district or city hands it to onSelectDistrict so the map (and hierarchy
- * explorer) can jump to it — every other level just closes the dialog,
- * since there's no standalone detail view for county/subcounty/parish yet.
+ * Global Cmd/Ctrl+K search over the bundled hierarchy. On the home page,
+ * selecting a district/city hands it to onSelectDistrict so the map can
+ * jump to it. Everywhere else (no onSelectDistrict passed, or the result
+ * isn't a district/city), selecting a result navigates to its /unit/[id]
+ * detail page instead — every level except village has one (villages come
+ * from a plain CSV with no stable ids, see web/lib/villages.mjs, so they
+ * never appear in search results at all — /api/search only covers bundled
+ * levels).
  */
 export function CommandSearch({ onSelectDistrict }) {
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
@@ -80,7 +86,9 @@ export function CommandSearch({ onSelectDistrict }) {
     setQuery("");
     if ((item.level === "district" || item.level === "city") && onSelectDistrict) {
       onSelectDistrict(item);
+      return;
     }
+    router.push(`/unit/${encodeURIComponent(item.id)}`);
   }
 
   return (

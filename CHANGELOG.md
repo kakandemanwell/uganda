@@ -1,5 +1,69 @@
 # Changelog
 
+## 2026-07-22 (web app only — no root package version change)
+
+### Added
+- **Branding**: the flag (`web/public/country/flag.svg`) replaces the emoji
+  logo in the header and doubles as the favicon (`web/app/icon.svg`); a new
+  "Republic of Uganda" card on the homepage shows the flag, the coat of
+  arms, official flag colors as swatches with hex/rgb values (Black
+  #000000, Yellow/Gold #FCDC04, Red #D90000), country metadata, and direct
+  asset downloads. The hero heading's "mapped and cited" now renders in
+  the flag's yellow/red — using a *darkened* gold in light mode and a
+  *lightened* red in dark mode specifically, since the true flag hex
+  values fail WCAG contrast against this app's actual page backgrounds in
+  one theme each (pure yellow ~1.2:1 on white; pure red ~2.1:1 on the
+  near-black dark background) — documented in `app/globals.css`.
+- **`/explore`**: every level of the hierarchy (region through village),
+  filterable by region/sub-region/district/name and paginated, with
+  CSV/JSON export of the *current filtered set* (not just the visible
+  page) via the new `/api/units/export`. Villages are read from the full
+  ancestry CSV (see `lib/villages.mjs`) since they aren't in the npm
+  package at all; village rows have no stable id and so aren't clickable,
+  unlike every other level.
+- **`/unit/[id]`**: a detail page for any single unit — ancestor
+  breadcrumb, population (where applicable), and direct children, each
+  linking to their own detail page.
+- **`/map`**: a genuinely zoomable/pannable drill-down map (`d3-zoom`),
+  not just the homepage's static choropleth. Clicking a district animates
+  a zoom to its bounds and loads its counties → subcounties → parishes →
+  villages inline; subcounties/parishes with real boundary geometry render
+  on the map itself, while every unit without boundary data (the large
+  majority below district level — see `docs/DATA_QUALITY.md`'s coverage
+  numbers) still shows up as a plain list item with a "no boundary" badge,
+  rather than silently disappearing. Roads overlay filtered to the
+  selected district's bounding box, toggleable.
+- **`/data`**: a static-download page listing every per-level JSON/CSV
+  export and boundary GeoJSON with live file sizes.
+- **`/api/units`**, **`/api/units/:id`**, **`/api/units/export`**: new
+  generic endpoints backing the above (see `web/README.md` for full
+  parameters). Existing hierarchical endpoints
+  (`/api/districts/:id/counties` etc.) are unchanged.
+- `web/scripts/sync-data.mjs`, run automatically via `predev`/`prebuild`,
+  copies `dist/`'s small/medium outputs into `public/data/` — both
+  directly downloadable and readable by the village-CSV API route,
+  without the API route reaching outside the app's own directory (safer
+  for Vercel's serverless function file-tracing than a relative `../dist`
+  path).
+
+### Fixed — real Base UI bugs found building the above
+- `/api/units/[id]` and the `/unit/[id]` page both force-loaded
+  `deep.cells()` — without it, a ward's `getChildren()` silently returns
+  empty even when it genuinely has cells, since every level in
+  `uganda-locale` lazy-loads on first use and nothing else in these code
+  paths had asked for cell data yet.
+- `ToggleGroup`'s `onValueChange` payload is an array even in single-select
+  mode (`Value[]`, not Radix's plain string) — the map's Population/Region
+  toggle from the previous pass silently no-opped without this.
+- `Select.Value` renders the raw value verbatim unless given a render-prop
+  child mapping value → label — several selects (map explorer's district
+  picker) were showing raw ids/`"all"` instead of names.
+- The API response shape mismatch between `/api/units` (paginated,
+  `{ total, items }`) and the plain-array hierarchical endpoints caused a
+  `villageData.map is not a function` crash the first time a parish with
+  villages was selected on `/map` — fixed by unwrapping `.items`
+  explicitly rather than assuming a consistent shape across endpoints.
+
 ## [0.9.1] - 2026-07-22
 
 ### Fixed
