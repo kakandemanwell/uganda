@@ -102,6 +102,12 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedDistrictId]);
 
+  const filteredSubregions = useMemo(() => {
+    return subregions
+      .filter((s) => regionId === ALL || s.region_id === regionId)
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }, [subregions, regionId]);
+
   const filteredDistricts = useMemo(() => {
     return districts
       .filter((d) => regionId === ALL || d.region_id === regionId)
@@ -155,6 +161,10 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
             value={regionId}
             onValueChange={(v) => {
               setRegionId(v);
+              // A previously-picked sub-region may not belong to the newly
+              // picked region at all — reset rather than silently AND-ing
+              // two filters that can't both match anything.
+              setSubregionId(ALL);
               setDistrictId("");
               setCountyId("");
               setSubcountyId("");
@@ -173,7 +183,7 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
               setSubcountyId("");
               setParishId("");
             }}
-            options={[{ id: ALL, name: "All sub-regions" }, ...subregions]}
+            options={[{ id: ALL, name: "All sub-regions" }, ...filteredSubregions]}
           />
         </div>
 
