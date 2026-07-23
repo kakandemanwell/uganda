@@ -1,4 +1,4 @@
-import * as geo from "uganda-locale/geo";
+import * as geo from "@/lib/uganda-data.mjs";
 import { ok } from "../../../../lib/respond.mjs";
 
 export function GET() {

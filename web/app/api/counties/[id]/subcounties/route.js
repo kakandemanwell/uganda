@@ -1,4 +1,4 @@
-import * as uganda from "uganda-locale";
+import * as uganda from "@/lib/uganda-data.mjs";
 import { ok, notFound } from "../../../../../lib/respond.mjs";
 
 export async function GET(_request, { params }) {

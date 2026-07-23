@@ -1,4 +1,4 @@
-import * as uganda from "uganda-locale";
+import * as uganda from "@/lib/uganda-data.mjs";
 import { HomeClient } from "@/components/home-client";
 
 export default function Home() {

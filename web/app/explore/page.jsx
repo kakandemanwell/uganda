@@ -1,4 +1,4 @@
-import * as uganda from "uganda-locale";
+import * as uganda from "@/lib/uganda-data.mjs";
 import { ExploreClient } from "@/components/explore-client";
 
 export const metadata = {

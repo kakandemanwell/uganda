@@ -1,5 +1,4 @@
-import * as uganda from "uganda-locale";
-import * as deep from "uganda-locale/deep";
+import * as uganda from "@/lib/uganda-data.mjs";
 import { loadVillages } from "./villages.mjs";
 
 export const LEVEL_LOADERS = {
@@ -9,7 +8,7 @@ export const LEVEL_LOADERS = {
   city: () => uganda.cities(),
   county: () => uganda.counties(),
   subcounty: () => uganda.subcounties(),
-  parish: () => deep.parishes(),
+  parish: () => uganda.parishes(),
 };
 
 export const LEVELS = [...Object.keys(LEVEL_LOADERS), "village"];

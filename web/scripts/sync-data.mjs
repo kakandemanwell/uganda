@@ -40,7 +40,15 @@ function copyDir(srcDir, outDir) {
 
 const top = copyDir(DIST, OUT);
 const geo = copyDir(path.join(DIST, "geo"), path.join(OUT, "geo"));
-const totalCopied = top.copied + geo.copied;
-const totalBytes = top.totalBytes + geo.totalBytes;
+
+// dist/country/uganda.json (country metadata read by lib/uganda-data.mjs's
+// country()) lives in a subdirectory copyDir() doesn't recurse into — the
+// flag/coat-of-arms images alongside it are already separately committed at
+// web/public/country/, so only the JSON needs syncing here.
+mkdirSync(path.join(OUT, "country"), { recursive: true });
+copyFileSync(path.join(DIST, "country", "uganda.json"), path.join(OUT, "country", "uganda.json"));
+
+const totalCopied = top.copied + geo.copied + 1;
+const totalBytes = top.totalBytes + geo.totalBytes + statSync(path.join(DIST, "country", "uganda.json")).size;
 
 console.log(`Synced ${totalCopied} files (${(totalBytes / 1024 / 1024).toFixed(1)}MB) from dist/ to web/public/data/`);

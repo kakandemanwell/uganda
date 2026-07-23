@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import * as uganda from "uganda-locale";
-import * as deep from "uganda-locale/deep";
+import * as uganda from "@/lib/uganda-data.mjs";
 import { ChevronRight } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -13,8 +12,8 @@ import { formatExact, formatPercent } from "@/lib/format";
 // app/api/units/[id]/route.js) — force parish/ward and cell into the
 // shared index so getAncestors/getChildren see the full hierarchy
 // regardless of which page loads first in this server process.
-deep.parishes();
-deep.cells();
+uganda.parishes();
+uganda.cells();
 
 const LEVEL_LABEL = {
   region: "Region",

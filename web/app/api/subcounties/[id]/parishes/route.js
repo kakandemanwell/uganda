@@ -1,4 +1,4 @@
-import * as deep from "uganda-locale/deep";
+import * as deep from "@/lib/uganda-data.mjs";
 import { ok, notFound } from "../../../../../lib/respond.mjs";
 
 export async function GET(_request, { params }) {

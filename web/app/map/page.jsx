@@ -1,4 +1,4 @@
-import * as uganda from "uganda-locale";
+import * as uganda from "@/lib/uganda-data.mjs";
 import { MapExplorer } from "@/components/map-explorer";
 
 export const metadata = {

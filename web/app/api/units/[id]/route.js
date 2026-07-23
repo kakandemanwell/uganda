@@ -1,14 +1,13 @@
-import * as uganda from "uganda-locale";
-import * as deep from "uganda-locale/deep";
+import * as uganda from "@/lib/uganda-data.mjs";
 import { ok, notFound } from "../../../../lib/respond.mjs";
 
-// Every level in uganda-locale is lazy-loaded on first use (see its
-// store.mjs) — parish/ward load as soon as anything calls deep.parishes(),
-// but cell only loads once something calls deep.cells(). Without this, a
-// ward's getChildren() would come back empty even when it genuinely has
-// cells, just because nothing had asked for cell data yet in this process.
-deep.parishes();
-deep.cells();
+// Every level is lazy-loaded on first use (see lib/uganda-data.mjs) — parish/
+// ward load as soon as anything calls parishes(), but cell only loads once
+// something calls cells(). Without this, a ward's getChildren() would come
+// back empty even when it genuinely has cells, just because nothing had
+// asked for cell data yet in this process.
+uganda.parishes();
+uganda.cells();
 
 // Single-unit detail: the unit itself, its ancestor chain (immediate parent
 // up to region), and its direct children. Not available for villages —
