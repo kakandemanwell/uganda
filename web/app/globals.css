@@ -103,9 +103,14 @@
     --sidebar-border: oklch(0.922 0 0);
     --sidebar-ring: oklch(0.708 0 0);
     /* Darkened gold, not the true flag yellow (#fcdc04) — that fails
-       contrast against a white/light page background (~1.2:1). Red is
-       already fine against light backgrounds as-is. */
-    --flag-yellow-text: #a16207;
+       contrast against a white/light page background (~1.2:1, needs 4.5:1
+       for normal text / 3:1 for large text). This token is only ever used
+       on the large, bold hero heading (see home-client.jsx), so it only
+       needs to clear the 3:1 large-text threshold rather than 4.5:1 — that
+       leaves room for a color that still visibly reads as "yellow" rather
+       than the near-brown a 4.5:1-safe shade would require. Red is already
+       fine against light backgrounds as-is. */
+    --flag-yellow-text: #d97706;
     --flag-red-text: #d90000;
 }
 
