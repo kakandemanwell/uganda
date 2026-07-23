@@ -23,6 +23,8 @@ function useChildren(url) {
       return;
     }
     let cancelled = false;
+    setItems(null); // clear the previous parent's children immediately — otherwise they stay
+    // selectable for a moment after switching selections, before the new fetch resolves.
     setLoading(true);
     fetch(url)
       .then((r) => r.json())
