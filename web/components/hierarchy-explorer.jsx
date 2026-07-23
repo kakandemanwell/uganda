@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/select";
 import { ChevronRight } from "lucide-react";
 
-function useChildren(url) {
+function useChildren(url, unwrap = (data) => data) {
   const [items, setItems] = useState(null); // null = not loaded yet, [] = loaded empty
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -30,7 +30,7 @@ function useChildren(url) {
       .then((r) => r.json())
       .then((data) => {
         if (!cancelled) {
-          setItems(data);
+          setItems(unwrap(data));
           setLoading(false);
         }
       })
@@ -90,6 +90,7 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
   const [countyId, setCountyId] = useState("");
   const [subcountyId, setSubcountyId] = useState("");
   const [parishId, setParishId] = useState("");
+  const [villageId, setVillageId] = useState("");
 
   // Stay in sync when a district is picked elsewhere (map click, search).
   useEffect(() => {
@@ -98,6 +99,7 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
       setCountyId("");
       setSubcountyId("");
       setParishId("");
+      setVillageId("");
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedDistrictId]);
@@ -130,14 +132,30 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
   const selectedSubcounty = subcounties?.find((s) => s.id === subcountyId);
   const selectedParish = parishes?.find((p) => p.id === parishId);
 
-  const breadcrumb = [selectedDistrict, selectedCounty, selectedSubcounty, selectedParish].filter(Boolean);
+  // Villages have no stable admin-unit id (see web/lib/villages.mjs) — matched
+  // by district/subcounty/parish *name* instead, same as the map drill-down.
+  const villagesUrl =
+    parishId && selectedSubcounty && selectedParish
+      ? `/api/units?level=village&districtId=${encodeURIComponent(districtId)}&subcountyName=${encodeURIComponent(selectedSubcounty.name)}&parishName=${encodeURIComponent(selectedParish.name)}&pageSize=500`
+      : null;
+  const { items: villageRows, loading: villagesLoading } = useChildren(villagesUrl, (data) => data.items);
+  const villages = useMemo(
+    () => villageRows?.map((v) => ({ id: v.id, name: v.village })).sort((a, b) => a.name.localeCompare(b.name)),
+    [villageRows]
+  );
+  const selectedVillage = villages?.find((v) => v.id === villageId);
+
+  const breadcrumb = [selectedDistrict, selectedCounty, selectedSubcounty, selectedParish, selectedVillage].filter(
+    Boolean
+  );
 
   return (
     <Card className="py-5">
       <CardHeader className="px-5">
         <CardTitle className="text-lg">Explore the hierarchy</CardTitle>
         <CardDescription>
-          Drill down from region to parish — county, subcounty, and parish load live from the API as you go.
+          Drill down from region to village — county, subcounty, parish, and village load live from the API as
+          you go.
         </CardDescription>
       </CardHeader>
       <CardContent className="flex flex-col gap-4 px-5">
@@ -169,6 +187,7 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
               setCountyId("");
               setSubcountyId("");
               setParishId("");
+              setVillageId("");
             }}
             options={[{ id: ALL, name: "All regions" }, ...regions]}
           />
@@ -182,6 +201,7 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
               setCountyId("");
               setSubcountyId("");
               setParishId("");
+              setVillageId("");
             }}
             options={[{ id: ALL, name: "All sub-regions" }, ...filteredSubregions]}
           />
@@ -196,6 +216,7 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
             setCountyId("");
             setSubcountyId("");
             setParishId("");
+            setVillageId("");
             onSelectDistrict?.(districts.find((d) => d.id === v));
           }}
           options={filteredDistricts}
@@ -209,6 +230,7 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
             setCountyId(v);
             setSubcountyId("");
             setParishId("");
+            setVillageId("");
           }}
           options={counties}
           disabled={!districtId}
@@ -222,6 +244,7 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
           onValueChange={(v) => {
             setSubcountyId(v);
             setParishId("");
+            setVillageId("");
           }}
           options={subcounties}
           disabled={!countyId}
@@ -232,10 +255,29 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
           label="Parish / Ward"
           placeholder={subcountyId ? "Select a parish…" : "Pick a subcounty first"}
           value={parishId}
-          onValueChange={setParishId}
+          onValueChange={(v) => {
+            setParishId(v);
+            setVillageId("");
+          }}
           options={parishes}
           disabled={!subcountyId}
           loading={parishesLoading}
+        />
+
+        <LevelSelect
+          label="Village"
+          placeholder={
+            !parishId
+              ? "Pick a parish first"
+              : !villagesLoading && villages?.length === 0
+                ? "No village records for this parish"
+                : "Select a village…"
+          }
+          value={villageId}
+          onValueChange={setVillageId}
+          options={villages}
+          disabled={!parishId}
+          loading={villagesLoading}
         />
       </CardContent>
     </Card>
