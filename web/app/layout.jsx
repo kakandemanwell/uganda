@@ -27,11 +27,11 @@ export default function RootLayout({ children }) {
       suppressHydrationWarning
     >
       <body className="antialiased">
-        {/* enableSystem intentionally omitted: this app defaults to dark
-            regardless of OS preference (the design brief calls for dark by
-            default), while still letting the user's explicit ThemeToggle
-            choice persist via next-themes' own localStorage handling. */}
-        <ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
+        {/* enableSystem intentionally omitted: this app defaults to light
+            regardless of OS preference, while still letting the user's
+            explicit ThemeToggle choice persist via next-themes' own
+            localStorage handling. */}
+        <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange>
           <TooltipProvider delayDuration={150}>{children}</TooltipProvider>
         </ThemeProvider>
       </body>
