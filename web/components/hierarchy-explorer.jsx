@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Badge } from "@/components/ui/badge";
@@ -161,14 +162,29 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
       <CardContent className="flex flex-col gap-4 px-5">
         {breadcrumb.length > 0 && (
           <div className="flex flex-wrap items-center gap-1.5">
-            {breadcrumb.map((item, i) => (
-              <span key={item.id} className="flex items-center gap-1.5">
-                {i > 0 && <ChevronRight className="size-3 text-muted-foreground" />}
-                <Badge variant="secondary" className="font-normal">
+            {breadcrumb.map((item, i) => {
+              const badge = (
+                <Badge
+                  variant="secondary"
+                  className={item === selectedVillage ? "font-normal" : "font-normal hover:bg-muted-foreground/20"}
+                >
                   {item.name}
                 </Badge>
-              </span>
-            ))}
+              );
+              return (
+                <span key={item.id} className="flex items-center gap-1.5">
+                  {i > 0 && <ChevronRight className="size-3 text-muted-foreground" />}
+                  {/* Villages have no stable /unit/[id] page — matched by name,
+                      not id (see web/lib/villages.mjs) — so only link the
+                      levels that actually resolve to a real unit page. */}
+                  {item === selectedVillage ? (
+                    badge
+                  ) : (
+                    <Link href={`/unit/${encodeURIComponent(item.id)}`}>{badge}</Link>
+                  )}
+                </span>
+              );
+            })}
           </div>
         )}
 

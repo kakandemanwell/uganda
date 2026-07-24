@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import * as uganda from "@/lib/uganda-data.mjs";
+import { SITE_URL } from "@/lib/site";
+import { LEVEL_LABEL, describeUnit } from "@/lib/unit-meta";
 import { ChevronRight } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -14,21 +16,6 @@ import { formatExact, formatPercent } from "@/lib/format";
 // regardless of which page loads first in this server process.
 uganda.parishes();
 uganda.cells();
-
-const LEVEL_LABEL = {
-  region: "Region",
-  subregion: "Sub-region",
-  district: "District",
-  city: "City",
-  county: "County",
-  municipality: "Municipality",
-  subcounty: "Subcounty",
-  town_council: "Town council",
-  division: "Division",
-  parish: "Parish",
-  ward: "Ward",
-  cell: "Cell",
-};
 
 // /explore's ?level= only understands the 8 levels /api/units serves
 // (region/subregion/district/city/county/subcounty/parish/village) — map
@@ -56,10 +43,36 @@ const EXPLORE_LEVEL = {
   ward: "parish",
 };
 
+const SCHEMA_TYPE = {
+  region: "AdministrativeArea",
+  subregion: "AdministrativeArea",
+  district: "AdministrativeArea",
+  city: "City",
+  county: "AdministrativeArea",
+  municipality: "AdministrativeArea",
+  subcounty: "AdministrativeArea",
+  town_council: "AdministrativeArea",
+  division: "AdministrativeArea",
+  parish: "AdministrativeArea",
+  ward: "AdministrativeArea",
+  cell: "AdministrativeArea",
+};
+
 export async function generateMetadata({ params }) {
   const { id } = await params;
   const unit = uganda.getUnit(decodeURIComponent(id));
-  return { title: unit ? `${unit.name} — uganda-locale` : "Not found — uganda-locale" };
+  if (!unit) return { title: "Not found" };
+
+  const description = describeUnit(unit);
+  const url = `/unit/${encodeURIComponent(unit.id)}`;
+
+  return {
+    title: unit.name,
+    description,
+    alternates: { canonical: url },
+    openGraph: { title: unit.name, description, url },
+    twitter: { title: unit.name, description },
+  };
 }
 
 export default async function UnitPage({ params }) {
@@ -75,9 +88,33 @@ export default async function UnitPage({ params }) {
   const malePct = pop ? pop.male / pop.total : 0;
 
   const breadcrumb = [...ancestors, unit];
+  const parent = unit.parent_id ? uganda.getUnit(unit.parent_id) : null;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": SCHEMA_TYPE[unit.level] ?? "AdministrativeArea",
+    name: unit.name,
+    url: `${SITE_URL}/unit/${encodeURIComponent(unit.id)}`,
+    containedInPlace: parent
+      ? { "@type": "AdministrativeArea", name: parent.name, url: `${SITE_URL}/unit/${encodeURIComponent(parent.id)}` }
+      : { "@type": "Country", name: "Uganda" },
+    address: { "@type": "PostalAddress", addressCountry: "UG" },
+    ...(pop && {
+      additionalProperty: [
+        { "@type": "PropertyValue", name: "population (2024 census)", value: pop.total },
+        { "@type": "PropertyValue", name: "population (male)", value: pop.male },
+        { "@type": "PropertyValue", name: "population (female)", value: pop.female },
+      ],
+    }),
+  };
 
   return (
     <div className="min-h-screen bg-background">
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <SiteHeader />
       <main className="mx-auto flex max-w-4xl flex-col gap-6 px-4 py-10 sm:px-6">
         <div className="flex flex-wrap items-center gap-1 text-sm text-muted-foreground">

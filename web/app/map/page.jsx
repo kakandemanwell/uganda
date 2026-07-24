@@ -1,9 +1,15 @@
 import * as uganda from "@/lib/uganda-data.mjs";
 import { MapExplorer } from "@/components/map-explorer";
 
+const TITLE = "Map";
+const DESCRIPTION = "Zoom into any Ugandan district for its counties, subcounties, parishes, villages, and roads.";
+
 export const metadata = {
-  title: "Map — uganda-locale",
-  description: "Zoom into any Ugandan district for its counties, subcounties, parishes, villages, and roads.",
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: "/map" },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: "/map" },
+  twitter: { title: TITLE, description: DESCRIPTION },
 };
 
 export default async function MapPage({ searchParams }) {

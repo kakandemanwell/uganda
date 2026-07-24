@@ -4,9 +4,15 @@ import { SiteHeader } from "@/components/site-header";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
+const TITLE = "Download the data";
+const DESCRIPTION = "Every file behind uganda-locale, ready to download directly as JSON, CSV, or GeoJSON — no code required.";
+
 export const metadata = {
-  title: "Download the data — uganda-locale",
-  description: "Every file behind uganda-locale, ready to download directly — no code required.",
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: "/data" },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: "/data" },
+  twitter: { title: TITLE, description: DESCRIPTION },
 };
 
 const GROUPS = [

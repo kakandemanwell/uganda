@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useState } from "react";
+import { useRouter } from "next/navigation";
 import { Landmark, Layers, MapPin, Building2, Users, Home as HomeIcon } from "lucide-react";
 import { GithubIcon } from "@/components/icons";
 import { SiteHeader } from "@/components/site-header";
@@ -23,12 +24,26 @@ export function HomeClient({
   totals,
   totalPopulation,
   country,
+  initialDistrict,
 }) {
-  const [selectedDistrict, setSelectedDistrict] = useState(null);
+  const router = useRouter();
+  const [selectedDistrict, setSelectedDistrict] = useState(initialDistrict ?? null);
+
+  // Keeps the address bar (and, on reload, generateMetadata's OG/Twitter
+  // tags — see app/page.jsx) in sync with whatever's selected, so copying
+  // the URL out of the tab actually shares that district, not just the
+  // generic homepage.
+  const handleSelectDistrict = useCallback(
+    (unit) => {
+      setSelectedDistrict(unit);
+      router.replace(unit ? `/?district=${encodeURIComponent(unit.id)}` : "/", { scroll: false });
+    },
+    [router]
+  );
 
   return (
     <div className="min-h-screen bg-background">
-      <SiteHeader onSelectDistrict={setSelectedDistrict} />
+      <SiteHeader onSelectDistrict={handleSelectDistrict} />
 
       <main className="mx-auto flex max-w-6xl flex-col gap-16 px-4 py-12 sm:px-6 sm:py-16">
         {/* Hero */}
@@ -85,7 +100,7 @@ export function HomeClient({
               regionsById={regionsById}
               subregionsById={subregionsById}
               selectedId={selectedDistrict?.id}
-              onSelect={setSelectedDistrict}
+              onSelect={handleSelectDistrict}
             />
             <DistrictDetailPanel district={selectedDistrict} regionsById={regionsById} subregionsById={subregionsById} />
           </div>
@@ -98,7 +113,7 @@ export function HomeClient({
             subregions={subregions}
             districts={districts}
             selectedDistrictId={selectedDistrict?.id}
-            onSelectDistrict={setSelectedDistrict}
+            onSelectDistrict={handleSelectDistrict}
           />
           <CoverageSection />
         </section>
