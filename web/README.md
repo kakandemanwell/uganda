@@ -45,11 +45,11 @@ Then open `http://localhost:3002` (pinned away from 3000, which is blocked/in us
 | `GET /api/subregions` | All 17 cultural/traditional sub-regions (Buganda, Acholi, Ankole, ...) |
 | `GET /api/districts` | All 136 districts (`?regionId=` or `?subregionId=` to filter), each with a `population` field (2024 census) |
 | `GET /api/cities` | All 10 cities, each with a `population` field (2024 census) |
-| `GET /api/districts/:id/counties` | Counties/municipalities under a district |
-| `GET /api/counties/:id/subcounties` | Subcounties/town councils/divisions under a county |
-| `GET /api/subcounties/:id/parishes` | Parishes/wards under a subcounty (parish/ward data, opt-in at the library level) |
+| `GET /api/districts/:id/counties` | Counties/municipalities under a district (`:id` accepts the bare district slug, e.g. `mbarara`) |
+| `GET /api/counties/:id/subcounties` | Subcounties/town councils/divisions under a county (`:id` accepts the bare county slug) |
+| `GET /api/subcounties/:id/parishes` | Parishes/wards under a subcounty (parish/ward data, opt-in at the library level; `:id` accepts the bare subcounty slug) |
 | `GET /api/units` | Any single level, filterable + paginated — `?level=region\|subregion\|district\|city\|county\|subcounty\|parish\|village`, plus `&regionId=&subregionId=&districtId=&q=&page=&pageSize=`. Powers `/explore`. Village data is read from `public/data/uganda-locations-full.csv` (see `lib/villages.mjs`) since villages aren't in the npm package at all. |
-| `GET /api/units/:id` | A single unit + its ancestor chain + direct children. Not available for villages (no stable ids — see above). |
+| `GET /api/units/:id` | A single unit + its ancestor chain + direct children. Not available for villages (no stable ids — see above). **Requires the fully-qualified id** (`district:mbarara`), not the bare slug — unlike the three routes above, this one isn't scoped to a known level, and slugs collide across levels for ~13% of units (e.g. `kampala` is both `district:kampala` and `subregion:kampala`), so a bare slug would be ambiguous rather than resolvable. |
 | `GET /api/units/export` | Same filters as `/api/units`, unpaginated, as a CSV or JSON download (`&format=csv\|json`) |
 | `GET /api/search?q=...` | Name/alias search (`&level=`, `&limit=`) |
 | `GET /api/country` | Uganda country metadata — ISO codes, currency, flag/coat-of-arms paths, etc. |
@@ -59,17 +59,18 @@ Then open `http://localhost:3002` (pinned away from 3000, which is blocked/in us
 | `GET /api/geo/parishes` | GeoJSON FeatureCollection of parish/ward boundaries (423/10,717, 3.95% coverage — partial by design) |
 | `GET /api/geo/roads` | GeoJSON FeatureCollection of the major road network (10,721 features, motorway-tertiary; not tied to any admin unit) |
 
-`:id` accepts either the full id (`district:mbarara`) or the bare slug
-(`mbarara`).
-
-Responses are cached at the edge (`Cache-Control: public, max-age=3600,
-s-maxage=86400`) since the data only changes on a new deploy, not per
-request — except `/api/units/export`, which sets `Content-Disposition:
-attachment` for downloads instead.
+Responses are cached at the edge for 24h (`CDN-Cache-Control` /
+`Vercel-CDN-Cache-Control: public, s-maxage=86400,
+stale-while-revalidate=86400`) since the data only changes on a new deploy,
+not per request, plus a 1h browser cache (`Cache-Control: public,
+max-age=3600`) — separate directives rather than one shared header because
+Vercel's CDN strips `s-maxage`/`stale-while-revalidate` from what it echoes
+back to the browser, so relying on a single header makes the actual edge TTL
+unverifiable from the client side (see `web/lib/respond.mjs`). Applies to
+`/api/units/export` too, alongside its `Content-Disposition: attachment`
+for downloads.
 
 ## Deploy
 
-Not yet deployed. `vercel deploy` creates a public URL under the project
-owner's Vercel account — holding until explicitly requested, same caution
-applied to the original GitHub push. See
-[`../docs/ROADMAP.md`](../docs/ROADMAP.md) Phase 4.
+Live at [uganda-omega.vercel.app](https://uganda-omega.vercel.app), soon to
+move to `data.mnwll.tech`.

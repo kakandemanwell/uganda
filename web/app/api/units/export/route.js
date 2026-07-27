@@ -1,4 +1,4 @@
-import { badRequest } from "../../../../lib/respond.mjs";
+import { badRequest, CACHE_HEADERS } from "../../../../lib/respond.mjs";
 import { queryUnits, LEVELS } from "../../../../lib/units.mjs";
 import { toCsv } from "../../../../lib/csv.mjs";
 
@@ -62,6 +62,7 @@ export function GET(request) {
   if (format === "json") {
     return new Response(JSON.stringify(items, null, 2), {
       headers: {
+        ...CACHE_HEADERS,
         "Content-Type": "application/json",
         "Content-Disposition": `attachment; filename="${filename}"`,
       },
@@ -73,6 +74,7 @@ export function GET(request) {
   const rows = isVillage ? items : items.map(flattenForExport);
   return new Response(toCsv(rows, columns), {
     headers: {
+      ...CACHE_HEADERS,
       "Content-Type": "text/csv; charset=utf-8",
       "Content-Disposition": `attachment; filename="${filename}"`,
     },

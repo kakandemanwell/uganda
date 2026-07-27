@@ -1,5 +1,5 @@
 import * as uganda from "@/lib/uganda-data.mjs";
-import { ok, notFound } from "../../../../lib/respond.mjs";
+import { ok, notFound, badRequest } from "../../../../lib/respond.mjs";
 
 // Every level is lazy-loaded on first use (see lib/uganda-data.mjs) — parish/
 // ward load as soon as anything calls parishes(), but cell only loads once
@@ -13,8 +13,20 @@ uganda.cells();
 // up to region), and its direct children. Not available for villages —
 // the CSV they come from (see web/lib/villages.mjs) has no stable ids to
 // look up by, only names.
+//
+// Unlike /api/districts/:id/counties etc., a bare slug is NOT accepted here
+// and can't safely be guessed: slugs are only unique within a level (~13%
+// collide across levels in this dataset — e.g. "kampala" is both
+// district:kampala and subregion:kampala, "abim" is both district:abim and
+// subcounty:abim-abim), and this route has no implied parent level to scope
+// the guess to. Callers must pass the fully-qualified id.
 export async function GET(request, { params }) {
   const { id } = await params;
+  if (!id.includes(":")) {
+    return badRequest(
+      `'${id}' is a bare slug, not a fully-qualified unit id. Slugs aren't unique across levels — pass the full id instead, e.g. 'district:${id}'.`,
+    );
+  }
   const unit = uganda.getUnit(id);
   if (!unit) return notFound(`No unit found for id '${id}'`);
 

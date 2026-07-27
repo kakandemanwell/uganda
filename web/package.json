@@ -8,6 +8,7 @@
     "sync-data": "node scripts/sync-data.mjs",
     "predev": "npm run sync-data",
     "prebuild": "npm run sync-data",
+    "test": "node scripts/api-smoke-test.mjs",
     "dev": "next dev -p 3002",
     "build": "next build",
     "start": "next start -p 3002"
