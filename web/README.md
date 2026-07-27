@@ -51,7 +51,7 @@ Then open `http://localhost:3002` (pinned away from 3000, which is blocked/in us
 | `GET /api/units` | Any single level, filterable + paginated — `?level=region\|subregion\|district\|city\|county\|subcounty\|parish\|village`, plus `&regionId=&subregionId=&districtId=&q=&page=&pageSize=`. Powers `/explore`. Village data is read from `public/data/uganda-locations-full.csv` (see `lib/villages.mjs`) since villages aren't in the npm package at all. |
 | `GET /api/units/:id` | A single unit + its ancestor chain + direct children. Not available for villages (no stable ids — see above). **Requires the fully-qualified id** (`district:mbarara`), not the bare slug — unlike the three routes above, this one isn't scoped to a known level, and slugs collide across levels for ~13% of units (e.g. `kampala` is both `district:kampala` and `subregion:kampala`), so a bare slug would be ambiguous rather than resolvable. |
 | `GET /api/units/export` | Same filters as `/api/units`, unpaginated, as a CSV or JSON download (`&format=csv\|json`) |
-| `GET /api/search?q=...` | Name/alias search (`&level=`, `&limit=`) |
+| `GET /api/search?q=...` | Name/alias search (`&level=`, `&limit=`). `level` accepts the same values as `/api/units` **except `village`** (village rows aren't indexed for search — see above) |
 | `GET /api/country` | Uganda country metadata — ISO codes, currency, flag/coat-of-arms paths, etc. |
 | `GET /api/geo/districts` | GeoJSON FeatureCollection of all 136 district boundary polygons |
 | `GET /api/geo/regions` | GeoJSON FeatureCollection of all 4 region boundary polygons |
