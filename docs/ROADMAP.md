@@ -98,9 +98,9 @@ Decision made 2026-07-12: npm package + Vercel API, in that order.
       Verified with `npm pack --dry-run`: 795KB compressed / 7.1MB
       unpacked, no stray files. `npm run test` runs a smoke test
       (`scripts/smoke-test.mjs`) against known record counts.
-- [ ] Not yet published to the npm registry (`npm publish` is a public,
-      hard-to-reverse action — holding until explicitly confirmed, same
-      caution as the Vercel deploy below). Installable today via
+- [x] Published to the npm registry as
+      [`uganda-locale`](https://www.npmjs.com/package/uganda-locale) —
+      `npm install uganda-locale`. Unreleased master remains installable via
       `npm install github:kakandemanwell/uganda`.
 - [ ] Minimal Next.js app on Vercel exposing `/api/districts`,
       `/api/districts/:id/counties`, `/api/counties/:id/subcounties`, etc.,

@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-08-01 — `uganda-locale` published to npm
+
+`uganda-locale@0.9.1` is live on the npm registry:
+<https://www.npmjs.com/package/uganda-locale>. Install with
+`npm install uganda-locale`. Installing from GitHub
+(`npm install github:kakandemanwell/uganda`) still works and now means
+"track unreleased master" rather than "the only way to install". README,
+`docs/ROADMAP.md`, the site hero, and `/llms.txt` updated accordingly.
+
 ## 2026-07-22 (web app only — no root package version change)
 
 ### Added

@@ -35,7 +35,7 @@ Every record cites its source (UBOS, the Electoral Commission of Uganda, geoBoun
 
 ## Code
 
-- [npm package](https://www.npmjs.com/package/uganda-locale) — \`npm install github:kakandemanwell/uganda\`
+- [npm package](https://www.npmjs.com/package/uganda-locale) — \`npm install uganda-locale\` (or \`npm install github:kakandemanwell/uganda\` for unreleased master)
 - [Source on GitHub](https://github.com/kakandemanwell/uganda)
 - [Data license](https://github.com/kakandemanwell/uganda/blob/master/LICENSE-DATA.md) (CC BY 4.0, roads ODbL)
 `;

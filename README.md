@@ -170,9 +170,13 @@ village (71,230 rows), with region/sub_region/district/county/constituency/
 subcounty/parish/village columns plus a confidence flag. That's the whole
 dataset in one file.
 
-**Writing JS/TS?** (Package prepared but not yet published to the npm
-registry — install straight from GitHub for now, or `npm link` a local
-clone.)
+**Writing JS/TS?**
+
+```bash
+npm install uganda-locale
+```
+
+Or install straight from GitHub to track unreleased master:
 
 ```bash
 npm install github:kakandemanwell/uganda
@@ -259,7 +263,6 @@ which regenerates all of `dist/` from `data/`.
 Early stage. Region through village is now verified for all (or nearly all)
 district-equivalent units, and the compiled data is usable directly from
 this repo (see "Using the data" above) or via the `uganda-locale` package
-in this repo (not yet published to the npm registry — install from GitHub
-in the meantime: `npm install github:kakandemanwell/uganda`). See
+on npm (`npm install uganda-locale`). See
 [`docs/ROADMAP.md`](docs/ROADMAP.md) for what's next — the zone/polling-station
 layer and the hosted Vercel API.

@@ -71,7 +71,7 @@ export function HomeClient({
               }
             />
             <code className="rounded-md border border-border bg-muted px-3 py-2 text-sm">
-              npm install github:kakandemanwell/uganda
+              npm install uganda-locale
             </code>
           </div>
         </section>
