@@ -133,12 +133,9 @@ export function HierarchyExplorer({ regions, subregions, districts, selectedDist
   const selectedSubcounty = subcounties?.find((s) => s.id === subcountyId);
   const selectedParish = parishes?.find((p) => p.id === parishId);
 
-  // Villages have no stable admin-unit id (see web/lib/villages.mjs) — matched
-  // by district/subcounty/parish *name* instead, same as the map drill-down.
-  const villagesUrl =
-    parishId && selectedSubcounty && selectedParish
-      ? `/api/units?level=village&districtId=${encodeURIComponent(districtId)}&subcountyName=${encodeURIComponent(selectedSubcounty.name)}&parishName=${encodeURIComponent(selectedParish.name)}&pageSize=500`
-      : null;
+  // Village rows carry their parish's id (parish_id), which — unlike the
+  // parish name — is unique even within one subcounty.
+  const villagesUrl = parishId ? `/api/units?level=village&parishId=${encodeURIComponent(parishId)}&pageSize=500` : null;
   const { items: villageRows, loading: villagesLoading } = useChildren(villagesUrl, (data) => data.items);
   const villages = useMemo(
     () => villageRows?.map((v) => ({ id: v.id, name: v.village })).sort((a, b) => a.name.localeCompare(b.name)),

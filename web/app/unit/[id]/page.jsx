@@ -1,9 +1,12 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import * as uganda from "@/lib/uganda-data.mjs";
+import { villagesOfParish } from "@/lib/villages.mjs";
+import { lineageIds } from "@/lib/units.mjs";
+import { FILTERS_FOR_LEVEL, FILTER_PARAM, pluralize } from "@/lib/explore-config";
 import { SITE_URL } from "@/lib/site";
 import { LEVEL_LABEL, describeUnit } from "@/lib/unit-meta";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, Download } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -25,6 +28,9 @@ uganda.cells();
 const LEVEL_LABEL_PLURAL = {
   county: "Counties",
   city: "Cities",
+  municipality: "Municipalities",
+  subcounty: "Subcounties",
+  parish: "Parishes",
 };
 function pluralLabel(level) {
   return LEVEL_LABEL_PLURAL[level] ?? `${LEVEL_LABEL[level] ?? level}s`;
@@ -42,6 +48,41 @@ const EXPLORE_LEVEL = {
   parish: "parish",
   ward: "parish",
 };
+
+const PARISH_LEVELS = new Set(["parish", "ward"]);
+
+// The /explore view one level down from this unit, pre-filtered to it — so
+// "show me everything under X" is filterable, groupable and exportable, not
+// just the flat list on this page. Cities have no counties, so they skip
+// straight to their divisions.
+const EXPLORE_CHILD_LEVEL = {
+  region: "district",
+  subregion: "district",
+  district: "county",
+  city: "subcounty",
+  county: "subcounty",
+  subcounty: "parish",
+  town_council: "parish",
+  division: "parish",
+  parish: "village",
+  ward: "village",
+};
+
+/** /explore?level=...&districtId=...&..., carrying only the filters that level understands. */
+function exploreHref(unit, level, extra = {}) {
+  const ids = {
+    ...lineageIds(unit.id),
+    regionId: unit.level === "region" ? unit.id : null,
+    subregionId: unit.level === "subregion" ? unit.id : null,
+  };
+  const params = new URLSearchParams({ level });
+  for (const key of FILTERS_FOR_LEVEL[level]) {
+    const id = ids[FILTER_PARAM[key]];
+    if (id) params.set(FILTER_PARAM[key], id);
+  }
+  for (const [k, v] of Object.entries(extra)) params.set(k, v);
+  return `/explore?${params}`;
+}
 
 const SCHEMA_TYPE = {
   region: "AdministrativeArea",
@@ -89,6 +130,27 @@ export default async function UnitPage({ params }) {
 
   const breadcrumb = [...ancestors, unit];
   const parent = unit.parent_id ? uganda.getUnit(unit.parent_id) : null;
+
+  // Villages aren't units in the index (see lib/villages.mjs), so a parish's
+  // getChildren() is empty — they come from the village CSV instead, by
+  // parish_id. A ward's cells *are* units (with their own pages), and also
+  // appear in that CSV, so link the ones that match a cell child by name.
+  const isParish = PARISH_LEVELS.has(unit.level);
+  const villages = isParish ? villagesOfParish(unit.id) : [];
+  const cellsByName = new Map();
+  for (const child of children) {
+    if (!cellsByName.has(child.name)) cellsByName.set(child.name, []);
+    cellsByName.get(child.name).push(child);
+  }
+  const villageEntries = villages
+    .map((v) => ({ name: v.village, cell: cellsByName.get(v.village)?.shift() ?? null }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+  const cellCount = villageEntries.filter((v) => v.cell).length;
+  const villageNoun = cellCount === 0 ? ["village", "villages"] : cellCount === villageEntries.length ? ["cell", "cells"] : ["village or cell", "villages & cells"];
+  const childVillageCounts = children.some((c) => PARISH_LEVELS.has(c.level))
+    ? new Map(children.map((c) => [c.id, villagesOfParish(c.id).length]))
+    : null;
+  const childExploreLevel = EXPLORE_CHILD_LEVEL[unit.level];
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -168,6 +230,7 @@ export default async function UnitPage({ params }) {
               <Field label="ID" value={<span className="font-mono text-xs">{unit.id}</span>} />
               <Field label="Status" value={unit.status} />
               {unit.effective_date && <Field label="Effective date" value={unit.effective_date} />}
+              {isParish && <Field label={villageNoun[1][0].toUpperCase() + villageNoun[1].slice(1)} value={formatExact(villages.length)} />}
             </div>
             {unit.level === "district" && (
               <p className="mt-4 text-xs text-muted-foreground">
@@ -179,7 +242,53 @@ export default async function UnitPage({ params }) {
           </CardContent>
         </Card>
 
-        {children.length > 0 && (
+        {villageEntries.length > 0 && (
+          <Card className="py-5">
+            <CardHeader className="px-5">
+              <div className="flex flex-wrap items-start justify-between gap-2">
+                <div className="flex flex-col gap-1.5">
+                  <CardTitle className="text-lg">
+                    {formatExact(villageEntries.length)} {villageEntries.length === 1 ? villageNoun[0] : villageNoun[1]}
+                  </CardTitle>
+                  <CardDescription>
+                    Every {villageNoun[0]} in this {LEVEL_LABEL[unit.level]?.toLowerCase()}, from the EC&apos;s 2022 gazetteer.
+                  </CardDescription>
+                </div>
+                <a
+                  href={`/api/units/export?level=village&parishId=${encodeURIComponent(unit.id)}&format=csv`}
+                  download
+                  className="inline-flex items-center gap-1.5 rounded-md border border-border px-2.5 py-1 text-xs hover:bg-muted"
+                >
+                  <Download className="size-3.5" />
+                  CSV
+                </a>
+              </div>
+            </CardHeader>
+            <CardContent className="px-5">
+              <ul className="grid grid-cols-1 gap-1.5 sm:grid-cols-2">
+                {villageEntries.map((v, i) =>
+                  v.cell ? (
+                    <li key={v.cell.id}>
+                      <Link
+                        href={`/unit/${encodeURIComponent(v.cell.id)}`}
+                        className="flex items-center justify-between rounded-md px-2 py-1.5 text-sm hover:bg-muted"
+                      >
+                        <span>{v.name}</span>
+                        <ChevronRight className="size-3.5 text-muted-foreground" />
+                      </Link>
+                    </li>
+                  ) : (
+                    <li key={`${v.name}-${i}`} className="px-2 py-1.5 text-sm">
+                      {v.name}
+                    </li>
+                  )
+                )}
+              </ul>
+            </CardContent>
+          </Card>
+        )}
+
+        {children.length > 0 && villageEntries.length === 0 && (
           <Card className="py-5">
             <CardHeader className="px-5">
               <CardTitle className="text-lg">
@@ -202,12 +311,43 @@ export default async function UnitPage({ params }) {
                       className="flex items-center justify-between rounded-md px-2 py-1.5 text-sm hover:bg-muted"
                     >
                       <span>{child.name}</span>
-                      <ChevronRight className="size-3.5 text-muted-foreground" />
+                      <span className="flex items-center gap-2">
+                        {childVillageCounts && (
+                          <span className="text-xs text-muted-foreground">
+                            {formatExact(childVillageCounts.get(child.id))} {pluralize("village", childVillageCounts.get(child.id))}
+                          </span>
+                        )}
+                        <ChevronRight className="size-3.5 text-muted-foreground" />
+                      </span>
                     </Link>
                   ))}
               </div>
             </CardContent>
           </Card>
+        )}
+
+        {childExploreLevel && (
+          <div className="flex flex-col gap-1 text-xs text-muted-foreground">
+            <Link href={exploreHref(unit, childExploreLevel)} className="underline underline-offset-2 hover:text-foreground">
+              Filter, search or download the {pluralize(childExploreLevel, 2)} in {unit.name} →
+            </Link>
+            {["subcounty", "parish"].includes(childExploreLevel) && (
+              <Link
+                href={exploreHref(unit, "village", { groupBy: "parish" })}
+                className="underline underline-offset-2 hover:text-foreground"
+              >
+                All villages in {unit.name}, grouped by parish →
+              </Link>
+            )}
+            {["county", "subcounty"].includes(childExploreLevel) && (
+              <Link
+                href={exploreHref(unit, "parish", { groupBy: "subcounty" })}
+                className="underline underline-offset-2 hover:text-foreground"
+              >
+                All parishes in {unit.name}, grouped by subcounty →
+              </Link>
+            )}
+          </div>
         )}
 
         {EXPLORE_LEVEL[unit.level] && (

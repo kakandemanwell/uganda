@@ -1,5 +1,6 @@
 import * as uganda from "@/lib/uganda-data.mjs";
 import { ok, notFound, badRequest } from "../../../../lib/respond.mjs";
+import { villagesOfParish } from "../../../../lib/villages.mjs";
 
 // Every level is lazy-loaded on first use (see lib/uganda-data.mjs) — parish/
 // ward load as soon as anything calls parishes(), but cell only loads once
@@ -10,9 +11,9 @@ uganda.parishes();
 uganda.cells();
 
 // Single-unit detail: the unit itself, its ancestor chain (immediate parent
-// up to region), and its direct children. Not available for villages —
-// the CSV they come from (see web/lib/villages.mjs) has no stable ids to
-// look up by, only names.
+// up to region), its direct children, and (for a parish/ward) its villages.
+// Not available for villages themselves — the CSV they come from (see
+// web/lib/villages.mjs) has no stable per-village ids to look up by.
 //
 // Unlike /api/districts/:id/counties etc., a bare slug is NOT accepted here
 // and can't safely be guessed: slugs are only unique within a level (~13%
@@ -34,5 +35,9 @@ export async function GET(request, { params }) {
     unit,
     ancestors: uganda.getAncestors(id),
     children: uganda.getChildren(id),
+    // Parishes/wards only: their village rows from the full-ancestry CSV
+    // (villages aren't in the unit index, so `children` can't include
+    // them). A ward's cells appear both here and in `children`.
+    ...((unit.level === "parish" || unit.level === "ward") && { villages: villagesOfParish(id) }),
   });
 }

@@ -24,6 +24,17 @@ async function getJson(path) {
   return { res, body };
 }
 
+// ---- cold start ----
+
+// Registered first on purpose: village filtering resolves rows through their
+// parish, and parishes are lazy-loaded — this must work even when it's the
+// very first request a fresh server handles, before anything else has
+// happened to load parish data.
+test("GET /api/units?level=village&parishId= on a cold server", async () => {
+  const { body } = await getJson("/api/units?level=village&parishId=parish:koboko-abuku-gborokolongo");
+  assert.ok(body.total > 0, "expected villages for a known parish on the first request");
+});
+
 // ---- regions / subregions / districts / cities / country ----
 
 test("GET /api/regions", async () => {
@@ -162,6 +173,74 @@ test("GET /api/units?level=<invalid> -> 400", async () => {
   assert.match(body.error, /Unknown level/);
 });
 
+test("GET /api/units subcountyId filter (parishes in one subcounty, with ancestry)", async () => {
+  const { body } = await getJson("/api/units?level=parish&subcountyId=subcounty:koboko-abuku&pageSize=500");
+  assert.ok(body.total > 0);
+  assert.ok(body.items.some((p) => p.id === "parish:koboko-abuku-gborokolongo"));
+  assert.ok(body.items.every((p) => p.parent_id === "subcounty:koboko-abuku"));
+  assert.equal(body.items[0].ancestry.subcounty.id, "subcounty:koboko-abuku");
+  assert.equal(body.items[0].ancestry.district.id, "district:koboko");
+});
+
+test("GET /api/units countyId filter", async () => {
+  const { body: counties } = await getJson("/api/units?level=county&districtId=district:koboko");
+  const countyId = counties.items[0].id;
+  const { body } = await getJson(`/api/units?level=subcounty&countyId=${encodeURIComponent(countyId)}&pageSize=500`);
+  assert.ok(body.total > 0);
+  assert.ok(body.items.every((s) => s.ancestry.county?.id === countyId));
+});
+
+test("GET /api/units?level=village&parishId= (by id, not name)", async () => {
+  const { body } = await getJson("/api/units?level=village&parishId=parish:koboko-abuku-gborokolongo&pageSize=500");
+  assert.ok(body.total > 0);
+  assert.ok(body.items.every((v) => v.parish_id === "parish:koboko-abuku-gborokolongo" && v.parish === "Gborokolongo"));
+  assert.equal(body.items[0].ancestry.parish.id, "parish:koboko-abuku-gborokolongo");
+});
+
+test("GET /api/units?level=village&parishId= separates same-named sibling wards", async () => {
+  // Lira West Division has two wards both named "Teso" — only parish_id can
+  // tell their villages apart (see scripts/build.mjs).
+  const a = await getJson("/api/units?level=village&parishId=parish:lira-lira-west-division-teso");
+  const b = await getJson("/api/units?level=village&parishId=parish:lira-lira-west-division-teso-2");
+  assert.equal(a.body.total, 3);
+  assert.equal(b.body.total, 2);
+});
+
+test("GET /api/units?level=village keeps quoted village names intact", async () => {
+  const { body } = await getJson("/api/units?level=village&q=ranches%2013");
+  assert.ok(body.total >= 1);
+  assert.equal(body.items[0].village, "Nkongoro (Ranches 13, 14,");
+  assert.equal(body.items[0].confidence, "verified");
+  assert.match(body.items[0].parish_id, /^parish:/);
+});
+
+test("GET /api/units groupBy (villages by parish)", async () => {
+  const { res, body } = await getJson("/api/units?level=village&districtId=district:koboko&groupBy=parish&pageSize=25");
+  assert.equal(res.status, 200);
+  assert.equal(body.groupBy, "parish");
+  assert.ok(body.groupCount > 1);
+  assert.equal(body.groups.reduce((n, g) => n + g.count, 0), body.items.length, "group counts should cover the page exactly");
+  let offset = 0;
+  for (const g of body.groups) {
+    const rows = body.items.slice(offset, offset + g.count);
+    assert.ok(rows.every((r) => r.parish_id === g.id), `rows under ${g.name} should all belong to it`);
+    assert.ok(g.total >= g.count);
+    offset += g.count;
+  }
+});
+
+test("GET /api/units groupBy continues a group across pages", async () => {
+  const { body: p1 } = await getJson("/api/units?level=village&parishId=parish:koboko-abuku-gborokolongo&groupBy=parish&pageSize=2");
+  const { body: p2 } = await getJson("/api/units?level=village&parishId=parish:koboko-abuku-gborokolongo&groupBy=parish&pageSize=2&page=2");
+  assert.equal(p1.groups[0].continued, false);
+  assert.equal(p2.groups[0].continued, true);
+});
+
+test("GET /api/units groupBy not valid for level -> 400", async () => {
+  const res = await fetch(`${BASE}/api/units?level=district&groupBy=parish`);
+  assert.equal(res.status, 400);
+});
+
 // ---- /api/units/:id ----
 
 test("GET /api/units/:id (full id)", async () => {
@@ -171,6 +250,15 @@ test("GET /api/units/:id (full id)", async () => {
   assert.ok(body.ancestors.length >= 1, "district should have at least one ancestor (its region)");
   assert.equal(body.ancestors.at(-1).level, "region", "ancestor chain should terminate at region");
   assert.ok(body.children.length > 0, "Mbarara should have children");
+});
+
+test("GET /api/units/:id (parish includes its villages)", async () => {
+  const { res, body } = await getJson("/api/units/parish:koboko-abuku-gborokolongo");
+  assert.equal(res.status, 200);
+  assert.ok(body.villages.length > 0, "a parish should list its villages");
+  assert.ok(body.villages.every((v) => v.parish_id === "parish:koboko-abuku-gborokolongo"));
+  const { body: district } = await getJson("/api/units/district:koboko");
+  assert.equal(district.villages, undefined, "only parishes/wards carry a villages list");
 });
 
 test("GET /api/units/:id (bare slug -> 400, not a silent guess)", async () => {
@@ -214,6 +302,15 @@ test("GET /api/units/export?format=json", async () => {
   assert.equal(res.headers.get("content-type"), "application/json");
   const body = await res.json();
   assert.equal(body.length, 4);
+});
+
+test("GET /api/units/export?level=village&parishId= (CSV includes parish_id)", async () => {
+  const res = await fetch(`${BASE}/api/units/export?format=csv&level=village&parishId=parish:koboko-abuku-gborokolongo`);
+  assert.equal(res.status, 200);
+  const lines = (await res.text()).trim().split("\n");
+  assert.ok(lines[0].split(",").includes("parish_id"));
+  assert.ok(lines.length > 1);
+  assert.ok(lines.slice(1).every((l) => l.endsWith(",parish:koboko-abuku-gborokolongo")));
 });
 
 test("GET /api/units/export?level=<invalid> -> 400", async () => {

@@ -213,6 +213,11 @@ writeFileSync(
 // code. "constituency" is included as its own column per the two-fold
 // county+constituency model (see docs/DATA_QUALITY.md); blank county/
 // constituency for city/Kampala divisions, which don't have a county tier.
+// "parish_id" is the stable id of the village's parish/ward, appended last
+// so existing column positions don't shift — names alone can't identify a
+// parish (Lira West Division has two wards both named "Teso", with their
+// villages adjacent in this file), so anything joining these rows back to
+// parishs.json/wards.json needs the id.
 const fullRows = [];
 let fullSeq = 1;
 for (const u of units) {
@@ -236,12 +241,13 @@ for (const u of units) {
     parish: parish.name,
     village: u.name,
     confidence: u.confidence,
+    parish_id: parish.id,
   });
 }
 writeFileSync(
   path.join(DIST, "uganda-locations-full.csv"),
   writeCsv(
-    ["id", "region", "sub_region", "district", "county", "constituency", "subcounty", "parish", "village", "confidence"],
+    ["id", "region", "sub_region", "district", "county", "constituency", "subcounty", "parish", "village", "confidence", "parish_id"],
     fullRows
   )
 );

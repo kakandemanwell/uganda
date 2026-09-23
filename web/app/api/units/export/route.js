@@ -13,12 +13,14 @@ const VILLAGE_COLUMNS = [
   "parish",
   "village",
   "confidence",
+  "parish_id",
 ];
 const UNIT_COLUMNS = [
   "id",
   "name",
   "slug",
   "level",
+  "parent_id",
   "region_id",
   "subregion_id",
   "status",
@@ -50,6 +52,11 @@ export function GET(request) {
     regionId: params.get("regionId") || undefined,
     subregionId: params.get("subregionId") || undefined,
     districtId: params.get("districtId") || undefined,
+    countyId: params.get("countyId") || undefined,
+    subcountyId: params.get("subcountyId") || undefined,
+    parishId: params.get("parishId") || undefined,
+    subcountyName: params.get("subcountyName") || undefined,
+    parishName: params.get("parishName") || undefined,
     q: params.get("q") || undefined,
   });
 

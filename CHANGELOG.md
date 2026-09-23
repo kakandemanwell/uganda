@@ -1,5 +1,37 @@
 # Changelog
 
+## 2026-09-22 — Explore: drill down to a parish, group by parent level
+
+### Added
+- **`/explore`**: County → Subcounty → Parish/ward filters cascade under
+  District (each clears the ones below it), so villages can be narrowed to
+  a single parish and parishes to a single subcounty. Cities are now in the
+  District dropdown too. A **Group by** control sorts rows under parent
+  headings (villages by parish/subcounty/county/district, parishes by
+  subcounty/county/district, etc.), each showing its total across all
+  pages. District/subcounty/parish cells link to their unit pages. The
+  filtered/grouped view lives in the URL, so it can be shared or
+  bookmarked. Search is debounced.
+- **`/unit/[id]`** for a parish/ward lists its villages (cells link to their
+  own pages) with a CSV download; subcounty pages show a village count next
+  to each parish; every unit links to `/explore` pre-filtered to it.
+- **API**: `/api/units` and `/api/units/export` accept `countyId`,
+  `subcountyId`, `parishId`; `/api/units` accepts `groupBy` and adds an
+  `ancestry` block to every item; `/api/units/:id` returns `villages` for a
+  parish/ward. Export CSVs gain `parent_id` (units) / `parish_id` (villages).
+- **`dist/uganda-locations-full.csv`**: new trailing `parish_id` column.
+  Names alone can't identify a parish — Lira West Division has two wards
+  both named "Teso", with adjacent villages — so joining village rows back
+  to `parishs.json`/`wards.json` needs the id. Existing columns keep their
+  positions. File grows from ~7.4MB to ~9.9MB.
+
+### Fixed
+- The village CSV reader split quoted fields on their inner commas
+  (`"Nkongoro (Ranches 13, 14,"`), shifting later columns on those rows.
+- `/explore` sent filters the current tab doesn't show (e.g. a district
+  picked on Villages silently emptied the Regions tab).
+- Unit pages said "Parishs"/"Subcountys" in the child-unit list.
+
 ## 2026-08-01 — `uganda-locale` published to npm
 
 `uganda-locale@0.9.1` is live on the npm registry:

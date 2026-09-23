@@ -27,8 +27,9 @@ Every record cites its source (UBOS, the Electoral Commission of Uganda, geoBoun
 
 - \`GET /api/regions\`, \`/api/subregions\`, \`/api/districts\`, \`/api/cities\` — full lists
 - \`GET /api/districts/:id/counties\`, \`/api/counties/:id/subcounties\`, \`/api/subcounties/:id/parishes\` — children of a unit
-- \`GET /api/units/:id\` — a single unit with its ancestors and children
-- \`GET /api/units?level=village&districtId=...&subcountyName=...&parishName=...\` — villages, matched by name (villages have no stable id)
+- \`GET /api/units/:id\` — a single unit with its ancestors and children (a parish/ward also lists its \`villages\`)
+- \`GET /api/units?level=...&districtId=...&countyId=...&subcountyId=...&parishId=...&q=...\` — any level, narrowed to everything inside a unit; e.g. \`level=village&parishId=parish:koboko-abuku-gborokolongo\` for one parish's villages
+- \`GET /api/units?...&groupBy=parish\` — the same, sorted into groups by a parent level (region/subregion/district/county/subcounty/parish) with per-group totals
 - \`GET /api/search?q=...\` — name/alias search across all loaded levels
 - \`GET /api/units/export\` — bulk export
 - \`GET /api/geo/districts\`, \`/api/geo/regions\`, \`/api/geo/subcounties\`, \`/api/geo/parishes\`, \`/api/geo/roads\` — GeoJSON boundaries

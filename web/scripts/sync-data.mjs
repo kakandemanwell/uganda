@@ -7,7 +7,7 @@
 //
 // Deliberately excludes dist/uganda-locations.json (~42MB) and
 // dist/villages.json (~36MB) — the same two files the npm package itself
-// omits for size; dist/uganda-locations-full.csv (~7MB) already covers
+// omits for size; dist/uganda-locations-full.csv (~10MB) already covers
 // village-level data far more compactly.
 //
 // Run automatically before `next dev`/`next build` (see package.json

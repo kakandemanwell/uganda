@@ -167,8 +167,9 @@ docs/
 **Not writing code?** Download [`dist/uganda-locations-full.csv`](dist/uganda-locations-full.csv)
 directly from this repo and open it in Excel or Google Sheets — one row per
 village (71,230 rows), with region/sub_region/district/county/constituency/
-subcounty/parish/village columns plus a confidence flag. That's the whole
-dataset in one file.
+subcounty/parish/village columns plus a confidence flag, and a `parish_id`
+column (last) that joins each village to its parish in `parishs.json`/
+`wards.json`. That's the whole dataset in one file.
 
 **Writing JS/TS?**
 
@@ -233,7 +234,7 @@ the same data as JSON endpoints — see its README for routes once deployed.
 **Writing in another language, or want the raw files directly?** Most of
 `dist/` is committed too, so you can use the data straight from a
 clone/download without running anything:
-- `uganda-locations-full.csv` — full ancestry, one row per village (~6.6MB)
+- `uganda-locations-full.csv` — full ancestry, one row per village, with its `parish_id` (~9.5MB)
 - `uganda-locations.csv` — flattened, loosely backward-compatible with the original `location.csv` shape
 - `regions.json`, `subregions.json`, `districts.json`, `citys.json`, `countys.json`, `subcountys.json`, `town_councils.json`, `divisions.json`, `parishs.json`, `wards.json`, `cells.json` — per-level exports
 - `geo/districts.geojson`, `geo/regions.geojson` — boundary polygons for map visualization (CC0)

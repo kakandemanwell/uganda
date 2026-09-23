@@ -19,7 +19,7 @@ const GROUPS = [
   {
     title: "One row per village (recommended for Excel/Sheets)",
     files: [
-      ["uganda-locations-full.csv", "Full ancestry — region → district → county → constituency → subcounty → parish → village, one row each (71,230 rows)."],
+      ["uganda-locations-full.csv", "Full ancestry — region → district → county → constituency → subcounty → parish → village, one row each (71,230 rows), plus each village's parish_id."],
       ["uganda-locations.csv", "Flattened, loosely backward-compatible with the original location.csv shape."],
     ],
   },
