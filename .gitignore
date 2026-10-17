@@ -33,3 +33,13 @@ data/legacy/provenance/ec/parsed_admin_units_2022.json
 # IS tracked, so `npm run build` works from a fresh clone without these.
 data/legacy/provenance/geo/geoBoundaries-UGA-ADM4.geojson
 data/legacy/provenance/geo/hdx-uga-admin4-parish.geojson
+
+# Raw observatory snapshots (UBOS NPHC 2024 / BEC 2025 API responses, the
+# NPHC subcounty-profiles workbook): re-fetchable with
+# scripts/observatory/fetch-public-sources.mjs; manifest.json (URL, bytes,
+# sha256 per file) and the README stay tracked so the snapshot is auditable.
+data/legacy/provenance/observatory/**
+!data/legacy/provenance/observatory/manifest.json
+!data/legacy/provenance/observatory/README.md
+!data/legacy/provenance/observatory/mlhud-ugnlis/
+!data/legacy/provenance/observatory/mlhud-ugnlis/*.json
