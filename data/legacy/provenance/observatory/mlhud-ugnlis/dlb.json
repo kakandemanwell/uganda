@@ -1,0 +1,1382 @@
+[
+  {
+    "id": 229,
+    "label": "Abim",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MOR",
+      "label": "Moroto",
+      "ip": "http://172.22.141.50:8080"
+    }
+  },
+  {
+    "id": 127,
+    "label": "Adjumani",
+    "isDistrict": true,
+    "mzo": {
+      "code": "ARU",
+      "label": "Arua",
+      "ip": "http://172.22.141.120:8080"
+    }
+  },
+  {
+    "id": 138,
+    "label": "Agago",
+    "isDistrict": true,
+    "mzo": {
+      "code": "GUL",
+      "label": "Gulu",
+      "ip": "http://172.16.11.1:8080"
+    }
+  },
+  {
+    "id": 172,
+    "label": "Alebtong",
+    "isDistrict": true,
+    "mzo": {
+      "code": "LIR",
+      "label": "Lira",
+      "ip": "http://172.22.141.110:8080"
+    }
+  },
+  {
+    "id": 173,
+    "label": "Amolatar",
+    "isDistrict": true,
+    "mzo": {
+      "code": "LIR",
+      "label": "Lira",
+      "ip": "http://172.22.141.110:8080"
+    }
+  },
+  {
+    "id": 230,
+    "label": "Amudat",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MOR",
+      "label": "Moroto",
+      "ip": "http://172.22.141.50:8080"
+    }
+  },
+  {
+    "id": 246,
+    "label": "Amuria",
+    "isDistrict": true,
+    "mzo": {
+      "code": "SOR",
+      "label": "Soroti",
+      "ip": "http://172.16.22.1:8080"
+    }
+  },
+  {
+    "id": 139,
+    "label": "Amuru",
+    "isDistrict": true,
+    "mzo": {
+      "code": "GUL",
+      "label": "Gulu",
+      "ip": "http://172.16.11.1:8080"
+    }
+  },
+  {
+    "id": 174,
+    "label": "Apac",
+    "isDistrict": true,
+    "mzo": {
+      "code": "LIR",
+      "label": "Lira",
+      "ip": "http://172.22.141.110:8080"
+    }
+  },
+  {
+    "id": 128,
+    "label": "Arua",
+    "isDistrict": true,
+    "mzo": {
+      "code": "ARU",
+      "label": "Arua",
+      "ip": "http://172.22.141.120:8080"
+    }
+  },
+  {
+    "id": 256,
+    "label": "Budaka",
+    "isDistrict": true,
+    "mzo": {
+      "code": "TOR",
+      "label": "Tororo",
+      "ip": "http://172.16.23.1:8080"
+    }
+  },
+  {
+    "id": 201,
+    "label": "Bududa",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBA",
+      "label": "Mbale",
+      "ip": "http://172.22.141.40:8080"
+    }
+  },
+  {
+    "id": 146,
+    "label": "Bugiri",
+    "isDistrict": true,
+    "mzo": {
+      "code": "JJA",
+      "label": "Jinja",
+      "ip": "http://172.16.3.1:8080"
+    }
+  },
+  {
+    "id": 211,
+    "label": "Buhweju",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBR",
+      "label": "Mbarara",
+      "ip": "http://172.22.141.100:8080"
+    }
+  },
+  {
+    "id": 240,
+    "label": "Buikwe",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MKO",
+      "label": "Mukono",
+      "ip": "http://172.22.141.90:8080"
+    }
+  },
+  {
+    "id": 247,
+    "label": "Bukedea",
+    "isDistrict": true,
+    "mzo": {
+      "code": "SOR",
+      "label": "Soroti",
+      "ip": "http://172.16.22.1:8080"
+    }
+  },
+  {
+    "id": 185,
+    "label": "Bukomansimbi",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MSK",
+      "label": "Masaka",
+      "ip": "http://172.16.7.1:8080"
+    }
+  },
+  {
+    "id": 202,
+    "label": "Bukwo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBA",
+      "label": "Mbale",
+      "ip": "http://172.22.141.40:8080"
+    }
+  },
+  {
+    "id": 203,
+    "label": "Bulambuli",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBA",
+      "label": "Mbale",
+      "ip": "http://172.22.141.40:8080"
+    }
+  },
+  {
+    "id": 195,
+    "label": "Buliisa",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MAS",
+      "label": "Masindi",
+      "ip": "http://172.22.141.130:8080"
+    }
+  },
+  {
+    "id": 159,
+    "label": "Bundibugyo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KBO",
+      "label": "Kabarole",
+      "ip": "http://172.22.141.30:8080"
+    }
+  },
+  {
+    "id": 160,
+    "label": "Bunyangabu",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KBO",
+      "label": "Kabarole",
+      "ip": "http://172.22.141.30:8080"
+    }
+  },
+  {
+    "id": 212,
+    "label": "Bushenyi",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBR",
+      "label": "Mbarara",
+      "ip": "http://172.22.141.100:8080"
+    }
+  },
+  {
+    "id": 257,
+    "label": "Busia",
+    "isDistrict": true,
+    "mzo": {
+      "code": "TOR",
+      "label": "Tororo",
+      "ip": "http://172.16.23.1:8080"
+    }
+  },
+  {
+    "id": 258,
+    "label": "Butaleja",
+    "isDistrict": true,
+    "mzo": {
+      "code": "TOR",
+      "label": "Tororo",
+      "ip": "http://172.16.23.1:8080"
+    }
+  },
+  {
+    "id": 237,
+    "label": "Butambala",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MPI",
+      "label": "Mpigi",
+      "ip": "http://172.16.20.1:8080"
+    }
+  },
+  {
+    "id": 262,
+    "label": "Butebo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "TOR",
+      "label": "Tororo",
+      "ip": "http://172.16.23.1:8080"
+    }
+  },
+  {
+    "id": 241,
+    "label": "Buvuma",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MKO",
+      "label": "Mukono",
+      "ip": "http://172.22.141.90:8080"
+    }
+  },
+  {
+    "id": 147,
+    "label": "Buyende",
+    "isDistrict": true,
+    "mzo": {
+      "code": "JJA",
+      "label": "Jinja",
+      "ip": "http://172.16.3.1:8080"
+    }
+  },
+  {
+    "id": 175,
+    "label": "Dokolo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "LIR",
+      "label": "Lira",
+      "ip": "http://172.22.141.110:8080"
+    }
+  },
+  {
+    "id": 238,
+    "label": "Gomba",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MPI",
+      "label": "Mpigi",
+      "ip": "http://172.16.20.1:8080"
+    }
+  },
+  {
+    "id": 140,
+    "label": "Gulu",
+    "isDistrict": true,
+    "mzo": {
+      "code": "GUL",
+      "label": "Gulu",
+      "ip": "http://172.16.11.1:8080"
+    }
+  },
+  {
+    "id": 196,
+    "label": "Hoima",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MAS",
+      "label": "Masindi",
+      "ip": "http://172.22.141.130:8080"
+    }
+  },
+  {
+    "id": 200,
+    "label": "Hoima City",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MAS",
+      "label": "Masindi",
+      "ip": "http://172.22.141.130:8080"
+    }
+  },
+  {
+    "id": 213,
+    "label": "Ibanda",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBR",
+      "label": "Mbarara",
+      "ip": "http://172.22.141.100:8080"
+    }
+  },
+  {
+    "id": 148,
+    "label": "Iganga",
+    "isDistrict": true,
+    "mzo": {
+      "code": "JJA",
+      "label": "Jinja",
+      "ip": "http://172.16.3.1:8080"
+    }
+  },
+  {
+    "id": 214,
+    "label": "Isingiro",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBR",
+      "label": "Mbarara",
+      "ip": "http://172.22.141.100:8080"
+    }
+  },
+  {
+    "id": 149,
+    "label": "Jinja",
+    "isDistrict": true,
+    "mzo": {
+      "code": "JJA",
+      "label": "Jinja",
+      "ip": "http://172.16.3.1:8080"
+    }
+  },
+  {
+    "id": 231,
+    "label": "Kaabong",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MOR",
+      "label": "Moroto",
+      "ip": "http://172.22.141.50:8080"
+    }
+  },
+  {
+    "id": 156,
+    "label": "Kabale",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KAB",
+      "label": "Kabale",
+      "ip": "http://172.16.16.1:8080"
+    }
+  },
+  {
+    "id": 161,
+    "label": "Kabarole",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KBO",
+      "label": "Kabarole",
+      "ip": "http://172.22.141.30:8080"
+    }
+  },
+  {
+    "id": 248,
+    "label": "Kaberamaido",
+    "isDistrict": true,
+    "mzo": {
+      "code": "SOR",
+      "label": "Soroti",
+      "ip": "http://172.16.22.1:8080"
+    }
+  },
+  {
+    "id": 171,
+    "label": "Kagadi",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KIB",
+      "label": "Kibaale",
+      "ip": "http://172.16.12.1:8080"
+    }
+  },
+  {
+    "id": 170,
+    "label": "Kakumiro",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KIB",
+      "label": "Kibaale",
+      "ip": "http://172.16.12.1:8080"
+    }
+  },
+  {
+    "id": 254,
+    "label": "Kalaki",
+    "isDistrict": true,
+    "mzo": {
+      "code": "SOR",
+      "label": "Soroti",
+      "ip": "http://172.16.22.1:8080"
+    }
+  },
+  {
+    "id": 186,
+    "label": "Kalangala",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MSK",
+      "label": "Masaka",
+      "ip": "http://172.16.7.1:8080"
+    }
+  },
+  {
+    "id": 150,
+    "label": "Kaliro",
+    "isDistrict": true,
+    "mzo": {
+      "code": "JJA",
+      "label": "Jinja",
+      "ip": "http://172.16.3.1:8080"
+    }
+  },
+  {
+    "id": 187,
+    "label": "Kalungu",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MSK",
+      "label": "Masaka",
+      "ip": "http://172.16.7.1:8080"
+    }
+  },
+  {
+    "id": 168,
+    "label": "Kampala",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KCCA",
+      "label": "Kampala",
+      "ip": "http://172.22.141.80:8080"
+    }
+  },
+  {
+    "id": 151,
+    "label": "Kamuli",
+    "isDistrict": true,
+    "mzo": {
+      "code": "JJA",
+      "label": "Jinja",
+      "ip": "http://172.16.3.1:8080"
+    }
+  },
+  {
+    "id": 162,
+    "label": "Kamwenge",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KBO",
+      "label": "Kabarole",
+      "ip": "http://172.22.141.30:8080"
+    }
+  },
+  {
+    "id": 244,
+    "label": "Kanungu",
+    "isDistrict": true,
+    "mzo": {
+      "code": "RUK",
+      "label": "Rukungiri",
+      "ip": "http://172.16.21.1:8080"
+    }
+  },
+  {
+    "id": 204,
+    "label": "Kapchorwa",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBA",
+      "label": "Mbale",
+      "ip": "http://172.22.141.40:8080"
+    }
+  },
+  {
+    "id": 236,
+    "label": "Karenga",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MOR",
+      "label": "Moroto",
+      "ip": "http://172.22.141.50:8080"
+    }
+  },
+  {
+    "id": 224,
+    "label": "Kasanda",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MIT",
+      "label": "Mityana",
+      "ip": "http://172.16.18.1:8080"
+    }
+  },
+  {
+    "id": 163,
+    "label": "Kasese",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KBO",
+      "label": "Kabarole",
+      "ip": "http://172.22.141.30:8080"
+    }
+  },
+  {
+    "id": 249,
+    "label": "Katakwi",
+    "isDistrict": true,
+    "mzo": {
+      "code": "SOR",
+      "label": "Soroti",
+      "ip": "http://172.16.22.1:8080"
+    }
+  },
+  {
+    "id": 242,
+    "label": "Kayunga",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MKO",
+      "label": "Mukono",
+      "ip": "http://172.22.141.90:8080"
+    }
+  },
+  {
+    "id": 215,
+    "label": "Kazo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBR",
+      "label": "Mbarara",
+      "ip": "http://172.22.141.100:8080"
+    }
+  },
+  {
+    "id": 169,
+    "label": "Kibaale",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KIB",
+      "label": "Kibaale",
+      "ip": "http://172.16.12.1:8080"
+    }
+  },
+  {
+    "id": 225,
+    "label": "Kiboga",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MIT",
+      "label": "Mityana",
+      "ip": "http://172.16.18.1:8080"
+    }
+  },
+  {
+    "id": 259,
+    "label": "Kibuku",
+    "isDistrict": true,
+    "mzo": {
+      "code": "TOR",
+      "label": "Tororo",
+      "ip": "http://172.16.23.1:8080"
+    }
+  },
+  {
+    "id": 197,
+    "label": "Kikuube",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MAS",
+      "label": "Masindi",
+      "ip": "http://172.22.141.130:8080"
+    }
+  },
+  {
+    "id": 216,
+    "label": "Kiruhura",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBR",
+      "label": "Mbarara",
+      "ip": "http://172.22.141.100:8080"
+    }
+  },
+  {
+    "id": 198,
+    "label": "Kiryandongo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MAS",
+      "label": "Masindi",
+      "ip": "http://172.22.141.130:8080"
+    }
+  },
+  {
+    "id": 157,
+    "label": "Kisoro",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KAB",
+      "label": "Kabale",
+      "ip": "http://172.16.16.1:8080"
+    }
+  },
+  {
+    "id": 164,
+    "label": "Kitagwenda",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KBO",
+      "label": "Kabarole",
+      "ip": "http://172.22.141.30:8080"
+    }
+  },
+  {
+    "id": 141,
+    "label": "Kitgum",
+    "isDistrict": true,
+    "mzo": {
+      "code": "GUL",
+      "label": "Gulu",
+      "ip": "http://172.16.11.1:8080"
+    }
+  },
+  {
+    "id": 129,
+    "label": "Koboko",
+    "isDistrict": true,
+    "mzo": {
+      "code": "ARU",
+      "label": "Arua",
+      "ip": "http://172.22.141.120:8080"
+    }
+  },
+  {
+    "id": 176,
+    "label": "Kole",
+    "isDistrict": true,
+    "mzo": {
+      "code": "LIR",
+      "label": "Lira",
+      "ip": "http://172.22.141.110:8080"
+    }
+  },
+  {
+    "id": 232,
+    "label": "Kotido",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MOR",
+      "label": "Moroto",
+      "ip": "http://172.22.141.50:8080"
+    }
+  },
+  {
+    "id": 250,
+    "label": "Kumi",
+    "isDistrict": true,
+    "mzo": {
+      "code": "SOR",
+      "label": "Soroti",
+      "ip": "http://172.16.22.1:8080"
+    }
+  },
+  {
+    "id": 177,
+    "label": "Kwania",
+    "isDistrict": true,
+    "mzo": {
+      "code": "LIR",
+      "label": "Lira",
+      "ip": "http://172.22.141.110:8080"
+    }
+  },
+  {
+    "id": 205,
+    "label": "Kween",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBA",
+      "label": "Mbale",
+      "ip": "http://172.22.141.40:8080"
+    }
+  },
+  {
+    "id": 226,
+    "label": "Kyankwanzi",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MIT",
+      "label": "Mityana",
+      "ip": "http://172.16.18.1:8080"
+    }
+  },
+  {
+    "id": 165,
+    "label": "Kyegegwa",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KBO",
+      "label": "Kabarole",
+      "ip": "http://172.22.141.30:8080"
+    }
+  },
+  {
+    "id": 166,
+    "label": "Kyenjojo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KBO",
+      "label": "Kabarole",
+      "ip": "http://172.22.141.30:8080"
+    }
+  },
+  {
+    "id": 188,
+    "label": "Kyotera",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MSK",
+      "label": "Masaka",
+      "ip": "http://172.16.7.1:8080"
+    }
+  },
+  {
+    "id": 142,
+    "label": "Lamwo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "GUL",
+      "label": "Gulu",
+      "ip": "http://172.16.11.1:8080"
+    }
+  },
+  {
+    "id": 178,
+    "label": "Lira",
+    "isDistrict": true,
+    "mzo": {
+      "code": "LIR",
+      "label": "Lira",
+      "ip": "http://172.22.141.110:8080"
+    }
+  },
+  {
+    "id": 181,
+    "label": "Lira City",
+    "isDistrict": true,
+    "mzo": {
+      "code": "LIR",
+      "label": "Lira",
+      "ip": "http://172.22.141.110:8080"
+    }
+  },
+  {
+    "id": 152,
+    "label": "Luuka",
+    "isDistrict": true,
+    "mzo": {
+      "code": "JJA",
+      "label": "Jinja",
+      "ip": "http://172.16.3.1:8080"
+    }
+  },
+  {
+    "id": 182,
+    "label": "Luwero",
+    "isDistrict": true,
+    "mzo": {
+      "code": "LUW",
+      "label": "Luwero",
+      "ip": "http://172.16.17.1:8080"
+    }
+  },
+  {
+    "id": 189,
+    "label": "Lwengo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MSK",
+      "label": "Masaka",
+      "ip": "http://172.16.7.1:8080"
+    }
+  },
+  {
+    "id": 190,
+    "label": "Lyantonde",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MSK",
+      "label": "Masaka",
+      "ip": "http://172.16.7.1:8080"
+    }
+  },
+  {
+    "id": 206,
+    "label": "Manafwa",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBA",
+      "label": "Mbale",
+      "ip": "http://172.22.141.40:8080"
+    }
+  },
+  {
+    "id": 130,
+    "label": "Maracha",
+    "isDistrict": true,
+    "mzo": {
+      "code": "ARU",
+      "label": "Arua",
+      "ip": "http://172.22.141.120:8080"
+    }
+  },
+  {
+    "id": 191,
+    "label": "Masaka",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MSK",
+      "label": "Masaka",
+      "ip": "http://172.16.7.1:8080"
+    }
+  },
+  {
+    "id": 194,
+    "label": "Masaka City",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MSK",
+      "label": "Masaka",
+      "ip": "http://172.16.7.1:8080"
+    }
+  },
+  {
+    "id": 199,
+    "label": "Masindi",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MAS",
+      "label": "Masindi",
+      "ip": "http://172.22.141.130:8080"
+    }
+  },
+  {
+    "id": 153,
+    "label": "Mayuge",
+    "isDistrict": true,
+    "mzo": {
+      "code": "JJA",
+      "label": "Jinja",
+      "ip": "http://172.16.3.1:8080"
+    }
+  },
+  {
+    "id": 207,
+    "label": "Mbale",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBA",
+      "label": "Mbale",
+      "ip": "http://172.22.141.40:8080"
+    }
+  },
+  {
+    "id": 210,
+    "label": "Mbale City",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBA",
+      "label": "Mbale",
+      "ip": "http://172.22.141.40:8080"
+    }
+  },
+  {
+    "id": 217,
+    "label": "Mbarara",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBR",
+      "label": "Mbarara",
+      "ip": "http://172.22.141.100:8080"
+    }
+  },
+  {
+    "id": 223,
+    "label": "Mbarara City",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBR",
+      "label": "Mbarara",
+      "ip": "http://172.22.141.100:8080"
+    }
+  },
+  {
+    "id": 218,
+    "label": "Mitooma",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBR",
+      "label": "Mbarara",
+      "ip": "http://172.22.141.100:8080"
+    }
+  },
+  {
+    "id": 227,
+    "label": "Mityana",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MIT",
+      "label": "Mityana",
+      "ip": "http://172.16.18.1:8080"
+    }
+  },
+  {
+    "id": 233,
+    "label": "Moroto",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MOR",
+      "label": "Moroto",
+      "ip": "http://172.22.141.50:8080"
+    }
+  },
+  {
+    "id": 131,
+    "label": "Moyo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "ARU",
+      "label": "Arua",
+      "ip": "http://172.22.141.120:8080"
+    }
+  },
+  {
+    "id": 239,
+    "label": "Mpigi",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MPI",
+      "label": "Mpigi",
+      "ip": "http://172.16.20.1:8080"
+    }
+  },
+  {
+    "id": 228,
+    "label": "Mubende",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MIT",
+      "label": "Mityana",
+      "ip": "http://172.16.18.1:8080"
+    }
+  },
+  {
+    "id": 243,
+    "label": "Mukono",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MKO",
+      "label": "Mukono",
+      "ip": "http://172.22.141.90:8080"
+    }
+  },
+  {
+    "id": 234,
+    "label": "Nakapiripirit",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MOR",
+      "label": "Moroto",
+      "ip": "http://172.22.141.50:8080"
+    }
+  },
+  {
+    "id": 183,
+    "label": "Nakaseke",
+    "isDistrict": true,
+    "mzo": {
+      "code": "LUW",
+      "label": "Luwero",
+      "ip": "http://172.16.17.1:8080"
+    }
+  },
+  {
+    "id": 184,
+    "label": "Nakasongola",
+    "isDistrict": true,
+    "mzo": {
+      "code": "LUW",
+      "label": "Luwero",
+      "ip": "http://172.16.17.1:8080"
+    }
+  },
+  {
+    "id": 154,
+    "label": "Namayingo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "JJA",
+      "label": "Jinja",
+      "ip": "http://172.16.3.1:8080"
+    }
+  },
+  {
+    "id": 209,
+    "label": "Namisindwa",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBA",
+      "label": "Mbale",
+      "ip": "http://172.22.141.40:8080"
+    }
+  },
+  {
+    "id": 155,
+    "label": "Namutumba",
+    "isDistrict": true,
+    "mzo": {
+      "code": "JJA",
+      "label": "Jinja",
+      "ip": "http://172.16.3.1:8080"
+    }
+  },
+  {
+    "id": 235,
+    "label": "Napak",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MOR",
+      "label": "Moroto",
+      "ip": "http://172.22.141.50:8080"
+    }
+  },
+  {
+    "id": 132,
+    "label": "Nebbi",
+    "isDistrict": true,
+    "mzo": {
+      "code": "ARU",
+      "label": "Arua",
+      "ip": "http://172.22.141.120:8080"
+    }
+  },
+  {
+    "id": 251,
+    "label": "Ngora",
+    "isDistrict": true,
+    "mzo": {
+      "code": "SOR",
+      "label": "Soroti",
+      "ip": "http://172.16.22.1:8080"
+    }
+  },
+  {
+    "id": 167,
+    "label": "Ntoroko",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KBO",
+      "label": "Kabarole",
+      "ip": "http://172.22.141.30:8080"
+    }
+  },
+  {
+    "id": 219,
+    "label": "Ntungamo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBR",
+      "label": "Mbarara",
+      "ip": "http://172.22.141.100:8080"
+    }
+  },
+  {
+    "id": 143,
+    "label": "Nwoya",
+    "isDistrict": true,
+    "mzo": {
+      "code": "GUL",
+      "label": "Gulu",
+      "ip": "http://172.16.11.1:8080"
+    }
+  },
+  {
+    "id": 133,
+    "label": "Obongi",
+    "isDistrict": true,
+    "mzo": {
+      "code": "ARU",
+      "label": "Arua",
+      "ip": "http://172.22.141.120:8080"
+    }
+  },
+  {
+    "id": 144,
+    "label": "Omoro",
+    "isDistrict": true,
+    "mzo": {
+      "code": "GUL",
+      "label": "Gulu",
+      "ip": "http://172.16.11.1:8080"
+    }
+  },
+  {
+    "id": 179,
+    "label": "Otuke",
+    "isDistrict": true,
+    "mzo": {
+      "code": "LIR",
+      "label": "Lira",
+      "ip": "http://172.22.141.110:8080"
+    }
+  },
+  {
+    "id": 180,
+    "label": "Oyam",
+    "isDistrict": true,
+    "mzo": {
+      "code": "LIR",
+      "label": "Lira",
+      "ip": "http://172.22.141.110:8080"
+    }
+  },
+  {
+    "id": 145,
+    "label": "Pader",
+    "isDistrict": true,
+    "mzo": {
+      "code": "GUL",
+      "label": "Gulu",
+      "ip": "http://172.16.11.1:8080"
+    }
+  },
+  {
+    "id": 137,
+    "label": "Pakwach",
+    "isDistrict": true,
+    "mzo": {
+      "code": "ARU",
+      "label": "Arua",
+      "ip": "http://172.22.141.120:8080"
+    }
+  },
+  {
+    "id": 260,
+    "label": "Pallisa",
+    "isDistrict": true,
+    "mzo": {
+      "code": "TOR",
+      "label": "Tororo",
+      "ip": "http://172.16.23.1:8080"
+    }
+  },
+  {
+    "id": 192,
+    "label": "Rakai",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MSK",
+      "label": "Masaka",
+      "ip": "http://172.16.7.1:8080"
+    }
+  },
+  {
+    "id": 220,
+    "label": "Rubirizi",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBR",
+      "label": "Mbarara",
+      "ip": "http://172.22.141.100:8080"
+    }
+  },
+  {
+    "id": 158,
+    "label": "Rukiga",
+    "isDistrict": true,
+    "mzo": {
+      "code": "KAB",
+      "label": "Kabale",
+      "ip": "http://172.16.16.1:8080"
+    }
+  },
+  {
+    "id": 245,
+    "label": "Rukungiri",
+    "isDistrict": true,
+    "mzo": {
+      "code": "RUK",
+      "label": "Rukungiri",
+      "ip": "http://172.16.21.1:8080"
+    }
+  },
+  {
+    "id": 221,
+    "label": "Rwampara",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBR",
+      "label": "Mbarara",
+      "ip": "http://172.22.141.100:8080"
+    }
+  },
+  {
+    "id": 193,
+    "label": "Seembabule",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MSK",
+      "label": "Masaka",
+      "ip": "http://172.16.7.1:8080"
+    }
+  },
+  {
+    "id": 252,
+    "label": "Serere",
+    "isDistrict": true,
+    "mzo": {
+      "code": "SOR",
+      "label": "Soroti",
+      "ip": "http://172.16.22.1:8080"
+    }
+  },
+  {
+    "id": 222,
+    "label": "Sheema",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBR",
+      "label": "Mbarara",
+      "ip": "http://172.22.141.100:8080"
+    }
+  },
+  {
+    "id": 208,
+    "label": "Sironko",
+    "isDistrict": true,
+    "mzo": {
+      "code": "MBA",
+      "label": "Mbale",
+      "ip": "http://172.22.141.40:8080"
+    }
+  },
+  {
+    "id": 253,
+    "label": "Soroti",
+    "isDistrict": true,
+    "mzo": {
+      "code": "SOR",
+      "label": "Soroti",
+      "ip": "http://172.16.22.1:8080"
+    }
+  },
+  {
+    "id": 255,
+    "label": "Soroti City",
+    "isDistrict": true,
+    "mzo": {
+      "code": "SOR",
+      "label": "Soroti",
+      "ip": "http://172.16.22.1:8080"
+    }
+  },
+  {
+    "id": 134,
+    "label": "Terego",
+    "isDistrict": true,
+    "mzo": {
+      "code": "ARU",
+      "label": "Arua",
+      "ip": "http://172.22.141.120:8080"
+    }
+  },
+  {
+    "id": 261,
+    "label": "Tororo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "TOR",
+      "label": "Tororo",
+      "ip": "http://172.16.23.1:8080"
+    }
+  },
+  {
+    "id": 263,
+    "label": "Wakiso-Busiro",
+    "isDistrict": true,
+    "mzo": {
+      "code": "WBU",
+      "label": "Wakiso-Busiro",
+      "ip": "http://172.22.141.60:8080"
+    }
+  },
+  {
+    "id": 264,
+    "label": "Wakiso-Kyadondo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "WKY",
+      "label": "Wakiso-Kyadondo",
+      "ip": "http://172.22.141.70:8080"
+    }
+  },
+  {
+    "id": 135,
+    "label": "Yumbe",
+    "isDistrict": true,
+    "mzo": {
+      "code": "ARU",
+      "label": "Arua",
+      "ip": "http://172.22.141.120:8080"
+    }
+  },
+  {
+    "id": 136,
+    "label": "Zombo",
+    "isDistrict": true,
+    "mzo": {
+      "code": "ARU",
+      "label": "Arua",
+      "ip": "http://172.22.141.120:8080"
+    }
+  }
+]

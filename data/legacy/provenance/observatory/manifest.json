@@ -1,0 +1,2125 @@
+{
+  "fetched_at": "2026-10-17T13:42:09.321Z",
+  "files": [
+    {
+      "path": "ubos-nphc-2024/districts.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=district",
+      "bytes": 1180679,
+      "sha256": "76b9c67231e463753e2e218c0cc6dae6c8995310792290052c121613f1f7845d",
+      "features": 147
+    },
+    {
+      "path": "ubos-nphc-2024/regions.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=region",
+      "bytes": 57990,
+      "sha256": "b522fc21ef4b99444dc8d0321b31c6f8f548b3a9f9873e9e334b935a2fef0f94",
+      "features": 4
+    },
+    {
+      "path": "ubos-nphc-2024/countys.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=county",
+      "bytes": 1891195,
+      "sha256": "a2d293d69f1d437d731a4460ad1b9c6dd23af91b3db1daf1841f899dcc80c0a8",
+      "features": 313
+    },
+    {
+      "path": "ubos-nphc-2024/indicators.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_indicators.php",
+      "bytes": 5971,
+      "sha256": "90b11e7c5d4bec2bf4e3535afdfce997b25f2b0e6f86203dc0fb7ef429e4ae10"
+    },
+    {
+      "path": "ubos-nphc-2024/subregions.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_subregions.php",
+      "bytes": 515,
+      "sha256": "ac209d8682618e1ea6db2128a81f34766ca5d38555db3d66fb709b80408334f2"
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/101.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=101",
+      "bytes": 15866,
+      "sha256": "7a8dd18a1bd4365878c4ea33fdc7e701d455128dc8a572ef2ce001fdf4060354",
+      "features": 7
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/102.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=102",
+      "bytes": 15667,
+      "sha256": "767b2e1ede1b70776a45149526fab6f90d6f9fecdb9843e90f884a410611a6cd",
+      "features": 6
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/102.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=102",
+      "bytes": 15667,
+      "sha256": "767b2e1ede1b70776a45149526fab6f90d6f9fecdb9843e90f884a410611a6cd",
+      "features": 6
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/103.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=103",
+      "bytes": 52495,
+      "sha256": "e23f9305bba0de61fe920b7246ad328ffad99390beb3551109c199fb4f6ed418",
+      "features": 14
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/104.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=104",
+      "bytes": 77413,
+      "sha256": "3c7011ae249d98bb967f6ff23404bc94d41dd5346147459e1ac9982b595ceb77",
+      "features": 18
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/105.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=105",
+      "bytes": 40939,
+      "sha256": "ac12ea6e52b05f030fa90f97b95a988e6c00240ff2451170d6f605d26ae07bdb",
+      "features": 4
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/106.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=106",
+      "bytes": 28434,
+      "sha256": "a5d15a3ab306a71f0f801052dbb3e8edd21853fc188cfdb5d2c8446812751a48",
+      "features": 9
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/107.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=107",
+      "bytes": 89875,
+      "sha256": "c6fdff82ed670ddd4a49d2b1d16162441371ca0c43d367e08ca4775b841341c3",
+      "features": 19
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/108.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=108",
+      "bytes": 229216,
+      "sha256": "3b88a858fef662847a298e62c039aad7eaeb65b058f725f124ba1e44421efb05",
+      "features": 18
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/109.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=109",
+      "bytes": 64274,
+      "sha256": "6b60e2c5dba2d4fa516b33c59c2c43f8f2587b6a2b46482d535a6d0cf85b6571",
+      "features": 15
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/110.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=110",
+      "bytes": 60370,
+      "sha256": "32eb34fbc2868a04895eaa01b94f8f7d00acdfeb8b0ce59987e9ec0cbbf0aa5b",
+      "features": 19
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/111.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=111",
+      "bytes": 77902,
+      "sha256": "a56fff0690c2e923c73cda39eab2db80672b07611627f4a1da942d8f7591eb90",
+      "features": 17
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/112.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=112",
+      "bytes": 50824,
+      "sha256": "09f670739055ca5edea1294fb02a9e6ef17ce35d891aea35ff1122ceb434a67c",
+      "features": 13
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/113.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=113",
+      "bytes": 81758,
+      "sha256": "ed6211f00b7f35e3e0bd717f3c9180d30f037de650b129f403d5fbff0b8c3676",
+      "features": 27
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/114.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=114",
+      "bytes": 29669,
+      "sha256": "52c1d04e197dd7f0c4f0bd4acafbfc49d20524410145c15db26bea8b4e98f7a1",
+      "features": 8
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/115.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=115",
+      "bytes": 58129,
+      "sha256": "d61f5923e1ce089d42dd7b9adeac54a125a41cda4dd78f4f75231ba39bf3a4f1",
+      "features": 17
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/116.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=116",
+      "bytes": 68680,
+      "sha256": "5e7110c7b278e46f28c26c84f1aeb8e5f2356f66d8db83239559d5a045b5adf7",
+      "features": 15
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/117.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=117",
+      "bytes": 54730,
+      "sha256": "9b64d49c36d2152162dfb7ff740963ed52519ef747ede006d90a77b0fa0ef894",
+      "features": 13
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/118.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=118",
+      "bytes": 29472,
+      "sha256": "0bbb8b02c45d03713c8f50d93c13b54fbc9c6c73a6277f3fc2e3b5382bf53690",
+      "features": 9
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/119.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=119",
+      "bytes": 17065,
+      "sha256": "aca6ada4e3c983e74982f4709e3c03fb3b6469f59c1d3706a3dd5d6a275094ed",
+      "features": 7
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/120.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=120",
+      "bytes": 100446,
+      "sha256": "aeb3ac4585c48d6fa93b4dca76e8c59dd8951bfb4f161e0829fbba979914e067",
+      "features": 9
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/121.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=121",
+      "bytes": 39050,
+      "sha256": "dde16ea0b7cfb2a8a18d4b2f44f6b89be90f752f9b78b308a53967bc9a07c798",
+      "features": 9
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/122.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=122",
+      "bytes": 23609,
+      "sha256": "8f61679715b74ab376d609d684c4bbc650692e6f22593cd4b41ad5b0c4e41659",
+      "features": 7
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/123.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=123",
+      "bytes": 82168,
+      "sha256": "25e35e3b160a6356c0a33f078aa71015199866e7128835523dedcad3a3696307",
+      "features": 21
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/124.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=124",
+      "bytes": 37137,
+      "sha256": "4debeddaba12d452fd74271fc075c8a25733691e16c8b7b1ae50e0e6051a5ea6",
+      "features": 10
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/125.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=125",
+      "bytes": 49170,
+      "sha256": "f3a370c0ed3776325c0f76a7b1f64a214dffcb489c84c4f669c32b853ccdff5e",
+      "features": 14
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/126.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=126",
+      "bytes": 66073,
+      "sha256": "ea44c13f0bb6d79b9b368cd4011c351fec82f01c198be3714e3c145928c1cb7f",
+      "features": 15
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/127.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=127",
+      "bytes": 9413,
+      "sha256": "316ec6a98feb48d79ab07c76f1cecc1d604ecbd9ebe0f8ee7e1407aef87c1279",
+      "features": 2
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/201.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=201",
+      "bytes": 64528,
+      "sha256": "d9c2ad99481770f360878dbd496a71b6ad5c0c253cb55080ca0772b4819085d4",
+      "features": 20
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/202.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=202",
+      "bytes": 62310,
+      "sha256": "d8bb5b85687be2815156ba3cc75a67773822a68b2096f0e8b287605e5ec2e2dc",
+      "features": 20
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/203.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=203",
+      "bytes": 32678,
+      "sha256": "6e9e580ccf0489c36e5c3238d771f19fd3beb7dd15bbedcefab0160e10bfde07",
+      "features": 11
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/204.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=204",
+      "bytes": 22726,
+      "sha256": "d8efe95c573cd69e1eaa65ecde45bedf9532f9a5fdbb1ed9ea79e26039c25c30",
+      "features": 7
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/205.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=205",
+      "bytes": 79830,
+      "sha256": "97dafd6e7d8319205800c2b2174652a23cffdc9b2347101e503a8b2dee80470b",
+      "features": 22
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/206.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=206",
+      "bytes": 42493,
+      "sha256": "843f4f198c27d50bd2878483fe20e80e6ca106d9602e86130f8e1a3d8aba7d92",
+      "features": 15
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/207.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=207",
+      "bytes": 67425,
+      "sha256": "365f7149c7336cf3792333c29e189ca6d58e117507bd486209c48ebdbf6daa22",
+      "features": 20
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/208.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=208",
+      "bytes": 48313,
+      "sha256": "5a2f17002cb34934d467332f75c73fb0b3c7c031c799da2e74c562d378926a69",
+      "features": 18
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/209.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=209",
+      "bytes": 51070,
+      "sha256": "6bedc25f1b2f309ab84edfafbba55325c34aeb8963429e8e2205fa4dd6d0527e",
+      "features": 17
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/210.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=210",
+      "bytes": 44014,
+      "sha256": "102a3e2c92bfe44dea60fa1c087d3ec6a5faa7fa34c834ad330916939f095e94",
+      "features": 21
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/211.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=211",
+      "bytes": 40385,
+      "sha256": "c73e6c60a335110d520b76acb8d88550632b8ddf5aa49150bf48f5de026a7593",
+      "features": 12
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/212.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=212",
+      "bytes": 108461,
+      "sha256": "35f63ec741bb05a72797f76bba51c1793fa6b4085cb0a3bffb5260394f8b9cb9",
+      "features": 42
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/213.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=213",
+      "bytes": 27963,
+      "sha256": "f4ec33c469607d6359982890321ec0640cef857341476a7fce91e39c0e0be456",
+      "features": 9
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/214.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=214",
+      "bytes": 52334,
+      "sha256": "33f93bbffe2026e6bc27cfa70836a1545975af352e96b27e95a11ed7d67e1299",
+      "features": 16
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/215.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=215",
+      "bytes": 84525,
+      "sha256": "c98ec378f7a5d5a50f56731080952aa19f3bd3acfa857324bd98e7b83132d78d",
+      "features": 42
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/216.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=216",
+      "bytes": 66469,
+      "sha256": "c571ddd866f081d28a40f9c31bab66a5e1b27572a301c3bed164f7b9bc2a9034",
+      "features": 18
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/217.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=217",
+      "bytes": 37039,
+      "sha256": "9f4622c80a3cd943490dea6caac0e129e8c0b60df97d87d88f6a910a12da62f7",
+      "features": 20
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/218.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=218",
+      "bytes": 67518,
+      "sha256": "c1013d2f12f607750959c10858a0fd78286adf1ca98d7b525fcc381c1fc84576",
+      "features": 28
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/219.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=219",
+      "bytes": 49695,
+      "sha256": "6e37c19937fc93c18dbb8908aed1670c1f7a9945da6d88e488376f72d7816ce1",
+      "features": 16
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/220.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=220",
+      "bytes": 51973,
+      "sha256": "ef9cdf6eb55e05b6fe1b09acef95fc471ad97161ceb332eb0b9f6d385fdbfa52",
+      "features": 21
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/221.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=221",
+      "bytes": 45451,
+      "sha256": "0273fad6485e697f7ae5a8426034309c189694d0f00e650c679e280eef001190",
+      "features": 15
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/222.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=222",
+      "bytes": 37997,
+      "sha256": "a0606977d5ae251f4c110952c9d185ee25086a2ea867fdfbccb4ab472b3276fa",
+      "features": 15
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/223.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=223",
+      "bytes": 60293,
+      "sha256": "6d84086a18b505455f809b1c62c0fb25645d0c5958b31b9107e6e87de53e1d4d",
+      "features": 32
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/224.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=224",
+      "bytes": 46475,
+      "sha256": "ffc71765f62e8a3f99c4a4937c9d4a2547774cf73420b2419d8fc19c2d2f85c2",
+      "features": 20
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/225.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=225",
+      "bytes": 72778,
+      "sha256": "247cd462480a700306d5b6ecdb9b73af1a2e16f35dd42a21d283299f6a49b69d",
+      "features": 26
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/226.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=226",
+      "bytes": 43906,
+      "sha256": "4ad36304c67edadc16d59d57bd40498f483d033c5ea3f43b39d939df6bec26b5",
+      "features": 14
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/227.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=227",
+      "bytes": 36430,
+      "sha256": "71bffd84d5c8b8865d3270f91bfd6466738497800b1d9e48c4c112765a951fea",
+      "features": 22
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/228.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=228",
+      "bytes": 77101,
+      "sha256": "112fa334c4913aec4ec87a9b9b6bdf4e039a8a5fa885158b188c9119502539d7",
+      "features": 19
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/229.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=229",
+      "bytes": 40204,
+      "sha256": "21984e1790393e8a56ac1b8decce6d7386ac29dd6e2f3baf3994e9f0ed38302a",
+      "features": 12
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/230.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=230",
+      "bytes": 44448,
+      "sha256": "c99f979c97f2f460a03e15f9f93c54f3dd92fbb719d9ff6777fbbee01b7d8078",
+      "features": 11
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/231.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=231",
+      "bytes": 30868,
+      "sha256": "6e56800d3357db67e872acee9dfd9d7262e5d0ca52b25dcebf06ca3436a7dcac",
+      "features": 11
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/232.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=232",
+      "bytes": 51628,
+      "sha256": "a74e7656664a735f88d5b4b07d4edb6ed39399f1d55319e126399c9b1e7f6ff7",
+      "features": 15
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/233.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=233",
+      "bytes": 31039,
+      "sha256": "26beb23084dc30f2e654a39bc02b319177b8d77cc4d96891c3cb1e1d921d1eac",
+      "features": 17
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/234.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=234",
+      "bytes": 63668,
+      "sha256": "3e6245b5cbcc7e52eba419ee35011095000a4c4ef86a43e5df03956f93a1a074",
+      "features": 29
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/235.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=235",
+      "bytes": 22383,
+      "sha256": "5e402704173d3a7b151e23c0d44f86db76561a5c90893c9ef73ec932d5e026cf",
+      "features": 8
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/236.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=236",
+      "bytes": 67878,
+      "sha256": "1fa1332c07157e004917173bce56154c3ba5d55e74bf427e3c0bbc43554c4457",
+      "features": 11
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/237.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=237",
+      "bytes": 32275,
+      "sha256": "8d0e722c349bc18349d1dedb00e25c37d24088cbe27935531ff4f94ab0eadd98",
+      "features": 10
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/238.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=238",
+      "bytes": 5895,
+      "sha256": "55e7f9f7d45e7302dbd54dd07c35422ea979a197bdfbfd5a644b3f70943a690d",
+      "features": 2
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/239.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=239",
+      "bytes": 11318,
+      "sha256": "922fca3fc361735bad85f3c343f289cd15da783ea5d9cdf22feb0abdb8260ab3",
+      "features": 2
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/240.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=240",
+      "bytes": 10128,
+      "sha256": "bb3f0cbf7d98cc2091378f04ab43afccf3b3e80cdef62cd314f2c133da3b0ef2",
+      "features": 2
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/301.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=301",
+      "bytes": 88412,
+      "sha256": "ca31e9979df79c71e1d23261dbf6270990e8cbe2904ef5ee585399d89954d907",
+      "features": 13
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/302.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=302",
+      "bytes": 50138,
+      "sha256": "244d74b1dcfe7b2ecb6919db09e699b4a56e53ffecfa859a4a306022619e8ef6",
+      "features": 12
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/303.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=303",
+      "bytes": 30115,
+      "sha256": "9fcc88225e4858f2181b67beb8f4f9f4977bb704099d17a10054d38bde1aa64f",
+      "features": 4
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/304.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=304",
+      "bytes": 68553,
+      "sha256": "b51c14fdbb72e7f859183c3dbd212818296836b3a5444767117cb4224b1fd0d7",
+      "features": 11
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/305.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=305",
+      "bytes": 129738,
+      "sha256": "88aff213e6f8e40b091256ac409cb245435e09b19db862295aa62935d6a0d20f",
+      "features": 22
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/306.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=306",
+      "bytes": 120944,
+      "sha256": "becde866a2fa43f4371f2b0f96fe83e2003690e3dfa05cac648edf9bf700eeb8",
+      "features": 19
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/307.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=307",
+      "bytes": 48868,
+      "sha256": "78ba0d7e771b21d3cc33977c36670e4142e9894c898a1009a3958c191075ffa9",
+      "features": 11
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/308.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=308",
+      "bytes": 53770,
+      "sha256": "4d9364805c0e1aac4b97bb567a80fe086da0828c2c575ce6f52c0e2ab64df1ba",
+      "features": 9
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/309.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=309",
+      "bytes": 43174,
+      "sha256": "c4124debea643e960d6a1615912f9e0dea90ee00ea53c214789a93e15179dd65",
+      "features": 10
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/310.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=310",
+      "bytes": 76206,
+      "sha256": "6c14e269b3a50b576e30064b47016f0170b460b19d121accc253c1fe55ad78c6",
+      "features": 16
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/311.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=311",
+      "bytes": 60549,
+      "sha256": "6f4bd5f1118c08edea5b740b7cb7c613a7803b612c020cacda47ad9c0fa5c3c1",
+      "features": 9
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/312.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=312",
+      "bytes": 147787,
+      "sha256": "fe534c0b96a2502690a4d027e21bd3aca06dbd3117cf2dcffb6a0af66f70cc89",
+      "features": 23
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/313.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=313",
+      "bytes": 126820,
+      "sha256": "cad49c46caf68dd9405a6d63158fed30749f171d41f5ba313a43dc3873520704",
+      "features": 26
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/314.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=314",
+      "bytes": 60615,
+      "sha256": "883d7ef3a438132aa60e3b6d0a2793b29ce275d653dbbb50420217a21d537211",
+      "features": 16
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/315.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=315",
+      "bytes": 43276,
+      "sha256": "db335fd5ef0de401fc04b0468748c1eef9d6128a37b437dc132b66a1f8b69b60",
+      "features": 16
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/316.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=316",
+      "bytes": 141536,
+      "sha256": "ddc5cbab2e6ae24d019fb4737e13d49c25a9916d6fe7dfd813dcc49d93ea0ed2",
+      "features": 13
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/317.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=317",
+      "bytes": 45297,
+      "sha256": "69852f6ecb98a83624b3e05ff29fb3911ddac60aa71662bff4585081b10e4804",
+      "features": 14
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/318.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=318",
+      "bytes": 84778,
+      "sha256": "7666c7609a7a75f0376f72afe719c8d546b7c433f7a05bd71675ed66d4eeafcf",
+      "features": 19
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/319.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=319",
+      "bytes": 59112,
+      "sha256": "1555a1697e63d1eb1e757278a26790a9fc7dd1edd2c8155775f9a2d62e7819ee",
+      "features": 12
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/320.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=320",
+      "bytes": 63815,
+      "sha256": "3e8eda0002d95d41bf074024d2ed8f9a34ef2b48e10cb2beb68c44a51a362f83",
+      "features": 19
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/321.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=321",
+      "bytes": 84608,
+      "sha256": "94a33b1f74f09e84964ecf04d143851f0f895b277bc83a1848156efd12b8ce7a",
+      "features": 16
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/322.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=322",
+      "bytes": 145553,
+      "sha256": "6c759108446ed85607e6ceeb611d0f05137ac2ba3d18f01122df453ab875c76a",
+      "features": 26
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/323.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=323",
+      "bytes": 86771,
+      "sha256": "970328ca418c56b93e3068adda9ad3f9989a82eb45d2182c167ca50ac09ae2ea",
+      "features": 14
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/324.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=324",
+      "bytes": 66500,
+      "sha256": "e8e7fc3c3fdd1ccb8ac0dd0cfb68cb877cb411155e5e33fbd9490838b315ca41",
+      "features": 11
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/325.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=325",
+      "bytes": 61938,
+      "sha256": "510789d9f5ae1fb3e16ac7e875d5570aad890a76f0bad75935fc8728c408f6f0",
+      "features": 11
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/326.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=326",
+      "bytes": 126040,
+      "sha256": "1d1fccc047eb33073ed2f560fde8bff784542871e73eb0520940d5d1d87920d9",
+      "features": 20
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/327.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=327",
+      "bytes": 78168,
+      "sha256": "11d85a4780617f75c004ca0d0789e4ec71117386b5ec67370a4564b7ae3b4bd7",
+      "features": 14
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/328.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=328",
+      "bytes": 121306,
+      "sha256": "f02569d294257ffc75a68a3738862bc7a6fbfca6671caf19ebed55af9856f366",
+      "features": 11
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/329.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=329",
+      "bytes": 72788,
+      "sha256": "337e2e3843601e10650e0ca139ace8b66c2c5692651ade57c5a6d3b632bca863",
+      "features": 14
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/330.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=330",
+      "bytes": 74368,
+      "sha256": "9714add509cefd04ea71086435a963868d95139c680817649a90fed6d0aab009",
+      "features": 15
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/331.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=331",
+      "bytes": 72697,
+      "sha256": "c7fe602df371b00fc7d85d8453a2c66af95007ac5c6502fe80fb6782b7a39ae0",
+      "features": 15
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/332.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=332",
+      "bytes": 37549,
+      "sha256": "dd8241505f223952f4b1b5c611c063763ebe7b1a6ddaad674a23767359775cc0",
+      "features": 10
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/333.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=333",
+      "bytes": 46192,
+      "sha256": "7ffded7935374e19474fb000ed08cd17ff49adab15d4833be03d58298bd4264c",
+      "features": 11
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/334.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=334",
+      "bytes": 24820,
+      "sha256": "8305deadceaeee2d36b1f00e86eda0fc4607f313c4a8a760c8230a76df950cfd",
+      "features": 6
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/335.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=335",
+      "bytes": 40747,
+      "sha256": "de4cb0b31aae7e220b88971cd146edbad1199e21cb98de19cdb22d442d18185c",
+      "features": 10
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/336.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=336",
+      "bytes": 70560,
+      "sha256": "5d4f12e21f3bb31de64042faf7de793a6af637c2ed99c2cab3e917e971083888",
+      "features": 13
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/337.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=337",
+      "bytes": 37129,
+      "sha256": "97606a7468732ab51d3c99dbe1120c26d63b390bef639582dfa84c8f6c787a12",
+      "features": 7
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/338.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=338",
+      "bytes": 17867,
+      "sha256": "0fafbf0ba08987b5d559a2348bbb2e27256a8012020951f45fde67937ae85ff1",
+      "features": 2
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/339.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=339",
+      "bytes": 10959,
+      "sha256": "3cb8a5210a3250cf8b66788c21da95e0ef9b86fde9b7b53730e4e64daf9f4135",
+      "features": 2
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/340.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=340",
+      "bytes": 83777,
+      "sha256": "2950c455540796ac29eaf67fb99adc968f238dfe0ab42d5812ee40634d19bebc",
+      "features": 9
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/341.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=341",
+      "bytes": 9175,
+      "sha256": "021759bf07b372296f7736ba9911fdfd5e870a324335555cddd18dee42db3360",
+      "features": 2
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/401.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=401",
+      "bytes": 90088,
+      "sha256": "5ac637a56a3b633bee447ef90ed72834fdce216cee494ddb5fd44cdea20db083",
+      "features": 27
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/402.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=402",
+      "bytes": 76096,
+      "sha256": "db9c208ef8cdeb3db3a689ee84009da50a66e19e3f8172332ffc1539d4491ebb",
+      "features": 17
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/403.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=403",
+      "bytes": 56269,
+      "sha256": "90141e3e3f34cbdeb7b70e995127ed6639564596dfcdc91cc71da91029e53b5f",
+      "features": 14
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/404.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=404",
+      "bytes": 46264,
+      "sha256": "e85c9edd4f2e43150551ce070f092f8840ea11ab1be209897255a87a754c5b29",
+      "features": 15
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/405.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=405",
+      "bytes": 64468,
+      "sha256": "e854ae6258f14a6ea21651a45cb59c81099a2b58f90357517c417faf17c15d71",
+      "features": 15
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/406.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=406",
+      "bytes": 166439,
+      "sha256": "019529665a53658c3fab224808fe406e2a8b48bbbba00b914cb768464b4bd87f",
+      "features": 44
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/407.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=407",
+      "bytes": 60689,
+      "sha256": "d55ea2a0b2e8ec8f27a14d2a8f71c9461ae4029243671c1380540a2fad44b967",
+      "features": 14
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/408.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=408",
+      "bytes": 74973,
+      "sha256": "767363fb4ebe7b69e39662dd2fdc4e980045ad660f5a7b24e3b3ae2e91641cb8",
+      "features": 24
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/409.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=409",
+      "bytes": 86156,
+      "sha256": "c8e70a3f6941f56e19469eb181a07b46f34717d6a338a371cfd82a0dae9148b9",
+      "features": 18
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/410.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=410",
+      "bytes": 40531,
+      "sha256": "7251093e5f2103476f25cb7da29ffbb6047217d1ec2ce78c89c1b5ea6ef9dc48",
+      "features": 11
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/411.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=411",
+      "bytes": 118118,
+      "sha256": "77dc503eb64f4e10d90ef0d7b07d994c84ca1a137d6ff3f5d85ad576efa67cad",
+      "features": 34
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/412.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=412",
+      "bytes": 88009,
+      "sha256": "898ba21f7e2619c67481bc54e6b1507eaa29487d117a5f208f1d1f5caad31653",
+      "features": 16
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/413.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=413",
+      "bytes": 91248,
+      "sha256": "8bc3ddf5199fc65a9ab10ccfafb6127cb966c43430fb4598fc8ebaeb886e5fa6",
+      "features": 19
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/414.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=414",
+      "bytes": 123775,
+      "sha256": "a1aded4f19d8383a5d8544bdd57db78a3eb59c18779a3d3d13071bb86adee023",
+      "features": 27
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/415.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=415",
+      "bytes": 124659,
+      "sha256": "db1ec9972edc70f40b644e6c5e60f7db51aa7c9b151533defec4bb1f3543feee",
+      "features": 31
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/416.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=416",
+      "bytes": 40538,
+      "sha256": "8b2d6feb377735acc94d88aa1adfbb999f08bf0a62fe5e9b54440f3151f5dbbb",
+      "features": 10
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/417.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=417",
+      "bytes": 83563,
+      "sha256": "edd6cb6bab5dd4ce457b02aeb58452ae66265da86728c742f47c08e9f41a293c",
+      "features": 16
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/418.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=418",
+      "bytes": 134632,
+      "sha256": "8e88747956d9c97fea5816b556fb68bed64a69b2a33b31732e7ce2b816a6a7d7",
+      "features": 33
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/419.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=419",
+      "bytes": 67989,
+      "sha256": "5c7d7fac09b91dd0e7d3922c6f80b5b0e2b9f1dca116e528ccf2969692c77852",
+      "features": 14
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/420.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=420",
+      "bytes": 58593,
+      "sha256": "24a749c1e07c5347bd22f8df3fd3b644fc009d53b341d6285de95bcd982480ae",
+      "features": 14
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/421.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=421",
+      "bytes": 64391,
+      "sha256": "642819bd0ffb5f4c40cb3067d6260dac33b836dbdafbdd8f7e8f6205f81cfb01",
+      "features": 14
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/422.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=422",
+      "bytes": 79909,
+      "sha256": "299c282b9f249e1ad0ad998c443b2db6a1c24835e3b9ec844a1ebd4ebb6ca745",
+      "features": 20
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/423.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=423",
+      "bytes": 65693,
+      "sha256": "7841cec1679f24b41a9ddafe31a29cfae1548ebf1e1d9a6eb2bf355bf45e46dd",
+      "features": 18
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/424.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=424",
+      "bytes": 60759,
+      "sha256": "9d15b6a53373d6ee2ebb99c0ad6c31dd8c958928843c9f2f3d3a0d10882ffc3c",
+      "features": 10
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/425.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=425",
+      "bytes": 48522,
+      "sha256": "609c50c332a8bfa6ec1a0701620747edc1800959020d7f5936530496cb6bf743",
+      "features": 11
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/426.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=426",
+      "bytes": 44592,
+      "sha256": "85df5ec48b38bbb2b7e9fe1c8f324e03a290bdcd8f33cad3b486fe239f77c857",
+      "features": 15
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/427.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=427",
+      "bytes": 115254,
+      "sha256": "9291157c1f069c3b2309b5003f2109f9e725da13b7b9d71af24fcfaabcedcbf7",
+      "features": 35
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/428.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=428",
+      "bytes": 93575,
+      "sha256": "f16446716e60b947bd0d08a903e593c72d6daf3c4835137931257fd9925dca23",
+      "features": 24
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/429.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=429",
+      "bytes": 49549,
+      "sha256": "df69f2329589f83b8d065c2506e912fc31903a9e2e767401f3ae44a9a2ddb36c",
+      "features": 17
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/430.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=430",
+      "bytes": 23585,
+      "sha256": "1cbd7cb615db5168270786caaff43c14ed12e99ef94b0cfb51c63d9c8f0a9417",
+      "features": 6
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/431.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=431",
+      "bytes": 55882,
+      "sha256": "6a9a12f46a9e9dd8ce6364b5046d569a6c45630250a3cbef6e8a53978db8be6c",
+      "features": 15
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/432.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=432",
+      "bytes": 55415,
+      "sha256": "ec7e4a0ac60021b420fa0bd7dbe411fe69e8a373e620e2dfaa276c384fe877bf",
+      "features": 8
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/433.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=433",
+      "bytes": 62999,
+      "sha256": "1f105145d4a85cf2e91ade6ee78540c845a0db0c862716e67ee1511c19f6104d",
+      "features": 10
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/434.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=434",
+      "bytes": 51873,
+      "sha256": "ae39bff9512355e997ce92a72895a7192365d9a27675be0432ccb511ff3cd3e0",
+      "features": 13
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/435.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=435",
+      "bytes": 41208,
+      "sha256": "c12bd12a58cf520d8ee5c3ea77d11f44d82ea152809b4b0cc9b4010ae3432d6b",
+      "features": 8
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/436.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=436",
+      "bytes": 9435,
+      "sha256": "17b646d39c551519403582c81ecb5e5e81a1c2b0ae78b45ecd0cb5d8be5dbeef",
+      "features": 2
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/437.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=437",
+      "bytes": 21363,
+      "sha256": "c69ba4689b4efad405ef40f951361f9616442c6a1d653f1802a503535e1e16a9",
+      "features": 2
+    },
+    {
+      "path": "ubos-nphc-2024/subcounties/438.json",
+      "url": "https://statistics.ubos.org/nphc/api/get_geospatial_data.php?level=subcounty&district_code=438",
+      "bytes": 11387,
+      "sha256": "cfe4122379a499e4b06fead78198a53fd872ed14d73ab3d4e112c0583883230a",
+      "features": 2
+    },
+    {
+      "path": "ubos-bec-2025/indicators.json",
+      "url": "https://statistics.ubos.org/bec/api/get_indicators.php",
+      "bytes": 12516,
+      "sha256": "92b0dce8136de59dfcc49048aab41fc98c2ef140de6e2aecc1a1ce2cd9da22bc"
+    },
+    {
+      "path": "ubos-bec-2025/parishes/101.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=101",
+      "bytes": 42698,
+      "sha256": "e0640c0ab711af4d2e8334165358f70b044f39414d87973946f42d7ca8dcb4d3",
+      "features": 17
+    },
+    {
+      "path": "ubos-bec-2025/parishes/102.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=102",
+      "bytes": 136170,
+      "sha256": "a310d4e70442bc67058222d70786cea157ba5cccf3685e932509d67837802e6b",
+      "features": 102
+    },
+    {
+      "path": "ubos-bec-2025/parishes/102.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=102",
+      "bytes": 136170,
+      "sha256": "a310d4e70442bc67058222d70786cea157ba5cccf3685e932509d67837802e6b",
+      "features": 102
+    },
+    {
+      "path": "ubos-bec-2025/parishes/103.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=103",
+      "bytes": 160729,
+      "sha256": "882f7af9927fd8c9679b0e02d6dafb04c8f5bb8519fc3b51065fef280f01c6ed",
+      "features": 58
+    },
+    {
+      "path": "ubos-bec-2025/parishes/104.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=104",
+      "bytes": 285887,
+      "sha256": "69c78a3fa0324361d2c514ac6f500a0763ad180a224b2c81052fc333fb2e35ed",
+      "features": 101
+    },
+    {
+      "path": "ubos-bec-2025/parishes/105.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=105",
+      "bytes": 64823,
+      "sha256": "e2fa251444061c5d5a07ce1821575b10b4f97c0b5207f2b871f106523c4638c1",
+      "features": 18
+    },
+    {
+      "path": "ubos-bec-2025/parishes/106.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=106",
+      "bytes": 138206,
+      "sha256": "bf5db24304e8013703b10f4f35f2115de9266ae1545b8acc710d857efb29a473",
+      "features": 56
+    },
+    {
+      "path": "ubos-bec-2025/parishes/107.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=107",
+      "bytes": 331248,
+      "sha256": "4503455add7f6577f5930ac5e4dd5a1ef18ea888345d7fea39ff9a6c04f2dd5f",
+      "features": 97
+    },
+    {
+      "path": "ubos-bec-2025/parishes/108.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=108",
+      "bytes": 363785,
+      "sha256": "3016e65e4108ea5f1ae221d988870a62b897a6c881390a752857eabe906cc847",
+      "features": 97
+    },
+    {
+      "path": "ubos-bec-2025/parishes/109.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=109",
+      "bytes": 202887,
+      "sha256": "1c578f7eab889ee31208188be491f58146c4944de4e287efadc5635d23d0dc12",
+      "features": 68
+    },
+    {
+      "path": "ubos-bec-2025/parishes/110.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=110",
+      "bytes": 198253,
+      "sha256": "afeb2420b13f4751fd4f1df40d185622a7f6d7e75f21f335a77c2b1ebc002173",
+      "features": 73
+    },
+    {
+      "path": "ubos-bec-2025/parishes/111.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=111",
+      "bytes": 254071,
+      "sha256": "9cb44d3ca786e20b9a1c5a05cbb2c44ab172302534502aee5e9e0e04998b58ee",
+      "features": 65
+    },
+    {
+      "path": "ubos-bec-2025/parishes/112.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=112",
+      "bytes": 180900,
+      "sha256": "588873ec0b93d944791ae6086bbc5000ea21cf7d2a24e9147a65cc9ba1f2e5b2",
+      "features": 71
+    },
+    {
+      "path": "ubos-bec-2025/parishes/113.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=113",
+      "bytes": 390116,
+      "sha256": "45c4bfc68b73b03dcf82b39d28e0a4c6937bee98810a5e80a38a24308d78accc",
+      "features": 147
+    },
+    {
+      "path": "ubos-bec-2025/parishes/114.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=114",
+      "bytes": 94073,
+      "sha256": "e23b0ad42fdbb324c72d0165740438aeff9ea6702829a8b616dc70473f921422",
+      "features": 30
+    },
+    {
+      "path": "ubos-bec-2025/parishes/115.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=115",
+      "bytes": 239355,
+      "sha256": "8a1a7f58ed76c3ec8455d9b0d46cc5ec7263654c5addf1c730d42129c500e395",
+      "features": 90
+    },
+    {
+      "path": "ubos-bec-2025/parishes/116.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=116",
+      "bytes": 205346,
+      "sha256": "cd74fafd8d20a1c59526edc4728b3da55dacfefbc7926b7fe7560f5f0f8c21ad",
+      "features": 71
+    },
+    {
+      "path": "ubos-bec-2025/parishes/117.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=117",
+      "bytes": 200948,
+      "sha256": "ead7c10596380361cfd8e32e61095d939cbefe9191512d861c2ff35a13d4b323",
+      "features": 67
+    },
+    {
+      "path": "ubos-bec-2025/parishes/118.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=118",
+      "bytes": 94228,
+      "sha256": "d52bd33a00eef40ce9b11becf124d5457ea4fd50a302ec3130ca3e126254b879",
+      "features": 39
+    },
+    {
+      "path": "ubos-bec-2025/parishes/119.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=119",
+      "bytes": 63639,
+      "sha256": "a3dbd14218f1f120cc3553346f8b5cefd25f1dc28b085963f3bf117a8326b3c7",
+      "features": 25
+    },
+    {
+      "path": "ubos-bec-2025/parishes/120.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=120",
+      "bytes": 210989,
+      "sha256": "8a6974984ec2df52832bdcd77ba8be98bf1a29b3d1dece63e041f49b4532f8e4",
+      "features": 38
+    },
+    {
+      "path": "ubos-bec-2025/parishes/121.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=121",
+      "bytes": 142795,
+      "sha256": "9d9be6669200c0a6ab884fcf7319f7c6124b4cbaddb58dae52de41500815db47",
+      "features": 49
+    },
+    {
+      "path": "ubos-bec-2025/parishes/122.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=122",
+      "bytes": 90848,
+      "sha256": "803de9b155e074597fc34dc7161d27a116750e1053cca80b2b1d4377d68657c4",
+      "features": 37
+    },
+    {
+      "path": "ubos-bec-2025/parishes/123.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=123",
+      "bytes": 303196,
+      "sha256": "a89345bb08606a4cf72a3de8084b98cb8b74fd1114aef5c4010aceaabc301191",
+      "features": 119
+    },
+    {
+      "path": "ubos-bec-2025/parishes/124.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=124",
+      "bytes": 121725,
+      "sha256": "59df10bd7320396e7333798bd41a5a2966ba87d3aaf1018d0baeed2c56ecaf83",
+      "features": 45
+    },
+    {
+      "path": "ubos-bec-2025/parishes/125.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=125",
+      "bytes": 179319,
+      "sha256": "b31c11f9eb84efcdfa5146d47865cabc8c829a0494fd743cf1842a41fd91123c",
+      "features": 66
+    },
+    {
+      "path": "ubos-bec-2025/parishes/126.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=126",
+      "bytes": 268590,
+      "sha256": "de55d99949b1f46a29514eac8a17255f8d2d22e5d2818651e14b436f331f12aa",
+      "features": 92
+    },
+    {
+      "path": "ubos-bec-2025/parishes/127.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=127",
+      "bytes": 66465,
+      "sha256": "8fe8a1d1024c1b99c952a9f63c94d7c1d3b8fb92dcb27b2829f68eac963e91e0",
+      "features": 25
+    },
+    {
+      "path": "ubos-bec-2025/parishes/201.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=201",
+      "bytes": 239789,
+      "sha256": "a2ced7edb720731087c3012edd2119d71915857714778dc4ccbbdd747f618f72",
+      "features": 102
+    },
+    {
+      "path": "ubos-bec-2025/parishes/202.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=202",
+      "bytes": 197599,
+      "sha256": "09b101ecb8197f8991333dd9bcb031bf8d599b04dfb799bf8d24df1d9490a8ea",
+      "features": 70
+    },
+    {
+      "path": "ubos-bec-2025/parishes/203.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=203",
+      "bytes": 140815,
+      "sha256": "6b3818a054c81e21188a43be90db354d56f68ed0787c49ac74a1cea54e66b2ef",
+      "features": 53
+    },
+    {
+      "path": "ubos-bec-2025/parishes/204.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=204",
+      "bytes": 94674,
+      "sha256": "d852f02024bcbda5d137193c7b714da4c164130001627470ed436fbe15473bfc",
+      "features": 34
+    },
+    {
+      "path": "ubos-bec-2025/parishes/205.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=205",
+      "bytes": 258444,
+      "sha256": "a9ed0a23a7f709f3c0a17e0adfba4edd7c06e24553d3d723c5ba707cadf2722d",
+      "features": 90
+    },
+    {
+      "path": "ubos-bec-2025/parishes/206.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=206",
+      "bytes": 167007,
+      "sha256": "c403d65c662663979550438d65e4ec5e85069a1bcf5c44a90392389cafe84bd8",
+      "features": 85
+    },
+    {
+      "path": "ubos-bec-2025/parishes/207.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=207",
+      "bytes": 289038,
+      "sha256": "4bb74da09a3aca55557fabb965606c50057702100b1c0bf6819a916ab8a03724",
+      "features": 126
+    },
+    {
+      "path": "ubos-bec-2025/parishes/208.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=208",
+      "bytes": 252111,
+      "sha256": "21f9301652489a7861541f1ee1fbb56f7dc82f4df62af95aa1b93020976711a7",
+      "features": 154
+    },
+    {
+      "path": "ubos-bec-2025/parishes/209.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=209",
+      "bytes": 201851,
+      "sha256": "de5b068b8f69c4729c0e1f7461da2bbdae0013826d0b26f25e9093e50500be33",
+      "features": 90
+    },
+    {
+      "path": "ubos-bec-2025/parishes/210.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=210",
+      "bytes": 164765,
+      "sha256": "c89e9d2ba8a2692e2138f409a904cbc7560332782f6a061db0af8a5dd479289c",
+      "features": 90
+    },
+    {
+      "path": "ubos-bec-2025/parishes/211.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=211",
+      "bytes": 152837,
+      "sha256": "009498bfc261256c36518362334bc4dd26e257a8185f9c76a229a4b21d73636c",
+      "features": 54
+    },
+    {
+      "path": "ubos-bec-2025/parishes/212.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=212",
+      "bytes": 378597,
+      "sha256": "ba900cda653f3b9b6e2893d0c4e0424df9e7c5f2d63309a55acbcd9c4cfaac7c",
+      "features": 180
+    },
+    {
+      "path": "ubos-bec-2025/parishes/213.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=213",
+      "bytes": 86515,
+      "sha256": "5ff2d165337044cc696da87c27c32be8eba769ebf0d40c3558fe6fcb26bf7540",
+      "features": 29
+    },
+    {
+      "path": "ubos-bec-2025/parishes/214.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=214",
+      "bytes": 209553,
+      "sha256": "a9a38c6065bcdc4e41143c458bb47935ac5676cbbe0355be5132d91c476927a3",
+      "features": 85
+    },
+    {
+      "path": "ubos-bec-2025/parishes/215.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=215",
+      "bytes": 366918,
+      "sha256": "04596ac8e5ecc4eae08c702183b9c5f8c8877e8c652861b3c50da8d32e770782",
+      "features": 226
+    },
+    {
+      "path": "ubos-bec-2025/parishes/216.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=216",
+      "bytes": 260268,
+      "sha256": "04b3d4c559483b192df2bd9a46fb4a9351daa7b71aa2dcc758422e79e7de870f",
+      "features": 99
+    },
+    {
+      "path": "ubos-bec-2025/parishes/217.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=217",
+      "bytes": 135936,
+      "sha256": "ed0f75f67a25bb8b66b56230c694a00fc016ee3348223a85214a8de43ecc98f2",
+      "features": 76
+    },
+    {
+      "path": "ubos-bec-2025/parishes/218.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=218",
+      "bytes": 302652,
+      "sha256": "fdb2d73c8c30770c1bc9014ce5afab303a9efa0e9aa3ea49f27813c7a9cea8a2",
+      "features": 160
+    },
+    {
+      "path": "ubos-bec-2025/parishes/219.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=219",
+      "bytes": 257267,
+      "sha256": "7fee16217e2b100ba365febdc5963430608629e1fcb1690053a01f3815fb44f9",
+      "features": 152
+    },
+    {
+      "path": "ubos-bec-2025/parishes/220.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=220",
+      "bytes": 209922,
+      "sha256": "66168ba74d54415d780f014d7672dd1feab8e912b76a048025163ca99832631d",
+      "features": 109
+    },
+    {
+      "path": "ubos-bec-2025/parishes/221.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=221",
+      "bytes": 155580,
+      "sha256": "c7cfcbed8f97dafa33b8116a472e19f065b7a285ff01f85f629b6ade99de73a8",
+      "features": 76
+    },
+    {
+      "path": "ubos-bec-2025/parishes/222.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=222",
+      "bytes": 159978,
+      "sha256": "426f0bb36c1a363743c81b3d09011eb8193a0c19dd5be6f70ae9c4b5f5a6fc7f",
+      "features": 87
+    },
+    {
+      "path": "ubos-bec-2025/parishes/223.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=223",
+      "bytes": 259064,
+      "sha256": "73f1ba86f462cb5a1bade82d3366cc530b8d80945805419b51c4dfce74204a9c",
+      "features": 156
+    },
+    {
+      "path": "ubos-bec-2025/parishes/224.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=224",
+      "bytes": 179424,
+      "sha256": "75e82e655f112cd3f1d9952faba201dd91587539da5dd3c3965caf4458f6ee23",
+      "features": 111
+    },
+    {
+      "path": "ubos-bec-2025/parishes/225.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=225",
+      "bytes": 249060,
+      "sha256": "6ef27bf3fd8d973c95ccc1e52033dab2f8825581f8a4d7e00837dc89382eff80",
+      "features": 122
+    },
+    {
+      "path": "ubos-bec-2025/parishes/226.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=226",
+      "bytes": 172479,
+      "sha256": "79e9fb87a11321553ac98b1dd289f56fc6acb574a0c90935c63646d231c91bbd",
+      "features": 73
+    },
+    {
+      "path": "ubos-bec-2025/parishes/227.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=227",
+      "bytes": 135710,
+      "sha256": "673c2753e483f3351b5cf8af0525199333da00017b612739b8a2d396c40148fc",
+      "features": 92
+    },
+    {
+      "path": "ubos-bec-2025/parishes/228.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=228",
+      "bytes": 267185,
+      "sha256": "3f93a5977507e01444b352c679dffd6023231ab1268fdad71da7260fd429a5b8",
+      "features": 101
+    },
+    {
+      "path": "ubos-bec-2025/parishes/229.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=229",
+      "bytes": 163688,
+      "sha256": "5befad8e38938643cb6e5e39308b88d4896c2670654da65b244dd1988d404610",
+      "features": 64
+    },
+    {
+      "path": "ubos-bec-2025/parishes/230.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=230",
+      "bytes": 170661,
+      "sha256": "bb55e87dfc2fe1ae1d4f80fa75965743ab5501e67794fe7dcd7c51f6ffc20a9e",
+      "features": 50
+    },
+    {
+      "path": "ubos-bec-2025/parishes/231.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=231",
+      "bytes": 133383,
+      "sha256": "f769be55f749822abc37ffde4686efb01b112991167281dd01c8e4e31bc767a8",
+      "features": 73
+    },
+    {
+      "path": "ubos-bec-2025/parishes/232.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=232",
+      "bytes": 195487,
+      "sha256": "611c20bd60036562695581206ed8550dd7aeab3a058f190eebdd9788719a9de2",
+      "features": 69
+    },
+    {
+      "path": "ubos-bec-2025/parishes/233.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=233",
+      "bytes": 89845,
+      "sha256": "256f37f1efbc159a4caa208d1566da35b22c61ce706d757bfc7148fb00a1e731",
+      "features": 61
+    },
+    {
+      "path": "ubos-bec-2025/parishes/234.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=234",
+      "bytes": 286892,
+      "sha256": "0454a74fe820f5a61603de993ebbf55be8ece6a48cd29f62d124ef89655aeee2",
+      "features": 163
+    },
+    {
+      "path": "ubos-bec-2025/parishes/235.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=235",
+      "bytes": 88545,
+      "sha256": "07cf6e332d20b3e548f38c888fa0dfe3f89f2c7822fba27ed95086020875ea14",
+      "features": 36
+    },
+    {
+      "path": "ubos-bec-2025/parishes/236.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=236",
+      "bytes": 186585,
+      "sha256": "794f99e8f775c1e4627ccdabc385c709da8815ccd4e324e9e2a687f639bcfd58",
+      "features": 55
+    },
+    {
+      "path": "ubos-bec-2025/parishes/237.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=237",
+      "bytes": 92479,
+      "sha256": "b57ffb9de341b6d3048d8ff2c3e37e38657445064b8e61ee8e06fdfcebb07dd1",
+      "features": 34
+    },
+    {
+      "path": "ubos-bec-2025/parishes/238.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=238",
+      "bytes": 53272,
+      "sha256": "52ad7e1fdb281efddeebd7fa0c0fcf56651a9873b49ece076a61ee46e73266d7",
+      "features": 26
+    },
+    {
+      "path": "ubos-bec-2025/parishes/239.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=239",
+      "bytes": 105915,
+      "sha256": "92a37aba7d9922b70568e0a112be8391c23468fbe0e0f601cfaec4ee135ec20a",
+      "features": 58
+    },
+    {
+      "path": "ubos-bec-2025/parishes/240.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=240",
+      "bytes": 49648,
+      "sha256": "e8ee21f3c6798f6995475b1578fc7d47ac49bf54621381577c5a43fdcf42d0fc",
+      "features": 25
+    },
+    {
+      "path": "ubos-bec-2025/parishes/301.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=301",
+      "bytes": 296708,
+      "sha256": "b0dad8cfc384694d7261b6e8ea1e42a530223180bd5e98b4d7261be3740aff10",
+      "features": 74
+    },
+    {
+      "path": "ubos-bec-2025/parishes/302.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=302",
+      "bytes": 138906,
+      "sha256": "8d98df50d9fa81508b7c1717af6f5c3ea24c30f17d707e5b60f8b7b4ee07c987",
+      "features": 54
+    },
+    {
+      "path": "ubos-bec-2025/parishes/303.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=303",
+      "bytes": 150341,
+      "sha256": "2a9a021f90d7dbe40a8e756a88c184b335c51eedcb0655e555dca463cb554648",
+      "features": 32
+    },
+    {
+      "path": "ubos-bec-2025/parishes/304.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=304",
+      "bytes": 261421,
+      "sha256": "b4cba737e15e2cbab9fe5dc8ad224cc43227c750e9f95d63b5349944b5f0ed2c",
+      "features": 45
+    },
+    {
+      "path": "ubos-bec-2025/parishes/305.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=305",
+      "bytes": 461513,
+      "sha256": "e3e589a8c2ec3385e635cbcf301679e91e8657d7a9bb75467dd8700c88d9a4a3",
+      "features": 83
+    },
+    {
+      "path": "ubos-bec-2025/parishes/306.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=306",
+      "bytes": 414700,
+      "sha256": "026d2b4b90b461148e4e9ef796864e37135211aee49a8f38f30da505d178a993",
+      "features": 77
+    },
+    {
+      "path": "ubos-bec-2025/parishes/307.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=307",
+      "bytes": 197312,
+      "sha256": "9f8577a8fff97480cfc97f5ab5fa10951a7d4af0a44e74f0a78529de40b6413f",
+      "features": 67
+    },
+    {
+      "path": "ubos-bec-2025/parishes/308.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=308",
+      "bytes": 183612,
+      "sha256": "63aa2261ebb06737cd367f9a8f439ba018a994f32c6268dd8a952a709e8adc10",
+      "features": 41
+    },
+    {
+      "path": "ubos-bec-2025/parishes/309.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=309",
+      "bytes": 162499,
+      "sha256": "4e4c87fd5ad2195f51f705c388adc1e782f8e2edaa7e5c4f1157abd01c65b928",
+      "features": 45
+    },
+    {
+      "path": "ubos-bec-2025/parishes/310.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=310",
+      "bytes": 273995,
+      "sha256": "64e22768a4e84de2d3e3411026ed2657b4a30dc9b915da24a4b204bbdd0f1296",
+      "features": 69
+    },
+    {
+      "path": "ubos-bec-2025/parishes/311.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=311",
+      "bytes": 192024,
+      "sha256": "871b59e64ccb028a197c2e0905809dbbd9ac8c9bc7c0084b0dcfa5dcf7f5e415",
+      "features": 35
+    },
+    {
+      "path": "ubos-bec-2025/parishes/312.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=312",
+      "bytes": 479577,
+      "sha256": "62de71746e3efa4a3aef80fcae913127ba5817db9d5f162757f16932ff5fc836",
+      "features": 97
+    },
+    {
+      "path": "ubos-bec-2025/parishes/313.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=313",
+      "bytes": 543187,
+      "sha256": "2d2f8f7978c23ad80f24b3d71869fab127f6df418fc0085c4751a2e56cc8c99d",
+      "features": 200
+    },
+    {
+      "path": "ubos-bec-2025/parishes/314.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=314",
+      "bytes": 205915,
+      "sha256": "fa59f3519980e804d942602520bc72edd8e3141379b145fe96a5208f381bcbcc",
+      "features": 76
+    },
+    {
+      "path": "ubos-bec-2025/parishes/315.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=315",
+      "bytes": 198507,
+      "sha256": "ba808086d6ba85140eab8b49e9808c3564581e61d2c7608ca5dd3b69323962d2",
+      "features": 85
+    },
+    {
+      "path": "ubos-bec-2025/parishes/316.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=316",
+      "bytes": 475956,
+      "sha256": "b4150d795d7b51d13764fad8eef5f5c355e1a4a5c57912814d09dc168b1be53f",
+      "features": 58
+    },
+    {
+      "path": "ubos-bec-2025/parishes/317.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=317",
+      "bytes": 173713,
+      "sha256": "c8b4c5d450d847b2f56d6e12fc299bfb67b740cee71d236dc14d5a8efbfac5f6",
+      "features": 71
+    },
+    {
+      "path": "ubos-bec-2025/parishes/318.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=318",
+      "bytes": 286246,
+      "sha256": "172c62679432c352c8326a4236ebc9d7d654c22bdf886f16063ea17df5cd1d7a",
+      "features": 85
+    },
+    {
+      "path": "ubos-bec-2025/parishes/319.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=319",
+      "bytes": 233088,
+      "sha256": "c3443093433c0fa86ec30c3c0cee3f436d02e341c4afb3e670cc908b6714994a",
+      "features": 60
+    },
+    {
+      "path": "ubos-bec-2025/parishes/320.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=320",
+      "bytes": 222092,
+      "sha256": "dbd9e7808f60c039596f5dc03ffb4cb7bfe612217ff7321f17ac0ff77af710c7",
+      "features": 91
+    },
+    {
+      "path": "ubos-bec-2025/parishes/321.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=321",
+      "bytes": 267072,
+      "sha256": "61394ffd42303ee3aa5c78588d90b5ba137a91478bcaf25d412f2b48073c5c9e",
+      "features": 74
+    },
+    {
+      "path": "ubos-bec-2025/parishes/322.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=322",
+      "bytes": 501317,
+      "sha256": "766dde64c88ff56199d1b6cbe098aa650e939c03c4c8f5bbcbbad13525e09012",
+      "features": 117
+    },
+    {
+      "path": "ubos-bec-2025/parishes/323.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=323",
+      "bytes": 343269,
+      "sha256": "9df6a871b43d44d9a09a01711fec6da427596ed6cabe0cfe0342ed089ec4f428",
+      "features": 69
+    },
+    {
+      "path": "ubos-bec-2025/parishes/324.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=324",
+      "bytes": 212800,
+      "sha256": "173956511a09b713d9ace0e7a54158a2ce3dca58fa67b4c605c5219f1d7e13a7",
+      "features": 42
+    },
+    {
+      "path": "ubos-bec-2025/parishes/325.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=325",
+      "bytes": 207651,
+      "sha256": "f2fca2e5e501851d60373f98c1b72bdcac3f9c8440104f3da5c3987c5c5bab43",
+      "features": 54
+    },
+    {
+      "path": "ubos-bec-2025/parishes/326.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=326",
+      "bytes": 489390,
+      "sha256": "e18ec3903f48100c98451e3fc9746e397a5af61763119cdbd737a2370714c510",
+      "features": 96
+    },
+    {
+      "path": "ubos-bec-2025/parishes/327.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=327",
+      "bytes": 237729,
+      "sha256": "7cbcf00a12eae59abdb9683e6ef9b31d89585b2503c8c10aa7a12c9d3de4ea11",
+      "features": 59
+    },
+    {
+      "path": "ubos-bec-2025/parishes/328.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=328",
+      "bytes": 357168,
+      "sha256": "be9960703b03685a5f76cf7fbec55810e233b5d3a4d335175662addb2128b5d5",
+      "features": 44
+    },
+    {
+      "path": "ubos-bec-2025/parishes/329.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=329",
+      "bytes": 216227,
+      "sha256": "0e2e7bcd8f82046f4fc5ff9a5d2cd560ebec63f9f7121234716c4d2571856a0d",
+      "features": 54
+    },
+    {
+      "path": "ubos-bec-2025/parishes/330.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=330",
+      "bytes": 245322,
+      "sha256": "d7f426eb2e0cf99cde3041fb5e01a22eb6bb635f53c1d5037e2d1394c08960d5",
+      "features": 61
+    },
+    {
+      "path": "ubos-bec-2025/parishes/331.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=331",
+      "bytes": 263749,
+      "sha256": "c801ebbd692a360b9fa6a3f9ef09f3a2d35d729c73352fc35da8a471db2bc83a",
+      "features": 65
+    },
+    {
+      "path": "ubos-bec-2025/parishes/332.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=332",
+      "bytes": 153455,
+      "sha256": "abec53a8c473222949ca1b787369b37138615959a067412158817d7519299ec2",
+      "features": 48
+    },
+    {
+      "path": "ubos-bec-2025/parishes/333.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=333",
+      "bytes": 138925,
+      "sha256": "9b0cc23cac3ea94f770db8d012e4e74b2112361afbae06c949d11a5e6cdc7908",
+      "features": 49
+    },
+    {
+      "path": "ubos-bec-2025/parishes/334.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=334",
+      "bytes": 68848,
+      "sha256": "5e35d1cf9218fc095130c02a4af5a01d031edfeb2550b4690dc5d77bf4dcbe8f",
+      "features": 26
+    },
+    {
+      "path": "ubos-bec-2025/parishes/335.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=335",
+      "bytes": 128086,
+      "sha256": "15614a2e5b80bc75969aa665bd51a3e79c2be4520a76e55bb0b1feb30da1b6a3",
+      "features": 37
+    },
+    {
+      "path": "ubos-bec-2025/parishes/336.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=336",
+      "bytes": 219490,
+      "sha256": "6d762ea33d81ec3b444e2d34b3fe28dbf15b4486dffe6c8067a154888de44f98",
+      "features": 50
+    },
+    {
+      "path": "ubos-bec-2025/parishes/337.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=337",
+      "bytes": 98222,
+      "sha256": "5b773935e991719aec6fe7f794fc4134936d63b1687d7ccf6db58a4160048a10",
+      "features": 33
+    },
+    {
+      "path": "ubos-bec-2025/parishes/338.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=338",
+      "bytes": 156553,
+      "sha256": "67c0116a21e2eb7b2433c1b9a976366f43b4f899c5bb3b5600b81e51f1f66b23",
+      "features": 54
+    },
+    {
+      "path": "ubos-bec-2025/parishes/339.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=339",
+      "bytes": 71815,
+      "sha256": "f1185e3cb3971c8d91afcd523ffef2580e40b3ba4040fe965c3aea85ea6f8044",
+      "features": 32
+    },
+    {
+      "path": "ubos-bec-2025/parishes/340.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=340",
+      "bytes": 250072,
+      "sha256": "5cdc0e199e963cf4793f09e621d8cf02b539815a668240b89a81b2f11ae44243",
+      "features": 51
+    },
+    {
+      "path": "ubos-bec-2025/parishes/341.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=341",
+      "bytes": 90326,
+      "sha256": "b9d1bd3cc66c7f43bef64d336449050464c34b5b7a9e124b5998e90f8d9c1793",
+      "features": 49
+    },
+    {
+      "path": "ubos-bec-2025/parishes/401.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=401",
+      "bytes": 311004,
+      "sha256": "7eb6b446b10f86a7ff405780144f2f7e7cd02d919ad87d882f26667ac9eb7b45",
+      "features": 130
+    },
+    {
+      "path": "ubos-bec-2025/parishes/402.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=402",
+      "bytes": 252050,
+      "sha256": "e434e9c69c70eab54b0265b2865c3cac8504d438e13a377dd46ed25409b26e6e",
+      "features": 72
+    },
+    {
+      "path": "ubos-bec-2025/parishes/403.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=403",
+      "bytes": 209036,
+      "sha256": "588d27572aedafafae84c9da59decdd3ededb859492b124d0a3d817876e2b771",
+      "features": 55
+    },
+    {
+      "path": "ubos-bec-2025/parishes/404.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=404",
+      "bytes": 186357,
+      "sha256": "c810fe75d8f71f8b808f68fdeafda2a82dc51ea4a399ebb745ec13b776b6a3a9",
+      "features": 79
+    },
+    {
+      "path": "ubos-bec-2025/parishes/405.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=405",
+      "bytes": 197523,
+      "sha256": "178fd269cea823122a635d49a97fb55806bda81cf226cc70fc67e90036351d15",
+      "features": 52
+    },
+    {
+      "path": "ubos-bec-2025/parishes/406.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=406",
+      "bytes": 625591,
+      "sha256": "bdf2045043f577f5a9efc3f8907ea493ac3167dc04bf3f217f542887b41b0d9c",
+      "features": 215
+    },
+    {
+      "path": "ubos-bec-2025/parishes/407.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=407",
+      "bytes": 197085,
+      "sha256": "f74ad9e7235cd77a54f9bc174fa73877bc8e5945c595c4605865f985d5c8aeb1",
+      "features": 57
+    },
+    {
+      "path": "ubos-bec-2025/parishes/408.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=408",
+      "bytes": 218853,
+      "sha256": "bab83a4bcad9f013fbb22dd75ba34368d7fcd624216ef434bf06454c8c9db202",
+      "features": 71
+    },
+    {
+      "path": "ubos-bec-2025/parishes/409.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=409",
+      "bytes": 253415,
+      "sha256": "60bad2d5c74ea857429b91584356b3042712d13b90fef3b82ae9fe6e814e3f32",
+      "features": 57
+    },
+    {
+      "path": "ubos-bec-2025/parishes/410.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=410",
+      "bytes": 136316,
+      "sha256": "c017cd86315dd253a2de33233afd11b5d61aa049e76cac11eab1eebec1a8095a",
+      "features": 46
+    },
+    {
+      "path": "ubos-bec-2025/parishes/411.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=411",
+      "bytes": 398873,
+      "sha256": "924b380657860d62020ae34cb8e79296e8134e987ee886a2eeb7174fc4ee8539",
+      "features": 135
+    },
+    {
+      "path": "ubos-bec-2025/parishes/412.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=412",
+      "bytes": 389447,
+      "sha256": "5b1e1ffdb34ee0a6a164e8c8cce44306cff6c7401a78416bdb6d5e6521bb342f",
+      "features": 105
+    },
+    {
+      "path": "ubos-bec-2025/parishes/413.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=413",
+      "bytes": 308791,
+      "sha256": "cb1d3b0263e5b6650d3e277e2c40f04361ba8edee3be32a8dfb8cf6e20b57e92",
+      "features": 92
+    },
+    {
+      "path": "ubos-bec-2025/parishes/414.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=414",
+      "bytes": 396153,
+      "sha256": "9b75ccf1560d7218a12fac94dc0595728a5f1d17709e884236cf4de430ef65e5",
+      "features": 102
+    },
+    {
+      "path": "ubos-bec-2025/parishes/415.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=415",
+      "bytes": 481930,
+      "sha256": "c93be199d8306d89f2ce43102c77adb2c29a3fdc07792fe13acfbb15531ba2e7",
+      "features": 167
+    },
+    {
+      "path": "ubos-bec-2025/parishes/416.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=416",
+      "bytes": 131922,
+      "sha256": "cd68d352c1e76f3c9a8d3717e26637a9186d3d8e3dd4aa458770be36a7e8ec29",
+      "features": 39
+    },
+    {
+      "path": "ubos-bec-2025/parishes/417.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=417",
+      "bytes": 300809,
+      "sha256": "50b3453cfa63d04068a59ab35974ccf4c16218bee4f837717bc093136f40555d",
+      "features": 61
+    },
+    {
+      "path": "ubos-bec-2025/parishes/418.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=418",
+      "bytes": 449778,
+      "sha256": "fdc23cdf2e04583c3ee373d4902c79c7df4739d08b3338204286350a47701085",
+      "features": 148
+    },
+    {
+      "path": "ubos-bec-2025/parishes/419.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=419",
+      "bytes": 211417,
+      "sha256": "334ae7bd34b74e795249eb7102270eb9108c4ddcc1a054415000334dc1dcb504",
+      "features": 56
+    },
+    {
+      "path": "ubos-bec-2025/parishes/420.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=420",
+      "bytes": 228184,
+      "sha256": "1a5497c07a855b7db8c1a3a57f7149af4197bf21346fe1a69c8f4f6c969ab8e2",
+      "features": 68
+    },
+    {
+      "path": "ubos-bec-2025/parishes/421.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=421",
+      "bytes": 179643,
+      "sha256": "28d1866ba5810d0476ccd476ffe4230f1d50ed4de278855e453b0f4c8d39a188",
+      "features": 46
+    },
+    {
+      "path": "ubos-bec-2025/parishes/422.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=422",
+      "bytes": 280177,
+      "sha256": "32c4787cf9a738c86e5c81e6a7ca5cdaedbf71670d98ee3d05d698c2e7e77f3c",
+      "features": 90
+    },
+    {
+      "path": "ubos-bec-2025/parishes/423.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=423",
+      "bytes": 228954,
+      "sha256": "bb1f3853ef3b3b2ce6f0dfaf8859ac924ae22c8eee74218a955d7cb313687e65",
+      "features": 79
+    },
+    {
+      "path": "ubos-bec-2025/parishes/424.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=424",
+      "bytes": 194742,
+      "sha256": "0845dcaff67561cfd5bcf9c151ba470d70f8984228bd0995def4cb01cb2c6fd7",
+      "features": 46
+    },
+    {
+      "path": "ubos-bec-2025/parishes/425.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=425",
+      "bytes": 153116,
+      "sha256": "d6cb7e18d5a852372ae4d0f5370049c9e4a97117a9b19cdc05579c653a0f311d",
+      "features": 53
+    },
+    {
+      "path": "ubos-bec-2025/parishes/426.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=426",
+      "bytes": 188462,
+      "sha256": "134bb9f845bf6cfc720481ae2dd2bd9fbf12c10ebfa82e9ec74f6f1df17e741c",
+      "features": 74
+    },
+    {
+      "path": "ubos-bec-2025/parishes/427.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=427",
+      "bytes": 406721,
+      "sha256": "e9426a52a45d29a6c368280e30b9ba7f4e8d1dc6c1b52fe724e221987dbdd2a2",
+      "features": 151
+    },
+    {
+      "path": "ubos-bec-2025/parishes/428.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=428",
+      "bytes": 311259,
+      "sha256": "7a1c7755990a3890798180adbab8136032734cd1849b78d31a237070549d8cec",
+      "features": 105
+    },
+    {
+      "path": "ubos-bec-2025/parishes/429.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=429",
+      "bytes": 180299,
+      "sha256": "6af1b4e7abe220d05070d63e96fe3a9ee3a890587cbb5bf516d1613537845364",
+      "features": 70
+    },
+    {
+      "path": "ubos-bec-2025/parishes/430.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=430",
+      "bytes": 91256,
+      "sha256": "47b9c18777ee55f85f736b7f379dbb7f059c204d08ba11eaf1305f460a677c3e",
+      "features": 30
+    },
+    {
+      "path": "ubos-bec-2025/parishes/431.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=431",
+      "bytes": 179020,
+      "sha256": "69280954b853887352e2e5a5afcc527d775e3e9a2bb3e95cc129bf5b92e233bd",
+      "features": 55
+    },
+    {
+      "path": "ubos-bec-2025/parishes/432.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=432",
+      "bytes": 215940,
+      "sha256": "225ed96ed050357453dfe9be4070bcd68d631547506c83526b34f9cba36dd607",
+      "features": 58
+    },
+    {
+      "path": "ubos-bec-2025/parishes/433.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=433",
+      "bytes": 221194,
+      "sha256": "487967ec3d96337c9f15c351cf24d80968054aa0ba3e613dbc657afb43c92ede",
+      "features": 51
+    },
+    {
+      "path": "ubos-bec-2025/parishes/434.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=434",
+      "bytes": 187641,
+      "sha256": "f1537c31e2c707166547f8882c7049cce4f13bbb87325032c40b0825e3fe7aa2",
+      "features": 55
+    },
+    {
+      "path": "ubos-bec-2025/parishes/435.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=435",
+      "bytes": 117006,
+      "sha256": "68257fabcf187c975906dd9395c6534573fd1bb2e4df241aa45145aabb3b91e2",
+      "features": 29
+    },
+    {
+      "path": "ubos-bec-2025/parishes/436.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=436",
+      "bytes": 54189,
+      "sha256": "90287ae09c210a7ea8f6ca6eb90a61148c8a850c2c161123af1c63e3185861bb",
+      "features": 25
+    },
+    {
+      "path": "ubos-bec-2025/parishes/437.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=437",
+      "bytes": 109025,
+      "sha256": "43fa2a37cb822d29f7cd1d25029ab037d7437e84ef9ef9411dcd2b5270811b7f",
+      "features": 23
+    },
+    {
+      "path": "ubos-bec-2025/parishes/438.json",
+      "url": "https://statistics.ubos.org/bec/api/get_geo.php?level=parish&indicator=primary_schools_total&parent_level=district&parent_code=438",
+      "bytes": 53184,
+      "sha256": "d080e067272797faf7d09441b215168478fedbe0e1607c693bab8d00412685a8",
+      "features": 16
+    },
+    {
+      "path": "mlhud-ugnlis/mzo.json",
+      "url": "https://api.mlhud.go.ug/ugnlis-api/v1/nalisep-api/dictionary/mzo",
+      "bytes": 1172,
+      "sha256": "08ebead7195861fa3d1c58bc3f25f37409ad72840a3c731a7d87136b0a92e1a0",
+      "rows": 23,
+      "note": "internal `ip` field removed before writing"
+    },
+    {
+      "path": "mlhud-ugnlis/dlb.json",
+      "url": "https://api.mlhud.go.ug/ugnlis-api/v1/nalisep-api/dictionary/dlb",
+      "bytes": 24306,
+      "sha256": "c9622c48e7b7b18ca2a747b23034d8645a268d06a86aec87bbc66b572c3999a4",
+      "rows": 138,
+      "note": "internal `ip` field removed before writing"
+    },
+    {
+      "path": "ubos-nphc-2024/NPHC-2024-Subcounty-Profiles-Excel-Tables.xlsx",
+      "url": "https://www.ubos.org/wp-content/uploads/statistics/NPHC-2024-Subcounty-Profiles-Excel-Tables.xlsx",
+      "bytes": 9356925,
+      "sha256": "609d74158d2aeace11c2ca64df6ae882fd7482886f2184494628cf1e32f6b202"
+    }
+  ],
+  "failures": []
+}
