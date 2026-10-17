@@ -62,11 +62,24 @@ assert.ok(
 const regionBoundaries = geo.regionBoundaries();
 assert.equal(regionBoundaries.features.length, 4, "expected 4 region boundary features");
 
-// subcounty/parish boundaries (intentionally partial coverage) and roads (independent layer)
-const subcountyBoundaries = geo.subcountyBoundaries();
-assert.ok(subcountyBoundaries.features.length > 1000, "expected a substantial (but partial) number of subcounty boundary features");
-const parishBoundaries = geo.parishBoundaries();
-assert.ok(parishBoundaries.features.length > 0, "expected at least some parish boundary features");
+// boundaries below district (built bottom-up from UBOS polygons), gaps, and roads (independent layer)
+assert.equal(geo.cityBoundaries().features.length, 10, "expected 10 city boundary features");
+assert.equal(geo.subregionBoundaries().features.length, 17, "expected 17 sub-region boundary features");
+assert.ok(
+  geo.settlements().features.every((f) => f.properties.host_subcounty_ids.length > 0),
+  "every refugee settlement should name its host subcounties"
+);
+assert.equal(geo.countyBoundaries().features.length, 322, "every county should have a boundary (union of its subcounties)");
+assert.ok(geo.subcountyBoundaries().features.length > 2150, "expected near-complete subcounty boundaries");
+assert.ok(geo.parishBoundaries().features.length > 10000, "expected near-complete parish boundaries");
+assert.ok(
+  geo.parishBoundaries().features.every((f) => f.properties.district_id && f.properties.level),
+  "every parish boundary should carry its level and district"
+);
+assert.ok(
+  geo.gaps().features.every((f) => f.properties.id.startsWith("gap:") && Array.isArray(f.properties.candidate_ids)),
+  "every gap should list its candidate units"
+);
 const roads = geo.roads();
 assert.ok(roads.features.length > 10000, "expected the major road network to have a substantial number of features");
 assert.ok(

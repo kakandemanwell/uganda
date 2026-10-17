@@ -19,6 +19,21 @@ function fail(msg) {
   console.error(`✗ ${msg}`);
 }
 
+// Every boundary file is wound for d3-geo's spherical convention: exterior
+// rings CLOCKWISE in plain lon/lat (the reverse of RFC 7946's planar rule).
+// Get it backwards and nothing errors — d3 just reads each polygon as "the
+// whole globe minus this shape", so the web map frames South America and
+// draws clip-rectangle artefacts. That has slipped through twice (see
+// docs/DATA_QUALITY.md), hence an explicit check.
+function exteriorIsClockwise(geometry) {
+  const polys = geometry.type === "Polygon" ? [geometry.coordinates] : geometry.coordinates;
+  return polys.every(([outer]) => {
+    let sum = 0;
+    for (let i = 0; i < outer.length - 1; i++) sum += (outer[i + 1][0] - outer[i][0]) * (outer[i + 1][1] + outer[i][1]);
+    return sum > 0;
+  });
+}
+
 // ---- country metadata ----
 const countrySchema = JSON.parse(readFileSync(path.join(ROOT, "schema/country.schema.json"), "utf-8"));
 const country = JSON.parse(readFileSync(path.join(ROOT, "dist/country/uganda.json"), "utf-8"));
@@ -74,8 +89,44 @@ for (const u of units) {
   }
 }
 
+// ---- OCHA COD-AB P-codes (see scripts/ingest-hdx-cod-ab.mjs) ----
+// Unique per unit, well-formed, and properly nested: COD-AB codes are
+// hierarchical (each is its parent's code plus a fixed-width suffix), so a
+// unit's code must start with the code of whatever contains it. A failure
+// here means a match that's right by name but in the wrong place in the
+// tree — e.g. a district assigned to a different region than UBOS has it.
+const PCODE_RE = /^UG(\d|\d{4}|\d{6}|\d{8})$/;
+const pcodeOf = new Map();
+const unitById = new Map(units.map((u) => [u.id, u]));
+for (const u of units) {
+  const refs = u.external_refs || {};
+  for (const key of ["hdx_pcode", "hdx_within_pcode"]) {
+    if (refs[key] && !PCODE_RE.test(refs[key])) fail(`${u.id}: malformed ${key} '${refs[key]}'`);
+  }
+  if (refs.hdx_pcode) {
+    if (pcodeOf.has(refs.hdx_pcode)) fail(`${u.id}: hdx_pcode '${refs.hdx_pcode}' also on ${pcodeOf.get(refs.hdx_pcode)}`);
+    pcodeOf.set(refs.hdx_pcode, u.id);
+    if (refs.hdx_within_pcode !== refs.hdx_pcode) fail(`${u.id}: hdx_within_pcode should equal its own hdx_pcode`);
+  }
+  // Checked down to district level (UG + 4 digits) only: below that, a
+  // subcounty can legitimately sit under a different county now than in
+  // COD-AB's 2020 snapshot (e.g. Kachomo, Budaka), and COD-AB itself files
+  // Buikwe's and Mityana's Central Divisions under counties it mislabels
+  // "KCCA" — the subcounty's own code is still the right join key.
+  const parentWithin = unitById.get(u.parent_id)?.external_refs?.hdx_within_pcode?.slice(0, 6);
+  if (refs.hdx_within_pcode && parentWithin && !refs.hdx_within_pcode.startsWith(parentWithin)) {
+    fail(`${u.id}: P-code ${refs.hdx_within_pcode} does not nest under its parent's ${parentWithin}`);
+  }
+}
+
 // ---- boundary geometry (region/district polygons) ----
-const GEO_EXPECTED_COUNT = { "dist/geo/districts.geojson": 136, "dist/geo/regions.geojson": 4 };
+const GEO_EXPECTED_COUNT = {
+  "dist/geo/districts.geojson": 136,
+  "dist/geo/citys.geojson": 10,
+  "dist/geo/regions.geojson": 4,
+  "dist/geo/subregions.geojson": 17,
+  "dist/geo/countys.geojson": 322,
+};
 for (const [rel, expectedCount] of Object.entries(GEO_EXPECTED_COUNT)) {
   const fc = JSON.parse(readFileSync(path.join(ROOT, rel), "utf-8"));
   if (fc.type !== "FeatureCollection") fail(`${rel}: expected a FeatureCollection`);
@@ -89,6 +140,9 @@ for (const [rel, expectedCount] of Object.entries(GEO_EXPECTED_COUNT)) {
     if (seenGeoIds.has(p.id)) fail(`${rel}: duplicate feature id '${p.id}'`);
     seenGeoIds.add(p.id);
     if (!ids.has(p.id)) fail(`${rel}: feature id '${p.id}' does not resolve to any record in uganda-locations.json`);
+    if (["Polygon", "MultiPolygon"].includes(f.geometry?.type) && !exteriorIsClockwise(f.geometry)) {
+      fail(`${rel}: feature '${p.id}' is wound counter-clockwise (d3-geo will read it inverted)`);
+    }
     if (!["Polygon", "MultiPolygon"].includes(f.geometry?.type)) {
       fail(`${rel}: feature '${p.id}' has unexpected geometry type '${f.geometry?.type}'`);
     }
@@ -98,11 +152,16 @@ for (const [rel, expectedCount] of Object.entries(GEO_EXPECTED_COUNT)) {
 // ---- partial-coverage boundary layers (subcounty/parish) — no fixed
 // expected count (coverage is intentionally partial, see
 // docs/DATA_QUALITY.md), just structural + referential integrity ----
-const PARTIAL_GEO_FILES = ["dist/geo/subcountys.geojson", "dist/geo/parishs.geojson"];
-for (const rel of PARTIAL_GEO_FILES) {
+// (subcounty/parish: all but a handful of units have a polygon — see
+// dist/data-quality-report.json -> boundary_coverage)
+const PARTIAL_GEO_FILES = {
+  "dist/geo/subcountys.geojson": { allowEmpty: false },
+  "dist/geo/parishs.geojson": { allowEmpty: false },
+};
+for (const [rel, { allowEmpty }] of Object.entries(PARTIAL_GEO_FILES)) {
   const fc = JSON.parse(readFileSync(path.join(ROOT, rel), "utf-8"));
   if (fc.type !== "FeatureCollection") fail(`${rel}: expected a FeatureCollection`);
-  if (!fc.features.length) fail(`${rel}: expected at least some features`);
+  if (!fc.features.length && !allowEmpty) fail(`${rel}: expected at least some features`);
   const seenGeoIds = new Set();
   for (const f of fc.features) {
     const p = f.properties || {};
@@ -115,9 +174,27 @@ for (const rel of PARTIAL_GEO_FILES) {
     if (p.district_id && !ids.has(p.district_id)) {
       fail(`${rel}: feature district_id '${p.district_id}' does not resolve to any record`);
     }
+    if (["Polygon", "MultiPolygon"].includes(f.geometry?.type) && !exteriorIsClockwise(f.geometry)) {
+      fail(`${rel}: feature '${p.id}' is wound counter-clockwise (d3-geo will read it inverted)`);
+    }
     if (!["Polygon", "MultiPolygon"].includes(f.geometry?.type)) {
       fail(`${rel}: feature '${p.id}' has unexpected geometry type '${f.geometry?.type}'`);
     }
+    if (p.hdx_pcode && !pcodeOf.has(p.hdx_pcode)) {
+      fail(`${rel}: feature '${p.id}' carries hdx_pcode '${p.hdx_pcode}' that no record does`);
+    }
+  }
+}
+
+// ---- gaps: land no EC unit could be given (see scripts/ingest-ubos-boundaries.mjs) ----
+{
+  const rel = "dist/geo/gaps.geojson";
+  const fc = JSON.parse(readFileSync(path.join(ROOT, rel), "utf-8"));
+  for (const f of fc.features) {
+    const p = f.properties || {};
+    if (!p.id?.startsWith("gap:") || !["subcounty", "parish"].includes(p.level)) fail(`${rel}: malformed gap ${JSON.stringify(p).slice(0, 120)}`);
+    if (!ids.has(p.parent_id)) fail(`${rel}: ${p.id} parent '${p.parent_id}' does not resolve`);
+    for (const c of p.candidate_ids || []) if (!ids.has(c)) fail(`${rel}: ${p.id} candidate '${c}' does not resolve`);
   }
 }
 

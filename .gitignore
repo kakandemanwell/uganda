@@ -33,3 +33,14 @@ data/legacy/provenance/ec/parsed_admin_units_2022.json
 # IS tracked, so `npm run build` works from a fresh clone without these.
 data/legacy/provenance/geo/geoBoundaries-UGA-ADM4.geojson
 data/legacy/provenance/geo/hdx-uga-admin4-parish.geojson
+
+# Raw OCHA COD-AB Uganda release (~109MB unzipped) and the intermediate
+# matched-adm4.geojson scripts/ingest-hdx-cod-ab.mjs writes next to it —
+# re-fetch per data/sources.json -> src-hdx-cod-ab-uga; the curated outputs
+# (data/crosswalk/, data/geo/) are tracked.
+data/legacy/provenance/geo/hdx-cod-ab/
+
+# Raw UBOS NPHC 2024 / BEC 2025 API responses (~52MB) — re-fetchable from
+# the URLs in data/sources.json -> src-ubos-nphc-2024-geo / src-ubos-bec-2025-geo;
+# curated outputs in data/geo/ are tracked.
+data/legacy/provenance/ubos/

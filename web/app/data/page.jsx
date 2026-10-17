@@ -19,7 +19,7 @@ const GROUPS = [
   {
     title: "One row per village (recommended for Excel/Sheets)",
     files: [
-      ["uganda-locations-full.csv", "Full ancestry — region → district → county → constituency → subcounty → parish → village, one row each (71,230 rows), plus each village's parish_id."],
+      ["uganda-locations-full.csv", "Full ancestry — region → district → county → constituency → subcounty → parish → village, one row each (71,230 rows), plus each village's parish_id and OCHA P-code."],
       ["uganda-locations.csv", "Flattened, loosely backward-compatible with the original location.csv shape."],
     ],
   },
@@ -42,11 +42,26 @@ const GROUPS = [
   {
     title: "Boundary polygons (GeoJSON)",
     files: [
-      ["geo/districts.geojson", "136 district boundaries, CC0"],
+      ["geo/districts.geojson", "136 district boundaries (each including any city carved from it), with population, land area, P-code and UBOS code"],
+      ["geo/citys.geojson", "10 city boundaries, with population"],
       ["geo/regions.geojson", "4 region boundaries, dissolved from districts"],
-      ["geo/subcountys.geojson", "1,249/2,191 subcounty boundaries (57.0% — partial by design)"],
-      ["geo/parishs.geojson", "423/10,717 parish boundaries (3.95% — partial by design)"],
+      ["geo/subregions.geojson", "17 cultural/traditional sub-region boundaries, dissolved from districts"],
+      ["geo/countys.geojson", "322 county boundaries — each the union of its subcounties"],
+      ["geo/subcountys.geojson", "2,190/2,191 subcounty boundaries, built from UBOS parishes"],
+      ["geo/parishs.geojson", "10,634/10,717 parish boundaries (UBOS BEC 2025)"],
+      ["geo/gaps.geojson", "Land no unit could be assigned yet, with candidate units"],
+      ["geo/settlements.geojson", "Refugee-settlement outlines (UBOS census units) and their host subcounties"],
       ["geo/roads.geojson", "10,721 major road network segments"],
+    ],
+  },
+  {
+    title: "Interoperability",
+    files: [
+      [
+        "crosswalk/hdx-cod-ab-uga.csv",
+        "OCHA COD-AB P-code ↔ uganda-locale id for every COD-AB region, district, county and subcounty, with how each matched (or why it didn't)",
+      ],
+      ["crosswalk/ubos-2024.csv", "UBOS code ↔ uganda-locale id for every UBOS 2024 district and subcounty and 2025 parish, with how each matched"],
     ],
   },
   {

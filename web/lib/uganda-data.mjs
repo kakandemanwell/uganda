@@ -189,6 +189,26 @@ export function regionBoundaries() {
   return loadGeo("regions", "regions.geojson");
 }
 
+export function countyBoundaries() {
+  return loadGeo("countys", "countys.geojson");
+}
+
+export function subregionBoundaries() {
+  return loadGeo("subregions", "subregions.geojson");
+}
+
+export function settlements() {
+  return loadGeo("settlements", "settlements.geojson");
+}
+
+export function cityBoundaries() {
+  return loadGeo("citys", "citys.geojson");
+}
+
+export function gaps() {
+  return loadGeo("gaps", "gaps.geojson");
+}
+
 export function subcountyBoundaries() {
   return loadGeo("subcountys", "subcountys.geojson");
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T16:00:03.793Z",
+  "generated_at": "2026-10-17T16:59:50.741Z",
   "totals": {
     "regions": 4,
     "subregions": 17,
@@ -30,5 +30,95 @@
   "subcounties_without_a_matched_county": [
     "Katikamu"
   ],
-  "ec_admin_units_2022": "Verified county -> subcounty/town_council/division -> parish/ward -> village/cell for all 146 district-equivalent units, sourced from the EC's July 2022 gazetteer (county layer reconstructed from EC constituency names, cross-validated against independent research — see docs/DATA_QUALITY.md). See data/sources.json -> src-ec-admin-units-2022. Dated 2022-07; does not reflect any changes since."
+  "ec_admin_units_2022": "Verified county -> subcounty/town_council/division -> parish/ward -> village/cell for all 146 district-equivalent units, sourced from the EC's July 2022 gazetteer (county layer reconstructed from EC constituency names, cross-validated against independent research — see docs/DATA_QUALITY.md). See data/sources.json -> src-ec-admin-units-2022. Dated 2022-07; does not reflect any changes since.",
+  "boundary_coverage": {
+    "regions": {
+      "with_polygon": 4,
+      "total": 4
+    },
+    "subregions": {
+      "with_polygon": 17,
+      "total": 17
+    },
+    "districts": {
+      "with_polygon": 136,
+      "total": 136
+    },
+    "citys": {
+      "with_polygon": 10,
+      "total": 10
+    },
+    "countys": {
+      "with_polygon": 322,
+      "total": 322
+    },
+    "subcountys": {
+      "with_polygon": 2190,
+      "total": 2191
+    },
+    "parishs": {
+      "with_polygon": 10634,
+      "total": 10717
+    },
+    "gaps": {
+      "features": 23,
+      "area_km2": 722
+    }
+  },
+  "boundary_agreement": {
+    "method": "IoU of each published subcounty polygon against UBOS NPHC 2024's and OCHA COD-AB 2020's polygon for the same unit, over the unit's district land — see scripts/compare-boundaries.mjs and data/qa/boundary-agreement.csv",
+    "compared": 2190,
+    "median_iou_ubos_nphc": 0.991,
+    "median_iou_hdx": 0.753,
+    "flagged_for_review": 7
+  },
+  "hdx_cod_ab": {
+    "source": "OCHA COD-AB Uganda (HDX cod-ab-uga), UBOS-sourced, valid_on 2020-08-24 — see data/sources.json -> src-hdx-cod-ab-uga and dist/crosswalk/hdx-cod-ab-uga.csv",
+    "units_eligible": 2663,
+    "units_with_exact_pcode": 1608,
+    "units_with_within_pcode": 2663,
+    "crosswalk_matches_by_cod_ab_level": {
+      "adm1": {
+        "exact": 4
+      },
+      "adm2": {
+        "exact": 135,
+        "split_from": 1
+      },
+      "adm3": {
+        "exact": 117,
+        "predecessor": 10,
+        "unmatched": 66,
+        "rejected_geometry": 1,
+        "tier_mismatch": 5,
+        "no_equivalent": 4
+      },
+      "adm4": {
+        "exact": 1352,
+        "unmatched": 146,
+        "tier_mismatch": 21,
+        "rejected_geometry": 1
+      }
+    }
+  },
+  "ubos_2024": {
+    "source": "UBOS NPHC 2024 (district/subcounty) and BEC 2025 (parish) polygons — see data/sources.json -> src-ubos-nphc-2024-geo, src-ubos-bec-2025-geo and dist/crosswalk/ubos-2024.csv",
+    "units_with_ubos_code": 12820,
+    "crosswalk_matches_by_level": {
+      "district": {
+        "exact": 146
+      },
+      "subcounty": {
+        "exact": 2105,
+        "carved_from": 75,
+        "fuzzy": 7,
+        "unmatched": 18
+      },
+      "parish": {
+        "exact": 10465,
+        "fuzzy": 98,
+        "unmatched": 144
+      }
+    }
+  }
 }

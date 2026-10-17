@@ -4,10 +4,10 @@ import { formatExact, formatPercent } from "@/lib/format";
 
 const ROWS = [
   {
-    label: "District boundaries",
-    have: 136,
-    total: 136,
-    note: "geoBoundaries CC0, 2020 — includes Terego",
+    label: "District & city boundaries",
+    have: 146,
+    total: 146,
+    note: "UBOS NPHC 2024, clipped to land",
   },
   {
     label: "Region boundaries",
@@ -16,18 +16,24 @@ const ROWS = [
     note: "Dissolved from district boundaries",
   },
   {
+    label: "County / municipality boundaries",
+    have: 322,
+    total: 322,
+    note: "Each the union of its subcounties",
+  },
+  {
     label: "Subcounty / town council / division boundaries",
-    have: 1249,
+    have: 2190,
     total: 2191,
-    note: "geoBoundaries ADM4 — ambiguous name matches excluded",
+    note: "Built from UBOS parishes; 3 inferred from the remaining land",
   },
   {
     label: "Parish / ward boundaries",
-    have: 423,
+    have: 10634,
     total: 10717,
-    note: "HDX admin4, 2020 vintage — genuinely thin coverage",
+    note: "UBOS BEC 2025; 73 inferred, the rest listed as unmapped land",
   },
-];
+]
 
 export function CoverageSection() {
   return (

@@ -19,7 +19,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Hoima East Division"
-      ]
+      ],
+      "hdx_within_pcode": "UG4106",
+      "ubos_code": "438101"
     }
   },
   {
@@ -42,7 +44,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Hoima West Division"
-      ]
+      ],
+      "hdx_within_pcode": "UG4106",
+      "ubos_code": "438202"
     }
   },
   {
@@ -65,7 +69,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Masindi Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41250302",
+      "hdx_within_pcode": "UG41250302",
+      "ubos_code": "409302"
     }
   },
   {
@@ -88,7 +95,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Masindi Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41250304",
+      "hdx_within_pcode": "UG41250304",
+      "ubos_code": "409304"
     }
   },
   {
@@ -111,7 +121,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Masindi Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41250301",
+      "hdx_within_pcode": "UG41250301",
+      "ubos_code": "409301"
     }
   },
   {
@@ -134,7 +147,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Masindi Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41250303",
+      "hdx_within_pcode": "UG41250303",
+      "ubos_code": "409303"
     }
   },
   {
@@ -157,7 +173,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Mubende Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG102003",
+      "ubos_code": "107401"
     }
   },
   {
@@ -180,7 +198,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Mubende Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG102003",
+      "ubos_code": "107402"
     }
   },
   {
@@ -203,7 +223,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Mubende Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG102003",
+      "ubos_code": "107403"
     }
   },
   {
@@ -226,7 +248,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Mityana Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10180401",
+      "hdx_within_pcode": "UG10180401",
+      "ubos_code": "115301"
     }
   },
   {
@@ -249,7 +274,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Mityana Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10180201",
+      "hdx_within_pcode": "UG10180201",
+      "ubos_code": "115302"
     }
   },
   {
@@ -272,7 +300,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Mityana Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10180402",
+      "hdx_within_pcode": "UG10180402",
+      "ubos_code": "115303"
     }
   },
   {
@@ -295,7 +326,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Soroti East Division"
-      ]
+      ],
+      "hdx_within_pcode": "UG2062",
+      "ubos_code": "240101"
     }
   },
   {
@@ -318,7 +351,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Soroti West Division"
-      ]
+      ],
+      "hdx_within_pcode": "UG2062",
+      "ubos_code": "240201"
     }
   },
   {
@@ -341,7 +376,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kumi Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG204902",
+      "ubos_code": "208301"
     }
   },
   {
@@ -364,7 +401,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Kumi Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG204902",
+      "ubos_code": "208302"
     }
   },
   {
@@ -387,7 +426,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kapchorwa Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG20450101",
+      "hdx_within_pcode": "UG20450101",
+      "ubos_code": "206101"
     }
   },
   {
@@ -410,7 +452,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Kapchorwa Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG204501",
+      "ubos_code": "206102"
     }
   },
   {
@@ -433,7 +477,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kapchorwa Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG204501",
+      "ubos_code": "206103"
     }
   },
   {
@@ -456,7 +502,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Industrial Division"
-      ]
+      ],
+      "hdx_pcode": "UG20540201",
+      "hdx_within_pcode": "UG20540201",
+      "ubos_code": "239101"
     }
   },
   {
@@ -479,7 +528,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Northern Division"
-      ]
+      ],
+      "hdx_pcode": "UG20540202",
+      "hdx_within_pcode": "UG20540202",
+      "ubos_code": "239202"
     }
   },
   {
@@ -502,7 +554,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Busia Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG20350101",
+      "hdx_within_pcode": "UG20350101",
+      "ubos_code": "202101"
     }
   },
   {
@@ -525,7 +580,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Busia Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG20350102",
+      "hdx_within_pcode": "UG20350102",
+      "ubos_code": "202102"
     }
   },
   {
@@ -549,7 +607,10 @@
       "ec_constituencies": [
         "Kawempe Division North",
         "Kawempe Division South"
-      ]
+      ],
+      "hdx_pcode": "UG10080102",
+      "hdx_within_pcode": "UG10080102",
+      "ubos_code": "102201"
     }
   },
   {
@@ -573,7 +634,10 @@
       "ec_constituencies": [
         "Makindye Division East",
         "Makindye Division West"
-      ]
+      ],
+      "hdx_pcode": "UG10080103",
+      "hdx_within_pcode": "UG10080103",
+      "ubos_code": "102301"
     }
   },
   {
@@ -597,7 +661,10 @@
       "ec_constituencies": [
         "Rubaga Division North",
         "Rubaga Division South"
-      ]
+      ],
+      "hdx_pcode": "UG10080105",
+      "hdx_within_pcode": "UG10080105",
+      "ubos_code": "102501"
     }
   },
   {
@@ -621,7 +688,10 @@
       "ec_constituencies": [
         "Nakawa Division East",
         "Nakawa Division West"
-      ]
+      ],
+      "hdx_pcode": "UG10080104",
+      "hdx_within_pcode": "UG10080104",
+      "ubos_code": "102401"
     }
   },
   {
@@ -644,7 +714,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Mukono Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10210301",
+      "hdx_within_pcode": "UG10210301",
+      "ubos_code": "108201"
     }
   },
   {
@@ -667,7 +740,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Mukono Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG102103",
+      "ubos_code": "108202"
     }
   },
   {
@@ -690,7 +765,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Nansana Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10260602",
+      "hdx_within_pcode": "UG10260602",
+      "ubos_code": "113602"
     }
   },
   {
@@ -713,7 +791,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Nansana Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10260601",
+      "hdx_within_pcode": "UG10260601",
+      "ubos_code": "113601"
     }
   },
   {
@@ -736,7 +817,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Nansana Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10260603",
+      "hdx_within_pcode": "UG10260603",
+      "ubos_code": "113603"
     }
   },
   {
@@ -759,7 +843,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Nansana Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10260604",
+      "hdx_within_pcode": "UG10260604",
+      "ubos_code": "113604"
     }
   },
   {
@@ -782,7 +869,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Makindye-Ssabagabo Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10260502",
+      "hdx_within_pcode": "UG10260502",
+      "ubos_code": "113502"
     }
   },
   {
@@ -805,7 +895,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Makindye-Ssabagabo Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10260501",
+      "hdx_within_pcode": "UG10260501",
+      "ubos_code": "113501"
     }
   },
   {
@@ -828,7 +921,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Makindye-Ssabagabo Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10260503",
+      "hdx_within_pcode": "UG10260503",
+      "ubos_code": "113503"
     }
   },
   {
@@ -851,7 +947,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Entebbe Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10260201",
+      "hdx_within_pcode": "UG10260201",
+      "ubos_code": "113201"
     }
   },
   {
@@ -874,7 +973,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Entebbe Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10260202",
+      "hdx_within_pcode": "UG10260202",
+      "ubos_code": "113202"
     }
   },
   {
@@ -897,7 +999,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kira Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10260302",
+      "hdx_within_pcode": "UG10260302",
+      "ubos_code": "113302"
     }
   },
   {
@@ -920,7 +1025,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Kira Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10260301",
+      "hdx_within_pcode": "UG10260301",
+      "ubos_code": "113301"
     }
   },
   {
@@ -943,7 +1051,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kira Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10260303",
+      "hdx_within_pcode": "UG10260303",
+      "ubos_code": "113303"
     }
   },
   {
@@ -966,7 +1077,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Njeru Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10010401",
+      "hdx_within_pcode": "UG10010401",
+      "ubos_code": "117301"
     }
   },
   {
@@ -989,7 +1103,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Njeru Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10010402",
+      "hdx_within_pcode": "UG10010402",
+      "ubos_code": "117302"
     }
   },
   {
@@ -1012,7 +1129,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Njeru Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10010403",
+      "hdx_within_pcode": "UG10010403",
+      "ubos_code": "117303"
     }
   },
   {
@@ -1035,7 +1155,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Lugazi Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10010301",
+      "hdx_within_pcode": "UG10010301",
+      "ubos_code": "117202"
     }
   },
   {
@@ -1058,7 +1181,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Lugazi Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10010201",
+      "hdx_within_pcode": "UG10010201",
+      "ubos_code": "117201"
     }
   },
   {
@@ -1081,7 +1207,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Lugazi Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG10010302",
+      "hdx_within_pcode": "UG10010302",
+      "ubos_code": "117203"
     }
   },
   {
@@ -1104,7 +1233,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kotido Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30800201",
+      "hdx_within_pcode": "UG30800201",
+      "ubos_code": "306201"
     }
   },
   {
@@ -1127,7 +1259,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Kotido Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30800202",
+      "hdx_within_pcode": "UG30800202",
+      "ubos_code": "306202"
     }
   },
   {
@@ -1150,7 +1285,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kotido Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30800203",
+      "hdx_within_pcode": "UG30800203",
+      "ubos_code": "306203"
     }
   },
   {
@@ -1173,7 +1311,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Kotido Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30800204",
+      "hdx_within_pcode": "UG30800204",
+      "ubos_code": "306204"
     }
   },
   {
@@ -1196,7 +1337,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Moroto Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG308602",
+      "ubos_code": "308201"
     }
   },
   {
@@ -1219,7 +1362,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Moroto Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG308602",
+      "ubos_code": "308202"
     }
   },
   {
@@ -1242,7 +1387,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Iganga Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG20390101",
+      "hdx_within_pcode": "UG20390101",
+      "ubos_code": "203101"
     }
   },
   {
@@ -1265,7 +1413,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Iganga Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG20390102",
+      "hdx_within_pcode": "UG20390102",
+      "ubos_code": "203102"
     }
   },
   {
@@ -1288,7 +1439,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kamuli Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG20440301",
+      "hdx_within_pcode": "UG20440301",
+      "ubos_code": "205301"
     }
   },
   {
@@ -1311,7 +1465,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Kamuli Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG20440302",
+      "hdx_within_pcode": "UG20440302",
+      "ubos_code": "205302"
     }
   },
   {
@@ -1335,7 +1492,9 @@
       "ec_constituencies": [
         "Jinja South Division East",
         "Jinja South Division West"
-      ]
+      ],
+      "hdx_within_pcode": "UG2040",
+      "ubos_code": "238201"
     }
   },
   {
@@ -1358,7 +1517,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Jinja North Division"
-      ]
+      ],
+      "hdx_within_pcode": "UG2040",
+      "ubos_code": "238101"
     }
   },
   {
@@ -1381,7 +1542,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Bugiri Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG20300101",
+      "hdx_within_pcode": "UG20300101",
+      "ubos_code": "201101"
     }
   },
   {
@@ -1404,7 +1568,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Bugiri Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG20300102",
+      "hdx_within_pcode": "UG20300102",
+      "ubos_code": "201102"
     }
   },
   {
@@ -1427,7 +1594,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kasese Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41150301",
+      "hdx_within_pcode": "UG41150301",
+      "ubos_code": "406301"
     }
   },
   {
@@ -1450,7 +1620,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Kasese Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41150302",
+      "hdx_within_pcode": "UG41150302",
+      "ubos_code": "406302"
     }
   },
   {
@@ -1473,7 +1646,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kasese Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41150303",
+      "hdx_within_pcode": "UG41150303",
+      "ubos_code": "406303"
     }
   },
   {
@@ -1496,7 +1672,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Apac Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30710104",
+      "hdx_within_pcode": "UG30710104",
+      "ubos_code": "302104"
     }
   },
   {
@@ -1519,7 +1698,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Apac Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30710102",
+      "hdx_within_pcode": "UG30710102",
+      "ubos_code": "302102"
     }
   },
   {
@@ -1542,7 +1724,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Apac Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG307101",
+      "ubos_code": "302101"
     }
   },
   {
@@ -1565,7 +1749,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Apac Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30710103",
+      "hdx_within_pcode": "UG30710103",
+      "ubos_code": "302103"
     }
   },
   {
@@ -1588,7 +1775,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Bardege-Layibi Division"
-      ]
+      ],
+      "hdx_within_pcode": "UG3074",
+      "ubos_code": "339101"
     }
   },
   {
@@ -1611,7 +1800,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Laroo-Pece Division"
-      ]
+      ],
+      "hdx_within_pcode": "UG3074",
+      "ubos_code": "339201"
     }
   },
   {
@@ -1634,7 +1825,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Lira East Division"
-      ]
+      ],
+      "hdx_within_pcode": "UG3083",
+      "ubos_code": "341101"
     }
   },
   {
@@ -1657,7 +1850,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Lira West Division"
-      ]
+      ],
+      "hdx_within_pcode": "UG3083",
+      "ubos_code": "341202"
     }
   },
   {
@@ -1680,7 +1875,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kitgum Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30770201",
+      "hdx_within_pcode": "UG30770201",
+      "ubos_code": "305301"
     }
   },
   {
@@ -1703,7 +1901,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Kitgum Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30770203",
+      "hdx_within_pcode": "UG30770203",
+      "ubos_code": "305303"
     }
   },
   {
@@ -1726,7 +1927,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kitgum Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30770202",
+      "hdx_within_pcode": "UG30770202",
+      "ubos_code": "305302"
     }
   },
   {
@@ -1749,7 +1953,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Bushenyi -Ishaka Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41050101",
+      "hdx_within_pcode": "UG41050101",
+      "ubos_code": "402101"
     }
   },
   {
@@ -1772,7 +1979,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Bushenyi -Ishaka Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41050102",
+      "hdx_within_pcode": "UG41050102",
+      "ubos_code": "402102"
     }
   },
   {
@@ -1795,7 +2005,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Bushenyi -Ishaka Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41050103",
+      "hdx_within_pcode": "UG41050103",
+      "ubos_code": "402103"
     }
   },
   {
@@ -1818,7 +2031,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Sheema Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41350201",
+      "hdx_within_pcode": "UG41350201",
+      "ubos_code": "426201"
     }
   },
   {
@@ -1841,7 +2057,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Sheema Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41350202",
+      "hdx_within_pcode": "UG41350202",
+      "ubos_code": "426202"
     }
   },
   {
@@ -1864,7 +2083,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Sheema Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41350203",
+      "hdx_within_pcode": "UG41350203",
+      "ubos_code": "426203"
     }
   },
   {
@@ -1887,7 +2109,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Sheema Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41350204",
+      "hdx_within_pcode": "UG41350204",
+      "ubos_code": "426204"
     }
   },
   {
@@ -1910,7 +2135,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Mbarara North Division"
-      ]
+      ],
+      "hdx_within_pcode": "UG4126",
+      "ubos_code": "437101"
     }
   },
   {
@@ -1933,7 +2160,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Mbarara South Division"
-      ]
+      ],
+      "hdx_within_pcode": "UG4126",
+      "ubos_code": "437202"
     }
   },
   {
@@ -1956,7 +2185,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kisoro Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG412102",
+      "ubos_code": "408301"
     }
   },
   {
@@ -1979,7 +2210,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Kisoro Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG412102",
+      "ubos_code": "408302"
     }
   },
   {
@@ -2002,7 +2235,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kisoro Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG412102",
+      "ubos_code": "408303"
     }
   },
   {
@@ -2025,7 +2260,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Ntungamo Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41290202",
+      "hdx_within_pcode": "UG41290202",
+      "ubos_code": "411202"
     }
   },
   {
@@ -2048,7 +2286,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Ntungamo Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41290201",
+      "hdx_within_pcode": "UG41290201",
+      "ubos_code": "411201"
     }
   },
   {
@@ -2071,7 +2312,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Ntungamo Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41290203",
+      "hdx_within_pcode": "UG41290203",
+      "ubos_code": "411203"
     }
   },
   {
@@ -2094,7 +2338,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Rukungiri Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41330301",
+      "hdx_within_pcode": "UG41330301",
+      "ubos_code": "412301"
     }
   },
   {
@@ -2117,7 +2364,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Rukungiri Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41330302",
+      "hdx_within_pcode": "UG41330302",
+      "ubos_code": "412302"
     }
   },
   {
@@ -2140,7 +2390,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Rukungiri Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41330303",
+      "hdx_within_pcode": "UG41330303",
+      "ubos_code": "412303"
     }
   },
   {
@@ -2163,7 +2416,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Ibanda Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41070201",
+      "hdx_within_pcode": "UG41070201",
+      "ubos_code": "417201"
     }
   },
   {
@@ -2186,7 +2442,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Ibanda Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG41070202",
+      "hdx_within_pcode": "UG41070202",
+      "ubos_code": "417202"
     }
   },
   {
@@ -2209,7 +2468,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Ibanda Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG410702",
+      "ubos_code": "417203"
     }
   },
   {
@@ -2233,7 +2494,9 @@
       "ec_constituencies": [
         "Ayivu Division East",
         "Ayivu Division West"
-      ]
+      ],
+      "hdx_within_pcode": "UG3072",
+      "ubos_code": "338201"
     }
   },
   {
@@ -2256,7 +2519,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Arua Central Division"
-      ]
+      ],
+      "hdx_within_pcode": "UG3072",
+      "ubos_code": "338101"
     }
   },
   {
@@ -2279,7 +2544,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Nebbi Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30910101",
+      "hdx_within_pcode": "UG30910101",
+      "ubos_code": "310101"
     }
   },
   {
@@ -2302,7 +2570,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Nebbi Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30910102",
+      "hdx_within_pcode": "UG30910102",
+      "ubos_code": "310102"
     }
   },
   {
@@ -2325,7 +2596,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Nebbi Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30910103",
+      "hdx_within_pcode": "UG30910103",
+      "ubos_code": "310103"
     }
   },
   {
@@ -2348,7 +2622,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Koboko Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG307802",
+      "ubos_code": "319201"
     }
   },
   {
@@ -2371,7 +2647,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Koboko Municipality"
-      ]
+      ],
+      "hdx_within_pcode": "UG307802",
+      "ubos_code": "319202"
     }
   },
   {
@@ -2394,7 +2672,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Koboko Municipality"
-      ]
+      ],
+      "hdx_pcode": "UG30780203",
+      "hdx_within_pcode": "UG30780203",
+      "ubos_code": "319203"
     }
   }
 ]

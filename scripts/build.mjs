@@ -7,9 +7,10 @@
 // they await reconciliation. Nothing here is silently upgraded to "verified" without
 // being cross-checked against 2+ independent current sources.
 
-import { readFileSync, writeFileSync, mkdirSync, cpSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, cpSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+import { area as turfArea } from "@turf/turf";
 import { parseCsvObjects, writeCsv } from "./lib/csv.mjs";
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -150,6 +151,56 @@ for (const r of readCsv("cities.csv")) {
 const ecUnits = JSON.parse(readFileSync(path.join(DATA, "ec/administrative_units_ec2022.json"), "utf-8"));
 for (const u of ecUnits) units.push(u);
 
+// ---- OCHA COD-AB P-codes (see scripts/ingest-hdx-cod-ab.mjs) ----
+// external_refs.hdx_pcode: this unit's exact COD-AB equivalent, where one
+//   exists (region, district, and the counties/subcounties COD-AB's 2020
+//   snapshot still has under the same name, tier and district).
+// external_refs.hdx_within_pcode: the most specific COD-AB unit that
+//   contains this one — its own P-code if it has one, else the nearest
+//   ancestor's (or, for a district split off since 2020, the district it
+//   was split from). Set on everything from region down to subcounty-tier,
+//   so any of these records can be joined to OCHA/humanitarian data keyed
+//   by P-code, even ones COD-AB doesn't know about (cities, Terego, units
+//   created since 2020). Parish/village records inherit theirs from their
+//   subcounty — see the hdx_pcode column of uganda-locations-full.csv.
+const crosswalk = readCsv("crosswalk/hdx-cod-ab-uga.csv");
+const hdxExact = new Map(crosswalk.filter((r) => r.match === "exact").map((r) => [r.unit_id, r.hdx_pcode]));
+const hdxSplitFrom = new Map(crosswalk.filter((r) => r.match === "split_from").map((r) => [r.unit_id, r.hdx_pcode]));
+const PCODE_LEVELS = new Set(["region", "district", "city", "county", "municipality", "subcounty", "town_council", "division"]);
+{
+  const byId = new Map(units.map((u) => [u.id, u]));
+  const within = new Map();
+  const withinOf = (u) => {
+    if (!u) return null;
+    if (within.has(u.id)) return within.get(u.id);
+    const pcode = hdxExact.get(u.id) || hdxSplitFrom.get(u.id) || withinOf(byId.get(u.parent_id));
+    within.set(u.id, pcode);
+    return pcode;
+  };
+  for (const u of units) {
+    if (!PCODE_LEVELS.has(u.level)) continue;
+    const refs = { ...(u.external_refs || {}) };
+    if (hdxExact.has(u.id)) refs.hdx_pcode = hdxExact.get(u.id);
+    refs.hdx_within_pcode = withinOf(u);
+    u.external_refs = refs;
+  }
+}
+
+// ---- UBOS codes (see scripts/ingest-ubos-boundaries.mjs) ----
+// external_refs.ubos_code: the unit's code in UBOS's 2024 census / 2025
+// education census frame (district 3 digits, subcounty 6, parish 8), where
+// UBOS has the same unit under a matching name — the key for joining
+// UBOS's own tables (NPHC 2024 subcounty and parish profiles, etc.).
+const ubosCrosswalk = readCsv("crosswalk/ubos-2024.csv");
+{
+  const byId = new Map(units.map((u) => [u.id, u]));
+  for (const r of ubosCrosswalk) {
+    if (r.match !== "exact" && r.match !== "fuzzy") continue;
+    const u = byId.get(r.unit_id);
+    if (u) u.external_refs = { ...(u.external_refs || {}), ubos_code: r.ubos_code };
+  }
+}
+
 mkdirSync(DIST, { recursive: true });
 
 // ---- unified JSON ----
@@ -217,7 +268,11 @@ writeFileSync(
 // so existing column positions don't shift — names alone can't identify a
 // parish (Lira West Division has two wards both named "Teso", with their
 // villages adjacent in this file), so anything joining these rows back to
-// parishs.json/wards.json needs the id.
+// parishs.json/wards.json needs the id. "hdx_pcode", appended after it for
+// the same reason, is the most specific OCHA COD-AB P-code containing the
+// village (its subcounty's hdx_within_pcode) — the key for joining these
+// rows to humanitarian datasets. Its length tells its level: UG + 1 digit
+// region, +3 district, +2 county, +2 subcounty.
 const fullRows = [];
 let fullSeq = 1;
 for (const u of units) {
@@ -242,12 +297,13 @@ for (const u of units) {
     village: u.name,
     confidence: u.confidence,
     parish_id: parish.id,
+    hdx_pcode: subcounty.external_refs?.hdx_within_pcode || "",
   });
 }
 writeFileSync(
   path.join(DIST, "uganda-locations-full.csv"),
   writeCsv(
-    ["id", "region", "sub_region", "district", "county", "constituency", "subcounty", "parish", "village", "confidence", "parish_id"],
+    ["id", "region", "sub_region", "district", "county", "constituency", "subcounty", "parish", "village", "confidence", "parish_id", "hdx_pcode"],
     fullRows
   )
 );
@@ -315,7 +371,7 @@ const report = {
     .map((u) => u.name),
   ec_admin_units_2022: "Verified county -> subcounty/town_council/division -> parish/ward -> village/cell for all 146 district-equivalent units, sourced from the EC's July 2022 gazetteer (county layer reconstructed from EC constituency names, cross-validated against independent research — see docs/DATA_QUALITY.md). See data/sources.json -> src-ec-admin-units-2022. Dated 2022-07; does not reflect any changes since.",
 };
-writeFileSync(path.join(DIST, "data-quality-report.json"), JSON.stringify(report, null, 2) + "\n");
+// (written after the boundary section below, which adds its coverage to it)
 
 // ---- country metadata (currency, calling code, timezone, flag/coat-of-arms assets, etc.) ----
 mkdirSync(path.join(DIST, "country"), { recursive: true });
@@ -325,33 +381,147 @@ writeFileSync(
 );
 cpSync(path.join(DATA, "country/assets"), path.join(DIST, "country", "assets"), { recursive: true });
 
-// ---- boundary geometry (region/district polygons for map visualization) ----
-// Prebuilt by scripts/ingest-district-boundaries.mjs (from geoBoundaries' CC0
-// district layer) and scripts/build-region-boundaries.mjs (dissolved from
-// that same district geometry by region_id) — both checked into data/geo/.
-// District features get population merged into their properties at build
-// time (not baked into the checked-in data/geo/districts.geojson, keeping
-// that file geometry-only) so the GeoJSON is self-sufficient for a
-// choropleth map without a second lookup. See docs/DATA_QUALITY.md for what
-// levels below district were evaluated and why they aren't included
-// (county/subcounty/parish/village boundary data).
+// ---- boundary geometry ----
+// Prebuilt into data/geo/ by the boundary scripts, run in this order:
+// ingest-ubos-boundaries (parish -> subcounty -> county -> city/district,
+// built bottom-up from UBOS's 2024/2025 polygons), build-region-boundaries,
+// ingest-hdx-cod-ab (P-codes). The checked-in files stay geometry-plus-ids;
+// the build adds what a choropleth or an export needs, so the GeoJSON is
+// self-sufficient without a second lookup:
+//   area_km2      every polygon layer (land area — polygons are clipped to
+//                 land except the few island parishes flagged includes_water)
+//   population    district and city features (NPHC 2024)
+//   hdx_pcode     every polygon layer, from the unit's own record
+// gaps.geojson holds land no EC unit could be given — see
+// docs/DATA_QUALITY.md.
 mkdirSync(path.join(DIST, "geo"), { recursive: true });
+const boundaryCoverage = {};
 {
-  const districtsFc = JSON.parse(readFileSync(path.join(DATA, "geo/districts.geojson"), "utf-8"));
-  for (const f of districtsFc.features) f.properties.population = populationFor(f.properties.id);
-  writeFileSync(path.join(DIST, "geo", "districts.geojson"), JSON.stringify(districtsFc));
-  writeFileSync(
-    path.join(DIST, "geo", "regions.geojson"),
-    readFileSync(path.join(DATA, "geo/regions.geojson"), "utf-8")
+  const tierTotals = {
+    regions: byLevel.region?.length || 0,
+    subregions: byLevel.subregion?.length || 0,
+    districts: districts.length,
+    citys: byLevel.city?.length || 0,
+    countys: units.filter((u) => u.level === "county" || u.level === "municipality").length,
+    subcountys: units.filter((u) => SUBCOUNTY_LEVELS.includes(u.level)).length,
+    parishs: units.filter((u) => PARISH_LEVELS.includes(u.level)).length,
+  };
+  // 2024 population below district: UBOS NPHC per subcounty (assigned to
+  // EC subcounties by scripts/ingest-ubos-boundaries.mjs), summed up to
+  // counties — partial where a county has a subcounty UBOS doesn't count.
+  const subPop = new Map(
+    readCsv("population/ubos-nphc-2024-subcounty.csv").map((r) => [
+      r.id,
+      { year: 2024, male: Number(r.male), female: Number(r.female), total: Number(r.total), ...(r.method === "includes_carved_units" ? { note: "includes units carved out since 2022" } : {}) },
+    ])
   );
-  // subcounty/parish: partial-coverage boundary layers (see
-  // docs/DATA_QUALITY.md) and roads: an independent, non-admin-unit layer
-  // (see schema/road.schema.json) — none need build-time enrichment, just
-  // copied through like the files above.
-  for (const file of ["subcountys.geojson", "parishs.geojson", "roads.geojson"]) {
-    writeFileSync(path.join(DIST, "geo", file), readFileSync(path.join(DATA, "geo", file), "utf-8"));
+  // Cross-dataset agreement per subcounty (scripts/compare-boundaries.mjs),
+  // when that QA step has been run.
+  const agreementFile = path.join(DATA, "qa/boundary-agreement.csv");
+  const agreement = existsSync(agreementFile) ? new Map(readCsv("qa/boundary-agreement.csv").map((r) => [r.id, r])) : new Map();
+  const countyPop = new Map();
+  for (const u of units) {
+    if (!SUBCOUNTY_LEVELS.includes(u.level)) continue;
+    const parent = idOf.get(u.parent_id);
+    if (!parent || (parent.level !== "county" && parent.level !== "municipality")) continue;
+    const c = countyPop.get(parent.id) ?? { year: 2024, male: 0, female: 0, total: 0, missing: 0 };
+    const pop = subPop.get(u.id);
+    if (pop) {
+      c.male += pop.male;
+      c.female += pop.female;
+      c.total += pop.total;
+    } else c.missing++;
+    countyPop.set(parent.id, c);
+  }
+  for (const layer of Object.keys(tierTotals)) {
+    const fc = JSON.parse(readFileSync(path.join(DATA, "geo", `${layer}.geojson`), "utf-8"));
+    for (const f of fc.features) {
+      f.properties.hdx_pcode = idOf.get(f.properties.id)?.external_refs?.hdx_pcode ?? null;
+      f.properties.area_km2 = Math.round(turfArea(f) / 1e4) / 100;
+      if (layer === "districts" || layer === "citys") f.properties.population = populationFor(f.properties.id);
+      if (layer === "subcountys") {
+        f.properties.population = subPop.get(f.properties.id) ?? null;
+        const a = agreement.get(f.properties.id);
+        if (a) {
+          f.properties.agreement = {
+            ubos_nphc_iou: a.ubos_nphc_iou === "" ? null : Number(a.ubos_nphc_iou),
+            hdx_iou: a.hdx_iou === "" ? null : Number(a.hdx_iou),
+          };
+        }
+      }
+      if (layer === "countys") {
+        const c = countyPop.get(f.properties.id);
+        f.properties.population = c ? { year: c.year, male: c.male, female: c.female, total: c.total, ...(c.missing ? { partial: true } : {}) } : null;
+      }
+    }
+    writeFileSync(path.join(DIST, "geo", `${layer}.geojson`), JSON.stringify(fc));
+    boundaryCoverage[layer] = { with_polygon: fc.features.length, total: tierTotals[layer] };
+  }
+  {
+    const settlements = JSON.parse(readFileSync(path.join(DATA, "geo/settlements.geojson"), "utf-8"));
+    for (const f of settlements.features) f.properties.area_km2 = Math.round(turfArea(f) / 1e4) / 100;
+    writeFileSync(path.join(DIST, "geo", "settlements.geojson"), JSON.stringify(settlements));
+  }
+  {
+    const gaps = JSON.parse(readFileSync(path.join(DATA, "geo/gaps.geojson"), "utf-8"));
+    for (const f of gaps.features) f.properties.area_km2 = Math.round(turfArea(f) / 1e4) / 100;
+    writeFileSync(path.join(DIST, "geo", "gaps.geojson"), JSON.stringify(gaps));
+    boundaryCoverage.gaps = { features: gaps.features.length, area_km2: Math.round(gaps.features.reduce((a, f) => a + f.properties.area_km2, 0)) };
+  }
+  // roads: an independent, non-admin-unit layer (see schema/road.schema.json)
+  writeFileSync(path.join(DIST, "geo", "roads.geojson"), readFileSync(path.join(DATA, "geo/roads.geojson"), "utf-8"));
+}
+
+// ---- crosswalks (OCHA COD-AB, UBOS), shipped as-is for joining the other way ----
+mkdirSync(path.join(DIST, "crosswalk"), { recursive: true });
+for (const file of ["hdx-cod-ab-uga.csv", "ubos-2024.csv"]) {
+  writeFileSync(path.join(DIST, "crosswalk", file), readFileSync(path.join(DATA, "crosswalk", file), "utf-8"));
+}
+
+report.boundary_coverage = boundaryCoverage;
+{
+  const file = path.join(DATA, "qa/boundary-agreement.csv");
+  if (existsSync(file)) {
+    const rows = readCsv("qa/boundary-agreement.csv");
+    const median = (key) => {
+      const v = rows.filter((r) => r[key] !== "").map((r) => Number(r[key])).sort((a, b) => a - b);
+      return v.length ? v[Math.floor(v.length / 2)] : null;
+    };
+    report.boundary_agreement = {
+      method: "IoU of each published subcounty polygon against UBOS NPHC 2024's and OCHA COD-AB 2020's polygon for the same unit, over the unit's district land — see scripts/compare-boundaries.mjs and data/qa/boundary-agreement.csv",
+      compared: rows.length,
+      median_iou_ubos_nphc: median("ubos_nphc_iou"),
+      median_iou_hdx: median("hdx_iou"),
+      flagged_for_review: rows.filter((r) => r.flag === "review").length,
+    };
   }
 }
+{
+  const eligible = units.filter((u) => PCODE_LEVELS.has(u.level));
+  const byCodLevel = {};
+  for (const r of crosswalk) {
+    byCodLevel[r.hdx_level] ||= {};
+    byCodLevel[r.hdx_level][r.match] = (byCodLevel[r.hdx_level][r.match] || 0) + 1;
+  }
+  report.hdx_cod_ab = {
+    source: "OCHA COD-AB Uganda (HDX cod-ab-uga), UBOS-sourced, valid_on 2020-08-24 — see data/sources.json -> src-hdx-cod-ab-uga and dist/crosswalk/hdx-cod-ab-uga.csv",
+    units_eligible: eligible.length,
+    units_with_exact_pcode: eligible.filter((u) => u.external_refs?.hdx_pcode).length,
+    units_with_within_pcode: eligible.filter((u) => u.external_refs?.hdx_within_pcode).length,
+    crosswalk_matches_by_cod_ab_level: byCodLevel,
+  };
+  const byUbosLevel = {};
+  for (const r of ubosCrosswalk) {
+    byUbosLevel[r.level] ||= {};
+    byUbosLevel[r.level][r.match] = (byUbosLevel[r.level][r.match] || 0) + 1;
+  }
+  report.ubos_2024 = {
+    source: "UBOS NPHC 2024 (district/subcounty) and BEC 2025 (parish) polygons — see data/sources.json -> src-ubos-nphc-2024-geo, src-ubos-bec-2025-geo and dist/crosswalk/ubos-2024.csv",
+    units_with_ubos_code: units.filter((u) => u.external_refs?.ubos_code).length,
+    crosswalk_matches_by_level: byUbosLevel,
+  };
+}
+writeFileSync(path.join(DIST, "data-quality-report.json"), JSON.stringify(report, null, 2) + "\n");
 
 console.log(`Built ${units.length} records -> dist/`);
 console.log(

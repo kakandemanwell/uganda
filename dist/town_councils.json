@@ -19,7 +19,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Bugahya County"
-      ]
+      ],
+      "hdx_within_pcode": "UG410601",
+      "ubos_code": "403102"
     }
   },
   {
@@ -42,7 +44,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Kigorobya County"
-      ]
+      ],
+      "hdx_pcode": "UG41060104",
+      "hdx_within_pcode": "UG41060104",
+      "ubos_code": "403205"
     }
   },
   {
@@ -65,7 +70,10 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Buyaga East County"
-      ]
+      ],
+      "hdx_pcode": "UG41110105",
+      "hdx_within_pcode": "UG41110105",
+      "ubos_code": "427104"
     }
   },
   {
@@ -88,7 +96,9 @@
       "ec_subcounty_code": "14",
       "ec_constituencies": [
         "Buyaga East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4111",
+      "ubos_code": "427111"
     }
   },
   {
@@ -111,7 +121,9 @@
       "ec_subcounty_code": "16",
       "ec_constituencies": [
         "Buyaga East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4111",
+      "ubos_code": "427116"
     }
   },
   {
@@ -134,7 +146,10 @@
       "ec_subcounty_code": "17",
       "ec_constituencies": [
         "Buyaga East County"
-      ]
+      ],
+      "hdx_pcode": "UG41110112",
+      "hdx_within_pcode": "UG41110112",
+      "ubos_code": "427113"
     }
   },
   {
@@ -157,7 +172,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Buyaga West County"
-      ]
+      ],
+      "hdx_pcode": "UG41110115",
+      "hdx_within_pcode": "UG41110115",
+      "ubos_code": "427213"
     }
   },
   {
@@ -180,7 +198,9 @@
       "ec_subcounty_code": "18",
       "ec_constituencies": [
         "Buyaga West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4111",
+      "ubos_code": "427219"
     }
   },
   {
@@ -203,7 +223,9 @@
       "ec_subcounty_code": "19",
       "ec_constituencies": [
         "Buyaga West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4111",
+      "ubos_code": "427217"
     }
   },
   {
@@ -226,7 +248,9 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Bugangaizi West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4112",
+      "ubos_code": "428302"
     }
   },
   {
@@ -249,7 +273,9 @@
       "ec_subcounty_code": "15",
       "ec_constituencies": [
         "Bugangaizi West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4112",
+      "ubos_code": "428308"
     }
   },
   {
@@ -272,7 +298,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Bugangaizi East County"
-      ]
+      ],
+      "hdx_pcode": "UG41120110",
+      "hdx_within_pcode": "UG41120110",
+      "ubos_code": "428104"
     }
   },
   {
@@ -295,7 +324,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Bugangaizi East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4112",
+      "ubos_code": "428109"
     }
   },
   {
@@ -318,7 +349,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Bugangaizi East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4112",
+      "ubos_code": "428106"
     }
   },
   {
@@ -341,7 +374,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Bugangaizi South County"
-      ]
+      ],
+      "hdx_pcode": "UG41120104",
+      "hdx_within_pcode": "UG41120104",
+      "ubos_code": "428204"
     }
   },
   {
@@ -364,7 +400,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bugangaizi South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4112",
+      "ubos_code": "428203"
     }
   },
   {
@@ -387,7 +425,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Buhaguzi County"
-      ]
+      ],
+      "hdx_pcode": "UG41180105",
+      "hdx_within_pcode": "UG41180105",
+      "ubos_code": "432102"
     }
   },
   {
@@ -410,7 +451,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Buhaguzi East County"
-      ]
+      ],
+      "hdx_pcode": "UG41180103",
+      "hdx_within_pcode": "UG41180103",
+      "ubos_code": "432203"
     }
   },
   {
@@ -433,7 +477,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Buyanja County"
-      ]
+      ],
+      "hdx_pcode": "UG41170106",
+      "hdx_within_pcode": "UG41170106",
+      "ubos_code": "407104"
     }
   },
   {
@@ -456,7 +503,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Bujenje County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4125",
+      "ubos_code": "409105"
     }
   },
   {
@@ -479,7 +528,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Bujenje County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4125",
+      "ubos_code": "409103"
     }
   },
   {
@@ -502,7 +553,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Buruli County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4125",
+      "ubos_code": "409205"
     }
   },
   {
@@ -525,7 +578,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Buruli County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4125",
+      "ubos_code": "409202"
     }
   },
   {
@@ -548,7 +603,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Buliisa County"
-      ]
+      ],
+      "hdx_pcode": "UG41020103",
+      "hdx_within_pcode": "UG41020103",
+      "ubos_code": "416104"
     }
   },
   {
@@ -571,7 +629,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Buliisa County"
-      ]
+      ],
+      "hdx_within_pcode": "UG410201",
+      "ubos_code": "416102"
     }
   },
   {
@@ -594,7 +654,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Buliisa County"
-      ]
+      ],
+      "hdx_within_pcode": "UG410201",
+      "ubos_code": "416106"
     }
   },
   {
@@ -617,7 +679,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Buliisa County"
-      ]
+      ],
+      "hdx_within_pcode": "UG410201",
+      "ubos_code": "416110"
     }
   },
   {
@@ -640,7 +704,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kibanda South County"
-      ]
+      ],
+      "hdx_pcode": "UG41200103",
+      "hdx_within_pcode": "UG41200103",
+      "ubos_code": "421202"
     }
   },
   {
@@ -663,7 +730,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kibanda North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4120",
+      "ubos_code": "421103"
     }
   },
   {
@@ -686,7 +755,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Kibanda North County"
-      ]
+      ],
+      "hdx_pcode": "UG41200101",
+      "hdx_within_pcode": "UG41200101",
+      "ubos_code": "421101"
     }
   },
   {
@@ -709,7 +781,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Kiboga East County"
-      ]
+      ],
+      "hdx_pcode": "UG10110102",
+      "hdx_within_pcode": "UG10110102",
+      "ubos_code": "103102"
     }
   },
   {
@@ -732,7 +807,10 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Kiboga East County"
-      ]
+      ],
+      "hdx_pcode": "UG10110108",
+      "hdx_within_pcode": "UG10110108",
+      "ubos_code": "103106"
     }
   },
   {
@@ -755,7 +833,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kiboga West County"
-      ]
+      ],
+      "hdx_pcode": "UG10110106",
+      "hdx_within_pcode": "UG10110106",
+      "ubos_code": "103204"
     }
   },
   {
@@ -778,7 +859,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Katikamu County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG1014",
+      "ubos_code": "104205"
     }
   },
   {
@@ -801,7 +884,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Katikamu County South"
-      ]
+      ],
+      "hdx_pcode": "UG10140201",
+      "hdx_within_pcode": "UG10140201",
+      "ubos_code": "104201"
     }
   },
   {
@@ -824,7 +910,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Katikamu County South"
-      ]
+      ],
+      "hdx_pcode": "UG10140208",
+      "hdx_within_pcode": "UG10140208",
+      "ubos_code": "104209"
     }
   },
   {
@@ -847,7 +936,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Katikamu County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG1014",
+      "ubos_code": "104207"
     }
   },
   {
@@ -870,7 +961,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bamunanika County"
-      ]
+      ],
+      "hdx_within_pcode": "UG101401",
+      "ubos_code": "104102"
     }
   },
   {
@@ -893,7 +986,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Bamunanika County"
-      ]
+      ],
+      "hdx_within_pcode": "UG101401",
+      "ubos_code": "104105"
     }
   },
   {
@@ -916,7 +1011,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Bamunanika County"
-      ]
+      ],
+      "hdx_within_pcode": "UG101401",
+      "ubos_code": "104107"
     }
   },
   {
@@ -939,7 +1036,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Bamunanika County"
-      ]
+      ],
+      "hdx_within_pcode": "UG101401",
+      "ubos_code": "104109"
     }
   },
   {
@@ -962,7 +1061,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Nakasongola County"
-      ]
+      ],
+      "hdx_pcode": "UG10230102",
+      "hdx_within_pcode": "UG10230102",
+      "ubos_code": "109202"
     }
   },
   {
@@ -985,7 +1087,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Nakasongola County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1023",
+      "ubos_code": "109207"
     }
   },
   {
@@ -1008,7 +1112,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Nakasongola County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1023",
+      "ubos_code": "109205"
     }
   },
   {
@@ -1031,7 +1137,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Nakasongola County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1023",
+      "ubos_code": "109206"
     }
   },
   {
@@ -1054,7 +1162,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Budyebo County"
-      ]
+      ],
+      "hdx_pcode": "UG10230107",
+      "hdx_within_pcode": "UG10230107",
+      "ubos_code": "109104"
     }
   },
   {
@@ -1077,7 +1188,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Budyebo County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1023",
+      "ubos_code": "109103"
     }
   },
   {
@@ -1100,7 +1213,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Bbale County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1010",
+      "ubos_code": "112105"
     }
   },
   {
@@ -1123,7 +1238,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Ntenjeru County North"
-      ]
+      ],
+      "hdx_pcode": "UG10100204",
+      "hdx_within_pcode": "UG10100204",
+      "ubos_code": "112206"
     }
   },
   {
@@ -1146,7 +1264,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Ntenjeru County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG1010",
+      "ubos_code": "112202"
     }
   },
   {
@@ -1169,7 +1289,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Ntenjeru County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG1010",
+      "ubos_code": "112208"
     }
   },
   {
@@ -1192,7 +1314,10 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Nakaseke South County"
-      ]
+      ],
+      "hdx_pcode": "UG10220110",
+      "hdx_within_pcode": "UG10220110",
+      "ubos_code": "116304"
     }
   },
   {
@@ -1215,7 +1340,10 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Nakaseke South County"
-      ]
+      ],
+      "hdx_pcode": "UG10220114",
+      "hdx_within_pcode": "UG10220114",
+      "ubos_code": "116306"
     }
   },
   {
@@ -1238,7 +1366,10 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Nakaseke North County"
-      ]
+      ],
+      "hdx_pcode": "UG10220112",
+      "hdx_within_pcode": "UG10220112",
+      "ubos_code": "116204"
     }
   },
   {
@@ -1261,7 +1392,10 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Nakaseke Central County"
-      ]
+      ],
+      "hdx_pcode": "UG10220108",
+      "hdx_within_pcode": "UG10220108",
+      "ubos_code": "116103"
     }
   },
   {
@@ -1284,7 +1418,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Ntwetwe County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1012",
+      "ubos_code": "123211"
     }
   },
   {
@@ -1307,7 +1443,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Ntwetwe County"
-      ]
+      ],
+      "hdx_pcode": "UG10120122",
+      "hdx_within_pcode": "UG10120122",
+      "ubos_code": "123209"
     }
   },
   {
@@ -1330,7 +1469,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Butemba County"
-      ]
+      ],
+      "hdx_pcode": "UG10120117",
+      "hdx_within_pcode": "UG10120117",
+      "ubos_code": "123108"
     }
   },
   {
@@ -1353,7 +1495,10 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Butemba County"
-      ]
+      ],
+      "hdx_pcode": "UG10120113",
+      "hdx_within_pcode": "UG10120113",
+      "ubos_code": "123104"
     }
   },
   {
@@ -1376,7 +1521,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Butemba County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1012",
+      "ubos_code": "123110"
     }
   },
   {
@@ -1399,7 +1546,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kalungu East County"
-      ]
+      ],
+      "hdx_pcode": "UG10070106",
+      "hdx_within_pcode": "UG10070106",
+      "ubos_code": "122106"
     }
   },
   {
@@ -1422,7 +1572,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kalungu West County"
-      ]
+      ],
+      "hdx_pcode": "UG10070103",
+      "hdx_within_pcode": "UG10070103",
+      "ubos_code": "122103"
     }
   },
   {
@@ -1445,7 +1598,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Kalungu West County"
-      ]
+      ],
+      "hdx_pcode": "UG10070105",
+      "hdx_within_pcode": "UG10070105",
+      "ubos_code": "122105"
     }
   },
   {
@@ -1468,7 +1624,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Bukoto County Mid-West"
-      ]
+      ],
+      "hdx_pcode": "UG10150106",
+      "hdx_within_pcode": "UG10150106",
+      "ubos_code": "124108"
     }
   },
   {
@@ -1491,7 +1650,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Bukoto County West"
-      ]
+      ],
+      "hdx_pcode": "UG10150104",
+      "hdx_within_pcode": "UG10150104",
+      "ubos_code": "124106"
     }
   },
   {
@@ -1514,7 +1676,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Bukoto County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG1015",
+      "ubos_code": "124101"
     }
   },
   {
@@ -1537,7 +1701,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Bukoto Countysouth"
-      ]
+      ],
+      "hdx_within_pcode": "UG1015",
+      "ubos_code": "124102"
     }
   },
   {
@@ -1560,7 +1726,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Bujumba County"
-      ]
+      ],
+      "hdx_pcode": "UG10060102",
+      "hdx_within_pcode": "UG10060102",
+      "ubos_code": "101102"
     }
   },
   {
@@ -1583,7 +1752,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kakuuto County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1013",
+      "ubos_code": "125103"
     }
   },
   {
@@ -1606,7 +1777,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Kakuuto County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1013",
+      "ubos_code": "125105"
     }
   },
   {
@@ -1629,7 +1802,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kyotera County"
-      ]
+      ],
+      "hdx_pcode": "UG10130105",
+      "hdx_within_pcode": "UG10130105",
+      "ubos_code": "125204"
     }
   },
   {
@@ -1652,7 +1828,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kyotera County"
-      ]
+      ],
+      "hdx_pcode": "UG10130109",
+      "hdx_within_pcode": "UG10130109",
+      "ubos_code": "125206"
     }
   },
   {
@@ -1675,7 +1854,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Kyotera County"
-      ]
+      ],
+      "hdx_pcode": "UG10130104",
+      "hdx_within_pcode": "UG10130104",
+      "ubos_code": "125203"
     }
   },
   {
@@ -1698,7 +1880,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Kassanda County North"
-      ]
+      ],
+      "hdx_pcode": "UG10090104",
+      "hdx_within_pcode": "UG10090104",
+      "ubos_code": "126204"
     }
   },
   {
@@ -1721,7 +1906,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kassanda County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG1009",
+      "ubos_code": "126206"
     }
   },
   {
@@ -1744,7 +1931,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Bukuya County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1009",
+      "ubos_code": "126102"
     }
   },
   {
@@ -1767,7 +1956,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Mawokota County North"
-      ]
+      ],
+      "hdx_pcode": "UG10190105",
+      "hdx_within_pcode": "UG10190105",
+      "ubos_code": "106107"
     }
   },
   {
@@ -1790,7 +1982,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Mawokota County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG1019",
+      "ubos_code": "106102"
     }
   },
   {
@@ -1813,7 +2007,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Mawokota County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG1019",
+      "ubos_code": "106104"
     }
   },
   {
@@ -1836,7 +2032,10 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Kasambya County"
-      ]
+      ],
+      "hdx_pcode": "UG10200203",
+      "hdx_within_pcode": "UG10200203",
+      "ubos_code": "107303"
     }
   },
   {
@@ -1859,7 +2058,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Kasambya County"
-      ]
+      ],
+      "hdx_within_pcode": "UG102002",
+      "ubos_code": "107308"
     }
   },
   {
@@ -1882,7 +2083,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Buwekula South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1020",
+      "ubos_code": "107204"
     }
   },
   {
@@ -1905,7 +2108,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Kooki County"
-      ]
+      ],
+      "hdx_within_pcode": "UG102401",
+      "ubos_code": "110202"
     }
   },
   {
@@ -1928,7 +2133,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kooki County"
-      ]
+      ],
+      "hdx_within_pcode": "UG102401",
+      "ubos_code": "110203"
     }
   },
   {
@@ -1951,7 +2158,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Kooki County"
-      ]
+      ],
+      "hdx_within_pcode": "UG102401",
+      "ubos_code": "110210"
     }
   },
   {
@@ -1974,7 +2183,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Kooki County"
-      ]
+      ],
+      "hdx_within_pcode": "UG102401",
+      "ubos_code": "110211"
     }
   },
   {
@@ -1997,7 +2208,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Kooki County"
-      ]
+      ],
+      "hdx_pcode": "UG10240111",
+      "hdx_within_pcode": "UG10240111",
+      "ubos_code": "110212"
     }
   },
   {
@@ -2020,7 +2234,9 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Kooki County"
-      ]
+      ],
+      "hdx_within_pcode": "UG102401",
+      "ubos_code": "110207"
     }
   },
   {
@@ -2043,7 +2259,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Lwemiyaga County"
-      ]
+      ],
+      "hdx_within_pcode": "UG102501",
+      "ubos_code": "111105"
     }
   },
   {
@@ -2066,7 +2284,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Mawogola County"
-      ]
+      ],
+      "hdx_pcode": "UG10250204",
+      "hdx_within_pcode": "UG10250204",
+      "ubos_code": "111202"
     }
   },
   {
@@ -2089,7 +2310,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Mawogola North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1025",
+      "ubos_code": "111306"
     }
   },
   {
@@ -2112,7 +2335,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Busujju County"
-      ]
+      ],
+      "hdx_within_pcode": "UG101801",
+      "ubos_code": "115102"
     }
   },
   {
@@ -2135,7 +2360,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Busujju County"
-      ]
+      ],
+      "hdx_within_pcode": "UG101801",
+      "ubos_code": "115107"
     }
   },
   {
@@ -2158,7 +2385,10 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Mityana County South"
-      ]
+      ],
+      "hdx_pcode": "UG10180302",
+      "hdx_within_pcode": "UG10180302",
+      "ubos_code": "115202"
     }
   },
   {
@@ -2181,7 +2411,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kabula County"
-      ]
+      ],
+      "hdx_pcode": "UG10160106",
+      "hdx_within_pcode": "UG10160106",
+      "ubos_code": "114107"
     }
   },
   {
@@ -2204,7 +2437,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Kabula County"
-      ]
+      ],
+      "hdx_within_pcode": "UG101601",
+      "ubos_code": "114102"
     }
   },
   {
@@ -2227,7 +2462,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Gomba East County"
-      ]
+      ],
+      "hdx_pcode": "UG10050102",
+      "hdx_within_pcode": "UG10050102",
+      "ubos_code": "121101"
     }
   },
   {
@@ -2250,7 +2488,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Gomba West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1005",
+      "ubos_code": "121205"
     }
   },
   {
@@ -2273,7 +2513,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Bukomansimbi North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1002",
+      "ubos_code": "118105"
     }
   },
   {
@@ -2296,7 +2538,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Bukomansimbi South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1002",
+      "ubos_code": "118202"
     }
   },
   {
@@ -2319,7 +2563,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Butambala County"
-      ]
+      ],
+      "hdx_within_pcode": "UG100301",
+      "ubos_code": "119106"
     }
   },
   {
@@ -2342,7 +2588,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Butambala County"
-      ]
+      ],
+      "hdx_pcode": "UG10030103",
+      "hdx_within_pcode": "UG10030103",
+      "ubos_code": "119103"
     }
   },
   {
@@ -2365,7 +2614,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Butambala County"
-      ]
+      ],
+      "hdx_within_pcode": "UG100301",
+      "ubos_code": "119105"
     }
   },
   {
@@ -2388,7 +2639,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Ngora County"
-      ]
+      ],
+      "hdx_pcode": "UG20580105",
+      "hdx_within_pcode": "UG20580105",
+      "ubos_code": "231204"
     }
   },
   {
@@ -2411,7 +2665,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Ngora County"
-      ]
+      ],
+      "hdx_within_pcode": "UG205801",
+      "ubos_code": "231206"
     }
   },
   {
@@ -2434,7 +2690,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Kapir County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2058",
+      "ubos_code": "231105"
     }
   },
   {
@@ -2457,7 +2715,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Kapelebyong County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204601",
+      "ubos_code": "236103"
     }
   },
   {
@@ -2480,7 +2740,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Kapelebyong County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204601",
+      "ubos_code": "236104"
     }
   },
   {
@@ -2503,7 +2765,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Kapelebyong County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204601",
+      "ubos_code": "236110"
     }
   },
   {
@@ -2526,7 +2790,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Kalaki County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204201",
+      "ubos_code": "237110"
     }
   },
   {
@@ -2549,7 +2815,10 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Kalaki County"
-      ]
+      ],
+      "hdx_pcode": "UG20420106",
+      "hdx_within_pcode": "UG20420106",
+      "ubos_code": "237106"
     }
   },
   {
@@ -2572,7 +2841,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Kumi County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204901",
+      "ubos_code": "208208"
     }
   },
   {
@@ -2595,7 +2866,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Kumi County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204901",
+      "ubos_code": "208205"
     }
   },
   {
@@ -2618,7 +2891,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Kanyum County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2049",
+      "ubos_code": "208108"
     }
   },
   {
@@ -2641,7 +2916,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Kanyum County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2049",
+      "ubos_code": "208106"
     }
   },
   {
@@ -2664,7 +2941,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Dakabela County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2062",
+      "ubos_code": "211105"
     }
   },
   {
@@ -2687,7 +2966,9 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Usuk County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2047",
+      "ubos_code": "207305"
     }
   },
   {
@@ -2710,7 +2991,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Toroma County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204702",
+      "ubos_code": "207205"
     }
   },
   {
@@ -2733,7 +3016,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Toroma County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204702",
+      "ubos_code": "207208"
     }
   },
   {
@@ -2756,7 +3041,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Ngariam County"
-      ]
+      ],
+      "hdx_pcode": "UG20470102",
+      "hdx_within_pcode": "UG20470102",
+      "ubos_code": "207104"
     }
   },
   {
@@ -2779,7 +3067,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Ochero County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2041",
+      "ubos_code": "213203"
     }
   },
   {
@@ -2802,7 +3092,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Amuria County"
-      ]
+      ],
+      "hdx_pcode": "UG20270103",
+      "hdx_within_pcode": "UG20270103",
+      "ubos_code": "216104"
     }
   },
   {
@@ -2825,7 +3118,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Amuria County"
-      ]
+      ],
+      "hdx_within_pcode": "UG202701",
+      "ubos_code": "216107"
     }
   },
   {
@@ -2848,7 +3143,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Amuria County"
-      ]
+      ],
+      "hdx_within_pcode": "UG202701",
+      "ubos_code": "216110"
     }
   },
   {
@@ -2871,7 +3168,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Orungo County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2027",
+      "ubos_code": "216207"
     }
   },
   {
@@ -2894,7 +3193,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bukedea County"
-      ]
+      ],
+      "hdx_pcode": "UG20320102",
+      "hdx_within_pcode": "UG20320102",
+      "ubos_code": "219103"
     }
   },
   {
@@ -2917,7 +3219,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kachumbala County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2032",
+      "ubos_code": "219204"
     }
   },
   {
@@ -2940,7 +3244,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kasilo County"
-      ]
+      ],
+      "hdx_pcode": "UG20600104",
+      "hdx_within_pcode": "UG20600104",
+      "ubos_code": "232105"
     }
   },
   {
@@ -2963,7 +3270,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Kasilo County"
-      ]
+      ],
+      "hdx_pcode": "UG20600103",
+      "hdx_within_pcode": "UG20600103",
+      "ubos_code": "232103"
     }
   },
   {
@@ -2986,7 +3296,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Kasilo County"
-      ]
+      ],
+      "hdx_within_pcode": "UG206001",
+      "ubos_code": "232104"
     }
   },
   {
@@ -3009,7 +3321,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Serere County"
-      ]
+      ],
+      "hdx_pcode": "UG20600205",
+      "hdx_within_pcode": "UG20600205",
+      "ubos_code": "232306"
     }
   },
   {
@@ -3032,7 +3347,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Serere County"
-      ]
+      ],
+      "hdx_within_pcode": "UG206002",
+      "ubos_code": "232304"
     }
   },
   {
@@ -3055,7 +3372,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Serere County"
-      ]
+      ],
+      "hdx_within_pcode": "UG206002",
+      "ubos_code": "232305"
     }
   },
   {
@@ -3078,7 +3397,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Pingire County"
-      ]
+      ],
+      "hdx_pcode": "UG20600105",
+      "hdx_within_pcode": "UG20600105",
+      "ubos_code": "232201"
     }
   },
   {
@@ -3101,7 +3423,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kibuku County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204801",
+      "ubos_code": "227203"
     }
   },
   {
@@ -3124,7 +3448,10 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Kibuku County"
-      ]
+      ],
+      "hdx_pcode": "UG20480110",
+      "hdx_within_pcode": "UG20480110",
+      "ubos_code": "227205"
     }
   },
   {
@@ -3147,7 +3474,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Kibuku County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204801",
+      "ubos_code": "227210"
     }
   },
   {
@@ -3170,7 +3499,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Kabweri County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2048",
+      "ubos_code": "227106"
     }
   },
   {
@@ -3193,7 +3524,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Kabweri County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2048",
+      "ubos_code": "227102"
     }
   },
   {
@@ -3216,7 +3549,10 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Kween County"
-      ]
+      ],
+      "hdx_pcode": "UG20500103",
+      "hdx_within_pcode": "UG20500103",
+      "ubos_code": "228103"
     }
   },
   {
@@ -3239,7 +3575,10 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Kween County"
-      ]
+      ],
+      "hdx_pcode": "UG20500105",
+      "hdx_within_pcode": "UG20500105",
+      "ubos_code": "228107"
     }
   },
   {
@@ -3262,7 +3601,9 @@
       "ec_subcounty_code": "19",
       "ec_constituencies": [
         "Kween County"
-      ]
+      ],
+      "hdx_within_pcode": "UG205001",
+      "ubos_code": "228105"
     }
   },
   {
@@ -3285,7 +3626,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Butebo County"
-      ]
+      ],
+      "hdx_within_pcode": "UG203701",
+      "ubos_code": "233105"
     }
   },
   {
@@ -3308,7 +3651,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Butebo County"
-      ]
+      ],
+      "hdx_within_pcode": "UG203701",
+      "ubos_code": "233109"
     }
   },
   {
@@ -3331,7 +3676,10 @@
       "ec_subcounty_code": "15",
       "ec_constituencies": [
         "Butebo County"
-      ]
+      ],
+      "hdx_pcode": "UG20370102",
+      "hdx_within_pcode": "UG20370102",
+      "ubos_code": "233102"
     }
   },
   {
@@ -3354,7 +3702,9 @@
       "ec_subcounty_code": "16",
       "ec_constituencies": [
         "Butebo County"
-      ]
+      ],
+      "hdx_within_pcode": "UG203701",
+      "ubos_code": "233111"
     }
   },
   {
@@ -3377,7 +3727,9 @@
       "ec_subcounty_code": "17",
       "ec_constituencies": [
         "Butebo County"
-      ]
+      ],
+      "hdx_within_pcode": "UG203701",
+      "ubos_code": "233116"
     }
   },
   {
@@ -3400,7 +3752,10 @@
       "ec_subcounty_code": "16",
       "ec_constituencies": [
         "Namisindwa County"
-      ]
+      ],
+      "hdx_pcode": "UG20560116",
+      "hdx_within_pcode": "UG20560116",
+      "ubos_code": "234211"
     }
   },
   {
@@ -3423,7 +3778,9 @@
       "ec_subcounty_code": "28",
       "ec_constituencies": [
         "Namisindwa County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2056",
+      "ubos_code": "234208"
     }
   },
   {
@@ -3446,7 +3803,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Bubulo East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2056",
+      "ubos_code": "234102"
     }
   },
   {
@@ -3469,7 +3828,10 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Bubulo East County"
-      ]
+      ],
+      "hdx_pcode": "UG20560110",
+      "hdx_within_pcode": "UG20560110",
+      "ubos_code": "234110"
     }
   },
   {
@@ -3492,7 +3854,10 @@
       "ec_subcounty_code": "17",
       "ec_constituencies": [
         "Bubulo East County"
-      ]
+      ],
+      "hdx_pcode": "UG20560112",
+      "hdx_within_pcode": "UG20560112",
+      "ubos_code": "234112"
     }
   },
   {
@@ -3515,7 +3880,9 @@
       "ec_subcounty_code": "18",
       "ec_constituencies": [
         "Bubulo East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2056",
+      "ubos_code": "234106"
     }
   },
   {
@@ -3538,7 +3905,9 @@
       "ec_subcounty_code": "16",
       "ec_constituencies": [
         "Tingey County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204502",
+      "ubos_code": "206212"
     }
   },
   {
@@ -3561,7 +3930,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Bungokho County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG2054",
+      "ubos_code": "209209"
     }
   },
   {
@@ -3584,7 +3955,10 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Bungokho County South"
-      ]
+      ],
+      "hdx_pcode": "UG20540113",
+      "hdx_within_pcode": "UG20540113",
+      "ubos_code": "209208"
     }
   },
   {
@@ -3607,7 +3981,10 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Bungokho Central County"
-      ]
+      ],
+      "hdx_pcode": "UG20540117",
+      "hdx_within_pcode": "UG20540117",
+      "ubos_code": "209105"
     }
   },
   {
@@ -3630,7 +4007,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Pallisa County"
-      ]
+      ],
+      "hdx_within_pcode": "UG205902",
+      "ubos_code": "210403"
     }
   },
   {
@@ -3653,7 +4032,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Pallisa County"
-      ]
+      ],
+      "hdx_pcode": "UG20590211",
+      "hdx_within_pcode": "UG20590211",
+      "ubos_code": "210407"
     }
   },
   {
@@ -3676,7 +4058,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Agule County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2059",
+      "ubos_code": "210102"
     }
   },
   {
@@ -3699,7 +4083,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kibale County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2059",
+      "ubos_code": "210302"
     }
   },
   {
@@ -3722,7 +4108,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "West Budama County North"
-      ]
+      ],
+      "hdx_pcode": "UG20630308",
+      "hdx_within_pcode": "UG20630308",
+      "ubos_code": "212407"
     }
   },
   {
@@ -3745,7 +4134,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "West Budama County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG2063",
+      "ubos_code": "212402"
     }
   },
   {
@@ -3768,7 +4159,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Tororo South County"
-      ]
+      ],
+      "hdx_pcode": "UG20630102",
+      "hdx_within_pcode": "UG20630102",
+      "ubos_code": "212306"
     }
   },
   {
@@ -3791,7 +4185,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Tororo South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2063",
+      "ubos_code": "212305"
     }
   },
   {
@@ -3814,7 +4210,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Tororo South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2063",
+      "ubos_code": "212301"
     }
   },
   {
@@ -3837,7 +4235,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Tororo North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2063",
+      "ubos_code": "212203"
     }
   },
   {
@@ -3860,7 +4260,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Tororo North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2063",
+      "ubos_code": "212205"
     }
   },
   {
@@ -3883,7 +4285,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "West Budama Central County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2063",
+      "ubos_code": "212504"
     }
   },
   {
@@ -3906,7 +4310,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "West Budama Central County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2063",
+      "ubos_code": "212505"
     }
   },
   {
@@ -3929,7 +4335,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Samia Bugwe County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG2035",
+      "ubos_code": "202313"
     }
   },
   {
@@ -3952,7 +4360,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Samia Bugwe County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG2035",
+      "ubos_code": "202311"
     }
   },
   {
@@ -3975,7 +4385,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Samia Bugwe Central County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2035",
+      "ubos_code": "202204"
     }
   },
   {
@@ -3998,7 +4410,10 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Budadiri County East"
-      ]
+      ],
+      "hdx_pcode": "UG20610101",
+      "hdx_within_pcode": "UG20610101",
+      "ubos_code": "215102"
     }
   },
   {
@@ -4021,7 +4436,9 @@
       "ec_subcounty_code": "19",
       "ec_constituencies": [
         "Budadiri County East"
-      ]
+      ],
+      "hdx_within_pcode": "UG2061",
+      "ubos_code": "215121"
     }
   },
   {
@@ -4044,7 +4461,9 @@
       "ec_subcounty_code": "21",
       "ec_constituencies": [
         "Budadiri County East"
-      ]
+      ],
+      "hdx_within_pcode": "UG2061",
+      "ubos_code": "215137"
     }
   },
   {
@@ -4067,7 +4486,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Budadiri County West"
-      ]
+      ],
+      "hdx_pcode": "UG20610120",
+      "hdx_within_pcode": "UG20610120",
+      "ubos_code": "215141"
     }
   },
   {
@@ -4090,7 +4512,9 @@
       "ec_subcounty_code": "17",
       "ec_constituencies": [
         "Budadiri County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG2061",
+      "ubos_code": "215123"
     }
   },
   {
@@ -4113,7 +4537,9 @@
       "ec_subcounty_code": "18",
       "ec_constituencies": [
         "Budadiri County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG2061",
+      "ubos_code": "215105"
     }
   },
   {
@@ -4136,7 +4562,9 @@
       "ec_subcounty_code": "19",
       "ec_constituencies": [
         "Budadiri County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG2061",
+      "ubos_code": "215109"
     }
   },
   {
@@ -4159,7 +4587,9 @@
       "ec_subcounty_code": "20",
       "ec_constituencies": [
         "Budadiri County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG2061",
+      "ubos_code": "215126"
     }
   },
   {
@@ -4182,7 +4612,9 @@
       "ec_subcounty_code": "21",
       "ec_constituencies": [
         "Budadiri County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG2061",
+      "ubos_code": "215131"
     }
   },
   {
@@ -4205,7 +4637,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kongasis County"
-      ]
+      ],
+      "hdx_pcode": "UG20330102",
+      "hdx_within_pcode": "UG20330102",
+      "ubos_code": "220103"
     }
   },
   {
@@ -4228,7 +4663,9 @@
       "ec_subcounty_code": "19",
       "ec_constituencies": [
         "Kongasis County"
-      ]
+      ],
+      "hdx_within_pcode": "UG203301",
+      "ubos_code": "220106"
     }
   },
   {
@@ -4251,7 +4688,9 @@
       "ec_subcounty_code": "20",
       "ec_constituencies": [
         "Kongasis County"
-      ]
+      ],
+      "hdx_within_pcode": "UG203301",
+      "ubos_code": "220111"
     }
   },
   {
@@ -4274,7 +4713,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "T'Oo County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2033",
+      "ubos_code": "220209"
     }
   },
   {
@@ -4297,7 +4738,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Bunyole East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2036",
+      "ubos_code": "221107"
     }
   },
   {
@@ -4320,7 +4763,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Bunyole East County"
-      ]
+      ],
+      "hdx_pcode": "UG20360107",
+      "hdx_within_pcode": "UG20360107",
+      "ubos_code": "221103"
     }
   },
   {
@@ -4343,7 +4789,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Bunyole West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2036",
+      "ubos_code": "221203"
     }
   },
   {
@@ -4366,7 +4814,10 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Bunyole West County"
-      ]
+      ],
+      "hdx_pcode": "UG20360105",
+      "hdx_within_pcode": "UG20360105",
+      "ubos_code": "221206"
     }
   },
   {
@@ -4389,7 +4840,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bubulo County West"
-      ]
+      ],
+      "hdx_pcode": "UG20520113",
+      "hdx_within_pcode": "UG20520113",
+      "ubos_code": "223114"
     }
   },
   {
@@ -4412,7 +4866,10 @@
       "ec_subcounty_code": "21",
       "ec_constituencies": [
         "Bubulo County West"
-      ]
+      ],
+      "hdx_pcode": "UG20520110",
+      "hdx_within_pcode": "UG20520110",
+      "ubos_code": "223109"
     }
   },
   {
@@ -4435,7 +4892,9 @@
       "ec_subcounty_code": "27",
       "ec_constituencies": [
         "Bubulo County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG2052",
+      "ubos_code": "223102"
     }
   },
   {
@@ -4458,7 +4917,9 @@
       "ec_subcounty_code": "31",
       "ec_constituencies": [
         "Bubulo County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG2052",
+      "ubos_code": "223115"
     }
   },
   {
@@ -4481,7 +4942,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Butiru County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2052",
+      "ubos_code": "223208"
     }
   },
   {
@@ -4504,7 +4967,10 @@
       "ec_subcounty_code": "20",
       "ec_constituencies": [
         "Butiru County"
-      ]
+      ],
+      "hdx_pcode": "UG20520105",
+      "hdx_within_pcode": "UG20520105",
+      "ubos_code": "223209"
     }
   },
   {
@@ -4527,7 +4993,9 @@
       "ec_subcounty_code": "22",
       "ec_constituencies": [
         "Butiru County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2052",
+      "ubos_code": "223207"
     }
   },
   {
@@ -4550,7 +5018,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Budaka County"
-      ]
+      ],
+      "hdx_within_pcode": "UG202801",
+      "ubos_code": "217108"
     }
   },
   {
@@ -4573,7 +5043,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Budaka County"
-      ]
+      ],
+      "hdx_within_pcode": "UG202801",
+      "ubos_code": "217109"
     }
   },
   {
@@ -4596,7 +5068,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Budaka County"
-      ]
+      ],
+      "hdx_within_pcode": "UG202801",
+      "ubos_code": "217105"
     }
   },
   {
@@ -4619,7 +5093,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Budaka County"
-      ]
+      ],
+      "hdx_pcode": "UG20280102",
+      "hdx_within_pcode": "UG20280102",
+      "ubos_code": "217102"
     }
   },
   {
@@ -4642,7 +5119,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Iki-Iki County"
-      ]
+      ],
+      "hdx_within_pcode": "UG202802",
+      "ubos_code": "217207"
     }
   },
   {
@@ -4665,7 +5144,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Iki-Iki County"
-      ]
+      ],
+      "hdx_within_pcode": "UG202802",
+      "ubos_code": "217202"
     }
   },
   {
@@ -4688,7 +5169,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Manjiya County"
-      ]
+      ],
+      "hdx_pcode": "UG20290103",
+      "hdx_within_pcode": "UG20290103",
+      "ubos_code": "218302"
     }
   },
   {
@@ -4711,7 +5195,10 @@
       "ec_subcounty_code": "18",
       "ec_constituencies": [
         "Manjiya County"
-      ]
+      ],
+      "hdx_pcode": "UG20290117",
+      "hdx_within_pcode": "UG20290117",
+      "ubos_code": "218307"
     }
   },
   {
@@ -4734,7 +5221,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Lutseshe County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2029",
+      "ubos_code": "218211"
     }
   },
   {
@@ -4757,7 +5246,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Bushigai County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2029",
+      "ubos_code": "218107"
     }
   },
   {
@@ -4780,7 +5271,9 @@
       "ec_subcounty_code": "17",
       "ec_constituencies": [
         "Bushigai County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2029",
+      "ubos_code": "218103"
     }
   },
   {
@@ -4803,7 +5296,10 @@
       "ec_subcounty_code": "17",
       "ec_constituencies": [
         "Bulambuli County"
-      ]
+      ],
+      "hdx_pcode": "UG20340104",
+      "hdx_within_pcode": "UG20340104",
+      "ubos_code": "225102"
     }
   },
   {
@@ -4826,7 +5322,10 @@
       "ec_subcounty_code": "20",
       "ec_constituencies": [
         "Bulambuli County"
-      ]
+      ],
+      "hdx_pcode": "UG20340111",
+      "hdx_within_pcode": "UG20340111",
+      "ubos_code": "225107"
     }
   },
   {
@@ -4849,7 +5348,10 @@
       "ec_subcounty_code": "16",
       "ec_constituencies": [
         "Elgon North County"
-      ]
+      ],
+      "hdx_pcode": "UG20340106",
+      "hdx_within_pcode": "UG20340106",
+      "ubos_code": "225304"
     }
   },
   {
@@ -4872,7 +5374,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Mukono County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG1021",
+      "ubos_code": "108101"
     }
   },
   {
@@ -4895,7 +5399,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Nakifuma County"
-      ]
+      ],
+      "hdx_within_pcode": "UG102104",
+      "ubos_code": "108302"
     }
   },
   {
@@ -4918,7 +5424,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Nakifuma County"
-      ]
+      ],
+      "hdx_within_pcode": "UG102104",
+      "ubos_code": "108306"
     }
   },
   {
@@ -4941,7 +5449,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Busiro County East"
-      ]
+      ],
+      "hdx_pcode": "UG10260107",
+      "hdx_within_pcode": "UG10260107",
+      "ubos_code": "113107"
     }
   },
   {
@@ -4964,7 +5475,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Busiro County East"
-      ]
+      ],
+      "hdx_pcode": "UG10260114",
+      "hdx_within_pcode": "UG10260114",
+      "ubos_code": "113114"
     }
   },
   {
@@ -4987,7 +5501,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Busiro County North"
-      ]
+      ],
+      "hdx_pcode": "UG10260104",
+      "hdx_within_pcode": "UG10260104",
+      "ubos_code": "113104"
     }
   },
   {
@@ -5010,7 +5527,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Busiro County North"
-      ]
+      ],
+      "hdx_pcode": "UG10260112",
+      "hdx_within_pcode": "UG10260112",
+      "ubos_code": "113112"
     }
   },
   {
@@ -5033,7 +5553,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Busiro County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG1026",
+      "ubos_code": "113109"
     }
   },
   {
@@ -5056,7 +5578,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Busiro County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG1026",
+      "ubos_code": "113105"
     }
   },
   {
@@ -5079,7 +5603,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Busiro County South"
-      ]
+      ],
+      "hdx_pcode": "UG10260106",
+      "hdx_within_pcode": "UG10260106",
+      "ubos_code": "113106"
     }
   },
   {
@@ -5102,7 +5629,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Busiro County South"
-      ]
+      ],
+      "hdx_pcode": "UG10260102",
+      "hdx_within_pcode": "UG10260102",
+      "ubos_code": "113102"
     }
   },
   {
@@ -5125,7 +5655,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Kyadondo County East"
-      ]
+      ],
+      "hdx_pcode": "UG10260401",
+      "hdx_within_pcode": "UG10260401",
+      "ubos_code": "113401"
     }
   },
   {
@@ -5148,7 +5681,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Buikwe County South"
-      ]
+      ],
+      "hdx_pcode": "UG10010102",
+      "hdx_within_pcode": "UG10010102",
+      "ubos_code": "117102"
     }
   },
   {
@@ -5171,7 +5707,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Buikwe County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG1001",
+      "ubos_code": "117103"
     }
   },
   {
@@ -5194,7 +5732,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Buvuma Islands County"
-      ]
+      ],
+      "hdx_pcode": "UG10040103",
+      "hdx_within_pcode": "UG10040103",
+      "ubos_code": "120103"
     }
   },
   {
@@ -5217,7 +5758,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Buvuma Islands County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1004",
+      "ubos_code": "120106"
     }
   },
   {
@@ -5240,7 +5783,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Buvuma Islands County"
-      ]
+      ],
+      "hdx_within_pcode": "UG1004",
+      "ubos_code": "120108"
     }
   },
   {
@@ -5263,7 +5808,9 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Bokora County"
-      ]
+      ],
+      "hdx_within_pcode": "UG309001",
+      "ubos_code": "327102"
     }
   },
   {
@@ -5286,7 +5833,9 @@
       "ec_subcounty_code": "14",
       "ec_constituencies": [
         "Bokora County"
-      ]
+      ],
+      "hdx_within_pcode": "UG309001",
+      "ubos_code": "327106"
     }
   },
   {
@@ -5309,7 +5858,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Bokora East County"
-      ]
+      ],
+      "hdx_pcode": "UG30900107",
+      "hdx_within_pcode": "UG30900107",
+      "ubos_code": "327206"
     }
   },
   {
@@ -5332,7 +5884,9 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Bokora East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3090",
+      "ubos_code": "327202"
     }
   },
   {
@@ -5355,7 +5909,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Pian County"
-      ]
+      ],
+      "hdx_pcode": "UG30880104",
+      "hdx_within_pcode": "UG30880104",
+      "ubos_code": "334105"
     }
   },
   {
@@ -5378,7 +5935,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Dodoth West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3076",
+      "ubos_code": "335103"
     }
   },
   {
@@ -5401,7 +5960,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Napore West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3076",
+      "ubos_code": "335203"
     }
   },
   {
@@ -5424,7 +5985,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Napore West County"
-      ]
+      ],
+      "hdx_pcode": "UG30760115",
+      "hdx_within_pcode": "UG30760115",
+      "ubos_code": "335202"
     }
   },
   {
@@ -5447,7 +6011,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Jie County"
-      ]
+      ],
+      "hdx_within_pcode": "UG308001",
+      "ubos_code": "306102"
     }
   },
   {
@@ -5470,7 +6036,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Jie County"
-      ]
+      ],
+      "hdx_within_pcode": "UG308001",
+      "ubos_code": "306107"
     }
   },
   {
@@ -5493,7 +6061,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Matheniko County"
-      ]
+      ],
+      "hdx_within_pcode": "UG308601",
+      "ubos_code": "308104"
     }
   },
   {
@@ -5516,7 +6086,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Dodoth East County"
-      ]
+      ],
+      "hdx_pcode": "UG30750102",
+      "hdx_within_pcode": "UG30750102",
+      "ubos_code": "318101"
     }
   },
   {
@@ -5539,7 +6112,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Dodoth North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3075",
+      "ubos_code": "318203"
     }
   },
   {
@@ -5562,7 +6137,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Dodoth North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3075",
+      "ubos_code": "318206"
     }
   },
   {
@@ -5585,7 +6162,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Labwor County"
-      ]
+      ],
+      "hdx_pcode": "UG30640102",
+      "hdx_within_pcode": "UG30640102",
+      "ubos_code": "314102"
     }
   },
   {
@@ -5608,7 +6188,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Labwor County"
-      ]
+      ],
+      "hdx_within_pcode": "UG306401",
+      "ubos_code": "314109"
     }
   },
   {
@@ -5631,7 +6213,9 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Labwor County"
-      ]
+      ],
+      "hdx_within_pcode": "UG306401",
+      "ubos_code": "314103"
     }
   },
   {
@@ -5654,7 +6238,9 @@
       "ec_subcounty_code": "14",
       "ec_constituencies": [
         "Labwor County"
-      ]
+      ],
+      "hdx_within_pcode": "UG306401",
+      "ubos_code": "314105"
     }
   },
   {
@@ -5677,7 +6263,9 @@
       "ec_subcounty_code": "15",
       "ec_constituencies": [
         "Labwor County"
-      ]
+      ],
+      "hdx_within_pcode": "UG306401",
+      "ubos_code": "314113"
     }
   },
   {
@@ -5700,7 +6288,9 @@
       "ec_subcounty_code": "16",
       "ec_constituencies": [
         "Labwor County"
-      ]
+      ],
+      "hdx_within_pcode": "UG306401",
+      "ubos_code": "314116"
     }
   },
   {
@@ -5723,7 +6313,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Upe County"
-      ]
+      ],
+      "hdx_pcode": "UG30690102",
+      "hdx_within_pcode": "UG30690102",
+      "ubos_code": "324104"
     }
   },
   {
@@ -5746,7 +6339,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Upe County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3069",
+      "ubos_code": "324106"
     }
   },
   {
@@ -5769,7 +6364,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Butembe County"
-      ]
+      ],
+      "hdx_pcode": "UG20400103",
+      "hdx_within_pcode": "UG20400103",
+      "ubos_code": "204102"
     }
   },
   {
@@ -5792,7 +6390,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Kagoma County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204003",
+      "ubos_code": "204202"
     }
   },
   {
@@ -5815,7 +6415,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Kagoma North County"
-      ]
+      ],
+      "hdx_pcode": "UG20400304",
+      "hdx_within_pcode": "UG20400304",
+      "ubos_code": "204302"
     }
   },
   {
@@ -5838,7 +6441,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kagoma North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2040",
+      "ubos_code": "204303"
     }
   },
   {
@@ -5861,7 +6466,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Bugweri County"
-      ]
+      ],
+      "hdx_pcode": "UG20310102",
+      "hdx_within_pcode": "UG20310102",
+      "ubos_code": "235101"
     }
   },
   {
@@ -5884,7 +6492,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Bugweri County"
-      ]
+      ],
+      "hdx_within_pcode": "UG203101",
+      "ubos_code": "235105"
     }
   },
   {
@@ -5907,7 +6517,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Bugweri County"
-      ]
+      ],
+      "hdx_within_pcode": "UG203101",
+      "ubos_code": "235102"
     }
   },
   {
@@ -5930,7 +6542,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Bugabula County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG2044",
+      "ubos_code": "205102"
     }
   },
   {
@@ -5953,7 +6567,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Buzaaya County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204402",
+      "ubos_code": "205204"
     }
   },
   {
@@ -5976,7 +6592,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Buzaaya County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204402",
+      "ubos_code": "205207"
     }
   },
   {
@@ -5999,7 +6617,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Buzaaya County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204402",
+      "ubos_code": "205202"
     }
   },
   {
@@ -6022,7 +6642,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Buzaaya County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204402",
+      "ubos_code": "205209"
     }
   },
   {
@@ -6045,7 +6667,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Bukooli County Central"
-      ]
+      ],
+      "hdx_within_pcode": "UG2030",
+      "ubos_code": "201218"
     }
   },
   {
@@ -6068,7 +6692,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Bukooli County Central"
-      ]
+      ],
+      "hdx_within_pcode": "UG2030",
+      "ubos_code": "201205"
     }
   },
   {
@@ -6091,7 +6717,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Bukooli County Central"
-      ]
+      ],
+      "hdx_within_pcode": "UG2030",
+      "ubos_code": "201207"
     }
   },
   {
@@ -6114,7 +6742,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Bukooli County Central"
-      ]
+      ],
+      "hdx_within_pcode": "UG2030",
+      "ubos_code": "201211"
     }
   },
   {
@@ -6137,7 +6767,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Bukooli County Central"
-      ]
+      ],
+      "hdx_within_pcode": "UG2030",
+      "ubos_code": "201210"
     }
   },
   {
@@ -6160,7 +6792,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Bukooli County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG2030",
+      "ubos_code": "201215"
     }
   },
   {
@@ -6183,7 +6817,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bukooli County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG2030",
+      "ubos_code": "201216"
     }
   },
   {
@@ -6206,7 +6842,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Bukooli County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG2030",
+      "ubos_code": "201213"
     }
   },
   {
@@ -6229,7 +6867,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Bunya County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG2053",
+      "ubos_code": "214116"
     }
   },
   {
@@ -6252,7 +6892,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bunya County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG2053",
+      "ubos_code": "214115"
     }
   },
   {
@@ -6275,7 +6917,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Bunya County West"
-      ]
+      ],
+      "hdx_pcode": "UG20530112",
+      "hdx_within_pcode": "UG20530112",
+      "ubos_code": "214110"
     }
   },
   {
@@ -6298,7 +6943,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bunya County West"
-      ]
+      ],
+      "hdx_pcode": "UG20530110",
+      "hdx_within_pcode": "UG20530110",
+      "ubos_code": "214109"
     }
   },
   {
@@ -6321,7 +6969,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Bulamogi County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204301",
+      "ubos_code": "222102"
     }
   },
   {
@@ -6344,7 +6994,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bulamogi County"
-      ]
+      ],
+      "hdx_pcode": "UG20430106",
+      "hdx_within_pcode": "UG20430106",
+      "ubos_code": "222106"
     }
   },
   {
@@ -6367,7 +7020,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Bulamogi County"
-      ]
+      ],
+      "hdx_within_pcode": "UG204301",
+      "ubos_code": "222111"
     }
   },
   {
@@ -6390,7 +7045,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Bulamogi North West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2043",
+      "ubos_code": "222204"
     }
   },
   {
@@ -6413,7 +7070,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Busiki County"
-      ]
+      ],
+      "hdx_within_pcode": "UG205701",
+      "ubos_code": "224209"
     }
   },
   {
@@ -6436,7 +7095,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Busiki County"
-      ]
+      ],
+      "hdx_pcode": "UG20570108",
+      "hdx_within_pcode": "UG20570108",
+      "ubos_code": "224206"
     }
   },
   {
@@ -6459,7 +7121,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Busiki County"
-      ]
+      ],
+      "hdx_within_pcode": "UG205701",
+      "ubos_code": "224202"
     }
   },
   {
@@ -6482,7 +7146,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Bukono County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2057",
+      "ubos_code": "224104"
     }
   },
   {
@@ -6505,7 +7171,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bukono County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2057",
+      "ubos_code": "224102"
     }
   },
   {
@@ -6528,7 +7196,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Bukono County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2057",
+      "ubos_code": "224107"
     }
   },
   {
@@ -6551,7 +7221,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Budiope West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2038",
+      "ubos_code": "226201"
     }
   },
   {
@@ -6574,7 +7246,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Budiope West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2038",
+      "ubos_code": "226206"
     }
   },
   {
@@ -6597,7 +7271,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Budiope West County"
-      ]
+      ],
+      "hdx_pcode": "UG20380103",
+      "hdx_within_pcode": "UG20380103",
+      "ubos_code": "226204"
     }
   },
   {
@@ -6620,7 +7297,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Budiope East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2038",
+      "ubos_code": "226104"
     }
   },
   {
@@ -6643,7 +7322,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Luuka North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2051",
+      "ubos_code": "229102"
     }
   },
   {
@@ -6666,7 +7347,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Luuka North County"
-      ]
+      ],
+      "hdx_pcode": "UG20510106",
+      "hdx_within_pcode": "UG20510106",
+      "ubos_code": "229105"
     }
   },
   {
@@ -6689,7 +7373,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Luuka South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2051",
+      "ubos_code": "229202"
     }
   },
   {
@@ -6712,7 +7398,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Luuka South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2051",
+      "ubos_code": "229203"
     }
   },
   {
@@ -6735,7 +7423,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Luuka South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2051",
+      "ubos_code": "229205"
     }
   },
   {
@@ -6758,7 +7448,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Bukooli South County"
-      ]
+      ],
+      "hdx_pcode": "UG20550108",
+      "hdx_within_pcode": "UG20550108",
+      "ubos_code": "230203"
     }
   },
   {
@@ -6781,7 +7474,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Namayingo South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2055",
+      "ubos_code": "230302"
     }
   },
   {
@@ -6804,7 +7499,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Namayingo South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG2055",
+      "ubos_code": "230305"
     }
   },
   {
@@ -6827,7 +7524,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Bwamba County"
-      ]
+      ],
+      "hdx_pcode": "UG41030204",
+      "hdx_within_pcode": "UG41030204",
+      "ubos_code": "401204"
     }
   },
   {
@@ -6850,7 +7550,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Bwamba County"
-      ]
+      ],
+      "hdx_pcode": "UG41030211",
+      "hdx_within_pcode": "UG41030211",
+      "ubos_code": "401212"
     }
   },
   {
@@ -6873,7 +7576,10 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Bwamba County"
-      ]
+      ],
+      "hdx_pcode": "UG41030207",
+      "hdx_within_pcode": "UG41030207",
+      "ubos_code": "401207"
     }
   },
   {
@@ -6896,7 +7602,9 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Bwamba County"
-      ]
+      ],
+      "hdx_within_pcode": "UG410302",
+      "ubos_code": "401203"
     }
   },
   {
@@ -6919,7 +7627,9 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Bwamba County"
-      ]
+      ],
+      "hdx_within_pcode": "UG410302",
+      "ubos_code": "401208"
     }
   },
   {
@@ -6942,7 +7652,10 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Bughendera County"
-      ]
+      ],
+      "hdx_pcode": "UG41030110",
+      "hdx_within_pcode": "UG41030110",
+      "ubos_code": "401112"
     }
   },
   {
@@ -6965,7 +7678,10 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Burahya County"
-      ]
+      ],
+      "hdx_pcode": "UG41100110",
+      "hdx_within_pcode": "UG41100110",
+      "ubos_code": "405111"
     }
   },
   {
@@ -6988,7 +7704,10 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Burahya County"
-      ]
+      ],
+      "hdx_pcode": "UG41100111",
+      "hdx_within_pcode": "UG41100111",
+      "ubos_code": "405112"
     }
   },
   {
@@ -7011,7 +7730,10 @@
       "ec_subcounty_code": "15",
       "ec_constituencies": [
         "Burahya County"
-      ]
+      ],
+      "hdx_pcode": "UG41100114",
+      "hdx_within_pcode": "UG41100114",
+      "ubos_code": "405114"
     }
   },
   {
@@ -7034,7 +7756,9 @@
       "ec_subcounty_code": "16",
       "ec_constituencies": [
         "Burahya County"
-      ]
+      ],
+      "hdx_within_pcode": "UG411001",
+      "ubos_code": "405108"
     }
   },
   {
@@ -7057,7 +7781,9 @@
       "ec_subcounty_code": "19",
       "ec_constituencies": [
         "Burahya County"
-      ]
+      ],
+      "hdx_within_pcode": "UG411001",
+      "ubos_code": "405109"
     }
   },
   {
@@ -7080,7 +7806,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bunyangabu County"
-      ]
+      ],
+      "hdx_pcode": "UG41040106",
+      "hdx_within_pcode": "UG41040106",
+      "ubos_code": "431108"
     }
   },
   {
@@ -7103,7 +7832,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Bunyangabu County"
-      ]
+      ],
+      "hdx_pcode": "UG41040112",
+      "hdx_within_pcode": "UG41040112",
+      "ubos_code": "431115"
     }
   },
   {
@@ -7126,7 +7858,10 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Bunyangabu County"
-      ]
+      ],
+      "hdx_pcode": "UG41040110",
+      "hdx_within_pcode": "UG41040110",
+      "ubos_code": "431113"
     }
   },
   {
@@ -7149,7 +7884,10 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Bunyangabu County"
-      ]
+      ],
+      "hdx_pcode": "UG41040109",
+      "hdx_within_pcode": "UG41040109",
+      "ubos_code": "431111"
     }
   },
   {
@@ -7172,7 +7910,10 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Bunyangabu County"
-      ]
+      ],
+      "hdx_pcode": "UG41040102",
+      "hdx_within_pcode": "UG41040102",
+      "ubos_code": "431102"
     }
   },
   {
@@ -7195,7 +7936,9 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Bunyangabu County"
-      ]
+      ],
+      "hdx_within_pcode": "UG410401",
+      "ubos_code": "431112"
     }
   },
   {
@@ -7218,7 +7961,9 @@
       "ec_subcounty_code": "14",
       "ec_constituencies": [
         "Bunyangabu County"
-      ]
+      ],
+      "hdx_within_pcode": "UG410401",
+      "ubos_code": "431105"
     }
   },
   {
@@ -7241,7 +7986,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Kitagwenda County"
-      ]
+      ],
+      "hdx_within_pcode": "UG412201",
+      "ubos_code": "434103"
     }
   },
   {
@@ -7264,7 +8011,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Kitagwenda County"
-      ]
+      ],
+      "hdx_within_pcode": "UG412201",
+      "ubos_code": "434102"
     }
   },
   {
@@ -7287,7 +8036,9 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Kitagwenda County"
-      ]
+      ],
+      "hdx_within_pcode": "UG412201",
+      "ubos_code": "434107"
     }
   },
   {
@@ -7310,7 +8061,9 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Kitagwenda County"
-      ]
+      ],
+      "hdx_within_pcode": "UG412201",
+      "ubos_code": "434109"
     }
   },
   {
@@ -7333,7 +8086,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Bukonzo County East"
-      ]
+      ],
+      "hdx_pcode": "UG41150107",
+      "hdx_within_pcode": "UG41150107",
+      "ubos_code": "406107"
     }
   },
   {
@@ -7356,7 +8112,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Bukonzo County East"
-      ]
+      ],
+      "hdx_within_pcode": "UG4115",
+      "ubos_code": "406112"
     }
   },
   {
@@ -7379,7 +8137,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Busongora County North"
-      ]
+      ],
+      "hdx_pcode": "UG41150204",
+      "hdx_within_pcode": "UG41150204",
+      "ubos_code": "406204"
     }
   },
   {
@@ -7402,7 +8163,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Busongora County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG4115",
+      "ubos_code": "406218"
     }
   },
   {
@@ -7425,7 +8188,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Busongora County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG4115",
+      "ubos_code": "406216"
     }
   },
   {
@@ -7448,7 +8213,9 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Busongora County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG4115",
+      "ubos_code": "406211"
     }
   },
   {
@@ -7471,7 +8238,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Busongora County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG4115",
+      "ubos_code": "406220"
     }
   },
   {
@@ -7494,7 +8263,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kibale County"
-      ]
+      ],
+      "hdx_within_pcode": "UG411301",
+      "ubos_code": "413104"
     }
   },
   {
@@ -7517,7 +8288,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Kibale County"
-      ]
+      ],
+      "hdx_within_pcode": "UG411301",
+      "ubos_code": "413109"
     }
   },
   {
@@ -7540,7 +8313,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kibale County"
-      ]
+      ],
+      "hdx_pcode": "UG41130109",
+      "hdx_within_pcode": "UG41130109",
+      "ubos_code": "413108"
     }
   },
   {
@@ -7563,7 +8339,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Kibale County"
-      ]
+      ],
+      "hdx_within_pcode": "UG411301",
+      "ubos_code": "413101"
     }
   },
   {
@@ -7586,7 +8364,10 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Kibale County"
-      ]
+      ],
+      "hdx_pcode": "UG41130107",
+      "hdx_within_pcode": "UG41130107",
+      "ubos_code": "413106"
     }
   },
   {
@@ -7609,7 +8390,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kibale East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4113",
+      "ubos_code": "413202"
     }
   },
   {
@@ -7632,7 +8415,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Mwenge County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG4124",
+      "ubos_code": "415119"
     }
   },
   {
@@ -7655,7 +8440,10 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Mwenge County North"
-      ]
+      ],
+      "hdx_pcode": "UG41240112",
+      "hdx_within_pcode": "UG41240112",
+      "ubos_code": "415116"
     }
   },
   {
@@ -7678,7 +8466,9 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Mwenge County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG4124",
+      "ubos_code": "415108"
     }
   },
   {
@@ -7701,7 +8491,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Mwenge County South"
-      ]
+      ],
+      "hdx_pcode": "UG41240116",
+      "hdx_within_pcode": "UG41240116",
+      "ubos_code": "415118"
     }
   },
   {
@@ -7724,7 +8517,10 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Mwenge County South"
-      ]
+      ],
+      "hdx_pcode": "UG41240105",
+      "hdx_within_pcode": "UG41240105",
+      "ubos_code": "415106"
     }
   },
   {
@@ -7747,7 +8543,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Mwenge County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG4124",
+      "ubos_code": "415113"
     }
   },
   {
@@ -7770,7 +8568,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Mwenge County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG4124",
+      "ubos_code": "415115"
     }
   },
   {
@@ -7793,7 +8593,9 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Mwenge County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG4124",
+      "ubos_code": "415104"
     }
   },
   {
@@ -7816,7 +8618,9 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Mwenge County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG4124",
+      "ubos_code": "415120"
     }
   },
   {
@@ -7839,7 +8643,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Mwenge Central County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4124",
+      "ubos_code": "415207"
     }
   },
   {
@@ -7862,7 +8668,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Mwenge Central County"
-      ]
+      ],
+      "hdx_pcode": "UG41240108",
+      "hdx_within_pcode": "UG41240108",
+      "ubos_code": "415203"
     }
   },
   {
@@ -7885,7 +8694,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Mwenge Central County"
-      ]
+      ],
+      "hdx_pcode": "UG41240114",
+      "hdx_within_pcode": "UG41240114",
+      "ubos_code": "415205"
     }
   },
   {
@@ -7908,7 +8720,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Kyaka North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4123",
+      "ubos_code": "422203"
     }
   },
   {
@@ -7931,7 +8745,9 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Kyaka North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4123",
+      "ubos_code": "422201"
     }
   },
   {
@@ -7954,7 +8770,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kyaka South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4123",
+      "ubos_code": "422304"
     }
   },
   {
@@ -7977,7 +8795,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Kyaka South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4123",
+      "ubos_code": "422301"
     }
   },
   {
@@ -8000,7 +8820,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kyaka Central County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4123",
+      "ubos_code": "422101"
     }
   },
   {
@@ -8023,7 +8845,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Kyaka Central County"
-      ]
+      ],
+      "hdx_pcode": "UG41230106",
+      "hdx_within_pcode": "UG41230106",
+      "ubos_code": "422104"
     }
   },
   {
@@ -8046,7 +8871,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Ntoroko County"
-      ]
+      ],
+      "hdx_pcode": "UG41280107",
+      "hdx_within_pcode": "UG41280107",
+      "ubos_code": "424107"
     }
   },
   {
@@ -8069,7 +8897,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Ntoroko County"
-      ]
+      ],
+      "hdx_pcode": "UG41280104",
+      "hdx_within_pcode": "UG41280104",
+      "ubos_code": "424104"
     }
   },
   {
@@ -8092,7 +8923,10 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Ntoroko County"
-      ]
+      ],
+      "hdx_pcode": "UG41280106",
+      "hdx_within_pcode": "UG41280106",
+      "ubos_code": "424106"
     }
   },
   {
@@ -8115,7 +8949,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Maruzi County"
-      ]
+      ],
+      "hdx_within_pcode": "UG307102",
+      "ubos_code": "302202"
     }
   },
   {
@@ -8138,7 +8974,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Maruzi County"
-      ]
+      ],
+      "hdx_within_pcode": "UG307102",
+      "ubos_code": "302205"
     }
   },
   {
@@ -8161,7 +8999,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kole South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3079",
+      "ubos_code": "325202"
     }
   },
   {
@@ -8184,7 +9024,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Kole South County"
-      ]
+      ],
+      "hdx_pcode": "UG30790106",
+      "hdx_within_pcode": "UG30790106",
+      "ubos_code": "325206"
     }
   },
   {
@@ -8207,7 +9050,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Kole South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3079",
+      "ubos_code": "325205"
     }
   },
   {
@@ -8230,7 +9075,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Kole North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3079",
+      "ubos_code": "325102"
     }
   },
   {
@@ -8253,7 +9100,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kole North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3079",
+      "ubos_code": "325104"
     }
   },
   {
@@ -8276,7 +9125,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Nwoya County"
-      ]
+      ],
+      "hdx_pcode": "UG30920103",
+      "hdx_within_pcode": "UG30920103",
+      "ubos_code": "328104"
     }
   },
   {
@@ -8299,7 +9151,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Nwoya County"
-      ]
+      ],
+      "hdx_within_pcode": "UG309201",
+      "ubos_code": "328106"
     }
   },
   {
@@ -8322,7 +9176,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Nwoya East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3092",
+      "ubos_code": "328203"
     }
   },
   {
@@ -8345,7 +9201,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Agago County"
-      ]
+      ],
+      "hdx_within_pcode": "UG306601",
+      "ubos_code": "322102"
     }
   },
   {
@@ -8368,7 +9226,10 @@
       "ec_subcounty_code": "15",
       "ec_constituencies": [
         "Agago County"
-      ]
+      ],
+      "hdx_pcode": "UG30660115",
+      "hdx_within_pcode": "UG30660115",
+      "ubos_code": "322109"
     }
   },
   {
@@ -8391,7 +9252,10 @@
       "ec_subcounty_code": "16",
       "ec_constituencies": [
         "Agago County"
-      ]
+      ],
+      "hdx_pcode": "UG30660102",
+      "hdx_within_pcode": "UG30660102",
+      "ubos_code": "322103"
     }
   },
   {
@@ -8414,7 +9278,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Agago North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3066",
+      "ubos_code": "322210"
     }
   },
   {
@@ -8437,7 +9303,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Agago North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3066",
+      "ubos_code": "322203"
     }
   },
   {
@@ -8460,7 +9328,10 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Agago North County"
-      ]
+      ],
+      "hdx_pcode": "UG30660104",
+      "hdx_within_pcode": "UG30660104",
+      "ubos_code": "322201"
     }
   },
   {
@@ -8483,7 +9354,9 @@
       "ec_subcounty_code": "17",
       "ec_constituencies": [
         "Agago West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3066",
+      "ubos_code": "322306"
     }
   },
   {
@@ -8506,7 +9379,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Omoro County"
-      ]
+      ],
+      "hdx_within_pcode": "UG309401",
+      "ubos_code": "331101"
     }
   },
   {
@@ -8529,7 +9404,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Omoro County"
-      ]
+      ],
+      "hdx_pcode": "UG30940106",
+      "hdx_within_pcode": "UG30940106",
+      "ubos_code": "331107"
     }
   },
   {
@@ -8552,7 +9430,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Tochi County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3094",
+      "ubos_code": "331207"
     }
   },
   {
@@ -8575,7 +9455,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Kwania County"
-      ]
+      ],
+      "hdx_within_pcode": "UG308101",
+      "ubos_code": "333103"
     }
   },
   {
@@ -8598,7 +9480,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Kwania North County"
-      ]
+      ],
+      "hdx_pcode": "UG30810103",
+      "hdx_within_pcode": "UG30810103",
+      "ubos_code": "333203"
     }
   },
   {
@@ -8621,7 +9506,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Kwania North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3081",
+      "ubos_code": "333206"
     }
   },
   {
@@ -8644,7 +9531,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Chua East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3077",
+      "ubos_code": "305107"
     }
   },
   {
@@ -8667,7 +9556,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Erute County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG3083",
+      "ubos_code": "307103"
     }
   },
   {
@@ -8690,7 +9581,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Erute County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG3083",
+      "ubos_code": "307105"
     }
   },
   {
@@ -8713,7 +9606,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Aruu County"
-      ]
+      ],
+      "hdx_pcode": "UG30970110",
+      "hdx_within_pcode": "UG30970110",
+      "ubos_code": "312105"
     }
   },
   {
@@ -8736,7 +9632,9 @@
       "ec_subcounty_code": "14",
       "ec_constituencies": [
         "Aruu County"
-      ]
+      ],
+      "hdx_within_pcode": "UG309701",
+      "ubos_code": "312108"
     }
   },
   {
@@ -8759,7 +9657,9 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Aruu North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3097",
+      "ubos_code": "312206"
     }
   },
   {
@@ -8782,7 +9682,9 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Aruu North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3097",
+      "ubos_code": "312213"
     }
   },
   {
@@ -8805,7 +9707,9 @@
       "ec_subcounty_code": "14",
       "ec_constituencies": [
         "Aruu North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3097",
+      "ubos_code": "312202"
     }
   },
   {
@@ -8828,7 +9732,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kioga County"
-      ]
+      ],
+      "hdx_pcode": "UG30680104",
+      "hdx_within_pcode": "UG30680104",
+      "ubos_code": "315103"
     }
   },
   {
@@ -8851,7 +9758,10 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Kioga County"
-      ]
+      ],
+      "hdx_pcode": "UG30680111",
+      "hdx_within_pcode": "UG30680111",
+      "ubos_code": "315107"
     }
   },
   {
@@ -8874,7 +9784,9 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Kioga North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3068",
+      "ubos_code": "315208"
     }
   },
   {
@@ -8897,7 +9809,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kilak South County"
-      ]
+      ],
+      "hdx_pcode": "UG30700102",
+      "hdx_within_pcode": "UG30700102",
+      "ubos_code": "316202"
     }
   },
   {
@@ -8920,7 +9835,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kilak North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3070",
+      "ubos_code": "316103"
     }
   },
   {
@@ -8943,7 +9860,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Kilak North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3070",
+      "ubos_code": "316102"
     }
   },
   {
@@ -8966,7 +9885,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kilak North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3070",
+      "ubos_code": "316106"
     }
   },
   {
@@ -8989,7 +9910,9 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Dokolo North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3073",
+      "ubos_code": "317102"
     }
   },
   {
@@ -9012,7 +9935,8 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Dokolo North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3073"
     }
   },
   {
@@ -9035,7 +9959,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Dokolo South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3073",
+      "ubos_code": "317204"
     }
   },
   {
@@ -9058,7 +9984,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Dokolo South County"
-      ]
+      ],
+      "hdx_pcode": "UG30730107",
+      "hdx_within_pcode": "UG30730107",
+      "ubos_code": "317202"
     }
   },
   {
@@ -9081,7 +10010,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Oyam County North"
-      ]
+      ],
+      "hdx_pcode": "UG30960112",
+      "hdx_within_pcode": "UG30960112",
+      "ubos_code": "321108"
     }
   },
   {
@@ -9104,7 +10036,8 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Oyam County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG3096"
     }
   },
   {
@@ -9127,7 +10060,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Oyam County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG3096",
+      "ubos_code": "321111"
     }
   },
   {
@@ -9150,7 +10085,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Oyam County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG3096",
+      "ubos_code": "321113"
     }
   },
   {
@@ -9173,7 +10110,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Oyam County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG3096",
+      "ubos_code": "321115"
     }
   },
   {
@@ -9196,7 +10135,10 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Lamwo County"
-      ]
+      ],
+      "hdx_pcode": "UG30820102",
+      "hdx_within_pcode": "UG30820102",
+      "ubos_code": "326104"
     }
   },
   {
@@ -9219,7 +10161,10 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Lamwo County"
-      ]
+      ],
+      "hdx_pcode": "UG30820106",
+      "hdx_within_pcode": "UG30820106",
+      "ubos_code": "326110"
     }
   },
   {
@@ -9242,7 +10187,9 @@
       "ec_subcounty_code": "18",
       "ec_constituencies": [
         "Lamwo County"
-      ]
+      ],
+      "hdx_within_pcode": "UG308201",
+      "ubos_code": "326108"
     }
   },
   {
@@ -9265,7 +10212,9 @@
       "ec_subcounty_code": "19",
       "ec_constituencies": [
         "Palabek County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3082",
+      "ubos_code": "326205"
     }
   },
   {
@@ -9288,7 +10237,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Otuke County"
-      ]
+      ],
+      "hdx_within_pcode": "UG309501",
+      "ubos_code": "329102"
     }
   },
   {
@@ -9311,7 +10262,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Otuke County"
-      ]
+      ],
+      "hdx_within_pcode": "UG309501",
+      "ubos_code": "329105"
     }
   },
   {
@@ -9334,7 +10287,9 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Otuke County"
-      ]
+      ],
+      "hdx_within_pcode": "UG309501",
+      "ubos_code": "329108"
     }
   },
   {
@@ -9357,7 +10312,9 @@
       "ec_subcounty_code": "14",
       "ec_constituencies": [
         "Otuke County"
-      ]
+      ],
+      "hdx_within_pcode": "UG309501",
+      "ubos_code": "329107"
     }
   },
   {
@@ -9380,7 +10337,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Otuke East County"
-      ]
+      ],
+      "hdx_pcode": "UG30950108",
+      "hdx_within_pcode": "UG30950108",
+      "ubos_code": "329206"
     }
   },
   {
@@ -9403,7 +10363,9 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Otuke East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3095",
+      "ubos_code": "329204"
     }
   },
   {
@@ -9426,7 +10388,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Moroto County"
-      ]
+      ],
+      "hdx_pcode": "UG30670104",
+      "hdx_within_pcode": "UG30670104",
+      "ubos_code": "323203"
     }
   },
   {
@@ -9449,7 +10414,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Moroto County"
-      ]
+      ],
+      "hdx_within_pcode": "UG306701",
+      "ubos_code": "323207"
     }
   },
   {
@@ -9472,7 +10439,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Moroto County"
-      ]
+      ],
+      "hdx_within_pcode": "UG306701",
+      "ubos_code": "323205"
     }
   },
   {
@@ -9495,7 +10464,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Ajuri County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3067",
+      "ubos_code": "323104"
     }
   },
   {
@@ -9518,7 +10489,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Igara County East"
-      ]
+      ],
+      "hdx_within_pcode": "UG4105",
+      "ubos_code": "402207"
     }
   },
   {
@@ -9541,7 +10514,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Igara County East"
-      ]
+      ],
+      "hdx_pcode": "UG41050211",
+      "hdx_within_pcode": "UG41050211",
+      "ubos_code": "402214"
     }
   },
   {
@@ -9564,7 +10540,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Igara County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG4105",
+      "ubos_code": "402201"
     }
   },
   {
@@ -9587,7 +10565,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Igara County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG4105",
+      "ubos_code": "402205"
     }
   },
   {
@@ -9610,7 +10590,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Ndorwa County West"
-      ]
+      ],
+      "hdx_pcode": "UG41090205",
+      "hdx_within_pcode": "UG41090205",
+      "ubos_code": "404206"
     }
   },
   {
@@ -9633,7 +10616,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Ndorwa County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG4109",
+      "ubos_code": "404212"
     }
   },
   {
@@ -9656,7 +10641,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Sheema County North"
-      ]
+      ],
+      "hdx_pcode": "UG41350109",
+      "hdx_within_pcode": "UG41350109",
+      "ubos_code": "426109"
     }
   },
   {
@@ -9679,7 +10667,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Sheema County North"
-      ]
+      ],
+      "hdx_pcode": "UG41350102",
+      "hdx_within_pcode": "UG41350102",
+      "ubos_code": "426102"
     }
   },
   {
@@ -9702,7 +10693,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Sheema County South"
-      ]
+      ],
+      "hdx_pcode": "UG41350111",
+      "hdx_within_pcode": "UG41350111",
+      "ubos_code": "426111"
     }
   },
   {
@@ -9725,7 +10719,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Sheema County South"
-      ]
+      ],
+      "hdx_pcode": "UG41350101",
+      "hdx_within_pcode": "UG41350101",
+      "ubos_code": "426101"
     }
   },
   {
@@ -9748,7 +10745,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Sheema County South"
-      ]
+      ],
+      "hdx_pcode": "UG41350106",
+      "hdx_within_pcode": "UG41350106",
+      "ubos_code": "426106"
     }
   },
   {
@@ -9771,7 +10771,10 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Ruhinda County"
-      ]
+      ],
+      "hdx_pcode": "UG41270110",
+      "hdx_within_pcode": "UG41270110",
+      "ubos_code": "423105"
     }
   },
   {
@@ -9794,7 +10797,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Ruhinda North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4127",
+      "ubos_code": "423205"
     }
   },
   {
@@ -9817,7 +10822,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Ruhinda South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4127",
+      "ubos_code": "423302"
     }
   },
   {
@@ -9840,7 +10847,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Ruhinda South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4127",
+      "ubos_code": "423305"
     }
   },
   {
@@ -9863,7 +10872,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Buhweju County"
-      ]
+      ],
+      "hdx_pcode": "UG41010106",
+      "hdx_within_pcode": "UG41010106",
+      "ubos_code": "420105"
     }
   },
   {
@@ -9886,7 +10898,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Buhweju West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4101",
+      "ubos_code": "420208"
     }
   },
   {
@@ -9909,7 +10923,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Buhweju West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4101",
+      "ubos_code": "420204"
     }
   },
   {
@@ -9932,7 +10948,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Bunyaruguru County"
-      ]
+      ],
+      "hdx_within_pcode": "UG413101",
+      "ubos_code": "425204"
     }
   },
   {
@@ -9955,7 +10973,10 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Katerera County"
-      ]
+      ],
+      "hdx_pcode": "UG41310103",
+      "hdx_within_pcode": "UG41310103",
+      "ubos_code": "425103"
     }
   },
   {
@@ -9978,7 +10999,10 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Rubanda County East"
-      ]
+      ],
+      "hdx_pcode": "UG41300104",
+      "hdx_within_pcode": "UG41300104",
+      "ubos_code": "429108"
     }
   },
   {
@@ -10001,7 +11025,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Rubanda County East"
-      ]
+      ],
+      "hdx_within_pcode": "UG4130",
+      "ubos_code": "429104"
     }
   },
   {
@@ -10024,7 +11050,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Rubanda County East"
-      ]
+      ],
+      "hdx_within_pcode": "UG4130",
+      "ubos_code": "429106"
     }
   },
   {
@@ -10047,7 +11075,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Rubanda County West"
-      ]
+      ],
+      "hdx_pcode": "UG41300108",
+      "hdx_within_pcode": "UG41300108",
+      "ubos_code": "429115"
     }
   },
   {
@@ -10070,7 +11101,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Rubanda County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG4130",
+      "ubos_code": "429110"
     }
   },
   {
@@ -10093,7 +11126,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Rubanda County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG4130",
+      "ubos_code": "429111"
     }
   },
   {
@@ -10116,7 +11151,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Rubanda County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG4130",
+      "ubos_code": "429113"
     }
   },
   {
@@ -10139,7 +11176,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Rubanda County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG4130",
+      "ubos_code": "429117"
     }
   },
   {
@@ -10162,7 +11201,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Rukiga County"
-      ]
+      ],
+      "hdx_pcode": "UG41320105",
+      "hdx_within_pcode": "UG41320105",
+      "ubos_code": "430105"
     }
   },
   {
@@ -10185,7 +11227,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Rukiga County"
-      ]
+      ],
+      "hdx_pcode": "UG41320104",
+      "hdx_within_pcode": "UG41320104",
+      "ubos_code": "430104"
     }
   },
   {
@@ -10208,7 +11253,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kazo County"
-      ]
+      ],
+      "hdx_within_pcode": "UG411601",
+      "ubos_code": "433101"
     }
   },
   {
@@ -10231,7 +11278,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Kazo County"
-      ]
+      ],
+      "hdx_pcode": "UG41160106",
+      "hdx_within_pcode": "UG41160106",
+      "ubos_code": "433106"
     }
   },
   {
@@ -10254,7 +11304,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Rwampara County"
-      ]
+      ],
+      "hdx_pcode": "UG41340102",
+      "hdx_within_pcode": "UG41340102",
+      "ubos_code": "435102"
     }
   },
   {
@@ -10277,7 +11330,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Rwampara East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4134",
+      "ubos_code": "435202"
     }
   },
   {
@@ -10300,7 +11355,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bufumbira County East"
-      ]
+      ],
+      "hdx_within_pcode": "UG4121",
+      "ubos_code": "408103"
     }
   },
   {
@@ -10323,7 +11380,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bufumbira County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG4121",
+      "ubos_code": "408107"
     }
   },
   {
@@ -10346,7 +11405,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Bufumbira County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG4121",
+      "ubos_code": "408114"
     }
   },
   {
@@ -10369,7 +11430,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bufumbira County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG4121",
+      "ubos_code": "408105"
     }
   },
   {
@@ -10392,7 +11455,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Bufumbira County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG4121",
+      "ubos_code": "408101"
     }
   },
   {
@@ -10415,7 +11480,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Bukimbiri County"
-      ]
+      ],
+      "hdx_pcode": "UG41210114",
+      "hdx_within_pcode": "UG41210114",
+      "ubos_code": "408207"
     }
   },
   {
@@ -10438,7 +11506,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Bukimbiri County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4121",
+      "ubos_code": "408205"
     }
   },
   {
@@ -10461,7 +11531,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Bukimbiri County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4121",
+      "ubos_code": "408203"
     }
   },
   {
@@ -10484,7 +11556,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Kashari North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4126",
+      "ubos_code": "410107"
     }
   },
   {
@@ -10507,7 +11581,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Kashari South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4126",
+      "ubos_code": "410203"
     }
   },
   {
@@ -10530,7 +11606,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Kajara County"
-      ]
+      ],
+      "hdx_pcode": "UG41290103",
+      "hdx_within_pcode": "UG41290103",
+      "ubos_code": "411103"
     }
   },
   {
@@ -10553,7 +11632,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Kajara County"
-      ]
+      ],
+      "hdx_pcode": "UG41290106",
+      "hdx_within_pcode": "UG41290106",
+      "ubos_code": "411107"
     }
   },
   {
@@ -10576,7 +11658,9 @@
       "ec_subcounty_code": "12",
       "ec_constituencies": [
         "Ruhaama County"
-      ]
+      ],
+      "hdx_within_pcode": "UG412903",
+      "ubos_code": "411405"
     }
   },
   {
@@ -10599,7 +11683,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Rushenyi County"
-      ]
+      ],
+      "hdx_pcode": "UG41290404",
+      "hdx_within_pcode": "UG41290404",
+      "ubos_code": "411504"
     }
   },
   {
@@ -10622,7 +11709,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Ruhaama East County"
-      ]
+      ],
+      "hdx_pcode": "UG41290303",
+      "hdx_within_pcode": "UG41290303",
+      "ubos_code": "411301"
     }
   },
   {
@@ -10645,7 +11735,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Ruhaama East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4129",
+      "ubos_code": "411306"
     }
   },
   {
@@ -10668,7 +11760,9 @@
       "ec_subcounty_code": "14",
       "ec_constituencies": [
         "Ruhaama East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4129",
+      "ubos_code": "411303"
     }
   },
   {
@@ -10691,7 +11785,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Rubabo County"
-      ]
+      ],
+      "hdx_pcode": "UG41330204",
+      "hdx_within_pcode": "UG41330204",
+      "ubos_code": "412104"
     }
   },
   {
@@ -10714,7 +11811,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Rubabo County"
-      ]
+      ],
+      "hdx_pcode": "UG41330202",
+      "hdx_within_pcode": "UG41330202",
+      "ubos_code": "412102"
     }
   },
   {
@@ -10737,7 +11837,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Rujumbura County"
-      ]
+      ],
+      "hdx_pcode": "UG41330107",
+      "hdx_within_pcode": "UG41330107",
+      "ubos_code": "412207"
     }
   },
   {
@@ -10760,7 +11863,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Rujumbura County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4133",
+      "ubos_code": "412201"
     }
   },
   {
@@ -10783,7 +11888,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Kinkizi County East"
-      ]
+      ],
+      "hdx_pcode": "UG41140104",
+      "hdx_within_pcode": "UG41140104",
+      "ubos_code": "414106"
     }
   },
   {
@@ -10806,7 +11914,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Kinkizi County East"
-      ]
+      ],
+      "hdx_pcode": "UG41140103",
+      "hdx_within_pcode": "UG41140103",
+      "ubos_code": "414105"
     }
   },
   {
@@ -10829,7 +11940,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Kinkizi County East"
-      ]
+      ],
+      "hdx_within_pcode": "UG4114",
+      "ubos_code": "414127"
     }
   },
   {
@@ -10852,7 +11965,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Kinkizi County West"
-      ]
+      ],
+      "hdx_pcode": "UG41140109",
+      "hdx_within_pcode": "UG41140109",
+      "ubos_code": "414115"
     }
   },
   {
@@ -10875,7 +11991,10 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Kinkizi County West"
-      ]
+      ],
+      "hdx_pcode": "UG41140101",
+      "hdx_within_pcode": "UG41140101",
+      "ubos_code": "414103"
     }
   },
   {
@@ -10898,7 +12017,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Kinkizi County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG4114",
+      "ubos_code": "414102"
     }
   },
   {
@@ -10921,7 +12042,9 @@
       "ec_subcounty_code": "13",
       "ec_constituencies": [
         "Kinkizi County West"
-      ]
+      ],
+      "hdx_within_pcode": "UG4114",
+      "ubos_code": "414123"
     }
   },
   {
@@ -10944,7 +12067,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Ibanda County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG4107",
+      "ubos_code": "417104"
     }
   },
   {
@@ -10967,7 +12092,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Ibanda County North"
-      ]
+      ],
+      "hdx_pcode": "UG41070111",
+      "hdx_within_pcode": "UG41070111",
+      "ubos_code": "417112"
     }
   },
   {
@@ -10990,7 +12118,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Ibanda County North"
-      ]
+      ],
+      "hdx_within_pcode": "UG4107",
+      "ubos_code": "417113"
     }
   },
   {
@@ -11013,7 +12143,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Ibanda County South"
-      ]
+      ],
+      "hdx_pcode": "UG41070101",
+      "hdx_within_pcode": "UG41070101",
+      "ubos_code": "417101"
     }
   },
   {
@@ -11036,7 +12169,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Bukanga County"
-      ]
+      ],
+      "hdx_pcode": "UG41080102",
+      "hdx_within_pcode": "UG41080102",
+      "ubos_code": "418102"
     }
   },
   {
@@ -11059,7 +12195,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Bukanga County"
-      ]
+      ],
+      "hdx_within_pcode": "UG410801",
+      "ubos_code": "418101"
     }
   },
   {
@@ -11082,7 +12220,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Isingiro County North"
-      ]
+      ],
+      "hdx_pcode": "UG41080202",
+      "hdx_within_pcode": "UG41080202",
+      "ubos_code": "418302"
     }
   },
   {
@@ -11105,7 +12246,10 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Isingiro County North"
-      ]
+      ],
+      "hdx_pcode": "UG41080203",
+      "hdx_within_pcode": "UG41080203",
+      "ubos_code": "418303"
     }
   },
   {
@@ -11128,7 +12272,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Isingiro County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG4108",
+      "ubos_code": "418307"
     }
   },
   {
@@ -11151,7 +12297,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Isingiro County South"
-      ]
+      ],
+      "hdx_within_pcode": "UG4108",
+      "ubos_code": "418309"
     }
   },
   {
@@ -11174,7 +12322,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Bukanga North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4108",
+      "ubos_code": "418208"
     }
   },
   {
@@ -11197,7 +12347,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Isingiro West County"
-      ]
+      ],
+      "hdx_pcode": "UG41080206",
+      "hdx_within_pcode": "UG41080206",
+      "ubos_code": "418402"
     }
   },
   {
@@ -11220,7 +12373,9 @@
       "ec_subcounty_code": "06",
       "ec_constituencies": [
         "Isingiro West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG4108",
+      "ubos_code": "418404"
     }
   },
   {
@@ -11243,7 +12398,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Nyabushozi County"
-      ]
+      ],
+      "hdx_pcode": "UG41190106",
+      "hdx_within_pcode": "UG41190106",
+      "ubos_code": "419206"
     }
   },
   {
@@ -11266,7 +12424,10 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Nyabushozi County"
-      ]
+      ],
+      "hdx_pcode": "UG41190110",
+      "hdx_within_pcode": "UG41190110",
+      "ubos_code": "419212"
     }
   },
   {
@@ -11289,7 +12450,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Nyabushozi County"
-      ]
+      ],
+      "hdx_within_pcode": "UG411901",
+      "ubos_code": "419208"
     }
   },
   {
@@ -11312,7 +12475,10 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Jonam County"
-      ]
+      ],
+      "hdx_pcode": "UG30980103",
+      "hdx_within_pcode": "UG30980103",
+      "ubos_code": "332104"
     }
   },
   {
@@ -11335,7 +12501,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Jonam County"
-      ]
+      ],
+      "hdx_within_pcode": "UG309801",
+      "ubos_code": "332107"
     }
   },
   {
@@ -11358,7 +12526,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Upper Madi County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3084",
+      "ubos_code": "336204"
     }
   },
   {
@@ -11381,7 +12551,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Lower Madi County"
-      ]
+      ],
+      "hdx_pcode": "UG30840103",
+      "hdx_within_pcode": "UG30840103",
+      "ubos_code": "336102"
     }
   },
   {
@@ -11404,7 +12577,9 @@
       "ec_subcounty_code": "03",
       "ec_constituencies": [
         "Lower Madi County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3084",
+      "ubos_code": "336107"
     }
   },
   {
@@ -11427,7 +12602,10 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Obongi County"
-      ]
+      ],
+      "hdx_pcode": "UG30930104",
+      "hdx_within_pcode": "UG30930104",
+      "ubos_code": "337105"
     }
   },
   {
@@ -11450,7 +12628,9 @@
       "ec_subcounty_code": "04",
       "ec_constituencies": [
         "Terego West County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3072",
+      "ubos_code": "340204"
     }
   },
   {
@@ -11473,7 +12653,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "West Moyo County"
-      ]
+      ],
+      "hdx_pcode": "UG30870106",
+      "hdx_within_pcode": "UG30870106",
+      "ubos_code": "309109"
     }
   },
   {
@@ -11496,7 +12679,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "West Moyo County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3087",
+      "ubos_code": "309104"
     }
   },
   {
@@ -11519,7 +12704,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "West Moyo County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3087",
+      "ubos_code": "309106"
     }
   },
   {
@@ -11542,7 +12729,9 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Padyere County"
-      ]
+      ],
+      "hdx_within_pcode": "UG309102",
+      "ubos_code": "310213"
     }
   },
   {
@@ -11565,7 +12754,10 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Adjumani West County"
-      ]
+      ],
+      "hdx_pcode": "UG30650101",
+      "hdx_within_pcode": "UG30650101",
+      "ubos_code": "301201"
     }
   },
   {
@@ -11588,7 +12780,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Adjumani East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3065",
+      "ubos_code": "301106"
     }
   },
   {
@@ -11611,7 +12805,10 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Aringa County"
-      ]
+      ],
+      "hdx_pcode": "UG30990113",
+      "hdx_within_pcode": "UG30990113",
+      "ubos_code": "313105"
     }
   },
   {
@@ -11634,7 +12831,9 @@
       "ec_subcounty_code": "14",
       "ec_constituencies": [
         "Aringa County"
-      ]
+      ],
+      "hdx_within_pcode": "UG309901",
+      "ubos_code": "313104"
     }
   },
   {
@@ -11657,7 +12856,9 @@
       "ec_subcounty_code": "01",
       "ec_constituencies": [
         "Aringa North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3099",
+      "ubos_code": "313306"
     }
   },
   {
@@ -11680,7 +12881,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Aringa North County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3099",
+      "ubos_code": "313304"
     }
   },
   {
@@ -11703,7 +12906,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Aringa South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3099",
+      "ubos_code": "313406"
     }
   },
   {
@@ -11726,7 +12931,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Aringa South County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3099",
+      "ubos_code": "313404"
     }
   },
   {
@@ -11749,7 +12956,9 @@
       "ec_subcounty_code": "02",
       "ec_constituencies": [
         "Aringa East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3099",
+      "ubos_code": "313203"
     }
   },
   {
@@ -11772,7 +12981,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Koboko County"
-      ]
+      ],
+      "hdx_within_pcode": "UG307801",
+      "ubos_code": "319102"
     }
   },
   {
@@ -11795,7 +13006,9 @@
       "ec_subcounty_code": "09",
       "ec_constituencies": [
         "Koboko County"
-      ]
+      ],
+      "hdx_within_pcode": "UG307801",
+      "ubos_code": "319106"
     }
   },
   {
@@ -11818,7 +13031,9 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Maracha County"
-      ]
+      ],
+      "hdx_within_pcode": "UG308501",
+      "ubos_code": "320108"
     }
   },
   {
@@ -11841,7 +13056,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Maracha County"
-      ]
+      ],
+      "hdx_within_pcode": "UG308501",
+      "ubos_code": "320105"
     }
   },
   {
@@ -11864,7 +13081,9 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Maracha County"
-      ]
+      ],
+      "hdx_within_pcode": "UG308501",
+      "ubos_code": "320101"
     }
   },
   {
@@ -11887,7 +13106,10 @@
       "ec_subcounty_code": "08",
       "ec_constituencies": [
         "Maracha East County"
-      ]
+      ],
+      "hdx_pcode": "UG30850102",
+      "hdx_within_pcode": "UG30850102",
+      "ubos_code": "320204"
     }
   },
   {
@@ -11910,7 +13132,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Maracha East County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3085",
+      "ubos_code": "320208"
     }
   },
   {
@@ -11933,7 +13157,10 @@
       "ec_subcounty_code": "05",
       "ec_constituencies": [
         "Okoro County"
-      ]
+      ],
+      "hdx_pcode": "UG31000110",
+      "hdx_within_pcode": "UG31000110",
+      "ubos_code": "330107"
     }
   },
   {
@@ -11956,7 +13183,10 @@
       "ec_subcounty_code": "10",
       "ec_constituencies": [
         "Okoro County"
-      ]
+      ],
+      "hdx_pcode": "UG31000113",
+      "hdx_within_pcode": "UG31000113",
+      "ubos_code": "330108"
     }
   },
   {
@@ -11979,7 +13209,9 @@
       "ec_subcounty_code": "11",
       "ec_constituencies": [
         "Okoro County"
-      ]
+      ],
+      "hdx_within_pcode": "UG310001",
+      "ubos_code": "330105"
     }
   },
   {
@@ -12002,7 +13234,9 @@
       "ec_subcounty_code": "07",
       "ec_constituencies": [
         "Ora County"
-      ]
+      ],
+      "hdx_within_pcode": "UG3100",
+      "ubos_code": "330206"
     }
   }
 ]

@@ -20,10 +20,15 @@ const DATA_ROUTES = [
 
 const GEO_ROUTES = [
   ["/api/geo/regions", "4 region boundary polygons"],
-  ["/api/geo/districts", "136 district boundary polygons + population"],
-  ["/api/geo/subcounties", "1,249/2,191 subcounty boundaries (57.0%)"],
-  ["/api/geo/parishes", "423/10,717 parish boundaries (3.95%)"],
+  ["/api/geo/districts", "136 district boundary polygons + population, land area, P-code, UBOS code"],
+  ["/api/geo/cities", "10 city boundary polygons + population"],
+  ["/api/geo/counties", "322 county boundaries (each the union of its subcounties)"],
+  ["/api/geo/subcounties", "2,190/2,191 subcounty boundaries"],
+  ["/api/geo/parishes", "10,634/10,717 parish boundaries (UBOS BEC 2025)"],
+  ["/api/geo/gaps", "Land no unit could be assigned yet, with candidate units"],
   ["/api/geo/roads", "10,721 major road network segments"],
+  ["/api/geo/stats", "Per-polygon map metrics for one level (?level=)"],
+  ["/api/geo/export", "Boundaries + metrics + OCHA P-codes + UBOS codes as GeoJSON/CSV (?level=&format=&within=&bbox=&ids=)"],
 ];
 
 function RouteTable({ routes }) {

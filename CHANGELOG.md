@@ -1,5 +1,267 @@
 # Changelog
 
+## [0.10.0] - 2026-10-17 — Every boundary level from UBOS, built bottom-up; P-codes; sub-regions and settlements; subcounty population; satellite and 3D map (web 0.4.0)
+
+### Added
+- **Territorial rule** (documented in `docs/DATA_QUALITY.md`) as the basis
+  of all boundary work: no new land is ever created; a new unit is always
+  carved out of existing ones (a new subcounty regroups old parishes, a new
+  parish regroups villages); an unmapped area inside a mapped parent *is*
+  the missing unit(s).
+- **Boundary layers for every level, built bottom-up from UBOS's own
+  current polygons** — `scripts/ingest-ubos-boundaries.mjs`, from UBOS's
+  NPHC 2024 API (district and subcounty polygons) and Baseline Education
+  Census 2025 API (parish polygons), matched onto the EC's July 2022 units.
+  Each UBOS parish is matched to an EC parish (10,466 exact, 98 fuzzy);
+  every piece of land is given an owning EC subcounty; and each level is the
+  union of the one below. Coverage: districts 136/136, cities 10/10,
+  regions 4/4, counties **322/322** (0.9.1 had no county layer),
+  subcounties **2,190/2,191** (0.9.1: 1,249; only Makerere University,
+  which UBOS folds into Kawempe, has none), parishes **10,634/10,717
+  (99.2%)**. 215,579 km² of land.
+- **Real parish polygons**: `parishs.geojson` / `parishBoundaries()` /
+  `/api/geo/parishes` now return UBOS parish polygons.
+- **Cities layer**: `data/geo/citys.geojson`, `geo.cityBoundaries()`,
+  `GET /api/geo/cities`. Each district polygon includes any city carved
+  out of it.
+- **Inference and explicit gaps**: 73 parishes and 3 subcounties inferred
+  from leftover land (`inferred: true` + `inference` note); land no single
+  unit can be given yet goes to `data/geo/gaps.geojson` (23 features,
+  ~722 km², all parish-level, listing their candidate parishes) —
+  `geo.gaps()`, `GET /api/geo/gaps`.
+- **Tessellation cleaning** (`scripts/lib/tessellate.mjs`, step "4b" of
+  the UBOS ingest). UBOS's BEC 2025 parish polygons aren't one topology:
+  per district they overlap their neighbours by ~0.3–0.4 km² and leave
+  ~4 km² of gaps against the district outline in 1,000–1,800 slivers
+  (Alebtong: 4.25 km² in ~1,854 parts, ~420 of them 0.01–10 ha — visible
+  wedges between parishes). Per district, every parish is clipped to the
+  UBOS district (land only), overlaps go to the parish earlier in UBOS-code
+  order, gaps < 100 m² are ignored, ≤ 2 ha go to the nearest neighbour,
+  2 ha–5 km² are split between the touching parishes by nearest-neighbour
+  allocation (triangulated with earcut; a Voronoi version was abandoned
+  after it sent polyclip into a 6 GB runaway on one Mityana sliver), and
+  anything > 5 km² is published as a gap (`kind: "unassigned_chunk"`)
+  instead. Clipping retries once on 6-dp-truncated input and falls back
+  rather than crashing (0 fallbacks). Nationally: 53.2 km² of overlaps
+  removed, 409.5 km² of gaps filled (43,157 slivers, 5,307 equidistant
+  splits), 1 piece fully overlapped, 0 unassigned chunks. Alebtong's gaps
+  went from 4.25 km² to 0.067 km², its overlaps from 0.36 km² to
+  0.015 km². The full ingest takes ~10 min (run with
+  `node --max-old-space-size=6000`); `UBOS_REUSE_CLEAN=1` reuses the last
+  run's cleaned pieces (gitignored cache) when iterating on later steps.
+- **Refugee settlements split between host subcounties, not gaps.** The
+  15 UBOS refugee-settlement census units (Nakivale, Kyangwali, Rwamwanja,
+  Kyaka II, Palabek, Rhino Camp, Imvepi, Palorinya, Lobule, Kiryandongo,
+  Adjumani's settlements) were 11 subcounty-level gaps; their land is now
+  split between the touching host subcounties of the same district by the
+  same equidistant method — inferred — and each outline is published as an
+  informational layer, `data/geo/settlements.geojson` (`id`
+  `settlement:<ubos code>`, `name`, `ubos_code`, `district_id`,
+  `host_subcounty_ids`, `note`) — `geo.settlements()`,
+  `GET /api/geo/settlements`. Settlement land belongs to the host
+  subcounty but to none of its parishes. No subcounty-level gaps remain.
+- **Sub-region layer**: `scripts/build-region-boundaries.mjs` also
+  dissolves the districts by `subregion_id` → `data/geo/subregions.geojson`
+  (17 features) — `geo.subregionBoundaries()`, `GET /api/geo/subregions`.
+  `scripts/validate.mjs` expects 17.
+- **2024 population below district**: `data/population/ubos-nphc-2024-subcounty.csv`
+  (written by the UBOS ingest) — UBOS NPHC 2024 population per UBOS
+  subcounty, assigned to the EC subcounty that owns its land (name match,
+  or the unit it was carved from); settlement units excluded, UBOS `#N/A`
+  values skipped rather than read as 0. 2,180 subcounties, 44,986,031
+  people vs 45,905,417 nationally — the ~919k difference is the settlement
+  units, counted separately. Approximate where a UBOS subcounty's parishes
+  were reorganised across EC units (`method`: `name_match` |
+  `includes_carved_units`). `scripts/build.mjs` puts `population` on
+  subcounty features and sums it to counties (`partial: true` where a
+  county has a subcounty without a figure).
+- **Cross-dataset boundary agreement**: `scripts/compare-boundaries.mjs` →
+  `data/qa/boundary-agreement.csv` — each published subcounty's IoU with
+  UBOS NPHC 2024's polygon for the same UBOS code (`ubos_nphc_iou`) and
+  OCHA COD-AB 2020's for the same P-code (`hdx_iou`), over the unit's own
+  district land; a clipping failure is blank, never 0. Median 0.991 vs UBOS
+  NPHC (2,110 compared), 0.753 vs COD-AB (1,352 — the 2018–20 system, so
+  context, not a defect). The review flag uses UBOS NPHC only: 7
+  subcounties < 0.8, all refugee-settlement hosts that absorbed settlement
+  land (lowest `obongi-palorinya`, 0.546) — expected. `scripts/build.mjs`
+  adds `agreement: { ubos_nphc_iou, hdx_iou }` to subcounty features and a
+  `boundary_agreement` section to `dist/data-quality-report.json`.
+- **UBOS codes**: `external_refs.ubos_code` on 12,820 units (districts,
+  cities, subcounty-tier units, parishes) and `ubos_code` on boundary
+  features; `data/crosswalk/ubos-2024.csv` (shipped as
+  `dist/crosswalk/ubos-2024.csv`, in the npm package).
+  `dist/data-quality-report.json` gains a `ubos_2024` section and a
+  `gaps` entry under `boundary_coverage`.
+- **OCHA P-code crosswalk**: `scripts/ingest-hdx-cod-ab.mjs` →
+  `data/crosswalk/hdx-cod-ab-uga.csv` (shipped as
+  `dist/crosswalk/hdx-cod-ab-uga.csv`, in the npm package, and downloadable
+  from the site). One row per COD-AB unit with a `match` of `exact`,
+  `split_from`, `predecessor`, `tier_mismatch`, `no_equivalent`,
+  `unmatched` or `rejected_geometry`. Every unit from region to subcounty
+  tier gains `external_refs.hdx_pcode` (exact equivalent, 1,608 units) and
+  `external_refs.hdx_within_pcode` (most specific containing COD-AB unit,
+  all 2,663 eligible units). COD-AB is used for P-codes only; its 2020
+  polygons just sanity-check each match against the UBOS districts, which
+  withholds 2 P-codes (Bujenje county, Pakanyi subcounty — COD-AB puts them
+  in Kiryandongo, UBOS and the EC in Masindi). `scripts/validate.mjs`
+  checks P-codes are well-formed, unique, and nest within their parent's
+  district code. `dist/data-quality-report.json` gains `boundary_coverage`
+  and `hdx_cod_ab` sections.
+- New `data/sources.json` entries: `src-ubos-nphc-2024-geo`,
+  `src-ubos-bec-2025-geo`, `src-natural-earth-10m-lakes`, and
+  `src-mwe-weis-geoserver-not-used` (MWE's WEIS GeoServer — deliberately not
+  used: its terms forbid automated access without written permission).
+- **Web (0.4.0)**: `/map` rebuilt on MapLibre GL JS 6.12.0 + OpenFreeMap
+  vector tiles (no API key), replacing the d3-geo SVG map:
+  - choropleth of region/district/county/subcounty/**parish** by
+    population, density, unit counts, villages/km², land area or subcounty
+    coverage;
+  - **satellite basemap** — Esri World Imagery through a server-side tile
+    proxy, `GET /api/tiles/esri/{z}/{y}/{x}` (`ESRI_API_KEY` from
+    `web/.env.local` or the deployment env when set, for the ArcGIS
+    Location Platform basemap service; else Esri's public tile endpoint),
+    "Powered by Esri" attribution, tiles cached by browser/CDN (7 days /
+    30 days) and never copied into `public/` or `dist/`, coordinates
+    validated (integers inside the tile grid, z ≤ 19); a Map/Satellite
+    switch and a fill-opacity slider, both kept in the URL (`base=`,
+    `op=`); zoom to 18;
+  - overlays for unassigned land (hatched, with a hover explaining it and
+    listing candidate units) and parish lines; inferred boundaries
+    drawn dashed with a hover note; hover card with P-code and UBOS code;
+  - both side panels collapsible;
+  - district drill panel, where picking a county, subcounty or parish
+    outlines just that unit via `/api/geo/export?ids=` (no 11 MB parish
+    layer load for a click);
+  - URL-synced state (`?level=&metric=&layers=&focus=&at=&base=&op=&mode=&terrain=`);
+    export of the view/district/country as GeoJSON, CSV or a captioned PNG;
+  - frosted-glass UI (translucent with backdrop blur) for the control
+    panel, hover card, status bar, right-click menu and the details panel,
+    which now floats over the map on desktop instead of being a solid
+    sidebar (still collapsible; phones keep panels below the map); fill
+    opacity defaults to 20%; the fill **fades out as you zoom in** (per
+    level — e.g. parishes from z12.5 to z15) so imagery and streets show
+    through at close range while boundaries stay, and a **Colour fill**
+    switch (`fill=0` in the URL) turns it off for boundaries only;
+  - **click anywhere** → "This place" in the details panel, from the new
+    `GET /api/geo/at?lon=&lat=`: the full hierarchy at the point (region,
+    sub-region, district/city, county, subcounty, parish) with level
+    colour chips, P-codes, UBOS codes, subcounty and district population,
+    parish area, inferred flags, the parish's villages, whether it's in a
+    refugee settlement or unassigned land, and the parish polygon
+    (outlined, with a pin at the point). Clicking selects the district
+    without moving the camera; copy buttons for coordinates and a text
+    summary;
+  - **right-click** (without dragging) → a context menu with the
+    coordinates in decimal and DMS, a place summary, Inspect this place,
+    Centre map here, Copy place details, and links to Google Maps, Google
+    Street View, Mapillary and OpenStreetMap (street-level imagery, no API
+    key needed);
+  - rotate and tilt with right-drag or Ctrl+drag (max pitch 70°),
+    two-finger on touch; the compass shows pitch and resets; map controls
+    moved bottom-right;
+  - **3D terrain** toggle — AWS Terrain Tiles (Mapzen terrarium, public, no
+    key) as a terrain mesh (exaggeration 1.4) plus a hillshade layer under
+    the data; turning it on tilts the camera to 55° (`terrain=1`);
+  - **display modes**: Data (choropleth) and Hierarchy — every level's
+    boundaries in its own colour (region orange, sub-region aqua, district
+    yellow, county magenta, subcounty green, parish violet: slots 2–7 of
+    the dataviz reference categorical palette, adjacent pairs validated at
+    CVD ΔE ≥ 8.4 and normal-vision ΔE ≥ 19.3 in both modes, with per-level
+    line weights and a labelled legend for light-mode contrast) and only a
+    faint tint of the chosen level (`mode=hierarchy`); the level colours
+    are used for overlay lines in Data mode too, and on satellite the
+    selection outline is white;
+  - a **Sub-region** level; a **Boundary agreement** metric (subcounty
+    level, the UBOS NPHC IoU); population and people/km² at county and
+    subcounty level; new overlays for refugee settlements and sub-region
+    lines; "Unmapped land" renamed "Unassigned land". Villages still have
+    no polygons — they're listed per parish in the place panel.
+
+  New `GET /api/geo/stats` (incl. `level=parish`) and `GET /api/geo/export`
+  (polygons joined with metrics, P-codes, `ubos_code`, `subcounty` and
+  `geometry_source` (`ubos`/`inferred`), filterable by `within`/`bbox`/
+  `ids`, incl. `level=parish`). Geo/stats URLs carry the dataset build
+  timestamp (`?v=<generated_at>`) so a rebuilt dataset is never masked by
+  a cached layer. `/api/geo/stats` and `/api/geo/export` also take
+  `level=subregion`. `/data` lists `citys.geojson`, `subregions.geojson`,
+  `gaps.geojson`, `settlements.geojson` and `crosswalk/ubos-2024.csv`; the
+  coverage section and API reference show the new numbers. MapLibre's
+  worker is served from `public/vendor/maplibre/<version>/` (copied by
+  `scripts/sync-data.mjs`). The web API smoke test (`npm test` in `web/`)
+  is now 60 tests, adding the sub-region and settlement layers and a
+  `/api/geo/at` test that resolves a central-Kampala point down to its
+  parish and cells.
+
+### Fixed
+- **District polygons were wrong for many districts.** geoBoundaries'
+  layer matched all 136 names but only 12 of 135 districts had IoU ≥ 0.9
+  with UBOS's own outlines; its Kampala (351 km²) swallowed Kira and
+  Kasangati (both Wakiso), and Pader town fell inside Agago. Districts are
+  now unions of UBOS parish land; geoBoundaries is used only for its
+  coastline.
+- **The old parish boundary layer was wrong and is replaced.** The 423
+  "parish" polygons shipped since 0.9.0 came from HDX COD-AB's "admin4"
+  layer, which is subcounty-tier, not parish-level (it contains Kampala's
+  five divisions, `UG10080101`–`05`; COD-AB Uganda stops at ADM4 = 1,520
+  subcounties). They were subcounty outlines attached to parishes sharing
+  their subcounty's name. Withdrawn (`scripts/ingest-parish-boundaries.mjs`
+  deleted), and replaced by the real UBOS parish layer above. The earlier
+  claim in `docs/DATA_QUALITY.md` / `data/sources.json` that the layer was
+  "confirmed parish-level" is corrected in place, not silently removed.
+- Overlaps and sliver gaps between UBOS's own parish polygons (see
+  "Tessellation cleaning" above) — previously carried straight into every
+  layer, so a zoomed-in map showed wedges of land belonging to no parish.
+  The small residual (Alebtong: 0.067 km² of gaps, 0.015 km² of overlaps)
+  comes from the topology simplification; a coarser topology grid (1e5)
+  was tried and doubled the overlaps, so 1e6 stays — now overridable via
+  `TOPO_QUANTIZATION`. One UBOS parish, Lubya (Buvuma), lies entirely
+  under its neighbours and loses its polygon to the overlap removal.
+- Hairline gaps between neighbouring polygons (from simplifying each
+  feature separately), which left ~1,513 slit holes in the dissolved
+  regions. All 10,831 UBOS pieces are now simplified as one shared TopoJSON
+  topology before any union (`scripts/lib/topo.mjs`), so every layer nests
+  exactly inside the one above.
+- Lake water no longer inflates areas: UBOS polygons follow legal
+  boundaries into the lakes, so water (UBOS outline minus geoBoundaries
+  land, intersected with Natural Earth lakes) is clipped out. The lake
+  intersection keeps geoBoundaries' wrong western border from eating
+  Bundibugyo's Semliki strip and parts of Kasese; a parish clipping would
+  erase entirely keeps its legal outline with `includes_water: true` (14
+  island parishes).
+- Ring winding regressed during the rebuild (`turf.union` output is
+  planar-wound; d3-geo then read a polygon as "the globe minus the
+  polygon" and the web map framed South America). Every output feature is
+  rewound for d3-geo, and `scripts/validate.mjs` now **fails** any
+  boundary feature whose exterior ring is counter-clockwise.
+
+### Changed
+- **Licence of the boundary layers**: districts/regions were CC0
+  (geoBoundaries); every boundary layer is now **processed UBOS data** —
+  cite UBOS and keep the "processed" label (UBOS's guidelines). The P-code
+  crosswalk and `hdx_*` fields are CC BY-IGO (OCHA/UBOS). geoBoundaries
+  (CC0) contributes only the coastline, Natural Earth (public domain) only
+  lake extents. See `LICENSE-DATA.md`.
+- Every boundary feature in `dist/geo/` now carries `area_km2` (land area),
+  `hdx_pcode` and `ubos_code` where they exist; districts, cities,
+  counties and subcounties carry `population`; subcounties carry
+  `agreement`.
+- `dist/uganda-locations-full.csv`: new trailing `hdx_pcode` column (the
+  village's subcounty's `hdx_within_pcode`), after `parish_id` so existing
+  column positions don't shift.
+- `package.json` `files` add `dist/geo/citys.geojson`,
+  `dist/geo/countys.geojson`, `dist/geo/gaps.geojson`,
+  `dist/geo/subregions.geojson`, `dist/geo/settlements.geojson`,
+  `dist/crosswalk/hdx-cod-ab-uga.csv` and `dist/crosswalk/ubos-2024.csv`.
+- Boundary pipeline is now `ingest-ubos-boundaries` →
+  `build-region-boundaries` → `ingest-hdx-cod-ab` → `compare-boundaries` →
+  `build` → `validate`.
+  `scripts/ingest-district-boundaries.mjs` and
+  `scripts/ingest-subcounty-boundaries.mjs` are deleted (an intermediate
+  build that day used COD-AB's 2020 polygons for districts, counties and
+  subcounties; it was superseded the same day). New build-time dev
+  dependencies: `topojson-server` 3.0.1, `topojson-simplify` 3.0.3,
+  `topojson-client` 3.1.0.
+
 ## 2026-09-22 — Explore: drill down to a parish, group by parent level
 
 ### Added

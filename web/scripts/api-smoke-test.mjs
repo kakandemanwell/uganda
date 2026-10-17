@@ -378,14 +378,96 @@ test("GET /api/geo/subcounties (partial coverage)", async () => {
   const { res, body } = await getJson("/api/geo/subcounties");
   assert.equal(res.status, 200);
   assert.equal(body.type, "FeatureCollection");
-  assert.ok(body.features.length > 1000 && body.features.length < 2191);
+  assert.ok(body.features.length > 2150 && body.features.length <= 2191);
 });
 
-test("GET /api/geo/parishes (partial coverage)", async () => {
+test("GET /api/geo/parishes (near-complete)", async () => {
   const { res, body } = await getJson("/api/geo/parishes");
   assert.equal(res.status, 200);
   assert.equal(body.type, "FeatureCollection");
-  assert.ok(body.features.length > 0 && body.features.length < 10717);
+  assert.ok(body.features.length > 10000 && body.features.length <= 10717);
+});
+
+test("GET /api/geo/counties (complete)", async () => {
+  const { res, body } = await getJson("/api/geo/counties");
+  assert.equal(res.status, 200);
+  assert.equal(body.features.length, 322);
+});
+
+test("GET /api/geo/cities", async () => {
+  const { res, body } = await getJson("/api/geo/cities");
+  assert.equal(res.status, 200);
+  assert.equal(body.features.length, 10);
+});
+
+test("GET /api/geo/gaps (each lists candidate units)", async () => {
+  const { res, body } = await getJson("/api/geo/gaps");
+  assert.equal(res.status, 200);
+  assert.ok(body.features.every((f) => f.properties.id.startsWith("gap:") && Array.isArray(f.properties.candidate_ids)));
+});
+
+test("GET /api/geo/subregions and /api/geo/settlements", async () => {
+  const { body: sub } = await getJson("/api/geo/subregions");
+  assert.equal(sub.features.length, 17);
+  const { res, body } = await getJson("/api/geo/settlements");
+  assert.equal(res.status, 200);
+  assert.ok(body.features.every((f) => f.properties.host_subcounty_ids.length > 0));
+});
+
+test("GET /api/geo/at (a point in Kampala resolves the whole hierarchy)", async () => {
+  // Kampala Capital City, near the city centre
+  const { res, body } = await getJson("/api/geo/at?lon=32.5825&lat=0.3136");
+  assert.equal(res.status, 200);
+  assert.equal(body.inside_uganda, true);
+  assert.equal(body.levels.region?.id, "region:central");
+  assert.equal(body.levels.district?.id, "district:kampala");
+  assert.ok(body.levels.subcounty?.id, "should resolve a division");
+  assert.ok(body.levels.parish?.id, "should resolve a parish/ward");
+  assert.ok(Array.isArray(body.villages) && body.villages.length > 0, "should list the parish's villages/cells");
+  assert.equal((await fetch(`${BASE}/api/geo/at?lon=abc&lat=1`)).status, 400);
+});
+
+test("GET /api/tiles/esri rejects coordinates outside the tile grid", async () => {
+  assert.equal((await fetch(`${BASE}/api/tiles/esri/3/9/1`)).status, 400);
+  assert.equal((await fetch(`${BASE}/api/tiles/esri/x/1/1`)).status, 400);
+});
+
+test("GET /api/geo/stats?level=district (totals reconcile with the dataset)", async () => {
+  const { res, body } = await getJson("/api/geo/stats?level=district");
+  assert.equal(res.status, 200);
+  assert.equal(body.totals.features, 136);
+  // every unit lands in exactly one district polygon (cities count toward
+  // the district they were carved from), so nothing is lost or double-counted
+  assert.equal(body.totals.subcounties, 2191);
+  assert.equal(body.totals.parishes, 10717);
+  assert.equal(body.totals.villages, 71230);
+  assert.equal(body.totals.population, 45905417);
+  assert.match(body.values["district:gulu"].hdx_pcode, /^UG\d{4}$/);
+});
+
+test("GET /api/geo/stats rejects an unknown level", async () => {
+  const res = await fetch(`${BASE}/api/geo/stats?level=village`);
+  assert.equal(res.status, 400);
+});
+
+test("GET /api/geo/export (CSV, within a district, with P-codes)", async () => {
+  const res = await fetch(`${BASE}/api/geo/export?level=subcounty&format=csv&within=district:gulu`);
+  assert.equal(res.status, 200);
+  assert.match(res.headers.get("content-type"), /text\/csv/);
+  const [header, ...rows] = (await res.text()).trim().split("\n");
+  assert.ok(header.split(",").includes("hdx_pcode"));
+  // within=district:gulu also covers Gulu City (carved from the district),
+  // whose divisions report "Gulu City" as their district-equivalent
+  assert.ok(rows.length > 0 && rows.every((r) => /,Gulu( City)?,/.test(r)), "every row should be in Gulu");
+});
+
+test("GET /api/geo/export (GeoJSON, bbox) and its validation", async () => {
+  const { res, body } = await getJson("/api/geo/export?level=district&bbox=32.4,0.2,32.8,0.6");
+  assert.equal(res.status, 200);
+  assert.ok(body.features.some((f) => f.properties.id === "district:kampala"));
+  assert.ok(body.attribution && body.license, "GeoJSON export should carry attribution/licence");
+  assert.equal((await fetch(`${BASE}/api/geo/export?bbox=1,2`)).status, 400);
+  assert.equal((await fetch(`${BASE}/api/geo/export?within=district:nope`)).status, 400);
 });
 
 test("GET /api/geo/roads", async () => {

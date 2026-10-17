@@ -15,7 +15,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG410601",
+      "hdx_within_pcode": "UG410601"
+    }
   },
   {
     "id": "county:hoima-kigorobya-county",
@@ -33,7 +36,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4106"
+    }
   },
   {
     "id": "county:kagadi-buyaga-east-county",
@@ -51,7 +56,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4111"
+    }
   },
   {
     "id": "county:kagadi-buyaga-west-county",
@@ -69,7 +76,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4111"
+    }
   },
   {
     "id": "county:kakumiro-bugangaizi-west-county",
@@ -87,7 +96,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4112"
+    }
   },
   {
     "id": "county:kakumiro-bugangaizi-east-county",
@@ -105,7 +116,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4112"
+    }
   },
   {
     "id": "county:kakumiro-bugangaizi-south-county",
@@ -123,7 +136,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4112"
+    }
   },
   {
     "id": "county:kikuube-buhaguzi-county",
@@ -141,7 +156,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG411801",
+      "hdx_within_pcode": "UG411801"
+    }
   },
   {
     "id": "county:kikuube-buhaguzi-east-county",
@@ -159,7 +177,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4118"
+    }
   },
   {
     "id": "county:kibaale-buyanja-county",
@@ -177,7 +197,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG411701",
+      "hdx_within_pcode": "UG411701"
+    }
   },
   {
     "id": "county:kibaale-buyanja-east-county",
@@ -195,7 +218,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4117"
+    }
   },
   {
     "id": "county:masindi-bujenje-county",
@@ -213,7 +238,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4125"
+    }
   },
   {
     "id": "county:masindi-buruli-county",
@@ -231,7 +258,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4125"
+    }
   },
   {
     "id": "county:masindi-masindi-municipality",
@@ -249,7 +278,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG412503",
+      "hdx_within_pcode": "UG412503"
+    }
   },
   {
     "id": "county:buliisa-buliisa-county",
@@ -267,7 +299,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG410201",
+      "hdx_within_pcode": "UG410201"
+    }
   },
   {
     "id": "county:kiryandongo-kibanda-south-county",
@@ -285,7 +320,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4120"
+    }
   },
   {
     "id": "county:kiryandongo-kibanda-north-county",
@@ -303,7 +340,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4120"
+    }
   },
   {
     "id": "county:kiboga-kiboga-east-county",
@@ -321,7 +360,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1011"
+    }
   },
   {
     "id": "county:kiboga-kiboga-west-county",
@@ -339,7 +380,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1011"
+    }
   },
   {
     "id": "county:luwero-katikamu-county-north",
@@ -357,7 +400,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1014"
+    }
   },
   {
     "id": "county:luwero-katikamu-county-south",
@@ -375,7 +420,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1014"
+    }
   },
   {
     "id": "county:luwero-bamunanika-county",
@@ -393,7 +440,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG101401",
+      "hdx_within_pcode": "UG101401"
+    }
   },
   {
     "id": "county:nakasongola-nakasongola-county",
@@ -411,7 +461,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1023"
+    }
   },
   {
     "id": "county:nakasongola-budyebo-county",
@@ -429,7 +481,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1023"
+    }
   },
   {
     "id": "county:kayunga-bbale-county",
@@ -447,7 +501,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1010"
+    }
   },
   {
     "id": "county:kayunga-ntenjeru-county-north",
@@ -465,7 +521,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1010"
+    }
   },
   {
     "id": "county:kayunga-ntenjeru-county-south",
@@ -483,7 +541,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1010"
+    }
   },
   {
     "id": "county:nakaseke-nakaseke-south-county",
@@ -501,7 +561,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1022"
+    }
   },
   {
     "id": "county:nakaseke-nakaseke-north-county",
@@ -519,7 +581,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1022"
+    }
   },
   {
     "id": "county:nakaseke-nakaseke-central-county",
@@ -537,7 +601,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1022"
+    }
   },
   {
     "id": "county:kyankwanzi-ntwetwe-county",
@@ -555,7 +621,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1012"
+    }
   },
   {
     "id": "county:kyankwanzi-butemba-county",
@@ -573,7 +641,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1012"
+    }
   },
   {
     "id": "county:kalungu-kalungu-east-county",
@@ -591,7 +661,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1007"
+    }
   },
   {
     "id": "county:kalungu-kalungu-west-county",
@@ -609,7 +681,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1007"
+    }
   },
   {
     "id": "county:lwengo-bukoto-county-mid-west",
@@ -627,7 +701,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1015"
+    }
   },
   {
     "id": "county:lwengo-bukoto-county-west",
@@ -645,7 +721,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1015"
+    }
   },
   {
     "id": "county:lwengo-bukoto-countysouth",
@@ -663,7 +741,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1015"
+    }
   },
   {
     "id": "county:kalangala-bujumba-county",
@@ -681,7 +761,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG100601",
+      "hdx_within_pcode": "UG100601"
+    }
   },
   {
     "id": "county:kalangala-kyamuswa-county",
@@ -699,7 +782,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG100602",
+      "hdx_within_pcode": "UG100602"
+    }
   },
   {
     "id": "county:kyotera-kakuuto-county",
@@ -717,7 +803,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1013"
+    }
   },
   {
     "id": "county:kyotera-kyotera-county",
@@ -735,7 +823,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG101301",
+      "hdx_within_pcode": "UG101301"
+    }
   },
   {
     "id": "county:kassanda-kassanda-county-north",
@@ -753,7 +844,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1009"
+    }
   },
   {
     "id": "county:kassanda-kassanda-county-south",
@@ -771,7 +864,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1009"
+    }
   },
   {
     "id": "county:kassanda-bukuya-county",
@@ -789,7 +884,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1009"
+    }
   },
   {
     "id": "county:masaka-bukoto-county-east",
@@ -807,7 +904,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1017"
+    }
   },
   {
     "id": "county:masaka-bukoto-county-central",
@@ -825,7 +924,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1017"
+    }
   },
   {
     "id": "county:mpigi-mawokota-county-north",
@@ -843,7 +944,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1019"
+    }
   },
   {
     "id": "county:mpigi-mawokota-county-south",
@@ -861,7 +964,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1019"
+    }
   },
   {
     "id": "county:mubende-buwekula-county",
@@ -879,7 +984,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG102001",
+      "hdx_within_pcode": "UG102001"
+    }
   },
   {
     "id": "county:mubende-kasambya-county",
@@ -897,7 +1005,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG102002",
+      "hdx_within_pcode": "UG102002"
+    }
   },
   {
     "id": "county:mubende-mubende-municipality",
@@ -915,7 +1026,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG102003",
+      "hdx_within_pcode": "UG102003"
+    }
   },
   {
     "id": "county:mubende-buwekula-south-county",
@@ -933,7 +1047,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1020"
+    }
   },
   {
     "id": "county:rakai-kooki-county",
@@ -951,7 +1067,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG102401",
+      "hdx_within_pcode": "UG102401"
+    }
   },
   {
     "id": "county:rakai-buyamba-county",
@@ -969,7 +1088,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1024"
+    }
   },
   {
     "id": "county:sembabule-lwemiyaga-county",
@@ -987,7 +1108,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG102501",
+      "hdx_within_pcode": "UG102501"
+    }
   },
   {
     "id": "county:sembabule-mawogola-county",
@@ -1005,7 +1129,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG102502",
+      "hdx_within_pcode": "UG102502"
+    }
   },
   {
     "id": "county:sembabule-mawogola-north-county",
@@ -1023,7 +1150,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1025"
+    }
   },
   {
     "id": "county:sembabule-mawogola-west-county",
@@ -1041,7 +1170,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1025"
+    }
   },
   {
     "id": "county:mityana-busujju-county",
@@ -1059,7 +1190,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG101801",
+      "hdx_within_pcode": "UG101801"
+    }
   },
   {
     "id": "county:mityana-mityana-county-north",
@@ -1077,7 +1211,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1018"
+    }
   },
   {
     "id": "county:mityana-mityana-county-south",
@@ -1095,7 +1231,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1018"
+    }
   },
   {
     "id": "county:mityana-mityana-municipality",
@@ -1113,7 +1251,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG101804",
+      "hdx_within_pcode": "UG101804"
+    }
   },
   {
     "id": "county:lyantonde-kabula-county",
@@ -1131,7 +1272,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG101601",
+      "hdx_within_pcode": "UG101601"
+    }
   },
   {
     "id": "county:gomba-gomba-east-county",
@@ -1149,7 +1293,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1005"
+    }
   },
   {
     "id": "county:gomba-gomba-west-county",
@@ -1167,7 +1313,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1005"
+    }
   },
   {
     "id": "county:bukomansimbi-bukomansimbi-north-county",
@@ -1185,7 +1333,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1002"
+    }
   },
   {
     "id": "county:bukomansimbi-bukomansimbi-south-county",
@@ -1203,7 +1353,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1002"
+    }
   },
   {
     "id": "county:butambala-butambala-county",
@@ -1221,7 +1373,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG100301",
+      "hdx_within_pcode": "UG100301"
+    }
   },
   {
     "id": "county:ngora-ngora-county",
@@ -1239,7 +1394,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG205801",
+      "hdx_within_pcode": "UG205801"
+    }
   },
   {
     "id": "county:ngora-kapir-county",
@@ -1257,7 +1415,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2058"
+    }
   },
   {
     "id": "county:kapelebyong-kapelebyong-county",
@@ -1275,7 +1435,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204601",
+      "hdx_within_pcode": "UG204601"
+    }
   },
   {
     "id": "county:kalaki-kalaki-county",
@@ -1293,7 +1456,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204201",
+      "hdx_within_pcode": "UG204201"
+    }
   },
   {
     "id": "county:kumi-kumi-county",
@@ -1311,7 +1477,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204901",
+      "hdx_within_pcode": "UG204901"
+    }
   },
   {
     "id": "county:kumi-kanyum-county",
@@ -1329,7 +1498,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2049"
+    }
   },
   {
     "id": "county:kumi-kumi-municipality",
@@ -1347,7 +1518,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204902",
+      "hdx_within_pcode": "UG204902"
+    }
   },
   {
     "id": "county:soroti-soroti-county",
@@ -1365,7 +1539,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG206201",
+      "hdx_within_pcode": "UG206201"
+    }
   },
   {
     "id": "county:soroti-dakabela-county",
@@ -1383,7 +1560,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2062"
+    }
   },
   {
     "id": "county:soroti-gweri-county",
@@ -1401,7 +1580,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2062"
+    }
   },
   {
     "id": "county:katakwi-usuk-county",
@@ -1419,7 +1600,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2047"
+    }
   },
   {
     "id": "county:katakwi-toroma-county",
@@ -1437,7 +1620,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204702",
+      "hdx_within_pcode": "UG204702"
+    }
   },
   {
     "id": "county:katakwi-ngariam-county",
@@ -1455,7 +1641,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2047"
+    }
   },
   {
     "id": "county:kaberamaido-kaberamaido-county",
@@ -1473,7 +1661,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204101",
+      "hdx_within_pcode": "UG204101"
+    }
   },
   {
     "id": "county:kaberamaido-ochero-county",
@@ -1491,7 +1682,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2041"
+    }
   },
   {
     "id": "county:amuria-amuria-county",
@@ -1509,7 +1702,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG202701",
+      "hdx_within_pcode": "UG202701"
+    }
   },
   {
     "id": "county:amuria-orungo-county",
@@ -1527,7 +1723,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2027"
+    }
   },
   {
     "id": "county:bukedea-bukedea-county",
@@ -1545,7 +1743,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG203201",
+      "hdx_within_pcode": "UG203201"
+    }
   },
   {
     "id": "county:bukedea-kachumbala-county",
@@ -1563,7 +1764,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2032"
+    }
   },
   {
     "id": "county:serere-kasilo-county",
@@ -1581,7 +1784,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG206001",
+      "hdx_within_pcode": "UG206001"
+    }
   },
   {
     "id": "county:serere-serere-county",
@@ -1599,7 +1805,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG206002",
+      "hdx_within_pcode": "UG206002"
+    }
   },
   {
     "id": "county:serere-pingire-county",
@@ -1617,7 +1826,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2060"
+    }
   },
   {
     "id": "county:kibuku-kibuku-county",
@@ -1635,7 +1846,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204801",
+      "hdx_within_pcode": "UG204801"
+    }
   },
   {
     "id": "county:kibuku-kabweri-county",
@@ -1653,7 +1867,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2048"
+    }
   },
   {
     "id": "county:kween-kween-county",
@@ -1671,7 +1887,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG205001",
+      "hdx_within_pcode": "UG205001"
+    }
   },
   {
     "id": "county:kween-soi-county",
@@ -1689,7 +1908,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2050"
+    }
   },
   {
     "id": "county:butebo-butebo-county",
@@ -1707,7 +1928,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG203701",
+      "hdx_within_pcode": "UG203701"
+    }
   },
   {
     "id": "county:namisindwa-namisindwa-county",
@@ -1725,7 +1949,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2056"
+    }
   },
   {
     "id": "county:namisindwa-bubulo-east-county",
@@ -1743,7 +1969,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2056"
+    }
   },
   {
     "id": "county:kapchorwa-tingey-county",
@@ -1761,7 +1989,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204502",
+      "hdx_within_pcode": "UG204502"
+    }
   },
   {
     "id": "county:kapchorwa-kapchorwa-municipality",
@@ -1779,7 +2010,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204501",
+      "hdx_within_pcode": "UG204501"
+    }
   },
   {
     "id": "county:mbale-bungokho-county-north",
@@ -1797,7 +2031,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2054"
+    }
   },
   {
     "id": "county:mbale-bungokho-county-south",
@@ -1815,7 +2051,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2054"
+    }
   },
   {
     "id": "county:mbale-bungokho-central-county",
@@ -1833,7 +2071,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2054"
+    }
   },
   {
     "id": "county:pallisa-pallisa-county",
@@ -1851,7 +2091,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG205902",
+      "hdx_within_pcode": "UG205902"
+    }
   },
   {
     "id": "county:pallisa-agule-county",
@@ -1869,7 +2112,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2059"
+    }
   },
   {
     "id": "county:pallisa-kibale-county",
@@ -1887,7 +2132,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2059"
+    }
   },
   {
     "id": "county:pallisa-gogonyo-county",
@@ -1905,7 +2152,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2059"
+    }
   },
   {
     "id": "county:tororo-west-budama-county-north",
@@ -1923,7 +2172,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2063"
+    }
   },
   {
     "id": "county:tororo-west-budama-county-south",
@@ -1941,7 +2192,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2063"
+    }
   },
   {
     "id": "county:tororo-tororo-south-county",
@@ -1959,7 +2212,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2063"
+    }
   },
   {
     "id": "county:tororo-tororo-municipality",
@@ -1977,7 +2232,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG206302",
+      "hdx_within_pcode": "UG206302"
+    }
   },
   {
     "id": "county:tororo-tororo-north-county",
@@ -1995,7 +2253,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2063"
+    }
   },
   {
     "id": "county:tororo-west-budama-central-county",
@@ -2013,7 +2273,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2063"
+    }
   },
   {
     "id": "county:tororo-west-budama-north-east-county",
@@ -2031,7 +2293,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2063"
+    }
   },
   {
     "id": "county:busia-samia-bugwe-county-north",
@@ -2049,7 +2313,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2035"
+    }
   },
   {
     "id": "county:busia-samia-bugwe-county-south",
@@ -2067,7 +2333,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2035"
+    }
   },
   {
     "id": "county:busia-busia-municipality",
@@ -2085,7 +2353,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG203501",
+      "hdx_within_pcode": "UG203501"
+    }
   },
   {
     "id": "county:busia-samia-bugwe-central-county",
@@ -2103,7 +2374,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2035"
+    }
   },
   {
     "id": "county:sironko-budadiri-county-east",
@@ -2121,7 +2394,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2061"
+    }
   },
   {
     "id": "county:sironko-budadiri-county-west",
@@ -2139,7 +2414,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2061"
+    }
   },
   {
     "id": "county:bukwo-kongasis-county",
@@ -2157,7 +2434,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG203301",
+      "hdx_within_pcode": "UG203301"
+    }
   },
   {
     "id": "county:bukwo-t-oo-county",
@@ -2175,7 +2455,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2033"
+    }
   },
   {
     "id": "county:butaleja-bunyole-east-county",
@@ -2193,7 +2475,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2036"
+    }
   },
   {
     "id": "county:butaleja-bunyole-west-county",
@@ -2211,7 +2495,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2036"
+    }
   },
   {
     "id": "county:manafwa-bubulo-county-west",
@@ -2229,7 +2515,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2052"
+    }
   },
   {
     "id": "county:manafwa-butiru-county",
@@ -2247,7 +2535,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2052"
+    }
   },
   {
     "id": "county:budaka-budaka-county",
@@ -2265,7 +2555,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG202801",
+      "hdx_within_pcode": "UG202801"
+    }
   },
   {
     "id": "county:budaka-iki-iki-county",
@@ -2283,7 +2576,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG202802",
+      "hdx_within_pcode": "UG202802"
+    }
   },
   {
     "id": "county:bududa-manjiya-county",
@@ -2301,7 +2597,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG202901",
+      "hdx_within_pcode": "UG202901"
+    }
   },
   {
     "id": "county:bududa-lutseshe-county",
@@ -2319,7 +2618,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2029"
+    }
   },
   {
     "id": "county:bududa-bushigai-county",
@@ -2337,7 +2638,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2029"
+    }
   },
   {
     "id": "county:bulambuli-bulambuli-county",
@@ -2355,7 +2658,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG203401",
+      "hdx_within_pcode": "UG203401"
+    }
   },
   {
     "id": "county:bulambuli-elgon-county",
@@ -2373,7 +2679,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2034"
+    }
   },
   {
     "id": "county:bulambuli-elgon-north-county",
@@ -2391,7 +2699,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2034"
+    }
   },
   {
     "id": "county:mukono-mukono-county-north",
@@ -2409,7 +2719,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1021"
+    }
   },
   {
     "id": "county:mukono-mukono-county-south",
@@ -2427,7 +2739,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1021"
+    }
   },
   {
     "id": "county:mukono-nakifuma-county",
@@ -2445,7 +2759,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG102104",
+      "hdx_within_pcode": "UG102104"
+    }
   },
   {
     "id": "county:mukono-mukono-municipality",
@@ -2463,7 +2780,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG102103",
+      "hdx_within_pcode": "UG102103"
+    }
   },
   {
     "id": "county:wakiso-busiro-county-east",
@@ -2481,7 +2801,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1026"
+    }
   },
   {
     "id": "county:wakiso-busiro-county-north",
@@ -2499,7 +2821,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1026"
+    }
   },
   {
     "id": "county:wakiso-busiro-county-south",
@@ -2517,7 +2841,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1026"
+    }
   },
   {
     "id": "county:wakiso-kyadondo-county-east",
@@ -2535,7 +2861,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1026"
+    }
   },
   {
     "id": "county:wakiso-nansana-municipality",
@@ -2553,7 +2881,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG102606",
+      "hdx_within_pcode": "UG102606"
+    }
   },
   {
     "id": "county:wakiso-makindye-ssabagabo-municipality",
@@ -2571,7 +2902,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG102605",
+      "hdx_within_pcode": "UG102605"
+    }
   },
   {
     "id": "county:wakiso-entebbe-municipality",
@@ -2589,7 +2923,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG102602",
+      "hdx_within_pcode": "UG102602"
+    }
   },
   {
     "id": "county:wakiso-kira-municipality",
@@ -2607,7 +2944,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG102603",
+      "hdx_within_pcode": "UG102603"
+    }
   },
   {
     "id": "county:buikwe-njeru-municipality",
@@ -2625,7 +2965,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG100104",
+      "hdx_within_pcode": "UG100104"
+    }
   },
   {
     "id": "county:buikwe-lugazi-municipality",
@@ -2643,7 +2986,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG100103",
+      "hdx_within_pcode": "UG100103"
+    }
   },
   {
     "id": "county:buikwe-buikwe-county-south",
@@ -2661,7 +3007,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1001"
+    }
   },
   {
     "id": "county:buvuma-buvuma-islands-county",
@@ -2679,7 +3027,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG1004"
+    }
   },
   {
     "id": "county:napak-bokora-county",
@@ -2697,7 +3047,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG309001",
+      "hdx_within_pcode": "UG309001"
+    }
   },
   {
     "id": "county:napak-bokora-east-county",
@@ -2715,7 +3068,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3090"
+    }
   },
   {
     "id": "county:nabilatuk-pian-county",
@@ -2733,7 +3088,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG308801",
+      "hdx_within_pcode": "UG308801"
+    }
   },
   {
     "id": "county:karenga-dodoth-west-county",
@@ -2751,7 +3109,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3076"
+    }
   },
   {
     "id": "county:karenga-napore-west-county",
@@ -2769,7 +3129,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3076"
+    }
   },
   {
     "id": "county:kotido-jie-county",
@@ -2787,7 +3149,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG308001",
+      "hdx_within_pcode": "UG308001"
+    }
   },
   {
     "id": "county:kotido-kotido-municipality",
@@ -2805,7 +3170,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG308002",
+      "hdx_within_pcode": "UG308002"
+    }
   },
   {
     "id": "county:moroto-matheniko-county",
@@ -2823,7 +3191,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG308601",
+      "hdx_within_pcode": "UG308601"
+    }
   },
   {
     "id": "county:moroto-moroto-municipality",
@@ -2841,7 +3212,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG308602",
+      "hdx_within_pcode": "UG308602"
+    }
   },
   {
     "id": "county:moroto-tepeth-county",
@@ -2859,7 +3233,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3086"
+    }
   },
   {
     "id": "county:nakapiripirit-chekwii-county-kadam",
@@ -2877,7 +3253,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3089"
+    }
   },
   {
     "id": "county:nakapiripirit-chekwii-east-county",
@@ -2895,7 +3273,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3089"
+    }
   },
   {
     "id": "county:kaabong-dodoth-east-county",
@@ -2913,7 +3293,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3075"
+    }
   },
   {
     "id": "county:kaabong-ik-county",
@@ -2931,7 +3313,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3075"
+    }
   },
   {
     "id": "county:kaabong-dodoth-north-county",
@@ -2949,7 +3333,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3075"
+    }
   },
   {
     "id": "county:abim-labwor-county",
@@ -2967,7 +3353,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG306401",
+      "hdx_within_pcode": "UG306401"
+    }
   },
   {
     "id": "county:amudat-upe-county",
@@ -2985,7 +3374,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3069"
+    }
   },
   {
     "id": "county:iganga-kigulu-county-north",
@@ -3003,7 +3394,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2039"
+    }
   },
   {
     "id": "county:iganga-kigulu-county-south",
@@ -3021,7 +3414,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2039"
+    }
   },
   {
     "id": "county:iganga-iganga-municipality",
@@ -3039,7 +3434,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG203901",
+      "hdx_within_pcode": "UG203901"
+    }
   },
   {
     "id": "county:jinja-butembe-county",
@@ -3057,7 +3455,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204001",
+      "hdx_within_pcode": "UG204001"
+    }
   },
   {
     "id": "county:jinja-kagoma-county",
@@ -3075,7 +3476,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204003",
+      "hdx_within_pcode": "UG204003"
+    }
   },
   {
     "id": "county:jinja-kagoma-north-county",
@@ -3093,7 +3497,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2040"
+    }
   },
   {
     "id": "county:bugweri-bugweri-county",
@@ -3111,7 +3517,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG203101",
+      "hdx_within_pcode": "UG203101"
+    }
   },
   {
     "id": "county:kamuli-bugabula-county-north",
@@ -3129,7 +3538,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2044"
+    }
   },
   {
     "id": "county:kamuli-bugabula-county-south",
@@ -3147,7 +3558,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2044"
+    }
   },
   {
     "id": "county:kamuli-buzaaya-county",
@@ -3165,7 +3578,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204402",
+      "hdx_within_pcode": "UG204402"
+    }
   },
   {
     "id": "county:kamuli-kamuli-municipality",
@@ -3183,7 +3599,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204403",
+      "hdx_within_pcode": "UG204403"
+    }
   },
   {
     "id": "county:bugiri-bukooli-county-central",
@@ -3201,7 +3620,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2030"
+    }
   },
   {
     "id": "county:bugiri-bukooli-county-north",
@@ -3219,7 +3640,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2030"
+    }
   },
   {
     "id": "county:bugiri-bugiri-municipality",
@@ -3237,7 +3660,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG203001",
+      "hdx_within_pcode": "UG203001"
+    }
   },
   {
     "id": "county:mayuge-bunya-county-east",
@@ -3255,7 +3681,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2053"
+    }
   },
   {
     "id": "county:mayuge-bunya-county-south",
@@ -3273,7 +3701,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2053"
+    }
   },
   {
     "id": "county:mayuge-bunya-county-west",
@@ -3291,7 +3721,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2053"
+    }
   },
   {
     "id": "county:kaliro-bulamogi-county",
@@ -3309,7 +3741,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG204301",
+      "hdx_within_pcode": "UG204301"
+    }
   },
   {
     "id": "county:kaliro-bulamogi-north-west-county",
@@ -3327,7 +3762,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2043"
+    }
   },
   {
     "id": "county:namutumba-busiki-county",
@@ -3345,7 +3782,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG205701",
+      "hdx_within_pcode": "UG205701"
+    }
   },
   {
     "id": "county:namutumba-bukono-county",
@@ -3363,7 +3803,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2057"
+    }
   },
   {
     "id": "county:namutumba-busiki-north-county",
@@ -3381,7 +3823,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2057"
+    }
   },
   {
     "id": "county:buyende-budiope-west-county",
@@ -3399,7 +3843,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2038"
+    }
   },
   {
     "id": "county:buyende-budiope-east-county",
@@ -3417,7 +3863,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2038"
+    }
   },
   {
     "id": "county:luuka-luuka-north-county",
@@ -3435,7 +3883,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2051"
+    }
   },
   {
     "id": "county:luuka-luuka-south-county",
@@ -3453,7 +3903,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2051"
+    }
   },
   {
     "id": "county:namayingo-bukooli-south-county",
@@ -3471,7 +3923,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2055"
+    }
   },
   {
     "id": "county:namayingo-bukooli-island-county",
@@ -3489,7 +3943,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2055"
+    }
   },
   {
     "id": "county:namayingo-namayingo-south-county",
@@ -3507,7 +3963,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG2055"
+    }
   },
   {
     "id": "county:bundibugyo-bwamba-county",
@@ -3525,7 +3983,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG410302",
+      "hdx_within_pcode": "UG410302"
+    }
   },
   {
     "id": "county:bundibugyo-bughendera-county",
@@ -3543,7 +4004,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG410301",
+      "hdx_within_pcode": "UG410301"
+    }
   },
   {
     "id": "county:kabarole-burahya-county",
@@ -3561,7 +4025,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG411001",
+      "hdx_within_pcode": "UG411001"
+    }
   },
   {
     "id": "county:bunyangabu-bunyangabu-county",
@@ -3579,7 +4046,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG410401",
+      "hdx_within_pcode": "UG410401"
+    }
   },
   {
     "id": "county:kitagwenda-kitagwenda-county",
@@ -3597,7 +4067,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG412201",
+      "hdx_within_pcode": "UG412201"
+    }
   },
   {
     "id": "county:kasese-bukonzo-county-east",
@@ -3615,7 +4088,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4115"
+    }
   },
   {
     "id": "county:kasese-bukonjo-county-west",
@@ -3633,7 +4108,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4115"
+    }
   },
   {
     "id": "county:kasese-busongora-county-north",
@@ -3651,7 +4128,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4115"
+    }
   },
   {
     "id": "county:kasese-busongora-county-south",
@@ -3669,7 +4148,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4115"
+    }
   },
   {
     "id": "county:kasese-kasese-municipality",
@@ -3687,7 +4168,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG411503",
+      "hdx_within_pcode": "UG411503"
+    }
   },
   {
     "id": "county:kamwenge-kibale-county",
@@ -3705,7 +4189,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG411301",
+      "hdx_within_pcode": "UG411301"
+    }
   },
   {
     "id": "county:kamwenge-kibale-east-county",
@@ -3723,7 +4210,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4113"
+    }
   },
   {
     "id": "county:kyenjojo-mwenge-county-north",
@@ -3741,7 +4230,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4124"
+    }
   },
   {
     "id": "county:kyenjojo-mwenge-county-south",
@@ -3759,7 +4250,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4124"
+    }
   },
   {
     "id": "county:kyenjojo-mwenge-central-county",
@@ -3777,7 +4270,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4124"
+    }
   },
   {
     "id": "county:kyegegwa-kyaka-north-county",
@@ -3795,7 +4290,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4123"
+    }
   },
   {
     "id": "county:kyegegwa-kyaka-south-county",
@@ -3813,7 +4310,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4123"
+    }
   },
   {
     "id": "county:kyegegwa-kyaka-central-county",
@@ -3831,7 +4330,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4123"
+    }
   },
   {
     "id": "county:ntoroko-ntoroko-county",
@@ -3849,7 +4350,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG412801",
+      "hdx_within_pcode": "UG412801"
+    }
   },
   {
     "id": "county:apac-maruzi-county",
@@ -3867,7 +4371,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG307102",
+      "hdx_within_pcode": "UG307102"
+    }
   },
   {
     "id": "county:apac-apac-municipality",
@@ -3885,7 +4392,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG307101",
+      "hdx_within_pcode": "UG307101"
+    }
   },
   {
     "id": "county:apac-maruzi-north-county",
@@ -3903,7 +4413,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3071"
+    }
   },
   {
     "id": "county:gulu-aswa-county",
@@ -3921,7 +4433,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG307401",
+      "hdx_within_pcode": "UG307401"
+    }
   },
   {
     "id": "county:kole-kole-south-county",
@@ -3939,7 +4454,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3079"
+    }
   },
   {
     "id": "county:kole-kole-north-county",
@@ -3957,7 +4474,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3079"
+    }
   },
   {
     "id": "county:nwoya-nwoya-county",
@@ -3975,7 +4494,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG309201",
+      "hdx_within_pcode": "UG309201"
+    }
   },
   {
     "id": "county:nwoya-nwoya-east-county",
@@ -3993,7 +4515,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3092"
+    }
   },
   {
     "id": "county:agago-agago-county",
@@ -4011,7 +4535,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG306601",
+      "hdx_within_pcode": "UG306601"
+    }
   },
   {
     "id": "county:agago-agago-north-county",
@@ -4029,7 +4556,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3066"
+    }
   },
   {
     "id": "county:agago-agago-west-county",
@@ -4047,7 +4576,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3066"
+    }
   },
   {
     "id": "county:omoro-omoro-county",
@@ -4065,7 +4596,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG309401",
+      "hdx_within_pcode": "UG309401"
+    }
   },
   {
     "id": "county:omoro-tochi-county",
@@ -4083,7 +4617,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3094"
+    }
   },
   {
     "id": "county:kwania-kwania-county",
@@ -4101,7 +4637,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG308101",
+      "hdx_within_pcode": "UG308101"
+    }
   },
   {
     "id": "county:kwania-kwania-north-county",
@@ -4119,7 +4658,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3081"
+    }
   },
   {
     "id": "county:kitgum-chua-west-county",
@@ -4137,7 +4678,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3077"
+    }
   },
   {
     "id": "county:kitgum-chua-east-county",
@@ -4155,7 +4698,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3077"
+    }
   },
   {
     "id": "county:kitgum-kitgum-municipality",
@@ -4173,7 +4718,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG307702",
+      "hdx_within_pcode": "UG307702"
+    }
   },
   {
     "id": "county:lira-erute-county-north",
@@ -4191,7 +4739,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3083"
+    }
   },
   {
     "id": "county:lira-erute-county-south",
@@ -4209,7 +4759,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3083"
+    }
   },
   {
     "id": "county:pader-aruu-county",
@@ -4227,7 +4779,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG309701",
+      "hdx_within_pcode": "UG309701"
+    }
   },
   {
     "id": "county:pader-aruu-north-county",
@@ -4245,7 +4800,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3097"
+    }
   },
   {
     "id": "county:amolatar-kioga-county",
@@ -4263,7 +4820,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG306801",
+      "hdx_within_pcode": "UG306801"
+    }
   },
   {
     "id": "county:amolatar-kioga-north-county",
@@ -4281,7 +4841,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3068"
+    }
   },
   {
     "id": "county:amuru-kilak-south-county",
@@ -4299,7 +4861,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3070"
+    }
   },
   {
     "id": "county:amuru-kilak-north-county",
@@ -4317,7 +4881,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3070"
+    }
   },
   {
     "id": "county:dokolo-dokolo-north-county",
@@ -4335,7 +4901,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3073"
+    }
   },
   {
     "id": "county:dokolo-dokolo-south-county",
@@ -4353,7 +4921,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3073"
+    }
   },
   {
     "id": "county:oyam-oyam-county-north",
@@ -4371,7 +4941,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3096"
+    }
   },
   {
     "id": "county:oyam-oyam-county-south",
@@ -4389,7 +4961,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3096"
+    }
   },
   {
     "id": "county:lamwo-lamwo-county",
@@ -4407,7 +4981,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG308201",
+      "hdx_within_pcode": "UG308201"
+    }
   },
   {
     "id": "county:lamwo-palabek-county",
@@ -4425,7 +5002,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3082"
+    }
   },
   {
     "id": "county:otuke-otuke-county",
@@ -4443,7 +5022,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG309501",
+      "hdx_within_pcode": "UG309501"
+    }
   },
   {
     "id": "county:otuke-otuke-east-county",
@@ -4461,7 +5043,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3095"
+    }
   },
   {
     "id": "county:alebtong-moroto-county",
@@ -4479,7 +5063,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG306701",
+      "hdx_within_pcode": "UG306701"
+    }
   },
   {
     "id": "county:alebtong-ajuri-county",
@@ -4497,7 +5084,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3067"
+    }
   },
   {
     "id": "county:bushenyi-igara-county-east",
@@ -4515,7 +5104,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4105"
+    }
   },
   {
     "id": "county:bushenyi-igara-county-west",
@@ -4533,7 +5124,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4105"
+    }
   },
   {
     "id": "county:bushenyi-bushenyi-ishaka-municipality",
@@ -4551,7 +5144,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4105"
+    }
   },
   {
     "id": "county:kabale-ndorwa-county-east",
@@ -4569,7 +5164,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4109"
+    }
   },
   {
     "id": "county:kabale-ndorwa-county-west",
@@ -4587,7 +5184,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4109"
+    }
   },
   {
     "id": "county:kabale-kabale-municipality",
@@ -4605,7 +5204,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG410901",
+      "hdx_within_pcode": "UG410901"
+    }
   },
   {
     "id": "county:sheema-sheema-county-north",
@@ -4623,7 +5225,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4135"
+    }
   },
   {
     "id": "county:sheema-sheema-county-south",
@@ -4641,7 +5245,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4135"
+    }
   },
   {
     "id": "county:sheema-sheema-municipality",
@@ -4659,7 +5265,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG413502",
+      "hdx_within_pcode": "UG413502"
+    }
   },
   {
     "id": "county:mitooma-ruhinda-county",
@@ -4677,7 +5286,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG412701",
+      "hdx_within_pcode": "UG412701"
+    }
   },
   {
     "id": "county:mitooma-ruhinda-north-county",
@@ -4695,7 +5307,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4127"
+    }
   },
   {
     "id": "county:mitooma-ruhinda-south-county",
@@ -4713,7 +5327,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4127"
+    }
   },
   {
     "id": "county:buhweju-buhweju-county",
@@ -4731,7 +5347,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG410101",
+      "hdx_within_pcode": "UG410101"
+    }
   },
   {
     "id": "county:buhweju-buhweju-west-county",
@@ -4749,7 +5368,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4101"
+    }
   },
   {
     "id": "county:rubirizi-bunyaruguru-county",
@@ -4767,7 +5388,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG413101",
+      "hdx_within_pcode": "UG413101"
+    }
   },
   {
     "id": "county:rubirizi-katerera-county",
@@ -4785,7 +5409,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4131"
+    }
   },
   {
     "id": "county:rubanda-rubanda-county-east",
@@ -4803,7 +5429,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4130"
+    }
   },
   {
     "id": "county:rubanda-rubanda-county-west",
@@ -4821,7 +5449,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4130"
+    }
   },
   {
     "id": "county:rukiga-rukiga-county",
@@ -4839,7 +5469,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG413201",
+      "hdx_within_pcode": "UG413201"
+    }
   },
   {
     "id": "county:kazo-kazo-county",
@@ -4857,7 +5490,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG411601",
+      "hdx_within_pcode": "UG411601"
+    }
   },
   {
     "id": "county:rwampara-rwampara-county",
@@ -4875,7 +5511,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG413401",
+      "hdx_within_pcode": "UG413401"
+    }
   },
   {
     "id": "county:rwampara-rwampara-east-county",
@@ -4893,7 +5532,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4134"
+    }
   },
   {
     "id": "county:kisoro-bufumbira-county-east",
@@ -4911,7 +5552,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4121"
+    }
   },
   {
     "id": "county:kisoro-bufumbira-county-north",
@@ -4929,7 +5572,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4121"
+    }
   },
   {
     "id": "county:kisoro-bufumbira-county-south",
@@ -4947,7 +5592,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4121"
+    }
   },
   {
     "id": "county:kisoro-kisoro-municipality",
@@ -4965,7 +5612,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG412102",
+      "hdx_within_pcode": "UG412102"
+    }
   },
   {
     "id": "county:kisoro-bukimbiri-county",
@@ -4983,7 +5633,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4121"
+    }
   },
   {
     "id": "county:mbarara-kashari-north-county",
@@ -5001,7 +5653,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4126"
+    }
   },
   {
     "id": "county:mbarara-kashari-south-county",
@@ -5019,7 +5673,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4126"
+    }
   },
   {
     "id": "county:ntungamo-kajara-county",
@@ -5037,7 +5693,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG412901",
+      "hdx_within_pcode": "UG412901"
+    }
   },
   {
     "id": "county:ntungamo-ruhaama-county",
@@ -5055,7 +5714,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG412903",
+      "hdx_within_pcode": "UG412903"
+    }
   },
   {
     "id": "county:ntungamo-rushenyi-county",
@@ -5073,7 +5735,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG412904",
+      "hdx_within_pcode": "UG412904"
+    }
   },
   {
     "id": "county:ntungamo-ntungamo-municipality",
@@ -5091,7 +5756,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG412902",
+      "hdx_within_pcode": "UG412902"
+    }
   },
   {
     "id": "county:ntungamo-ruhaama-east-county",
@@ -5109,7 +5777,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4129"
+    }
   },
   {
     "id": "county:rukungiri-rubabo-county",
@@ -5127,7 +5797,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG413302",
+      "hdx_within_pcode": "UG413302"
+    }
   },
   {
     "id": "county:rukungiri-rujumbura-county",
@@ -5145,7 +5818,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4133"
+    }
   },
   {
     "id": "county:rukungiri-rukungiri-municipality",
@@ -5163,7 +5838,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG413303",
+      "hdx_within_pcode": "UG413303"
+    }
   },
   {
     "id": "county:kanungu-kinkizi-county-east",
@@ -5181,7 +5859,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4114"
+    }
   },
   {
     "id": "county:kanungu-kinkizi-county-west",
@@ -5199,7 +5879,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4114"
+    }
   },
   {
     "id": "county:ibanda-ibanda-county-north",
@@ -5217,7 +5899,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4107"
+    }
   },
   {
     "id": "county:ibanda-ibanda-county-south",
@@ -5235,7 +5919,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4107"
+    }
   },
   {
     "id": "county:ibanda-ibanda-municipality",
@@ -5253,7 +5939,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG410702",
+      "hdx_within_pcode": "UG410702"
+    }
   },
   {
     "id": "county:isingiro-bukanga-county",
@@ -5271,7 +5960,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG410801",
+      "hdx_within_pcode": "UG410801"
+    }
   },
   {
     "id": "county:isingiro-isingiro-county-north",
@@ -5289,7 +5981,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4108"
+    }
   },
   {
     "id": "county:isingiro-isingiro-county-south",
@@ -5307,7 +6001,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4108"
+    }
   },
   {
     "id": "county:isingiro-bukanga-north-county",
@@ -5325,7 +6021,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4108"
+    }
   },
   {
     "id": "county:isingiro-isingiro-west-county",
@@ -5343,7 +6041,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4108"
+    }
   },
   {
     "id": "county:kiruhura-nyabushozi-county",
@@ -5361,7 +6061,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG411901",
+      "hdx_within_pcode": "UG411901"
+    }
   },
   {
     "id": "county:kiruhura-kashongi-county",
@@ -5379,7 +6082,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG4119"
+    }
   },
   {
     "id": "county:arua-vurra-county",
@@ -5397,7 +6102,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG307204",
+      "hdx_within_pcode": "UG307204"
+    }
   },
   {
     "id": "county:pakwach-jonam-county",
@@ -5415,7 +6123,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG309801",
+      "hdx_within_pcode": "UG309801"
+    }
   },
   {
     "id": "county:madi-okollo-upper-madi-county",
@@ -5433,7 +6144,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3084"
+    }
   },
   {
     "id": "county:madi-okollo-lower-madi-county",
@@ -5451,7 +6164,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3084"
+    }
   },
   {
     "id": "county:obongi-obongi-county",
@@ -5469,7 +6184,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG309301",
+      "hdx_within_pcode": "UG309301"
+    }
   },
   {
     "id": "county:terego-terego-west-county",
@@ -5487,7 +6205,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3072"
+    }
   },
   {
     "id": "county:terego-terego-east-county",
@@ -5505,7 +6225,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3072"
+    }
   },
   {
     "id": "county:moyo-west-moyo-county",
@@ -5523,7 +6245,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3087"
+    }
   },
   {
     "id": "county:nebbi-padyere-county",
@@ -5541,7 +6265,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG309102",
+      "hdx_within_pcode": "UG309102"
+    }
   },
   {
     "id": "county:nebbi-nebbi-municipality",
@@ -5559,7 +6286,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG309101",
+      "hdx_within_pcode": "UG309101"
+    }
   },
   {
     "id": "county:adjumani-adjumani-west-county",
@@ -5577,7 +6307,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3065"
+    }
   },
   {
     "id": "county:adjumani-adjumani-east-county",
@@ -5595,7 +6327,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3065"
+    }
   },
   {
     "id": "county:yumbe-aringa-county",
@@ -5613,7 +6347,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG309901",
+      "hdx_within_pcode": "UG309901"
+    }
   },
   {
     "id": "county:yumbe-aringa-north-county",
@@ -5631,7 +6368,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3099"
+    }
   },
   {
     "id": "county:yumbe-aringa-south-county",
@@ -5649,7 +6388,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3099"
+    }
   },
   {
     "id": "county:yumbe-aringa-east-county",
@@ -5667,7 +6408,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3099"
+    }
   },
   {
     "id": "county:koboko-koboko-county",
@@ -5685,7 +6428,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG307801",
+      "hdx_within_pcode": "UG307801"
+    }
   },
   {
     "id": "county:koboko-koboko-north-county",
@@ -5703,7 +6449,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3078"
+    }
   },
   {
     "id": "county:koboko-koboko-municipality",
@@ -5721,7 +6469,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG307802",
+      "hdx_within_pcode": "UG307802"
+    }
   },
   {
     "id": "county:maracha-maracha-county",
@@ -5739,7 +6490,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG308501",
+      "hdx_within_pcode": "UG308501"
+    }
   },
   {
     "id": "county:maracha-maracha-east-county",
@@ -5757,7 +6511,9 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3085"
+    }
   },
   {
     "id": "county:zombo-okoro-county",
@@ -5775,7 +6531,10 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_pcode": "UG310001",
+      "hdx_within_pcode": "UG310001"
+    }
   },
   {
     "id": "county:zombo-ora-county",
@@ -5793,6 +6552,8 @@
       "src-ec-admin-units-2022"
     ],
     "notes": null,
-    "external_refs": {}
+    "external_refs": {
+      "hdx_within_pcode": "UG3100"
+    }
   }
 ]

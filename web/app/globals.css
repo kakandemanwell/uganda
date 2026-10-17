@@ -170,3 +170,29 @@
     font-variant-numeric: tabular-nums;
   }
 }
+
+/* MapLibre's controls ship light-only; give them the site's dark surfaces
+   (components/map-canvas.jsx). */
+.dark .maplibregl-ctrl-group {
+  background: var(--popover);
+}
+.dark .maplibregl-ctrl-group button + button {
+  border-top-color: var(--border);
+}
+.dark .maplibregl-ctrl button .maplibregl-ctrl-icon,
+.dark .maplibregl-ctrl-attrib-button {
+  filter: invert(1);
+}
+.dark .maplibregl-ctrl.maplibregl-ctrl-attrib,
+.dark .maplibregl-ctrl-attrib.maplibregl-compact {
+  background: oklch(0.18 0 0 / 0.85);
+  color: var(--muted-foreground);
+}
+.dark .maplibregl-ctrl-attrib a {
+  color: var(--muted-foreground);
+}
+.dark .maplibregl-ctrl-scale {
+  background: oklch(0.18 0 0 / 0.75);
+  border-color: var(--muted-foreground);
+  color: var(--foreground);
+}

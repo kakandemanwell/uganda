@@ -12,7 +12,11 @@
     "effective_date": null,
     "source_ids": [],
     "notes": "Includes Kampala Capital City (KCCA)",
-    "population": null
+    "population": null,
+    "external_refs": {
+      "hdx_pcode": "UG1",
+      "hdx_within_pcode": "UG1"
+    }
   },
   {
     "id": "region:eastern",
@@ -27,7 +31,11 @@
     "effective_date": null,
     "source_ids": [],
     "notes": null,
-    "population": null
+    "population": null,
+    "external_refs": {
+      "hdx_pcode": "UG2",
+      "hdx_within_pcode": "UG2"
+    }
   },
   {
     "id": "region:northern",
@@ -42,7 +50,11 @@
     "effective_date": null,
     "source_ids": [],
     "notes": "Includes Karamoja sub-region",
-    "population": null
+    "population": null,
+    "external_refs": {
+      "hdx_pcode": "UG3",
+      "hdx_within_pcode": "UG3"
+    }
   },
   {
     "id": "region:western",
@@ -57,6 +69,10 @@
     "effective_date": null,
     "source_ids": [],
     "notes": null,
-    "population": null
+    "population": null,
+    "external_refs": {
+      "hdx_pcode": "UG4",
+      "hdx_within_pcode": "UG4"
+    }
   }
 ]

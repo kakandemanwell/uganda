@@ -23,6 +23,11 @@
       "male": 67976,
       "female": 76108,
       "total": 144084
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3064",
+      "hdx_within_pcode": "UG3064",
+      "ubos_code": "314"
     }
   },
   {
@@ -49,6 +54,11 @@
       "male": 146101,
       "female": 154489,
       "total": 300590
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3065",
+      "hdx_within_pcode": "UG3065",
+      "ubos_code": "301"
     }
   },
   {
@@ -75,6 +85,11 @@
       "male": 147969,
       "female": 159266,
       "total": 307235
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3066",
+      "hdx_within_pcode": "UG3066",
+      "ubos_code": "322"
     }
   },
   {
@@ -101,6 +116,11 @@
       "male": 127112,
       "female": 156397,
       "total": 283509
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3067",
+      "hdx_within_pcode": "UG3067",
+      "ubos_code": "323"
     }
   },
   {
@@ -127,6 +147,11 @@
       "male": 91066,
       "female": 97649,
       "total": 188715
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3068",
+      "hdx_within_pcode": "UG3068",
+      "ubos_code": "315"
     }
   },
   {
@@ -153,6 +178,11 @@
       "male": 100537,
       "female": 102821,
       "total": 203358
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3069",
+      "hdx_within_pcode": "UG3069",
+      "ubos_code": "324"
     }
   },
   {
@@ -179,6 +209,11 @@
       "male": 120602,
       "female": 126972,
       "total": 247574
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3070",
+      "hdx_within_pcode": "UG3070",
+      "ubos_code": "316"
     }
   },
   {
@@ -205,6 +240,11 @@
       "male": 106696,
       "female": 115266,
       "total": 221962
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3071",
+      "hdx_within_pcode": "UG3071",
+      "ubos_code": "302"
     }
   },
   {
@@ -231,6 +271,11 @@
       "male": 74949,
       "female": 84773,
       "total": 159722
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3072",
+      "hdx_within_pcode": "UG3072",
+      "ubos_code": "303"
     }
   },
   {
@@ -257,6 +302,11 @@
       "male": 108260,
       "female": 107365,
       "total": 215625
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3073",
+      "hdx_within_pcode": "UG3073",
+      "ubos_code": "317"
     }
   },
   {
@@ -283,6 +333,11 @@
       "male": 68192,
       "female": 67181,
       "total": 135373
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3074",
+      "hdx_within_pcode": "UG3074",
+      "ubos_code": "304"
     }
   },
   {
@@ -309,6 +364,11 @@
       "male": 126921,
       "female": 137710,
       "total": 264631
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3075",
+      "hdx_within_pcode": "UG3075",
+      "ubos_code": "318"
     }
   },
   {
@@ -335,6 +395,11 @@
       "male": 48006,
       "female": 52369,
       "total": 100375
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3076",
+      "hdx_within_pcode": "UG3076",
+      "ubos_code": "335"
     }
   },
   {
@@ -361,6 +426,11 @@
       "male": 114065,
       "female": 125590,
       "total": 239655
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3077",
+      "hdx_within_pcode": "UG3077",
+      "ubos_code": "305"
     }
   },
   {
@@ -387,6 +457,11 @@
       "male": 130234,
       "female": 141547,
       "total": 271781
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3078",
+      "hdx_within_pcode": "UG3078",
+      "ubos_code": "319"
     }
   },
   {
@@ -413,6 +488,11 @@
       "male": 132346,
       "female": 161955,
       "total": 294301
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3079",
+      "hdx_within_pcode": "UG3079",
+      "ubos_code": "325"
     }
   },
   {
@@ -439,6 +519,11 @@
       "male": 102837,
       "female": 116897,
       "total": 219734
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3080",
+      "hdx_within_pcode": "UG3080",
+      "ubos_code": "306"
     }
   },
   {
@@ -465,6 +550,11 @@
       "male": 105103,
       "female": 111022,
       "total": 216125
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3081",
+      "hdx_within_pcode": "UG3081",
+      "ubos_code": "333"
     }
   },
   {
@@ -491,6 +581,11 @@
       "male": 103290,
       "female": 109866,
       "total": 213156
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3082",
+      "hdx_within_pcode": "UG3082",
+      "ubos_code": "326"
     }
   },
   {
@@ -517,6 +612,11 @@
       "male": 113505,
       "female": 128711,
       "total": 242216
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3083",
+      "hdx_within_pcode": "UG3083",
+      "ubos_code": "307"
     }
   },
   {
@@ -543,6 +643,11 @@
       "male": 87410,
       "female": 90641,
       "total": 178051
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3084",
+      "hdx_within_pcode": "UG3084",
+      "ubos_code": "336"
     }
   },
   {
@@ -569,6 +674,11 @@
       "male": 109515,
       "female": 125197,
       "total": 234712
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3085",
+      "hdx_within_pcode": "UG3085",
+      "ubos_code": "320"
     }
   },
   {
@@ -595,6 +705,11 @@
       "male": 46546,
       "female": 57093,
       "total": 103639
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3086",
+      "hdx_within_pcode": "UG3086",
+      "ubos_code": "308"
     }
   },
   {
@@ -621,6 +736,11 @@
       "male": 57211,
       "female": 52361,
       "total": 109572
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3087",
+      "hdx_within_pcode": "UG3087",
+      "ubos_code": "309"
     }
   },
   {
@@ -647,6 +767,11 @@
       "male": 68203,
       "female": 68582,
       "total": 136785
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3088",
+      "hdx_within_pcode": "UG3088",
+      "ubos_code": "334"
     }
   },
   {
@@ -673,6 +798,11 @@
       "male": 54983,
       "female": 56698,
       "total": 111681
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3089",
+      "hdx_within_pcode": "UG3089",
+      "ubos_code": "311"
     }
   },
   {
@@ -699,6 +829,11 @@
       "male": 105425,
       "female": 106405,
       "total": 211830
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3090",
+      "hdx_within_pcode": "UG3090",
+      "ubos_code": "327"
     }
   },
   {
@@ -725,6 +860,11 @@
       "male": 139832,
       "female": 159566,
       "total": 299398
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3091",
+      "hdx_within_pcode": "UG3091",
+      "ubos_code": "310"
     }
   },
   {
@@ -751,6 +891,11 @@
       "male": 107748,
       "female": 112845,
       "total": 220593
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3092",
+      "hdx_within_pcode": "UG3092",
+      "ubos_code": "328"
     }
   },
   {
@@ -777,6 +922,11 @@
       "male": 69596,
       "female": 73387,
       "total": 142983
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3093",
+      "hdx_within_pcode": "UG3093",
+      "ubos_code": "337"
     }
   },
   {
@@ -803,6 +953,11 @@
       "male": 99389,
       "female": 107950,
       "total": 207339
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3094",
+      "hdx_within_pcode": "UG3094",
+      "ubos_code": "331"
     }
   },
   {
@@ -829,6 +984,11 @@
       "male": 74697,
       "female": 86372,
       "total": 161069
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3095",
+      "hdx_within_pcode": "UG3095",
+      "ubos_code": "329"
     }
   },
   {
@@ -855,6 +1015,11 @@
       "male": 224158,
       "female": 253306,
       "total": 477464
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3096",
+      "hdx_within_pcode": "UG3096",
+      "ubos_code": "321"
     }
   },
   {
@@ -881,6 +1046,11 @@
       "male": 114088,
       "female": 126071,
       "total": 240159
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3097",
+      "hdx_within_pcode": "UG3097",
+      "ubos_code": "312"
     }
   },
   {
@@ -907,6 +1077,11 @@
       "male": 97830,
       "female": 109131,
       "total": 206961
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3098",
+      "hdx_within_pcode": "UG3098",
+      "ubos_code": "332"
     }
   },
   {
@@ -933,6 +1108,11 @@
       "male": 474777,
       "female": 470323,
       "total": 945100
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3099",
+      "hdx_within_pcode": "UG3099",
+      "ubos_code": "313"
     }
   },
   {
@@ -959,6 +1139,11 @@
       "male": 146719,
       "female": 165902,
       "total": 312621
+    },
+    "external_refs": {
+      "hdx_pcode": "UG3100",
+      "hdx_within_pcode": "UG3100",
+      "ubos_code": "330"
     }
   },
   {
@@ -985,6 +1170,11 @@
       "male": 118804,
       "female": 132849,
       "total": 251653
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2027",
+      "hdx_within_pcode": "UG2027",
+      "ubos_code": "216"
     }
   },
   {
@@ -1011,6 +1201,11 @@
       "male": 121908,
       "female": 159629,
       "total": 281537
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2028",
+      "hdx_within_pcode": "UG2028",
+      "ubos_code": "217"
     }
   },
   {
@@ -1037,6 +1232,11 @@
       "male": 139627,
       "female": 129343,
       "total": 268970
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2029",
+      "hdx_within_pcode": "UG2029",
+      "ubos_code": "218"
     }
   },
   {
@@ -1063,6 +1263,11 @@
       "male": 220485,
       "female": 259860,
       "total": 480345
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2030",
+      "hdx_within_pcode": "UG2030",
+      "ubos_code": "201"
     }
   },
   {
@@ -1089,6 +1294,11 @@
       "male": 99283,
       "female": 112228,
       "total": 211511
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2031",
+      "hdx_within_pcode": "UG2031",
+      "ubos_code": "235"
     }
   },
   {
@@ -1115,6 +1325,11 @@
       "male": 133204,
       "female": 149660,
       "total": 282864
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2032",
+      "hdx_within_pcode": "UG2032",
+      "ubos_code": "219"
     }
   },
   {
@@ -1141,6 +1356,11 @@
       "male": 55683,
       "female": 58713,
       "total": 114396
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2033",
+      "hdx_within_pcode": "UG2033",
+      "ubos_code": "220"
     }
   },
   {
@@ -1167,6 +1387,11 @@
       "male": 101286,
       "female": 134105,
       "total": 235391
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2034",
+      "hdx_within_pcode": "UG2034",
+      "ubos_code": "225"
     }
   },
   {
@@ -1193,6 +1418,11 @@
       "male": 194114,
       "female": 218557,
       "total": 412671
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2035",
+      "hdx_within_pcode": "UG2035",
+      "ubos_code": "202"
     }
   },
   {
@@ -1219,6 +1449,11 @@
       "male": 147067,
       "female": 165704,
       "total": 312771
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2036",
+      "hdx_within_pcode": "UG2036",
+      "ubos_code": "221"
     }
   },
   {
@@ -1245,6 +1480,11 @@
       "male": 81386,
       "female": 90047,
       "total": 171433
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2037",
+      "hdx_within_pcode": "UG2037",
+      "ubos_code": "233"
     }
   },
   {
@@ -1271,6 +1511,11 @@
       "male": 191715,
       "female": 211771,
       "total": 403486
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2038",
+      "hdx_within_pcode": "UG2038",
+      "ubos_code": "226"
     }
   },
   {
@@ -1297,6 +1542,11 @@
       "male": 196636,
       "female": 230322,
       "total": 426958
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2039",
+      "hdx_within_pcode": "UG2039",
+      "ubos_code": "203"
     }
   },
   {
@@ -1323,6 +1573,11 @@
       "male": 127893,
       "female": 153012,
       "total": 280905
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2040",
+      "hdx_within_pcode": "UG2040",
+      "ubos_code": "204"
     }
   },
   {
@@ -1349,6 +1604,11 @@
       "male": 66856,
       "female": 74130,
       "total": 140986
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2041",
+      "hdx_within_pcode": "UG2041",
+      "ubos_code": "213"
     }
   },
   {
@@ -1375,6 +1635,11 @@
       "male": 71246,
       "female": 78490,
       "total": 149736
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2042",
+      "hdx_within_pcode": "UG2042",
+      "ubos_code": "237"
     }
   },
   {
@@ -1401,6 +1666,11 @@
       "male": 137725,
       "female": 148672,
       "total": 286397
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2043",
+      "hdx_within_pcode": "UG2043",
+      "ubos_code": "222"
     }
   },
   {
@@ -1427,6 +1697,11 @@
       "male": 252892,
       "female": 287360,
       "total": 540252
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2044",
+      "hdx_within_pcode": "UG2044",
+      "ubos_code": "205"
     }
   },
   {
@@ -1453,6 +1728,11 @@
       "male": 63668,
       "female": 69953,
       "total": 133621
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2045",
+      "hdx_within_pcode": "UG2045",
+      "ubos_code": "206"
     }
   },
   {
@@ -1479,6 +1759,11 @@
       "male": 68768,
       "female": 74768,
       "total": 143536
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2046",
+      "hdx_within_pcode": "UG2046",
+      "ubos_code": "236"
     }
   },
   {
@@ -1505,6 +1790,11 @@
       "male": 111791,
       "female": 122541,
       "total": 234332
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2047",
+      "hdx_within_pcode": "UG2047",
+      "ubos_code": "207"
     }
   },
   {
@@ -1531,6 +1821,11 @@
       "male": 121056,
       "female": 128385,
       "total": 249441
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2048",
+      "hdx_within_pcode": "UG2048",
+      "ubos_code": "227"
     }
   },
   {
@@ -1557,6 +1852,11 @@
       "male": 134979,
       "female": 152013,
       "total": 286992
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2049",
+      "hdx_within_pcode": "UG2049",
+      "ubos_code": "208"
     }
   },
   {
@@ -1583,6 +1883,11 @@
       "male": 63860,
       "female": 65417,
       "total": 129277
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2050",
+      "hdx_within_pcode": "UG2050",
+      "ubos_code": "228"
     }
   },
   {
@@ -1609,6 +1914,11 @@
       "male": 153329,
       "female": 145310,
       "total": 298639
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2051",
+      "hdx_within_pcode": "UG2051",
+      "ubos_code": "229"
     }
   },
   {
@@ -1635,6 +1945,11 @@
       "male": 88490,
       "female": 98427,
       "total": 186917
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2052",
+      "hdx_within_pcode": "UG2052",
+      "ubos_code": "223"
     }
   },
   {
@@ -1661,6 +1976,11 @@
       "male": 281051,
       "female": 296512,
       "total": 577563
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2053",
+      "hdx_within_pcode": "UG2053",
+      "ubos_code": "214"
     }
   },
   {
@@ -1687,6 +2007,11 @@
       "male": 133202,
       "female": 157154,
       "total": 290356
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2054",
+      "hdx_within_pcode": "UG2054",
+      "ubos_code": "209"
     }
   },
   {
@@ -1713,6 +2038,11 @@
       "male": 126122,
       "female": 140594,
       "total": 266716
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2055",
+      "hdx_within_pcode": "UG2055",
+      "ubos_code": "230"
     }
   },
   {
@@ -1739,6 +2069,11 @@
       "male": 123345,
       "female": 134001,
       "total": 257346
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2056",
+      "hdx_within_pcode": "UG2056",
+      "ubos_code": "234"
     }
   },
   {
@@ -1765,6 +2100,11 @@
       "male": 146632,
       "female": 164707,
       "total": 311339
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2057",
+      "hdx_within_pcode": "UG2057",
+      "ubos_code": "224"
     }
   },
   {
@@ -1791,6 +2131,11 @@
       "male": 116739,
       "female": 97038,
       "total": 213777
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2058",
+      "hdx_within_pcode": "UG2058",
+      "ubos_code": "231"
     }
   },
   {
@@ -1817,6 +2162,11 @@
       "male": 157165,
       "female": 177532,
       "total": 334697
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2059",
+      "hdx_within_pcode": "UG2059",
+      "ubos_code": "210"
     }
   },
   {
@@ -1843,6 +2193,11 @@
       "male": 169703,
       "female": 188420,
       "total": 358123
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2060",
+      "hdx_within_pcode": "UG2060",
+      "ubos_code": "232"
     }
   },
   {
@@ -1869,6 +2224,11 @@
       "male": 143357,
       "female": 155006,
       "total": 298363
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2061",
+      "hdx_within_pcode": "UG2061",
+      "ubos_code": "215"
     }
   },
   {
@@ -1895,6 +2255,11 @@
       "male": 126583,
       "female": 139606,
       "total": 266189
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2062",
+      "hdx_within_pcode": "UG2062",
+      "ubos_code": "211"
     }
   },
   {
@@ -1921,6 +2286,11 @@
       "male": 285894,
       "female": 324045,
       "total": 609939
+    },
+    "external_refs": {
+      "hdx_pcode": "UG2063",
+      "hdx_within_pcode": "UG2063",
+      "ubos_code": "212"
     }
   },
   {
@@ -1945,6 +2315,10 @@
       "male": 153873,
       "female": 169380,
       "total": 323253
+    },
+    "external_refs": {
+      "hdx_within_pcode": "UG3072",
+      "ubos_code": "340"
     }
   },
   {
@@ -1971,6 +2345,11 @@
       "male": 88145,
       "female": 79776,
       "total": 167921
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4101",
+      "hdx_within_pcode": "UG4101",
+      "ubos_code": "420"
     }
   },
   {
@@ -1997,6 +2376,11 @@
       "male": 81437,
       "female": 86457,
       "total": 167894
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4102",
+      "hdx_within_pcode": "UG4102",
+      "ubos_code": "416"
     }
   },
   {
@@ -2023,6 +2407,11 @@
       "male": 123964,
       "female": 140814,
       "total": 264778
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4103",
+      "hdx_within_pcode": "UG4103",
+      "ubos_code": "401"
     }
   },
   {
@@ -2049,6 +2438,11 @@
       "male": 112678,
       "female": 106334,
       "total": 219012
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4104",
+      "hdx_within_pcode": "UG4104",
+      "ubos_code": "431"
     }
   },
   {
@@ -2075,6 +2469,11 @@
       "male": 128632,
       "female": 154760,
       "total": 283392
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4105",
+      "hdx_within_pcode": "UG4105",
+      "ubos_code": "402"
     }
   },
   {
@@ -2101,6 +2500,11 @@
       "male": 122572,
       "female": 134972,
       "total": 257544
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4106",
+      "hdx_within_pcode": "UG4106",
+      "ubos_code": "403"
     }
   },
   {
@@ -2127,6 +2531,11 @@
       "male": 141194,
       "female": 168272,
       "total": 309466
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4107",
+      "hdx_within_pcode": "UG4107",
+      "ubos_code": "417"
     }
   },
   {
@@ -2153,6 +2562,11 @@
       "male": 295801,
       "female": 339276,
       "total": 635077
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4108",
+      "hdx_within_pcode": "UG4108",
+      "ubos_code": "418"
     }
   },
   {
@@ -2179,6 +2593,11 @@
       "male": 121223,
       "female": 164365,
       "total": 285588
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4109",
+      "hdx_within_pcode": "UG4109",
+      "ubos_code": "404"
     }
   },
   {
@@ -2205,6 +2624,11 @@
       "male": 112305,
       "female": 118063,
       "total": 230368
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4110",
+      "hdx_within_pcode": "UG4110",
+      "ubos_code": "405"
     }
   },
   {
@@ -2231,6 +2655,11 @@
       "male": 222911,
       "female": 248200,
       "total": 471111
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4111",
+      "hdx_within_pcode": "UG4111",
+      "ubos_code": "427"
     }
   },
   {
@@ -2257,6 +2686,11 @@
       "male": 205199,
       "female": 222977,
       "total": 428176
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4112",
+      "hdx_within_pcode": "UG4112",
+      "ubos_code": "428"
     }
   },
   {
@@ -2283,6 +2717,11 @@
       "male": 157559,
       "female": 179608,
       "total": 337167
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4113",
+      "hdx_within_pcode": "UG4113",
+      "ubos_code": "413"
     }
   },
   {
@@ -2309,6 +2748,11 @@
       "male": 137963,
       "female": 172099,
       "total": 310062
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4114",
+      "hdx_within_pcode": "UG4114",
+      "ubos_code": "414"
     }
   },
   {
@@ -2335,6 +2779,11 @@
       "male": 408524,
       "female": 445307,
       "total": 853831
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4115",
+      "hdx_within_pcode": "UG4115",
+      "ubos_code": "406"
     }
   },
   {
@@ -2361,6 +2810,11 @@
       "male": 110216,
       "female": 98682,
       "total": 208898
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4116",
+      "hdx_within_pcode": "UG4116",
+      "ubos_code": "433"
     }
   },
   {
@@ -2387,6 +2841,11 @@
       "male": 113255,
       "female": 124394,
       "total": 237649
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4117",
+      "hdx_within_pcode": "UG4117",
+      "ubos_code": "407"
     }
   },
   {
@@ -2413,6 +2872,11 @@
       "male": 181461,
       "female": 198086,
       "total": 379547
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4118",
+      "hdx_within_pcode": "UG4118",
+      "ubos_code": "432"
     }
   },
   {
@@ -2439,6 +2903,11 @@
       "male": 97124,
       "female": 106378,
       "total": 203502
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4119",
+      "hdx_within_pcode": "UG4119",
+      "ubos_code": "419"
     }
   },
   {
@@ -2465,6 +2934,11 @@
       "male": 176128,
       "female": 188744,
       "total": 364872
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4120",
+      "hdx_within_pcode": "UG4120",
+      "ubos_code": "421"
     }
   },
   {
@@ -2491,6 +2965,11 @@
       "male": 251631,
       "female": 182031,
       "total": 433662
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4121",
+      "hdx_within_pcode": "UG4121",
+      "ubos_code": "408"
     }
   },
   {
@@ -2517,6 +2996,11 @@
       "male": 96534,
       "female": 88413,
       "total": 184947
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4122",
+      "hdx_within_pcode": "UG4122",
+      "ubos_code": "434"
     }
   },
   {
@@ -2543,6 +3027,11 @@
       "male": 237257,
       "female": 263863,
       "total": 501120
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4123",
+      "hdx_within_pcode": "UG4123",
+      "ubos_code": "422"
     }
   },
   {
@@ -2569,6 +3058,11 @@
       "male": 261171,
       "female": 282827,
       "total": 543998
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4124",
+      "hdx_within_pcode": "UG4124",
+      "ubos_code": "415"
     }
   },
   {
@@ -2595,6 +3089,11 @@
       "male": 166626,
       "female": 176009,
       "total": 342635
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4125",
+      "hdx_within_pcode": "UG4125",
+      "ubos_code": "409"
     }
   },
   {
@@ -2621,6 +3120,11 @@
       "male": 78766,
       "female": 95273,
       "total": 174039
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4126",
+      "hdx_within_pcode": "UG4126",
+      "ubos_code": "410"
     }
   },
   {
@@ -2647,6 +3151,11 @@
       "male": 100023,
       "female": 125986,
       "total": 226009
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4127",
+      "hdx_within_pcode": "UG4127",
+      "ubos_code": "423"
     }
   },
   {
@@ -2673,6 +3182,11 @@
       "male": 66786,
       "female": 48072,
       "total": 114858
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4128",
+      "hdx_within_pcode": "UG4128",
+      "ubos_code": "424"
     }
   },
   {
@@ -2699,6 +3213,11 @@
       "male": 251168,
       "female": 301618,
       "total": 552786
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4129",
+      "hdx_within_pcode": "UG4129",
+      "ubos_code": "411"
     }
   },
   {
@@ -2725,6 +3244,11 @@
       "male": 115633,
       "female": 133821,
       "total": 249454
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4130",
+      "hdx_within_pcode": "UG4130",
+      "ubos_code": "429"
     }
   },
   {
@@ -2751,6 +3275,11 @@
       "male": 72265,
       "female": 95946,
       "total": 168211
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4131",
+      "hdx_within_pcode": "UG4131",
+      "ubos_code": "425"
     }
   },
   {
@@ -2777,6 +3306,11 @@
       "male": 55360,
       "female": 76995,
       "total": 132355
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4132",
+      "hdx_within_pcode": "UG4132",
+      "ubos_code": "430"
     }
   },
   {
@@ -2803,6 +3337,11 @@
       "male": 169502,
       "female": 206608,
       "total": 376110
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4133",
+      "hdx_within_pcode": "UG4133",
+      "ubos_code": "412"
     }
   },
   {
@@ -2829,6 +3368,11 @@
       "male": 84812,
       "female": 78155,
       "total": 162967
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4134",
+      "hdx_within_pcode": "UG4134",
+      "ubos_code": "435"
     }
   },
   {
@@ -2855,6 +3399,11 @@
       "male": 113043,
       "female": 139232,
       "total": 252275
+    },
+    "external_refs": {
+      "hdx_pcode": "UG4135",
+      "hdx_within_pcode": "UG4135",
+      "ubos_code": "426"
     }
   },
   {
@@ -2881,6 +3430,11 @@
       "male": 248191,
       "female": 271967,
       "total": 520158
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1001",
+      "hdx_within_pcode": "UG1001",
+      "ubos_code": "117"
     }
   },
   {
@@ -2907,6 +3461,11 @@
       "male": 90135,
       "female": 107433,
       "total": 197568
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1002",
+      "hdx_within_pcode": "UG1002",
+      "ubos_code": "118"
     }
   },
   {
@@ -2933,6 +3492,11 @@
       "male": 78993,
       "female": 67523,
       "total": 146516
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1003",
+      "hdx_within_pcode": "UG1003",
+      "ubos_code": "119"
     }
   },
   {
@@ -2959,6 +3523,11 @@
       "male": 58410,
       "female": 52422,
       "total": 110832
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1004",
+      "hdx_within_pcode": "UG1004",
+      "ubos_code": "120"
     }
   },
   {
@@ -2985,6 +3554,11 @@
       "male": 97889,
       "female": 101231,
       "total": 199120
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1005",
+      "hdx_within_pcode": "UG1005",
+      "ubos_code": "121"
     }
   },
   {
@@ -3011,6 +3585,11 @@
       "male": 45396,
       "female": 29015,
       "total": 74411
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1006",
+      "hdx_within_pcode": "UG1006",
+      "ubos_code": "101"
     }
   },
   {
@@ -3037,6 +3616,11 @@
       "male": 101915,
       "female": 119654,
       "total": 221569
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1007",
+      "hdx_within_pcode": "UG1007",
+      "ubos_code": "122"
     }
   },
   {
@@ -3063,6 +3647,11 @@
       "male": 1004884,
       "female": 792838,
       "total": 1797722
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1008",
+      "hdx_within_pcode": "UG1008",
+      "ubos_code": "102"
     }
   },
   {
@@ -3089,6 +3678,11 @@
       "male": 153298,
       "female": 160710,
       "total": 314008
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1009",
+      "hdx_within_pcode": "UG1009",
+      "ubos_code": "126"
     }
   },
   {
@@ -3115,6 +3709,11 @@
       "male": 208845,
       "female": 230330,
       "total": 439175
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1010",
+      "hdx_within_pcode": "UG1010",
+      "ubos_code": "112"
     }
   },
   {
@@ -3141,6 +3740,11 @@
       "male": 95629,
       "female": 87626,
       "total": 183255
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1011",
+      "hdx_within_pcode": "UG1011",
+      "ubos_code": "103"
     }
   },
   {
@@ -3167,6 +3771,11 @@
       "male": 134600,
       "female": 143832,
       "total": 278432
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1012",
+      "hdx_within_pcode": "UG1012",
+      "ubos_code": "123"
     }
   },
   {
@@ -3193,6 +3802,11 @@
       "male": 132091,
       "female": 143826,
       "total": 275917
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1013",
+      "hdx_within_pcode": "UG1013",
+      "ubos_code": "125"
     }
   },
   {
@@ -3221,6 +3835,11 @@
       "male": 294285,
       "female": 321957,
       "total": 616242
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1014",
+      "hdx_within_pcode": "UG1014",
+      "ubos_code": "104"
     }
   },
   {
@@ -3247,6 +3866,11 @@
       "male": 139446,
       "female": 185817,
       "total": 325263
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1015",
+      "hdx_within_pcode": "UG1015",
+      "ubos_code": "124"
     }
   },
   {
@@ -3273,6 +3897,11 @@
       "male": 72366,
       "female": 60651,
       "total": 133017
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1016",
+      "hdx_within_pcode": "UG1016",
+      "ubos_code": "114"
     }
   },
   {
@@ -3299,6 +3928,11 @@
       "male": 57129,
       "female": 58326,
       "total": 115455
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1017",
+      "hdx_within_pcode": "UG1017",
+      "ubos_code": "105"
     }
   },
   {
@@ -3325,6 +3959,11 @@
       "male": 197040,
       "female": 210346,
       "total": 407386
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1018",
+      "hdx_within_pcode": "UG1018",
+      "ubos_code": "115"
     }
   },
   {
@@ -3351,6 +3990,11 @@
       "male": 150208,
       "female": 176482,
       "total": 326690
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1019",
+      "hdx_within_pcode": "UG1019",
+      "ubos_code": "106"
     }
   },
   {
@@ -3377,6 +4021,11 @@
       "male": 251165,
       "female": 270850,
       "total": 522015
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1020",
+      "hdx_within_pcode": "UG1020",
+      "ubos_code": "107"
     }
   },
   {
@@ -3403,6 +4052,11 @@
       "male": 452447,
       "female": 476777,
       "total": 929224
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1021",
+      "hdx_within_pcode": "UG1021",
+      "ubos_code": "108"
     }
   },
   {
@@ -3429,6 +4083,11 @@
       "male": 125784,
       "female": 125614,
       "total": 251398
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1022",
+      "hdx_within_pcode": "UG1022",
+      "ubos_code": "116"
     }
   },
   {
@@ -3455,6 +4114,11 @@
       "male": 114805,
       "female": 111269,
       "total": 226074
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1023",
+      "hdx_within_pcode": "UG1023",
+      "ubos_code": "109"
     }
   },
   {
@@ -3481,6 +4145,11 @@
       "male": 194969,
       "female": 151916,
       "total": 346885
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1024",
+      "hdx_within_pcode": "UG1024",
+      "ubos_code": "110"
     }
   },
   {
@@ -3509,6 +4178,11 @@
       "male": 157207,
       "female": 148764,
       "total": 305971
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1025",
+      "hdx_within_pcode": "UG1025",
+      "ubos_code": "111"
     }
   },
   {
@@ -3535,6 +4209,11 @@
       "male": 1828466,
       "female": 1582711,
       "total": 3411177
+    },
+    "external_refs": {
+      "hdx_pcode": "UG1026",
+      "hdx_within_pcode": "UG1026",
+      "ubos_code": "113"
     }
   }
 ]
