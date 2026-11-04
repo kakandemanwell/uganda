@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import { GoogleTag } from "@/components/google-tag";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { SITE_URL } from "@/lib/site";
@@ -60,6 +61,7 @@ export default function RootLayout({ children }) {
       suppressHydrationWarning
     >
       <body className="antialiased">
+        <GoogleTag />
         {/* enableSystem intentionally omitted: this app defaults to light
             regardless of OS preference, while still letting the user's
             explicit ThemeToggle choice persist via next-themes' own
