@@ -5,12 +5,14 @@
 // Selecting a subcounty with a boundary polygon zooms the map to it.
 
 import { useEffect, useState } from "react";
-import { ChevronRight, X } from "lucide-react";
+import { ChevronRight, Flag, X } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { formatMetric } from "@/lib/map-config";
 import { cn } from "@/lib/utils";
+import { correctionIssueUrl } from "@/lib/feedback.mjs";
+import { SITE_URL } from "@/lib/site";
 
 function useChildren(url) {
   const [items, setItems] = useState(null);
@@ -56,6 +58,13 @@ export function MapDrillPanel({ district, region, subregion, stats, subcountyHas
       </div>
     );
   }
+
+  // The deepest unit the reader has drilled into is the one they're most
+  // likely reporting on.
+  const county = counties?.find((c) => c.id === countyId) ?? null;
+  const subcounty = subcounties?.find((s) => s.id === subcountyId) ?? null;
+  const reportTarget = parish ?? subcounty ?? county ?? district;
+  const reportPath = [region?.name, district.name, county?.name, subcounty?.name, parish?.name].filter(Boolean);
 
   const figures = [
     ["Population", stats?.population != null ? formatMetric("population", stats.population) : null],
@@ -161,6 +170,20 @@ export function MapDrillPanel({ district, region, subregion, stats, subcountyHas
           )}
         </div>
       )}
+
+      <a
+        href={correctionIssueUrl({
+          unit: reportTarget,
+          path: reportPath,
+          pageUrl: `${SITE_URL}/unit/${encodeURIComponent(reportTarget.id)}`,
+        })}
+        target="_blank"
+        rel="noreferrer"
+        className="flex items-center gap-1.5 border-t border-border pt-3 text-xs text-muted-foreground underline-offset-2 hover:text-foreground hover:underline"
+      >
+        <Flag className="size-3.5 shrink-0" />
+        <span className="truncate">Report a correction for {reportTarget.name}</span>
+      </a>
     </div>
   );
 }

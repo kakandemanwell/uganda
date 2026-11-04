@@ -6,7 +6,8 @@ import { lineageIds } from "@/lib/units.mjs";
 import { FILTERS_FOR_LEVEL, FILTER_PARAM, pluralize } from "@/lib/explore-config";
 import { SITE_URL } from "@/lib/site";
 import { LEVEL_LABEL, describeUnit } from "@/lib/unit-meta";
-import { ChevronRight, Download } from "lucide-react";
+import { ChevronRight, Download, Flag } from "lucide-react";
+import { correctionIssueUrl } from "@/lib/feedback.mjs";
 import { SiteHeader } from "@/components/site-header";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -239,6 +240,23 @@ export default async function UnitPage({ params }) {
                 </Link>
               </p>
             )}
+            <Separator className="my-4" />
+            <p className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-xs text-muted-foreground">
+              <Flag className="size-3.5 shrink-0" />
+              <span>Something wrong or out of date{isParish ? `, including a ${villageNoun[0]} name` : ""}?</span>
+              <a
+                href={correctionIssueUrl({
+                  unit,
+                  path: breadcrumb.map((a) => a.name),
+                  pageUrl: `${SITE_URL}/unit/${encodeURIComponent(unit.id)}`,
+                })}
+                target="_blank"
+                rel="noreferrer"
+                className="underline underline-offset-2 hover:text-foreground"
+              >
+                Report a correction (opens GitHub) →
+              </a>
+            </p>
           </CardContent>
         </Card>
 

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Package } from "lucide-react";
+import { MessageSquare, Package } from "lucide-react";
+import { FEEDBACK_URL } from "@/lib/feedback.mjs";
 import { GithubIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -41,6 +42,23 @@ export function SiteHeader({ onSelectDistrict }) {
         </div>
 
         <nav className="flex items-center gap-1">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="size-8"
+            nativeButton={false}
+            render={
+              <a
+                href={FEEDBACK_URL}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Send feedback or report a problem"
+                title="Feedback"
+              >
+                <MessageSquare className="size-4" />
+              </a>
+            }
+          />
           <Button
             variant="ghost"
             size="icon"
