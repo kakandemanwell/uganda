@@ -22,7 +22,7 @@ export default function sitemap() {
     ...uganda.subcounties(),
   ];
 
-  const staticRoutes = ["", "/explore", "/map", "/data"].map((path) => ({
+  const staticRoutes = ["", "/explore", "/map", "/data", "/privacy"].map((path) => ({
     url: `${SITE_URL}${path}`,
     changeFrequency: "monthly",
     priority: path === "" ? 1 : 0.7,

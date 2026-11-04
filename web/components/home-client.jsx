@@ -145,6 +145,12 @@ export function HomeClient({
             geoBoundaries, OCHA/HDX, and OpenStreetMap.
           </p>
           <p>{formatExact(totals.parishes)} parishes/wards · {formatExact(totals.subcounties)} subcounties · {formatExact(totals.counties)} counties, all verified.</p>
+          <p>
+            <a href="/privacy" className="underline underline-offset-2 hover:text-foreground">
+              Privacy
+            </a>{" "}
+            · Google Analytics counts visits; no accounts, forms or personal details.
+          </p>
         </div>
       </footer>
     </div>
